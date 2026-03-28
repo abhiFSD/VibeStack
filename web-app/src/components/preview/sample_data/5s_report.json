@@ -1,0 +1,348 @@
+{
+  "report": {
+    "name": "Main Production Floor - 5S Audit",
+    "type": "5S Report",
+    "user_sub": "user-sub-123",
+    "ownerEmail": "admin@example.com",
+    "organizationID": "org-123",
+    "projectID": null,
+    "completed": false,
+    "assignedMembers": ["user-sub-456", "user-sub-789"]
+  },
+  "categories": [
+    {
+      "name": "Sort",
+      "orderIndex": 0,
+      "assignees": ["john.doe@example.com"],
+      "attachments": [],
+      "description": "Assessment of Sort practices in Main Production Floor",
+      "statements": [
+        {
+          "name": "The area is clear of excess equipment, paperwork, or other types of materials.",
+          "value": 4,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Sort"
+        },
+        {
+          "name": "The area looks organized.",
+          "value": 3,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Sort"
+        },
+        {
+          "name": "The area is clear of excess personal items or is appropriately placed.",
+          "value": 4,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Sort"
+        },
+        {
+          "name": "The area is clear of outdated manuals, brochures, visual performance charts, etc.",
+          "value": 3,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Sort"
+        },
+        {
+          "name": "Electronic files are organized and only recent ones are available.",
+          "value": 2,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Sort"
+        },
+        {
+          "name": "Emails are not kept longer than a certain period of time to ensure time not wasted looking for one.",
+          "value": 2,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Sort"
+        }
+      ]
+    },
+    {
+      "name": "Set In Order",
+      "orderIndex": 1,
+      "assignees": ["jane.smith@example.com"],
+      "attachments": [],
+      "description": "Assessment of Set In Order practices in Main Production Floor",
+      "statements": [
+        {
+          "name": "A place for everything and everything in its place.",
+          "value": 4,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Set In Order"
+        },
+        {
+          "name": "Items are labelled.",
+          "value": 5,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Set In Order"
+        },
+        {
+          "name": "Standard procedures and information are visible and available.",
+          "value": 4,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Set In Order"
+        },
+        {
+          "name": "There are no items on the floor that interrupt workflow.",
+          "value": 5,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Set In Order"
+        },
+        {
+          "name": "Items are returned to their proper location after use.",
+          "value": 3,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Set In Order"
+        },
+        {
+          "name": "Standard supplies and stock are appropriate to demand and available.",
+          "value": 4,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Set In Order"
+        }
+      ]
+    },
+    {
+      "name": "Shine",
+      "orderIndex": 2,
+      "assignees": [],
+      "attachments": [],
+      "description": "Assessment of Shine practices in Main Production Floor",
+      "statements": [
+        {
+          "name": "Equipment is regularly cleaned and protected to maintain high performance.",
+          "value": 4,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Shine"
+        },
+        {
+          "name": "The standard cleaning schedule is displayed.",
+          "value": 3,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Shine"
+        },
+        {
+          "name": "The standard equipment maintenance schedules are displayed.",
+          "value": 3,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Shine"
+        },
+        {
+          "name": "The area looks clean, bright, and inviting.",
+          "value": 5,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Shine"
+        },
+        {
+          "name": "Equipment and facilities are in excellent condition.",
+          "value": 4,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Shine"
+        },
+        {
+          "name": "Trash and recycling bins are empty.",
+          "value": 5,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Shine"
+        }
+      ]
+    },
+    {
+      "name": "Standardize",
+      "orderIndex": 3,
+      "assignees": ["mike.johnson@example.com"],
+      "attachments": [],
+      "description": "Assessment of Standardize practices in Main Production Floor",
+      "statements": [
+        {
+          "name": "5S evaluation forms are posted, utilized, and current.",
+          "value": 2,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Standardize"
+        },
+        {
+          "name": "An improvement idea list is posted.",
+          "value": 2,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Standardize"
+        },
+        {
+          "name": "There is consistency in the workplace.",
+          "value": 3,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Standardize"
+        },
+        {
+          "name": "Visual guidance exists for workplace standards.",
+          "value": 3,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Standardize"
+        },
+        {
+          "name": "Job or cross-training is ongoing.",
+          "value": 3,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Standardize"
+        },
+        {
+          "name": "Standards for the area exist and are available.",
+          "value": 4,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Standardize"
+        }
+      ]
+    },
+    {
+      "name": "Sustain",
+      "orderIndex": 4,
+      "assignees": [],
+      "attachments": [],
+      "description": "Assessment of Sustain practices in Main Production Floor",
+      "statements": [
+        {
+          "name": "The standards are actually followed.",
+          "value": 3,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Sustain"
+        },
+        {
+          "name": "Time is dedicated daily to sustain 5S.",
+          "value": 2,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Sustain"
+        },
+        {
+          "name": "All equipment and supplies have an identified owner.",
+          "value": 4,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Sustain"
+        },
+        {
+          "name": "5S is regularly audited with posted results.",
+          "value": 2,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Sustain"
+        },
+        {
+          "name": "Recognition is given to teams with high 5S scores.",
+          "value": 2,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Sustain"
+        },
+        {
+          "name": "5S is part of daily culture.",
+          "value": 3,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Sustain"
+        },
+        {
+          "name": "Custom observation: Need better daily 5S routine implementation",
+          "value": 2,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Sustain"
+        }
+      ]
+    },
+    {
+      "name": "Safety",
+      "orderIndex": 5,
+      "assignees": ["sarah.wilson@example.com", "tom.brown@example.com"],
+      "attachments": [],
+      "description": "Assessment of Safety practices in Main Production Floor",
+      "statements": [
+        {
+          "name": "Safety equipment is in place and accessible.",
+          "value": 5,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Safety"
+        },
+        {
+          "name": "Emergency contact information is posted.",
+          "value": 5,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Safety"
+        },
+        {
+          "name": "Personal protective equipment is available, utilized and in good condition.",
+          "value": 4,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Safety"
+        },
+        {
+          "name": "Fire extinguishers are available and serviced.",
+          "value": 5,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Safety"
+        },
+        {
+          "name": "Safety records are posted.",
+          "value": 4,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Safety"
+        },
+        {
+          "name": "Emergency exit and routes are clear.",
+          "value": 5,
+          "default": false,
+          "owner": "user-sub-123",
+          "categoryName": "Safety"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalScore": 223,
+    "maxPossibleScore": 185,
+    "averageScore": 3.58,
+    "categoryAverages": {
+      "Sort": 3.0,
+      "Set In Order": 4.17,
+      "Shine": 4.0,
+      "Standardize": 2.83,
+      "Sustain": 2.71,
+      "Safety": 4.67
+    },
+    "strengthAreas": ["Safety", "Set In Order", "Shine"],
+    "improvementAreas": ["Sustain", "Standardize"],
+    "notableObservations": [
+      "Safety standards are well-maintained with high compliance",
+      "Set In Order shows good labeling and organization practices",
+      "Sustain needs focus on daily 5S routines and regular audits",
+      "Standardize requires better documentation and visual management"
+    ]
+  }
+}

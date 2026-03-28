@@ -1,0 +1,428 @@
+{
+  "report": {
+    "name": "Office Supply Inventory Management - A3 Analysis",
+    "type": "A3 Project Report",
+    "completed": false,
+    "assignedMembers": ["office-manager@example.com", "admin-coordinator@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Problem Statement",
+      "orderIndex": 0,
+      "assignees": ["office-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "supply_shortage_issues.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "office-manager@example.com",
+          "uploadedAt": "2024-03-01T09:00:00Z",
+          "description": "Frequent office supply shortages affecting daily operations and employee productivity"
+        }
+      ],
+      "description": "Office frequently runs out of basic supplies causing work interruptions and employee frustration.",
+      "statements": [
+        {
+          "name": "Supply shortages occur 2-3 times weekly",
+          "value": 1
+        },
+        {
+          "name": "Employees complain about missing supplies",
+          "value": 1
+        },
+        {
+          "name": "Emergency supply purchases are expensive",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Current State",
+      "orderIndex": 1,
+      "assignees": ["admin-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "current_supply_storage.jpg",
+          "url": "https://images.unsplash.com/photo-1553484771-8966baa92e8b?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "admin-coordinator@example.com",
+          "uploadedAt": "2024-03-03T11:30:00Z",
+          "description": "Current disorganized supply storage area with unclear inventory tracking"
+        }
+      ],
+      "description": "Current system involves ordering supplies when someone notices we're out, with no tracking system in place.",
+      "statements": [
+        {
+          "name": "No inventory tracking system in place",
+          "value": 1
+        },
+        {
+          "name": "Supplies ordered only when completely out",
+          "value": 1
+        },
+        {
+          "name": "Storage area is disorganized and messy",
+          "value": 1
+        },
+        {
+          "name": "No one assigned to manage supply levels",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Improvement Opportunity",
+      "orderIndex": 2,
+      "assignees": ["office-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "supply_organization_ideas.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "office-manager@example.com",
+          "uploadedAt": "2024-03-05T14:20:00Z",
+          "description": "Ideas for better supply organization and tracking methods"
+        }
+      ],
+      "description": "Implementing a simple tracking system and organizing supplies better should reduce shortages significantly.",
+      "statements": [
+        {
+          "name": "Goal: Reduce shortages to less than once monthly",
+          "value": 3
+        },
+        {
+          "name": "Organize supply storage area properly",
+          "value": 3
+        },
+        {
+          "name": "Create simple inventory checklist",
+          "value": 3
+        },
+        {
+          "name": "Assign someone to check supplies weekly",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Problem Analysis",
+      "orderIndex": 3,
+      "assignees": ["admin-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "problem_brainstorming.jpg",
+          "url": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "admin-coordinator@example.com",
+          "uploadedAt": "2024-03-07T10:15:00Z",
+          "description": "Brainstorming session identifying main causes of supply shortage problems"
+        }
+      ],
+      "description": "Main problems seem to be lack of organization, no one responsible for tracking, and waiting too long to reorder.",
+      "statements": [
+        {
+          "name": "Supplies are scattered and hard to find",
+          "value": 1
+        },
+        {
+          "name": "No clear responsibility for supply management",
+          "value": 1
+        },
+        {
+          "name": "Reordering happens too late (when already out)",
+          "value": 1
+        },
+        {
+          "name": "Don't know which supplies are used most often",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Future State",
+      "orderIndex": 4,
+      "assignees": ["office-manager@example.com", "admin-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-5",
+          "name": "organized_supply_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "office-manager@example.com",
+          "uploadedAt": "2024-03-10T13:45:00Z",
+          "description": "Plan for organized supply area with labeled shelves and tracking system"
+        }
+      ],
+      "description": "Organized supply area with labels, weekly checking schedule, and simple reorder list to prevent shortages.",
+      "statements": [
+        {
+          "name": "Well-organized supply area with clear labels",
+          "value": 3
+        },
+        {
+          "name": "Weekly inventory checking schedule established",
+          "value": 3
+        },
+        {
+          "name": "Simple reorder list with minimum quantities",
+          "value": 3
+        },
+        {
+          "name": "Admin coordinator responsible for supply management",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Implementation Plan",
+      "orderIndex": 5,
+      "assignees": ["admin-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-6",
+          "name": "implementation_timeline.jpg",
+          "url": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "admin-coordinator@example.com",
+          "uploadedAt": "2024-03-12T16:00:00Z",
+          "description": "Simple 4-week timeline for organizing supplies and starting new tracking system"
+        }
+      ],
+      "description": "Simple 4-week plan to organize supplies, create tracking system, and start weekly checks.",
+      "statements": [
+        {
+          "name": "Week 1: Clean and organize supply area",
+          "value": 3
+        },
+        {
+          "name": "Week 2: Create labels and inventory list",
+          "value": 3
+        },
+        {
+          "name": "Week 3: Set up weekly checking routine",
+          "value": 2
+        },
+        {
+          "name": "Week 4: Start using new system",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Verify Results",
+      "orderIndex": 6,
+      "assignees": ["office-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-7",
+          "name": "progress_check.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "office-manager@example.com",
+          "uploadedAt": "2024-04-10T12:30:00Z",
+          "description": "Progress check showing some improvement but inconsistent follow-through on new procedures"
+        }
+      ],
+      "description": "Some improvement seen but still having occasional shortages due to inconsistent checking routine.",
+      "statements": [
+        {
+          "name": "Shortages reduced to about once per week (improvement but not meeting goal)",
+          "value": 2
+        },
+        {
+          "name": "Supply area is better organized than before",
+          "value": 3
+        },
+        {
+          "name": "Weekly checks happen only about half the time",
+          "value": 2
+        },
+        {
+          "name": "Staff seem happier with supply availability",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Follow-Up",
+      "orderIndex": 7,
+      "assignees": ["admin-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-8",
+          "name": "follow_up_actions.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "admin-coordinator@example.com",
+          "uploadedAt": "2024-04-15T14:45:00Z",
+          "description": "Follow-up action list to improve consistency and reach original goals"
+        }
+      ],
+      "description": "Need to improve consistency of weekly checks and maybe add calendar reminders to make system work better.",
+      "statements": [
+        {
+          "name": "Set up calendar reminders for weekly supply checks",
+          "value": 3
+        },
+        {
+          "name": "Review and update minimum quantity levels",
+          "value": 2
+        },
+        {
+          "name": "Get feedback from staff on supply availability",
+          "value": 3
+        },
+        {
+          "name": "Continue working toward less than once monthly shortage goal",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "a3-highlight-1",
+      "title": "Problem Statement",
+      "description": "<p><strong>Basic Problem:</strong> Office frequently experiences supply shortages 2-3 times weekly, causing work interruptions and employee frustration with current reactive ordering approach when supplies are completely depleted.</p><p><strong>Impact:</strong> Frequent emergency purchases are more expensive than planned ordering, and employee productivity is affected by supply unavailability during regular work activities.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["office-manager@example.com"]
+    },
+    {
+      "id": "a3-highlight-2",
+      "title": "Current State",
+      "description": "<p><strong>Current Process:</strong> Supplies are ordered only when someone notices complete depletion, with no systematic inventory tracking or management responsibility assigned to specific staff members.</p><p><strong>Storage Issues:</strong> Supply storage area lacks organization and clear labeling, making it difficult to assess current inventory levels or locate needed items efficiently.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1553484771-8966baa92e8b?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["admin-coordinator@example.com"]
+    },
+    {
+      "id": "a3-highlight-3",
+      "title": "Improvement Opportunity",
+      "description": "<p><strong>Simple Solutions:</strong> Implementation of basic organization system with labeled storage, simple inventory checklist, and weekly monitoring routine should significantly reduce supply shortage frequency to less than once monthly.</p><p><strong>Responsibility Assignment:</strong> Assigning specific supply management responsibility to admin coordinator with regular checking schedule should ensure proactive rather than reactive supply management.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["office-manager@example.com"]
+    },
+    {
+      "id": "a3-highlight-4",
+      "title": "Problem Analysis",
+      "description": "<p><strong>Root Causes:</strong> Primary issues identified include scattered supply storage making inventory assessment difficult, absence of clear management responsibility, and reactive reordering approach waiting until complete depletion occurs.</p><p><strong>Usage Patterns:</strong> Limited understanding of which supplies are consumed most frequently, making it difficult to plan appropriate reorder quantities and timing for different supply categories.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["admin-coordinator@example.com"]
+    },
+    {
+      "id": "a3-highlight-5",
+      "title": "Future State",
+      "description": "<p><strong>Organized System:</strong> Future state features well-organized supply area with clear labeling, established weekly inventory checking schedule, and simple reorder list specifying minimum quantity levels for each supply category.</p><p><strong>Clear Accountability:</strong> Admin coordinator assigned specific responsibility for supply management with defined checking procedures and reordering authority to ensure consistent system operation.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["office-manager@example.com", "admin-coordinator@example.com"]
+    },
+    {
+      "id": "a3-highlight-6",
+      "title": "Implementation Plan",
+      "description": "<p><strong>Simple Timeline:</strong> Four-week implementation plan focusing on basic organization: cleaning and organizing supply area (week 1), creating labels and inventory lists (week 2), establishing weekly checking routine (week 3), and beginning system operation (week 4).</p><p><strong>Gradual Approach:</strong> Step-by-step implementation allowing time for habit formation and system refinement without overwhelming current staff workload or operational disruption.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["admin-coordinator@example.com"]
+    },
+    {
+      "id": "a3-highlight-7",
+      "title": "Verify Results",
+      "description": "<p><strong>Partial Success:</strong> Results show improvement with shortages reduced to approximately once weekly, representing progress from initial 2-3 times weekly frequency, though not yet achieving target of less than once monthly.</p><p><strong>Consistency Challenges:</strong> Weekly checking routine implemented only about 50% of the time, indicating need for improved habit formation and reminder systems to ensure consistent system operation.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["office-manager@example.com"]
+    },
+    {
+      "id": "a3-highlight-8",
+      "title": "Follow-Up",
+      "description": "<p><strong>System Improvement:</strong> Follow-up actions focus on improving routine consistency through calendar reminders for weekly checks, review of minimum quantity levels, and gathering staff feedback on supply availability improvements.</p><p><strong>Goal Pursuit:</strong> Continued effort required to achieve original target of less than once monthly shortages through enhanced routine adherence and system refinement based on initial experience.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["admin-coordinator@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "a3-ai-1",
+      "title": "Set Up Calendar Reminders for Supply Checks",
+      "description": "Create recurring calendar reminders to ensure weekly supply checks happen consistently instead of only 50% of the time",
+      "duedate": "2024-05-01",
+      "status": 0,
+      "assignees": ["admin-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-9",
+          "name": "calendar_reminder_setup.jpg",
+          "url": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "admin-coordinator@example.com",
+          "uploadedAt": "2024-04-18T10:30:00Z",
+          "description": "Calendar system setup for automated weekly supply check reminders"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "System Improvement",
+      "priority": "High"
+    },
+    {
+      "id": "a3-ai-2",
+      "title": "Review Minimum Quantity Levels",
+      "description": "Assess current minimum quantity levels based on actual usage patterns and adjust to prevent shortages while avoiding overstocking",
+      "duedate": "2024-05-15",
+      "status": 0,
+      "assignees": ["admin-coordinator@example.com", "office-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-10",
+          "name": "quantity_level_review.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "office-manager@example.com",
+          "uploadedAt": "2024-04-20T14:45:00Z",
+          "description": "Usage pattern analysis for setting appropriate minimum stock levels"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Process Optimization",
+      "priority": "Medium"
+    },
+    {
+      "id": "a3-ai-3",
+      "title": "Gather Staff Feedback on Supply Availability",
+      "description": "Collect feedback from office staff on supply availability improvements and identify any remaining issues or needs",
+      "duedate": "2024-05-10",
+      "status": 0,
+      "assignees": ["office-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-11",
+          "name": "staff_feedback_survey.jpg",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "office-manager@example.com",
+          "uploadedAt": "2024-04-22T09:15:00Z",
+          "description": "Simple feedback form for staff to report on supply availability and suggest improvements"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Feedback Collection",
+      "priority": "Medium"
+    }
+  ]
+}

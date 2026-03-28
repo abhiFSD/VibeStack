@@ -1,0 +1,358 @@
+{
+  "report": {
+    "name": "Customer Complaint Analysis - Product Defects Root Causes",
+    "type": "Pareto Chart Report",
+    "completed": true,
+    "assignedMembers": [
+      "quality-manager@example.com",
+      "production-supervisor@example.com",
+      "customer-service-lead@example.com"
+    ]
+  },
+  "chartData": [
+    {
+      "id": "pareto-1",
+      "text": "Material Contamination",
+      "value": "142",
+      "posX": "100",
+      "posY": "150",
+      "date": "",
+      "Description": "Raw material quality issues causing product defects - requires supplier quality improvement"
+    },
+    {
+      "id": "pareto-2",
+      "text": "Equipment Calibration",
+      "value": "98",
+      "posX": "200",
+      "posY": "250",
+      "date": "",
+      "Description": "Machine calibration drift leading to out-of-spec products - needs preventive maintenance"
+    },
+    {
+      "id": "pareto-3",
+      "text": "Assembly Line Speed",
+      "value": "76",
+      "posX": "300",
+      "posY": "350",
+      "date": "",
+      "Description": "Excessive line speed causing quality issues - requires production rate optimization"
+    },
+    {
+      "id": "pareto-4",
+      "text": "Operator Training",
+      "value": "52",
+      "posX": "400",
+      "posY": "450",
+      "date": "",
+      "Description": "Insufficient operator training on quality standards - needs comprehensive training program"
+    },
+    {
+      "id": "pareto-5",
+      "text": "Environmental Control",
+      "value": "34",
+      "posX": "500",
+      "posY": "550",
+      "date": "",
+      "Description": "Temperature/humidity variations affecting product quality - facility HVAC upgrade needed"
+    },
+    {
+      "id": "pareto-6",
+      "text": "Packaging Damage",
+      "value": "28",
+      "posX": "600",
+      "posY": "650",
+      "date": "",
+      "Description": "Product damage during packaging process - packaging equipment maintenance required"
+    },
+    {
+      "id": "pareto-7",
+      "text": "Documentation Errors",
+      "value": "15",
+      "posX": "700",
+      "posY": "750",
+      "date": "",
+      "Description": "Incorrect work instructions causing defects - documentation system review needed"
+    },
+    {
+      "id": "pareto-8",
+      "text": "Tool Wear",
+      "value": "12",
+      "posX": "800",
+      "posY": "850",
+      "date": "",
+      "Description": "Worn tooling creating dimensional variations - tool replacement schedule required"
+    },
+    {
+      "id": "pareto-9",
+      "text": "Shift Handover",
+      "value": "8",
+      "posX": "900",
+      "posY": "950",
+      "date": "",
+      "Description": "Communication gaps between shifts causing inconsistencies - standardized handover process needed"
+    },
+    {
+      "id": "pareto-10",
+      "text": "Software Glitches",
+      "value": "5",
+      "posX": "1000",
+      "posY": "1050",
+      "date": "",
+      "Description": "Control system software bugs causing occasional defects - software update required"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-pareto-1",
+      "title": "Pareto Principle Validation",
+      "content": "Analysis confirms the 80/20 rule applies perfectly to our quality issues. The top 3 categories (Material Contamination, Equipment Calibration, Assembly Line Speed) account for 68.4% of all customer complaints, while the vital few (first 4 categories) represent 81.2% of total defects.",
+      "category": "Statistical Analysis",
+      "attachments": [
+        {
+          "id": "highlight-pareto-attachment-1",
+          "name": "pareto_analysis_dashboard.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-01-25T09:00:00Z",
+          "description": "Quality analytics dashboard showing Pareto distribution"
+        }
+      ]
+    },
+    {
+      "id": "highlight-pareto-2",
+      "title": "Cost Impact Analysis",
+      "content": "Financial analysis reveals addressing the vital few categories would eliminate $2.3M in annual warranty claims and rework costs. Material contamination alone accounts for $875K in quality-related expenses, making it the highest priority for improvement initiatives.",
+      "category": "Financial Impact",
+      "attachments": [
+        {
+          "id": "highlight-pareto-attachment-2",
+          "name": "cost_impact_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-01-25T10:00:00Z",
+          "description": "Financial impact breakdown by defect category"
+        }
+      ]
+    },
+    {
+      "id": "highlight-pareto-3",
+      "title": "Quick Win Opportunities",
+      "content": "Equipment calibration and assembly line speed adjustments represent immediate improvement opportunities with minimal investment. These two categories combined account for 37.6% of defects and can be addressed through existing maintenance and production control systems.",
+      "category": "Improvement Strategy",
+      "attachments": [
+        {
+          "id": "highlight-pareto-attachment-3",
+          "name": "quick_wins_roadmap.jpg",
+          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "production-supervisor@example.com",
+          "uploadedAt": "2024-01-25T11:00:00Z",
+          "description": "Quick win implementation roadmap and timeline"
+        }
+      ]
+    },
+    {
+      "id": "highlight-pareto-4",
+      "title": "Customer Satisfaction Correlation",
+      "content": "Customer satisfaction scores show direct correlation with defect categories. Material contamination issues result in 4.8x more customer escalations than trivial many categories. Addressing vital few defects projected to improve NPS score by 23 points.",
+      "category": "Customer Impact",
+      "attachments": [
+        {
+          "id": "highlight-pareto-attachment-4",
+          "name": "customer_satisfaction_metrics.jpg",
+          "url": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "customer-service-lead@example.com",
+          "uploadedAt": "2024-01-25T12:00:00Z",
+          "description": "Customer satisfaction metrics by defect category"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "pareto-action-1",
+      "title": "Implement Supplier Quality Management System",
+      "description": "Develop comprehensive supplier quality program including incoming material inspection, supplier audits, quality agreements, and contamination prevention protocols. Focus on top 5 material suppliers contributing to 85% of contamination issues.",
+      "duedate": "2024-03-15",
+      "status": 1,
+      "assignees": ["quality-manager@example.com", "procurement-manager@example.com"],
+      "attachments": [
+        {
+          "id": "pareto-action-attachment-1",
+          "name": "supplier_quality_framework.jpg",
+          "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-01-25T13:00:00Z",
+          "description": "Supplier quality management system framework"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Material Quality",
+      "priority": "High"
+    },
+    {
+      "id": "pareto-action-2",
+      "title": "Deploy Predictive Maintenance for Critical Equipment",
+      "description": "Install IoT sensors and predictive analytics on 15 critical production machines to monitor calibration drift in real-time. Implement automated alerts when parameters approach control limits.",
+      "duedate": "2024-02-28",
+      "status": 0,
+      "assignees": ["maintenance-manager@example.com", "production-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "pareto-action-attachment-2",
+          "name": "predictive_maintenance_system.jpg",
+          "url": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "maintenance-manager@example.com",
+          "uploadedAt": "2024-01-25T14:00:00Z",
+          "description": "Predictive maintenance IoT sensor deployment plan"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Equipment Reliability",
+      "priority": "High"
+    },
+    {
+      "id": "pareto-action-3",
+      "title": "Optimize Production Line Speed Standards",
+      "description": "Conduct time and motion study to establish optimal line speeds balancing productivity and quality. Implement dynamic speed adjustment based on product complexity and operator experience levels.",
+      "duedate": "2024-02-15",
+      "status": 0,
+      "assignees": ["production-supervisor@example.com", "industrial-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "pareto-action-attachment-3",
+          "name": "line_speed_optimization.jpg",
+          "url": "https://images.unsplash.com/photo-1565982238447-1c2e39d834df?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "industrial-engineer@example.com",
+          "uploadedAt": "2024-01-25T15:00:00Z",
+          "description": "Production line speed optimization study results"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Process Optimization",
+      "priority": "High"
+    },
+    {
+      "id": "pareto-action-4",
+      "title": "Launch Comprehensive Operator Certification Program",
+      "description": "Develop skills-based certification program with hands-on quality training modules. Include visual defect recognition, measurement techniques, and immediate corrective action protocols.",
+      "duedate": "2024-03-30",
+      "status": 0,
+      "assignees": ["training-manager@example.com", "quality-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "pareto-action-attachment-4",
+          "name": "operator_certification_program.jpg",
+          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "training-manager@example.com",
+          "uploadedAt": "2024-01-25T16:00:00Z",
+          "description": "Operator certification program curriculum and timeline"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Training & Development",
+      "priority": "Medium"
+    },
+    {
+      "id": "pareto-action-5",
+      "title": "Create Real-Time Quality Dashboard",
+      "description": "Implement digital quality dashboard displaying live Pareto charts, defect trends, and improvement progress. Include mobile alerts for quality engineers when defect patterns emerge.",
+      "duedate": "2024-02-20",
+      "status": 0,
+      "assignees": ["it-manager@example.com", "quality-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "pareto-action-attachment-5",
+          "name": "quality_dashboard_mockup.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "it-manager@example.com",
+          "uploadedAt": "2024-01-25T17:00:00Z",
+          "description": "Real-time quality dashboard design mockup"
+        }
+      ],
+      "orderIndex": 4,
+      "category": "Quality Monitoring",
+      "priority": "Medium"
+    }
+  ],
+  "aiAnalysis": {
+    "overallAssessment": {
+      "chartType": "Pareto Chart",
+      "dataDistribution": "Classic 80/20 Distribution",
+      "focusArea": "Material and Equipment Quality",
+      "improvementPotential": "Very High - $2.3M Cost Reduction Opportunity"
+    },
+    "keyFindings": [
+      "Pareto Principle Confirmed: Top 20% of defect categories (2 out of 10) account for 48.3% of total complaints",
+      "Vital Few Identification: First 4 categories represent 81.2% of all quality issues, providing clear improvement priorities",
+      "Material Contamination Dominance: Single largest contributor at 30.5% requires immediate supplier quality intervention",
+      "Process Control Opportunities: Equipment and speed issues (combined 37.6%) can be addressed with existing systems",
+      "Trivial Many Management: Bottom 6 categories account for only 18.8% suggesting deprioritization potential"
+    ],
+    "vitalFewAnalysis": {
+      "categories": ["Material Contamination", "Equipment Calibration", "Assembly Line Speed", "Operator Training"],
+      "percentage": "81.2%",
+      "characteristics": "Systemic issues requiring strategic intervention and investment",
+      "recommendedApproach": "Implement comprehensive improvement programs with dedicated resources and executive sponsorship"
+    },
+    "trivialManyAnalysis": {
+      "categories": ["Environmental Control", "Packaging Damage", "Documentation Errors", "Tool Wear", "Shift Handover", "Software Glitches"],
+      "percentage": "18.8%",
+      "characteristics": "Minor contributors with limited individual impact",
+      "recommendedApproach": "Address through routine maintenance and continuous improvement activities without major resource allocation"
+    },
+    "costBenefitInsights": {
+      "totalAnnualCost": "$2.3M in warranty claims and rework",
+      "vitalFewCost": "$1.87M (81.2% of total)",
+      "quickWinValue": "$865K from equipment and speed optimization",
+      "investmentRequired": "$450K for vital few improvements",
+      "paybackPeriod": "6.2 months",
+      "fiveYearROI": "412% return on quality improvement investment"
+    },
+    "improvementStrategy": {
+      "immediate": [
+        "Calibration Schedule: Increase frequency for top 15 critical machines",
+        "Speed Optimization: Reduce line speed by 8% during complex product runs",
+        "Supplier Alerts: Implement contamination notifications for incoming materials"
+      ],
+      "shortTerm": [
+        "Supplier Development: Quality improvement programs with top 5 suppliers",
+        "Predictive Maintenance: IoT deployment on critical equipment",
+        "Operator Certification: Launch comprehensive quality training"
+      ],
+      "longTerm": [
+        "Quality Culture: Embed quality-first mindset across organization",
+        "Digital Transformation: AI-powered defect prediction system",
+        "Supply Chain Integration: End-to-end quality visibility"
+      ]
+    },
+    "learningPoints": [
+      "Pareto Power: This analysis perfectly demonstrates how focusing on vital few delivers maximum impact with minimum resources",
+      "Data-Driven Prioritization: Clear quantitative evidence prevents emotional decision-making and resource waste on trivial issues",
+      "Cumulative Impact: Understanding cumulative percentages reveals the diminishing returns of addressing trivial many categories",
+      "Strategic Focus: Success requires discipline to ignore noise and concentrate resources on high-impact improvements",
+      "Continuous Monitoring: Pareto distributions shift over time; regular reanalysis ensures focus remains on current vital few"
+    ],
+    "nextSteps": [
+      "Executive Review: Present findings to leadership for resource allocation approval",
+      "Supplier Summit: Urgent meeting with top 5 suppliers on contamination prevention",
+      "Equipment Audit: Immediate calibration verification of 15 critical machines",
+      "Project Charter: Develop formal improvement projects for each vital few category",
+      "Monthly Tracking: Implement Pareto chart updates to monitor improvement progress"
+    ],
+    "industryBenchmark": {
+      "currentPerformance": "470 defects per million - Industry Bottom Quartile",
+      "industryAverage": "233 defects per million",
+      "worldClassTarget": "3.4 defects per million (Six Sigma)",
+      "improvementGap": "Addressing vital few projected to achieve 156 DPM (Industry Top Quartile)"
+    }
+  }
+}

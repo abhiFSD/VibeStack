@@ -1,0 +1,303 @@
+{
+  "report": {
+    "name": "Product Innovation Brainstorming Session - Marketing Team",
+    "type": "Brainstorming Report",
+    "completed": true,
+    "assignedMembers": ["sarah.johnson@example.com", "mike.chen@example.com", "alex.rodriguez@example.com", "lisa.wang@example.com"]
+  },
+  "chartData": [
+    {
+      "id": "idea-1",
+      "text": "Smart packaging with QR codes for product information",
+      "textColor": "#2E8B57",
+      "posX": 120,
+      "posY": 80,
+      "reportID": "report-1"
+    },
+    {
+      "id": "idea-2", 
+      "text": "Subscription-based service model for regular customers",
+      "textColor": "#4169E1",
+      "posX": 300,
+      "posY": 110,
+      "reportID": "report-1"
+    },
+    {
+      "id": "idea-3",
+      "text": "Customer feedback integration app",
+      "textColor": "#FF6347",
+      "posX": 480,
+      "posY": 90,
+      "reportID": "report-1"
+    },
+    {
+      "id": "idea-4",
+      "text": "Eco-friendly materials showcase",
+      "textColor": "#32CD32",
+      "posX": 620,
+      "posY": 110,
+      "reportID": "report-1"
+    },
+    {
+      "id": "idea-5",
+      "text": "Personalization features for individual customers",
+      "textColor": "#9932CC",
+      "posX": 780,
+      "posY": 130,
+      "reportID": "report-1"
+    },
+    {
+      "id": "idea-6",
+      "text": "Partnership with local sustainability organizations",
+      "textColor": "#FF8C00",
+      "posX": 160,
+      "posY": 240,
+      "reportID": "report-1"
+    },
+    {
+      "id": "idea-7",
+      "text": "Gamification elements for user engagement",
+      "textColor": "#DC143C",
+      "posX": 380,
+      "posY": 220,
+      "reportID": "report-1"
+    },
+    {
+      "id": "idea-8",
+      "text": "AI-powered product recommendations",
+      "textColor": "#20B2AA",
+      "posX": 580,
+      "posY": 200,
+      "reportID": "report-1"
+    },
+    {
+      "id": "idea-9",
+      "text": "Mobile app integration with AR features",
+      "textColor": "#4682B4",
+      "posX": 750,
+      "posY": 240,
+      "reportID": "report-1"
+    },
+    {
+      "id": "idea-10",
+      "text": "Social media integration for sharing experiences",
+      "textColor": "#FF1493",
+      "posX": 200,
+      "posY": 380,
+      "reportID": "report-1"
+    },
+    {
+      "id": "idea-11",
+      "text": "Voice-activated customer service bot",
+      "textColor": "#8A2BE2",
+      "posX": 420,
+      "posY": 360,
+      "reportID": "report-1"
+    },
+    {
+      "id": "idea-12",
+      "text": "Virtual product try-before-buy experience",
+      "textColor": "#FF4500",
+      "posX": 640,
+      "posY": 380,
+      "reportID": "report-1"
+    },
+    {
+      "id": "idea-13",
+      "text": "Community platform for customer discussions",
+      "textColor": "#228B22",
+      "posX": 280,
+      "posY": 500,
+      "reportID": "report-1"
+    },
+    {
+      "id": "idea-14",
+      "text": "Blockchain for supply chain transparency",
+      "textColor": "#B22222",
+      "posX": 520,
+      "posY": 480,
+      "reportID": "report-1"
+    }
+  ],
+  "categories": [],
+  "actionItems": [
+    {
+      "id": "action-1",
+      "title": "Prototype Development for Top 3 Ideas",
+      "description": "Create functional prototypes for smart packaging, subscription model, and AI recommendations to test feasibility and customer response",
+      "assignee": "mike.chen@example.com",
+      "dueDate": "2024-03-15",
+      "status": 1,
+      "priority": "High",
+      "category": "Development",
+      "attachments": [
+        {
+          "id": "action-attachment-1",
+          "name": "prototype_development_workspace.jpg",
+          "url": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=600&fit=crop",
+          "type": "image", 
+          "uploadedBy": "mike.chen@example.com",
+          "uploadedAt": "2024-01-15T10:30:00Z",
+          "description": "Innovation lab workspace with prototyping tools and development materials for smart packaging concepts"
+        }
+      ]
+    },
+    {
+      "id": "action-2",
+      "title": "Customer Validation Survey Design",
+      "description": "Design comprehensive survey to validate customer interest in personalization features, eco-friendly materials, and mobile AR integration",
+      "assignee": "sarah.johnson@example.com",
+      "dueDate": "2024-02-28",
+      "status": 2,
+      "priority": "High",
+      "category": "Research",
+      "attachments": [
+        {
+          "id": "action-attachment-2",
+          "name": "customer_validation_research.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "sarah.johnson@example.com", 
+          "uploadedAt": "2024-01-12T14:20:00Z",
+          "description": "Customer validation research session with survey design and feedback analysis frameworks"
+        }
+      ]
+    },
+    {
+      "id": "action-3",
+      "title": "Technology Partnership Exploration",
+      "description": "Research and establish partnerships with AR/AI technology providers and sustainability organizations for implementation feasibility",
+      "assignee": "alex.rodriguez@example.com",
+      "dueDate": "2024-04-10",
+      "status": 0,
+      "priority": "Medium",
+      "category": "Partnerships",
+      "attachments": []
+    },
+    {
+      "id": "action-4",
+      "title": "Business Model Canvas Creation",
+      "description": "Develop detailed business model canvas for subscription service and community platform concepts with revenue projections",
+      "assignee": "lisa.wang@example.com",
+      "dueDate": "2024-03-30",
+      "status": 0,
+      "priority": "Medium",
+      "category": "Strategy",
+      "attachments": [
+        {
+          "id": "action-attachment-3",
+          "name": "business_model_canvas_workshop.jpg",
+          "url": "https://images.unsplash.com/photo-1542626991-cbc4e32524cc?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "lisa.wang@example.com",
+          "uploadedAt": "2024-01-18T09:45:00Z",
+          "description": "Business model canvas workshop with revenue stream analysis and subscription service planning"
+        }
+      ]
+    },
+    {
+      "id": "action-5",
+      "title": "Innovation Lab Setup",
+      "description": "Establish dedicated innovation lab space for ongoing brainstorming sessions and rapid prototyping of customer-centric solutions",
+      "assignee": "sarah.johnson@example.com",
+      "dueDate": "2024-05-15",
+      "status": 0,
+      "priority": "Low",
+      "category": "Infrastructure",
+      "attachments": [
+        {
+          "id": "action-attachment-4",
+          "name": "innovation_lab_collaborative_space.jpg",
+          "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "sarah.johnson@example.com",
+          "uploadedAt": "2024-01-20T16:30:00Z",
+          "description": "Modern innovation lab design with collaborative workspace, rapid prototyping tools, and creative thinking areas"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "id": "main-attachment-1",
+      "name": "brainstorming_sticky_notes_session.jpg",
+      "url": "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=800&h=600&fit=crop",
+      "type": "image",
+      "uploadedBy": "sarah.johnson@example.com",
+      "uploadedAt": "2024-01-10T09:30:00Z",
+      "description": "Collaborative brainstorming session with colorful sticky notes and idea mapping on whiteboard"
+    },
+    {
+      "id": "main-attachment-2",
+      "name": "digital_innovation_whiteboard.jpg", 
+      "url": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
+      "type": "image",
+      "uploadedBy": "mike.chen@example.com",
+      "uploadedAt": "2024-01-10T11:15:00Z",
+      "description": "Digital whiteboard with organized innovation concepts and mind mapping for product development"
+    },
+    {
+      "id": "main-attachment-3",
+      "name": "creative_team_workshop.jpg",
+      "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&h=600&fit=crop",
+      "type": "image",
+      "uploadedBy": "alex.rodriguez@example.com", 
+      "uploadedAt": "2024-01-10T13:45:00Z",
+      "description": "Cross-functional team engaged in creative workshop with design thinking methodology"
+    },
+    {
+      "id": "main-attachment-4",
+      "name": "innovation_strategy_planning.jpg",
+      "url": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=600&fit=crop",
+      "type": "image",
+      "uploadedBy": "lisa.wang@example.com",
+      "uploadedAt": "2024-01-10T15:20:00Z",
+      "description": "Strategic innovation planning session with business model canvas and ideation frameworks"
+    },
+    {
+      "id": "main-attachment-5",
+      "name": "product_innovation_sketches.jpg",
+      "url": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop",
+      "type": "image",
+      "uploadedBy": "sarah.johnson@example.com",
+      "uploadedAt": "2024-01-10T16:30:00Z",
+      "description": "Product innovation sketches and wireframes from creative ideation session"
+    },
+    {
+      "id": "main-attachment-6",
+      "name": "technology_brainstorming_board.jpg",
+      "url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=600&fit=crop",
+      "type": "image",
+      "uploadedBy": "mike.chen@example.com",
+      "uploadedAt": "2024-01-10T17:00:00Z",
+      "description": "Technology-focused brainstorming board with AI, AR, and blockchain concept mapping"
+    }
+  ],
+  "aiAnalysis": {
+    "overview": "This brainstorming session demonstrates exceptional creative thinking and systematic ideation for product innovation. The team successfully generated 14 diverse, actionable ideas spanning technology integration, customer experience enhancement, and sustainable business practices.",
+    "keyStrengths": [
+      "**Comprehensive Scope**: Ideas cover technology (AI, AR, blockchain), sustainability (eco-friendly materials, partnerships), and customer experience (personalization, community building)",
+      "**Strategic Alignment**: All concepts align with modern customer expectations for digital integration, sustainability, and personalized experiences",
+      "**Cross-Functional Collaboration**: Team representation from marketing, development, and strategy ensures diverse perspectives and implementation feasibility",
+      "**Innovation Balance**: Mix of incremental improvements (QR codes, feedback apps) and breakthrough innovations (AR integration, blockchain transparency)"
+    ],
+    "improvementOpportunities": [
+      "**Idea Prioritization**: Implement scoring criteria (feasibility, impact, resources) to systematically rank concepts for development priority",
+      "**Customer Validation**: Establish direct customer input channels during brainstorming to ensure market relevance of generated ideas",
+      "**Implementation Roadmap**: Create timeline dependencies between ideas to identify which concepts enable or enhance others",
+      "**Resource Assessment**: Conduct preliminary resource requirement analysis to balance ambitious ideas with practical constraints"
+    ],
+    "learningPoints": [
+      "**Digital Integration Focus**: Heavy emphasis on technology solutions reflects current market demands for digital-first customer experiences",
+      "**Sustainability Imperative**: Multiple eco-friendly concepts demonstrate growing importance of environmental responsibility in product innovation",
+      "**Community Building**: Recognition that modern customers value peer connections and shared experiences beyond traditional transactions",
+      "**Personalization Priority**: Multiple ideas focus on individual customization, reflecting customer expectation for tailored solutions"
+    ],
+    "nextSteps": [
+      "Conduct feasibility analysis for top 5 ideas using impact vs. effort matrix methodology",
+      "Establish customer advisory panel for ongoing validation of innovation concepts", 
+      "Create innovation pipeline with quarterly review cycles for sustained idea development",
+      "Develop partnership strategy for technology and sustainability collaborations identified in session"
+    ]
+  }
+}

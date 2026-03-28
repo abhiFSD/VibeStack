@@ -1,0 +1,133 @@
+{
+  "report": {
+    "name": "Cost Reduction Initiative - Finance Department",
+    "type": "Brainstorming Report",
+    "completed": false,
+    "assignedMembers": ["rachel.brown@example.com", "david.kim@example.com"]
+  },
+  "chartData": [
+    {
+      "id": "idea-1",
+      "text": "Reduce office supplies budget",
+      "textColor": "#FF6347",
+      "posX": 200,
+      "posY": 150,
+      "reportID": "report-3"
+    },
+    {
+      "id": "idea-2",
+      "text": "Renegotiate vendor contracts",
+      "textColor": "#4169E1",
+      "posX": 450,
+      "posY": 120,
+      "reportID": "report-3"
+    },
+    {
+      "id": "idea-3",
+      "text": "Eliminate unnecessary meetings",
+      "textColor": "#32CD32",
+      "posX": 650,
+      "posY": 180,
+      "reportID": "report-3"
+    },
+    {
+      "id": "idea-4",
+      "text": "Energy consumption review",
+      "textColor": "#9932CC",
+      "posX": 300,
+      "posY": 300,
+      "reportID": "report-3"
+    },
+    {
+      "id": "idea-5",
+      "text": "Software license optimization",
+      "textColor": "#FF8C00",
+      "posX": 500,
+      "posY": 280,
+      "reportID": "report-3"
+    },
+    {
+      "id": "idea-6",
+      "text": "Travel expense limits",
+      "textColor": "#20B2AA",
+      "posX": 680,
+      "posY": 320,
+      "reportID": "report-3"
+    }
+  ],
+  "categories": [],
+  "actionItems": [
+    {
+      "id": "action-1",
+      "title": "Office Supplies Audit",
+      "description": "Review current office supplies usage and identify areas for potential cost reduction",
+      "assignee": "rachel.brown@example.com",
+      "dueDate": "2024-02-15",
+      "status": 0,
+      "priority": "Medium",
+      "category": "Cost Analysis",
+      "attachments": []
+    },
+    {
+      "id": "action-2",
+      "title": "Vendor Contract Review Meeting",
+      "description": "Schedule meetings with key vendors to discuss contract renegotiation opportunities",
+      "assignee": "david.kim@example.com",
+      "dueDate": "2024-03-01",
+      "status": 0,
+      "priority": "High",
+      "category": "Procurement",
+      "attachments": [
+        {
+          "id": "action-attachment-1",
+          "name": "vendor_meeting_agenda.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "david.kim@example.com",
+          "uploadedAt": "2024-01-20T09:30:00Z",
+          "description": "Meeting agenda template for vendor contract discussions"
+        }
+      ]
+    },
+    {
+      "id": "action-3",
+      "title": "Meeting Efficiency Analysis",
+      "description": "Analyze current meeting schedules and identify opportunities to reduce frequency or duration",
+      "assignee": "rachel.brown@example.com",
+      "dueDate": "2024-04-15",
+      "status": 0,
+      "priority": "Low",
+      "category": "Process Improvement",
+      "attachments": []
+    }
+  ],
+  "attachments": [
+    {
+      "id": "main-attachment-1",
+      "name": "cost_reduction_brainstorming.jpg",
+      "url": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&h=600&fit=crop",
+      "type": "image",
+      "uploadedBy": "rachel.brown@example.com",
+      "uploadedAt": "2024-01-18T14:30:00Z",
+      "description": "Finance team brainstorming session focused on cost reduction opportunities and budget optimization"
+    },
+    {
+      "id": "main-attachment-2",
+      "name": "budget_analysis_workshop.jpg",
+      "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+      "type": "image",
+      "uploadedBy": "david.kim@example.com",
+      "uploadedAt": "2024-01-18T16:00:00Z",
+      "description": "Budget analysis workshop with cost breakdown charts and expense category review"
+    },
+    {
+      "id": "main-attachment-3",
+      "name": "basic_ideation_session.jpg",
+      "url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=600&fit=crop",
+      "type": "image",
+      "uploadedBy": "rachel.brown@example.com",
+      "uploadedAt": "2024-01-18T17:15:00Z",
+      "description": "Basic ideation session with limited brainstorming methodology and conventional thinking approaches"
+    }
+  ]
+}

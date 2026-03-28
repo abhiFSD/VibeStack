@@ -1,0 +1,445 @@
+{
+  "report": {
+    "name": "Assembly Line Efficiency Improvement - Kaizen Project",
+    "type": "Kaizen Project Report",
+    "completed": true,
+    "assignedMembers": ["kaizen-facilitator@example.com", "production-manager@example.com", "process-engineer@example.com", "quality-lead@example.com"]
+  },
+  "categories": [
+    {
+      "name": "(Prepare)",
+      "orderIndex": 0,
+      "assignees": ["kaizen-facilitator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "kaizen_business_case_presentation.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "kaizen-facilitator@example.com",
+          "uploadedAt": "2024-01-05T09:00:00Z",
+          "description": "Business case presentation linking assembly line improvement to strategic objectives"
+        }
+      ],
+      "description": "Pre-project preparation phase establishing foundation for successful Kaizen implementation",
+      "statements": [
+        {
+          "name": "Share the Business Case and link to Strategic Direction.",
+          "value": 5
+        },
+        {
+          "name": "Provide Lean/Six Sigma training.",
+          "value": 4
+        },
+        {
+          "name": "Identify and eliminate potential barriers.",
+          "value": 5
+        },
+        {
+          "name": "Create evaluation methods.",
+          "value": 4
+        },
+        {
+          "name": "Determine management engagement.",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Planning",
+      "orderIndex": 1,
+      "assignees": ["process-engineer@example.com", "production-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "kaizen_team_charter_session.jpg",
+          "url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-engineer@example.com",
+          "uploadedAt": "2024-01-08T10:30:00Z",
+          "description": "Kaizen team charter development session with cross-functional team members"
+        },
+        {
+          "id": "attachment-3",
+          "name": "current_state_value_stream_map.jpg",
+          "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-engineer@example.com",
+          "uploadedAt": "2024-01-10T14:15:00Z",
+          "description": "Current state value stream mapping of assembly line process flow"
+        }
+      ],
+      "description": "Comprehensive planning phase with detailed analysis and team formation",
+      "statements": [
+        {
+          "name": "Assemble team with the right knowledge and implement a project charter.",
+          "value": 5
+        },
+        {
+          "name": "Create A3 Report problem statement.",
+          "value": 4
+        },
+        {
+          "name": "Create SIPOC Diagram.",
+          "value": 4
+        },
+        {
+          "name": "Create current state value stream map.",
+          "value": 5
+        },
+        {
+          "name": "Determine cycle time for each step in the process.",
+          "value": 4
+        },
+        {
+          "name": "Perform virtual waste walks.",
+          "value": 4
+        },
+        {
+          "name": "Complete stakeholder analysis.",
+          "value": 5
+        },
+        {
+          "name": "Format everything using PDCA format.",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "PDCA - Implementation",
+      "orderIndex": 2,
+      "assignees": ["quality-lead@example.com", "production-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "kaizen_event_in_progress.jpg",
+          "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-lead@example.com",
+          "uploadedAt": "2024-01-12T11:20:00Z",
+          "description": "Active Kaizen event implementation with team members analyzing assembly line workflow"
+        },
+        {
+          "id": "attachment-5",
+          "name": "before_after_workstation_layout.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "production-supervisor@example.com",
+          "uploadedAt": "2024-01-15T09:45:00Z",
+          "description": "Before and after photos showing improved workstation layout and organization"
+        },
+        {
+          "id": "attachment-6",
+          "name": "pdca_improvement_cycle_board.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-lead@example.com",
+          "uploadedAt": "2024-01-18T13:30:00Z",
+          "description": "PDCA improvement cycle tracking board with daily progress updates"
+        }
+      ],
+      "description": "Systematic implementation using Plan-Do-Check-Act methodology",
+      "statements": [
+        {
+          "name": "Review team goal prior to Kaizen event.",
+          "value": 5
+        },
+        {
+          "name": "Document and take photos of before state.",
+          "value": 5
+        },
+        {
+          "name": "Determine Takt time requirements.",
+          "value": 4
+        },
+        {
+          "name": "Identify the seven types of waste.",
+          "value": 4
+        },
+        {
+          "name": "Update current state map during the event.",
+          "value": 4
+        },
+        {
+          "name": "Meet with stakeholders and keep them informed.",
+          "value": 5
+        },
+        {
+          "name": "Implement 5S.",
+          "value": 5
+        },
+        {
+          "name": "Complete daily recap and present to management.",
+          "value": 4
+        },
+        {
+          "name": "Create PDCA worksheet and update it regularly.",
+          "value": 4
+        },
+        {
+          "name": "Create a training plan.",
+          "value": 4
+        },
+        {
+          "name": "Implement the process.",
+          "value": 5
+        },
+        {
+          "name": "Correct problems as they occur.",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Follow-Up",
+      "orderIndex": 3,
+      "assignees": ["kaizen-facilitator@example.com", "continuous-improvement-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-7",
+          "name": "kaizen_sustainability_dashboard.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "continuous-improvement-manager@example.com",
+          "uploadedAt": "2024-01-22T10:15:00Z",
+          "description": "Kaizen sustainability dashboard showing continued improvement metrics and team performance"
+        }
+      ],
+      "description": "Post-implementation follow-up ensuring sustainment and continuous improvement",
+      "statements": [
+        {
+          "name": "Continue to communicate and stay engaged.",
+          "value": 4
+        },
+        {
+          "name": "Ensure PDCA is complete.",
+          "value": 5
+        },
+        {
+          "name": "Provide ongoing support.",
+          "value": 4
+        },
+        {
+          "name": "Create a Kaizen Event Dashboard.",
+          "value": 4
+        },
+        {
+          "name": "Request feedback on the process.",
+          "value": 4
+        },
+        {
+          "name": "Practice Gemba.",
+          "value": 5
+        },
+        {
+          "name": "Apply Kaizen to Kaizen (improve the improvement process).",
+          "value": 4
+        },
+        {
+          "name": "Provide recognition and rewards to team members.",
+          "value": 5
+        }
+      ]
+    }
+  ],
+  "aiAnalysis": {
+    "overallAssessment": {
+      "maturityLevel": "Exemplary",
+      "projectType": "Assembly Line Efficiency Improvement",
+      "assessmentStatus": "Completed - Outstanding Kaizen Execution"
+    },
+    "keyFindings": [
+      "Excellent Preparation: Outstanding business case linkage and barrier elimination",
+      "Strong Planning Foundation: Comprehensive team formation and detailed analysis work",
+      "Systematic Implementation: Excellent PDCA execution with strong stakeholder engagement",
+      "Robust Follow-Up: Strong sustainment approach with continuous improvement focus",
+      "Leadership Engagement: Exceptional management support throughout all project phases"
+    ],
+    "strengthAreas": [
+      {
+        "category": "(Prepare)",
+        "highlights": "Outstanding strategic alignment and management engagement",
+        "bestPractices": "Clear business case presentation, proactive barrier elimination, strong evaluation methodology"
+      },
+      {
+        "category": "Planning",
+        "highlights": "Comprehensive current state mapping and stakeholder analysis",
+        "bestPractices": "Cross-functional team charter, detailed value stream mapping, thorough stakeholder engagement"
+      },
+      {
+        "category": "PDCA - Implementation",
+        "highlights": "Systematic execution with excellent 5S implementation and stakeholder communication",
+        "bestPractices": "Daily management reviews, comprehensive documentation, proactive problem correction"
+      }
+    ],
+    "improvementOpportunities": [
+      {
+        "category": "Planning",
+        "gaps": "SIPOC diagram and A3 problem statement could be enhanced for even greater clarity",
+        "recommendations": "Implement advanced SIPOC techniques, enhance A3 problem statement specificity, add quantitative analysis elements"
+      },
+      {
+        "category": "PDCA - Implementation",
+        "gaps": "Takt time determination and waste identification could be more systematic",
+        "recommendations": "Implement advanced takt time calculation methods, use waste identification checklists, enhance training plan structure"
+      },
+      {
+        "category": "Follow-Up",
+        "gaps": "Communication continuity and dashboard creation have room for enhancement",
+        "recommendations": "Establish formal communication protocols, implement automated dashboard systems, create feedback loops"
+      }
+    ],
+    "learningPoints": [
+      "Strategic Alignment Success: This project demonstrates how strong business case development and strategic linkage drive exceptional Kaizen outcomes.",
+      "PDCA Methodology Mastery: The systematic application of Plan-Do-Check-Act cycles shows mature understanding of continuous improvement principles.",
+      "Stakeholder Engagement Excellence: Regular stakeholder communication and management reviews create sustainable improvement culture.",
+      "Documentation and Visualization: The emphasis on before/after documentation and visual management enables effective knowledge transfer.",
+      "Sustainment Focus: The comprehensive follow-up approach ensures improvements become permanent organizational capabilities."
+    ],
+    "nextSteps": [
+      "Implement Advanced Value Stream Mapping techniques with detailed waste quantification",
+      "Develop Kaizen Certification Program based on this project's success patterns",
+      "Create Template Library from this project's tools and methodologies for future initiatives",
+      "Establish Kaizen Mentorship Program using team members as internal coaches",
+      "Launch Organization-wide Kaizen Culture Initiative building on this foundation"
+    ],
+    "organizationalMaturity": {
+      "level": "Exemplary (Level 5 of 5)",
+      "characteristics": [
+        "Systematic approach to improvement with strong methodology adherence",
+        "Excellent leadership engagement and cross-functional collaboration",
+        "Mature documentation and knowledge management practices",
+        "Strong sustainment focus with continuous improvement mindset",
+        "Advanced use of lean tools and visual management systems"
+      ],
+      "readinessForAdvancement": "Ready to serve as Kaizen Center of Excellence and mentor other improvement initiatives"
+    },
+    "benchmarkComparison": {
+      "industryAverage": "3.1/5.0",
+      "topPerformers": "3.8/5.0",
+      "positioning": "Significantly exceeds top performer benchmarks, approaching world-class Kaizen execution",
+      "competitiveInsights": "Kaizen capabilities position organization for breakthrough performance improvements"
+    }
+  },
+  "highlightsData": [
+    {
+      "id": "kaizen-highlight-1",
+      "title": "Project Preparation Phase",
+      "description": "<p><strong>Business Case Development:</strong> Exceptional strategic alignment achieved with clear link to organizational objectives and quantifiable impact projections. Management engagement secured with comprehensive resource allocation and barrier elimination.</p><p><strong>Team Formation:</strong> Cross-functional team charter established with clear roles, responsibilities, and success metrics. Expert facilitator assignment and stakeholder communication protocols implemented.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["kaizen-facilitator@example.com", "operations-manager@example.com"]
+    },
+    {
+      "id": "kaizen-highlight-2", 
+      "title": "Planning & Analysis Phase",
+      "description": "<p><strong>Current State Mapping:</strong> Comprehensive value stream mapping and detailed process analysis completed with thorough stakeholder engagement and baseline establishment.</p><p><strong>Root Cause Analysis:</strong> Systematic problem identification using multiple analysis tools including SIPOC diagrams, fishbone analysis, and A3 problem statement development.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["quality-lead@example.com", "process-engineer@example.com"]
+    },
+    {
+      "id": "kaizen-highlight-3",
+      "title": "PDCA Implementation",
+      "description": "<p><strong>Systematic Execution:</strong> Outstanding PDCA execution with daily management reviews, comprehensive documentation, and proactive problem correction throughout implementation.</p><p><strong>Stakeholder Communication:</strong> Excellent communication maintained with all stakeholders including regular progress updates, feedback integration, and collaborative problem-solving.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["quality-lead@example.com", "production-supervisor@example.com"]
+    },
+    {
+      "id": "kaizen-highlight-4",
+      "title": "Sustainment & Follow-Up",
+      "description": "<p><strong>Sustainability Framework:</strong> Robust follow-up approach with continuous improvement focus, regular monitoring systems, and feedback mechanisms to ensure long-term success.</p><p><strong>Knowledge Transfer:</strong> Comprehensive documentation and training programs established to transfer learnings and best practices across the organization.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["kaizen-facilitator@example.com", "continuous-improvement-manager@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "kaizen-ai-1",
+      "title": "Advanced Value Stream Mapping Implementation",
+      "description": "Enhance current VSM techniques with detailed waste quantification, lead time analysis, and digital mapping tools for next-level process optimization",
+      "duedate": "2024-03-15",
+      "status": 0,
+      "assignees": ["process-engineer@example.com", "lean-specialist@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-8",
+          "name": "advanced_vsm_methodology.jpg",
+          "url": "https://images.unsplash.com/photo-1553484771-8966baa92e8b?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "lean-specialist@example.com",
+          "uploadedAt": "2024-01-25T14:20:00Z",
+          "description": "Advanced value stream mapping methodology with digital tools and quantified waste analysis"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Planning",
+      "priority": "High"
+    },
+    {
+      "id": "kaizen-ai-2",
+      "title": "Kaizen Certification Program Development",
+      "description": "Create comprehensive Kaizen facilitator certification program based on successful project methodologies and best practices demonstrated",
+      "duedate": "2024-04-01",
+      "status": 1,
+      "assignees": ["kaizen-facilitator@example.com", "training-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-9",
+          "name": "kaizen_certification_curriculum.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "training-manager@example.com",
+          "uploadedAt": "2024-01-28T11:45:00Z",
+          "description": "Kaizen certification program curriculum design and competency framework"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "(Prepare)",
+      "priority": "High"
+    },
+    {
+      "id": "kaizen-ai-3",
+      "title": "Kaizen Template Library Creation",
+      "description": "Develop comprehensive template library including charter templates, PDCA worksheets, training plans, and dashboard formats for future projects",
+      "duedate": "2024-03-30",
+      "status": 0,
+      "assignees": ["continuous-improvement-manager@example.com", "documentation-specialist@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "PDCA - Implementation",
+      "priority": "Medium"
+    },
+    {
+      "id": "kaizen-ai-4",
+      "title": "Internal Kaizen Mentorship Network",
+      "description": "Establish mentorship program using successful team members as internal coaches for future Kaizen initiatives and capability building",
+      "duedate": "2024-04-15",
+      "status": 0,
+      "assignees": ["hr-development@example.com", "kaizen-facilitator@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Follow-Up",
+      "priority": "Medium"
+    },
+    {
+      "id": "kaizen-ai-5",
+      "title": "Digital Kaizen Dashboard Platform",
+      "description": "Implement digital platform for real-time Kaizen project tracking, metrics visualization, and automated reporting capabilities",
+      "duedate": "2024-05-01",
+      "status": 0,
+      "assignees": ["it-manager@example.com", "continuous-improvement-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Follow-Up",
+      "priority": "Low"
+    }
+  ]
+}

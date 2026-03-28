@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3lfapistorage2b19a34b",
+  "bucketName": "lf-api-storage-2b19a34b",
+  "policyUUID": "a53572d0",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}

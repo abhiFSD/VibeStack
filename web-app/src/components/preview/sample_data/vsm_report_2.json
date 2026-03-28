@@ -1,0 +1,410 @@
+{
+  "report": {
+    "name": "Product Development Workflow - Mixed Performance Analysis",
+    "type": "Value Stream Mapping Report",
+    "completed": false,
+    "assignedMembers": []
+  },
+  "vsmData": {
+    "process": [
+      {
+        "processID": "1704567890_201",
+        "Name": "Requirements Gathering",
+        "CycleTime": "40.0",
+        "CycleTimeUnit": "hours",
+        "CycleEfficiency": "",
+        "Attributes": [
+          {
+            "id": "attr-21",
+            "name": "Stakeholder interviews",
+            "status": "Value Added",
+            "value": "24.0",
+            "unit": "hours"
+          },
+          {
+            "id": "attr-22",
+            "name": "Documentation review",
+            "status": "Value Enabled",
+            "value": "8.0",
+            "unit": "hours"
+          },
+          {
+            "id": "attr-23",
+            "name": "Meeting preparation",
+            "status": "Value Enabled",
+            "value": "4.0",
+            "unit": "hours"
+          },
+          {
+            "id": "attr-24",
+            "name": "Rework due to unclear specs",
+            "status": "Non-value Added",
+            "value": "4.0",
+            "unit": "hours"
+          }
+        ],
+        "Note": "Strong stakeholder engagement but suffers from scope creep and changing requirements.",
+        "CycleTimeIsSumOfAttributes": true,
+        "Images": [
+          "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop"
+        ],
+        "Waste": ["Defects", "Overproduction"]
+      },
+      {
+        "processID": "1704567890_202",
+        "Name": "Design & Prototyping",
+        "CycleTime": "80.0",
+        "CycleTimeUnit": "hours",
+        "CycleEfficiency": "",
+        "Attributes": [
+          {
+            "id": "attr-25",
+            "name": "Concept design",
+            "status": "Value Added",
+            "value": "32.0",
+            "unit": "hours"
+          },
+          {
+            "id": "attr-26",
+            "name": "Prototyping",
+            "status": "Value Added",
+            "value": "28.0",
+            "unit": "hours"
+          },
+          {
+            "id": "attr-27",
+            "name": "Design reviews",
+            "status": "Value Enabled",
+            "value": "12.0",
+            "unit": "hours"
+          },
+          {
+            "id": "attr-28",
+            "name": "Design iterations",
+            "status": "Non-value Added",
+            "value": "8.0",
+            "unit": "hours"
+          }
+        ],
+        "Note": "Highly creative and effective design process with excellent prototyping capabilities.",
+        "CycleTimeIsSumOfAttributes": true,
+        "Images": [
+          "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&h=600&fit=crop",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop"
+        ],
+        "Waste": ["Overproduction", "Defects"]
+      },
+      {
+        "processID": "1704567890_203",
+        "Name": "Development",
+        "CycleTime": "120.0",
+        "CycleTimeUnit": "hours",
+        "CycleEfficiency": "",
+        "Attributes": [
+          {
+            "id": "attr-29",
+            "name": "Core development",
+            "status": "Value Added",
+            "value": "85.0",
+            "unit": "hours"
+          },
+          {
+            "id": "attr-30",
+            "name": "Code reviews",
+            "status": "Value Enabled",
+            "value": "15.0",
+            "unit": "hours"
+          },
+          {
+            "id": "attr-31",
+            "name": "Bug fixes",
+            "status": "Non-value Added",
+            "value": "12.0",
+            "unit": "hours"
+          },
+          {
+            "id": "attr-32",
+            "name": "Waiting for dependencies",
+            "status": "Non-value Added",
+            "value": "8.0",
+            "unit": "hours"
+          }
+        ],
+        "Note": "Strong development practices but dependency management needs improvement.",
+        "CycleTimeIsSumOfAttributes": true,
+        "Images": [
+          "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop",
+          "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop"
+        ],
+        "Waste": ["Waiting", "Defects"]
+      },
+      {
+        "processID": "1704567890_204",
+        "Name": "Testing & QA",
+        "CycleTime": "32.0",
+        "CycleTimeUnit": "hours",
+        "CycleEfficiency": "",
+        "Attributes": [
+          {
+            "id": "attr-33",
+            "name": "Test planning",
+            "status": "Value Enabled",
+            "value": "8.0",
+            "unit": "hours"
+          },
+          {
+            "id": "attr-34",
+            "name": "Test execution",
+            "status": "Value Added",
+            "value": "16.0",
+            "unit": "hours"
+          },
+          {
+            "id": "attr-35",
+            "name": "Defect tracking",
+            "status": "Value Enabled",
+            "value": "4.0",
+            "unit": "hours"
+          },
+          {
+            "id": "attr-36",
+            "name": "Test environment issues",
+            "status": "Non-value Added",
+            "value": "4.0",
+            "unit": "hours"
+          }
+        ],
+        "Note": "Comprehensive testing approach but infrastructure challenges slow progress.",
+        "CycleTimeIsSumOfAttributes": true,
+        "Images": [
+          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+          "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop"
+        ],
+        "Waste": ["Waiting", "Defects"]
+      }
+    ],
+    "inventory": [
+      {
+        "WaitTimeOrInventory": "24",
+        "WaitTimeOrInventoryUnit": "hours",
+        "waste": ["Waiting"]
+      },
+      {
+        "WaitTimeOrInventory": "72",
+        "WaitTimeOrInventoryUnit": "hours",
+        "waste": ["Waiting", "Overproduction"]
+      },
+      {
+        "WaitTimeOrInventory": "48",
+        "WaitTimeOrInventoryUnit": "hours",
+        "waste": ["Waiting", "Defects"]
+      },
+      {
+        "WaitTimeOrInventory": "16",
+        "WaitTimeOrInventoryUnit": "hours",
+        "waste": ["Waiting"]
+      }
+    ],
+    "demandData": {
+      "totalDemand": "12",
+      "timeToProduce": "160",
+      "timeToProduceUnit": "hours"
+    },
+    "informationFlow": "Monthly product planning cycle\n↓\nQuarterly stakeholder review meetings\n↓\nRequirements gathered via multiple channels (email, meetings, docs)\n↓\nDesign handoff through shared drives\n↓\nDevelopment tracked in project management tool\n↓\nTesting coordination via email and meetings\n↓\nRelease planning in separate system\n\nInformation Flow Challenges:\n• Multiple tools create information silos\n• Email-heavy communication slows decisions\n• No real-time progress visibility\n• Manual status reporting creates delays",
+    "kaizenProject": "Product Development Stream Optimization\n\nCurrent Challenge: 432-hour lead time with 63% efficiency\n\nImprovement Focus Areas:\n1. Requirements Definition Process Enhancement\n   - Implement structured requirements templates\n   - Establish change control process\n   - Create stakeholder approval workflows\n\n2. Design-Development Handoff Improvement\n   - Standardize design deliverables\n   - Implement design system components\n   - Create automated handoff processes\n\n3. Dependency Management\n   - Map and track all project dependencies\n   - Implement early warning systems\n   - Create dependency resolution protocols\n\n4. Testing Infrastructure Stabilization\n   - Invest in reliable test environments\n   - Automate environment provisioning\n   - Implement continuous testing practices\n\nTarget Outcomes:\n• Reduce total lead time to 320 hours (25% improvement)\n• Increase value-added percentage to 75%\n• Eliminate major rework cycles\n• Improve cross-functional collaboration",
+    "summaryData": {
+      "totalLeadTime": {
+        "value": "432.00",
+        "unit": "hours"
+      },
+      "totalCycleTime": {
+        "value": "272.00",
+        "unit": "hours"
+      },
+      "cycleTimePercentage": "62.96",
+      "totalWaitTimeOrInventory": {
+        "value": "160.00",
+        "unit": "hours"
+      },
+      "waitTimeOrInventoryDelayPercentage": "37.04"
+    }
+  },
+  "aiAnalysis": {
+    "overallAssessment": {
+      "maturityLevel": "Developing",
+      "valueStreamHealth": "Mixed Performance",
+      "leadTimeEfficiency": "63% (Above Average for Product Development)",
+      "improvementPotential": "Moderate - Focus on waste elimination and flow optimization"
+    },
+    "keyFindings": [
+      "Strong Core Processes: Development and design phases show high value-added content (75% and 90% respectively)",
+      "Requirements Challenge: Initial phase suffers from 10% rework due to unclear specifications",
+      "Dependency Bottlenecks: 20 hours of waiting time in development due to external dependencies",
+      "Infrastructure Issues: Testing phase hampered by environment problems (12.5% of cycle time)",
+      "Balanced Lead Time: 63% efficiency is above typical product development streams (50-60%)"
+    ],
+    "strengthAreas": [
+      {
+        "process": "Design & Prototyping",
+        "highlights": "Exceptional efficiency at 90%, strong creative output, effective prototyping capabilities",
+        "bestPractices": "Collaborative design process, rapid prototyping, structured design reviews"
+      },
+      {
+        "process": "Development",
+        "highlights": "High-quality development practices with 83% efficiency, strong code review culture",
+        "bestPractices": "Systematic development approach, peer reviews, quality-focused methodology"
+      }
+    ],
+    "improvementOpportunities": [
+      {
+        "process": "Requirements Gathering", 
+        "gaps": "10% rework time, scope creep issues, changing requirements",
+        "recommendations": "Implement requirements templates, establish change control, improve stakeholder alignment"
+      },
+      {
+        "process": "Testing & QA",
+        "gaps": "12.5% waste due to infrastructure issues, environment instability",
+        "recommendations": "Invest in reliable test infrastructure, automate environment provisioning, stabilize test platforms"
+      }
+    ],
+    "wasteAnalysis": {
+      "primaryWastes": [
+        {
+          "type": "Defects",
+          "impact": "24 hours across requirements and development phases",
+          "causes": "Unclear specifications, changing requirements, environment issues",
+          "solutions": "Requirements templates, change control, infrastructure investment"
+        },
+        {
+          "type": "Waiting", 
+          "impact": "160 hours of queue time between phases",
+          "causes": "Handoff delays, dependency coordination, resource availability",
+          "solutions": "Improved handoff processes, dependency management, resource planning"
+        },
+        {
+          "type": "Overproduction",
+          "impact": "Over-design and excessive documentation",
+          "causes": "Unclear requirements, perfectionism, gold-plating",
+          "solutions": "Clear acceptance criteria, timeboxing, MVP approach"
+        }
+      ]
+    },
+    "flowMetrics": {
+      "currentState": {
+        "totalLeadTime": "432 hours (54 days)",
+        "valueAddedTime": "272 hours (63%)",
+        "waitTime": "160 hours (37%)",
+        "processCount": "4 major phases",
+        "handoffCount": "3 critical handoffs"
+      },
+      "futureStateTarget": {
+        "totalLeadTime": "320 hours (40 days)",
+        "valueAddedTime": "272 hours (85%)",
+        "waitTime": "48 hours (15%)",
+        "processCount": "4 phases (optimized)",
+        "handoffCount": "2 streamlined handoffs"
+      }
+    },
+    "learningPoints": [
+      "Product Development Complexity: Unlike manufacturing, product development has inherent variability and creative elements that require different optimization approaches",
+      "Knowledge Work Flow: Information and decision flow is as critical as physical process flow in knowledge work environments",
+      "Quality vs Speed Balance: The high efficiency in design and development shows that rushing creative processes often reduces quality without saving time",
+      "Infrastructure Foundation: Reliable tools and environments are essential for consistent flow in technical development work",
+      "Handoff Optimization: In knowledge work, handoffs require rich information transfer, not just physical items"
+    ],
+    "nextSteps": [
+      "Implement Requirements Templates and Change Control Process",
+      "Establish Dependency Tracking and Early Warning System",
+      "Invest in Stable Testing Infrastructure and Automation",
+      "Create Standardized Design-Development Handoff Process",
+      "Develop Real-Time Progress Visibility Dashboard"
+    ],
+    "industryBenchmark": {
+      "currentPerformance": "Above Average",
+      "leadTimeComparison": "432 hours vs industry median of 480-600 hours",
+      "efficiencyGap": "63% vs industry standard of 50-60%",
+      "improvementPotential": "25% lead time reduction with targeted waste elimination"
+    }
+  },
+  "actionItems": [
+    {
+      "id": "vsm-ai-5",
+      "title": "Implement Requirements Template System",
+      "description": "Create standardized requirements templates with acceptance criteria to reduce rework from 4 to 1 hours per project",
+      "duedate": "2024-02-15",
+      "status": 2,
+      "assignees": ["product-manager@example.com", "business-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-vsm-4",
+          "name": "requirements_template_example.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "business-analyst@example.com",
+          "uploadedAt": "2024-01-25T11:20:00Z",
+          "description": "Requirements template structure and format example"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Requirements Management",
+      "priority": "High"
+    },
+    {
+      "id": "vsm-ai-6",
+      "title": "Stabilize Testing Infrastructure",
+      "description": "Upgrade test environment infrastructure to eliminate 4 hours of waste per testing cycle due to environment issues",
+      "duedate": "2024-03-01",
+      "status": 1,
+      "assignees": ["devops-engineer@example.com", "qa-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-vsm-5",
+          "name": "infrastructure_architecture.jpg",
+          "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "devops-engineer@example.com",
+          "uploadedAt": "2024-01-28T15:45:00Z",
+          "description": "Proposed testing infrastructure architecture improvements"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Infrastructure",
+      "priority": "High"
+    },
+    {
+      "id": "vsm-ai-7",
+      "title": "Create Dependency Management System",
+      "description": "Implement dependency tracking dashboard to reduce development waiting time from 8 to 2 hours per cycle",
+      "duedate": "2024-03-15",
+      "status": 0,
+      "assignees": ["project-manager@example.com", "tech-lead@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Project Management",
+      "priority": "Medium"
+    },
+    {
+      "id": "vsm-ai-8",
+      "title": "Optimize Design-Development Handoff",
+      "description": "Standardize design deliverables and create automated handoff process to reduce queue time by 50%",
+      "duedate": "2024-04-01",
+      "status": 0,
+      "assignees": ["design-lead@example.com", "development-lead@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-vsm-6",
+          "name": "handoff_process_design.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "design-lead@example.com",
+          "uploadedAt": "2024-01-30T13:15:00Z",
+          "description": "Proposed design-development handoff process workflow"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Process Optimization",
+      "priority": "Medium"
+    }
+  ]
+}

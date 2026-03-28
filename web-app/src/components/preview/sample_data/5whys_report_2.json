@@ -1,0 +1,484 @@
+{
+  "report": {
+    "name": "Equipment Downtime Analysis - Production Line Delays", 
+    "type": "5 Whys Report",
+    "completed": false,
+    "assignedMembers": [
+      "maintenance-supervisor@example.com",
+      "production-manager@example.com"
+    ]
+  },
+  "categories": [
+    {
+      "id": "5whys-mixed-category-problem",
+      "name": "Problem & Root Cause Analysis",
+      "orderIndex": 0,
+      "assignees": ["production-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-mixed-problem-1",
+          "name": "downtime_tracking_dashboard.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "production-manager@example.com",
+          "uploadedAt": "2024-01-20T11:00:00Z",
+          "description": "Production downtime tracking dashboard showing 8% monthly average vs 2% target"
+        },
+        {
+          "id": "attachment-mixed-problem-2",
+          "name": "equipment_failure_log.jpg",
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "production-manager@example.com",
+          "uploadedAt": "2024-01-20T11:30:00Z",
+          "description": "Detailed equipment failure log documenting recurring issues on Line 3 and Line 5"
+        },
+        {
+          "id": "attachment-mixed-inspection-1",
+          "name": "equipment_condition_assessment.jpg",
+          "url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "maintenance-supervisor@example.com",
+          "uploadedAt": "2024-01-20T14:30:00Z",
+          "description": "Visual inspection findings showing excessive wear on conveyor bearings and motor assemblies"
+        },
+        {
+          "id": "attachment-mixed-schedule-1",
+          "name": "maintenance_schedule_review.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "maintenance-supervisor@example.com",
+          "uploadedAt": "2024-01-21T09:15:00Z",
+          "description": "Current maintenance schedule analysis highlighting gaps in preventive maintenance coverage"
+        }
+      ],
+      "description": "Equipment downtime investigation using 5 Whys methodology - focused on production efficiency loss",
+      "statements": [
+        {
+          "id": "statement-mixed-problem",
+          "name": "Production line downtime has increased from 2% to 8% over the past month (January 2024), resulting in $45,000 in lost productivity, missed delivery commitments to 3 key customers, and 120 hours of unplanned overtime costs. Primary failures occurring on Line 3 (conveyor system) and Line 5 (packaging equipment).",
+          "value": 4,
+          "default": false,
+          "owner": "production-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why1",
+          "name": "Why is the production line experiencing increased downtime?",
+          "value": 3,
+          "default": false,
+          "owner": "production-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why1-answer",
+          "name": "Because critical equipment components (conveyor bearings, packaging motor assemblies, and pneumatic cylinders) are failing more frequently than historical averages. Inspection data shows 15 component failures in January vs. 4 in December, with failure patterns indicating wear beyond expected maintenance intervals.",
+          "value": 3,
+          "default": false,
+          "owner": "maintenance-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why2",
+          "name": "Why are components failing more frequently than expected?",
+          "value": 3,
+          "default": false,
+          "owner": "production-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why2-answer",
+          "name": "Because the current preventive maintenance intervals (established 18 months ago for 8-hour shifts) have not been adjusted for the new 12-hour, 6-day production schedule implemented in Q4 2023. Equipment is now running 50% more hours than the maintenance plan accounts for, and some scheduled maintenance tasks are being deferred due to production pressure.",
+          "value": 3,
+          "default": false,
+          "owner": "maintenance-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why3",
+          "name": "Why weren't maintenance intervals updated when production schedules changed?",
+          "value": 2,
+          "default": false,
+          "owner": "production-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why3-answer",
+          "name": "Because there is no formal process requiring maintenance schedule reviews when production parameters change. The production increase was implemented rapidly to meet Q4 demand, and maintenance planning was not included in the change management process. Engineering focused on capacity but not on maintenance implications.",
+          "value": 2,
+          "default": false,
+          "owner": "maintenance-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why4",
+          "name": "Why is there no formal process for maintenance schedule reviews during production changes?",
+          "value": 1,
+          "default": false,
+          "owner": "production-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why4-answer",
+          "name": "Because maintenance planning has historically been treated as a separate function from production planning. The change management procedure focuses on production capacity and quality impacts but does not include maintenance workload assessment. Communication between production and maintenance teams occurs reactively rather than proactively.",
+          "value": 1,
+          "default": false,
+          "owner": "maintenance-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why5",
+          "name": "Why are maintenance and production planning treated as separate functions?",
+          "value": 0,
+          "default": false,
+          "owner": "production-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why5-answer",
+          "name": "Because the organizational structure and KPI systems incentivize departments to optimize their individual metrics rather than overall equipment effectiveness. Production is measured on output volume and schedule adherence, while maintenance is measured on cost control and response time. There are no shared accountability metrics for overall equipment reliability and no regular cross-functional planning meetings.",
+          "value": 0,
+          "default": false,
+          "owner": "maintenance-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        }
+      ]
+    },
+    {
+      "id": "5whys-mixed-category-problem-2",
+      "name": "Problem & Root Cause Analysis",
+      "orderIndex": 1,
+      "assignees": ["quality-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-mixed-problem2-1",
+          "name": "defect_rate_report.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-supervisor@example.com",
+          "uploadedAt": "2024-01-22T09:00:00Z",
+          "description": "Monthly defect rate report showing 6.5% rejection rate vs 3% target"
+        },
+        {
+          "id": "attachment-mixed-problem2-2",
+          "name": "rework_cost_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "cost-analyst@example.com",
+          "uploadedAt": "2024-01-22T11:30:00Z",
+          "description": "Rework cost analysis showing $22,000 monthly impact from quality issues"
+        }
+      ],
+      "description": "Product quality defect investigation using 5 Whys methodology",
+      "statements": [
+        {
+          "id": "statement-mixed-problem-2",
+          "name": "Product defect rates have increased to 6.5% in January 2024, well above our 3% target. This is resulting in $22,000 monthly rework costs, customer complaints, and delayed shipments affecting our delivery performance.",
+          "value": 4,
+          "default": false,
+          "owner": "quality-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why1-2",
+          "name": "Why have product defect rates increased?",
+          "value": 3,
+          "default": false,
+          "owner": "quality-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why1-answer-2",
+          "name": "Because inspection processes are catching defects late in production rather than preventing them, leading to more rework and scrap after significant value has been added.",
+          "value": 3,
+          "default": false,
+          "owner": "quality-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why2-2",
+          "name": "Why are defects being caught late rather than prevented early?",
+          "value": 2,
+          "default": false,
+          "owner": "quality-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why2-answer-2",
+          "name": "Because operators lack real-time feedback on process parameters and quality indicators, so deviations continue undetected until final inspection.",
+          "value": 2,
+          "default": false,
+          "owner": "process-engineer@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why3-2",
+          "name": "Why don't operators have real-time process feedback?",
+          "value": 1,
+          "default": false,
+          "owner": "quality-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why3-answer-2",
+          "name": "Because the production monitoring system displays only basic output metrics but doesn't integrate quality parameters or provide alerts when processes drift outside control limits.",
+          "value": 1,
+          "default": false,
+          "owner": "process-engineer@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why4-2",
+          "name": "Why doesn't the monitoring system integrate quality parameters?",
+          "value": 1,
+          "default": false,
+          "owner": "quality-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why4-answer-2",
+          "name": "Because the system was designed primarily for production tracking rather than quality control, and quality data remains in separate systems without integration to operations displays.",
+          "value": 1,
+          "default": false,
+          "owner": "it-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why5-2",
+          "name": "Why were production and quality systems designed separately?",
+          "value": 0,
+          "default": false,
+          "owner": "quality-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why5-answer-2",
+          "name": "Because system procurement decisions were made by individual departments optimizing their specific needs rather than following an integrated approach to manufacturing operations management.",
+          "value": 0,
+          "default": false,
+          "owner": "it-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        }
+      ]
+    },
+    {
+      "id": "5whys-mixed-category-problem-3",
+      "name": "Problem & Root Cause Analysis",
+      "orderIndex": 2,
+      "assignees": ["safety-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-mixed-problem3-1",
+          "name": "incident_report_summary.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "safety-coordinator@example.com",
+          "uploadedAt": "2024-01-23T08:30:00Z",
+          "description": "Monthly safety incident summary showing 3 minor injuries and 2 near-miss events"
+        },
+        {
+          "id": "attachment-mixed-problem3-2",
+          "name": "safety_audit_findings.jpg",
+          "url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "safety-coordinator@example.com",
+          "uploadedAt": "2024-01-23T14:15:00Z",
+          "description": "Safety audit findings highlighting gaps in PPE compliance and procedure adherence"
+        }
+      ],
+      "description": "Workplace safety incident investigation using 5 Whys methodology",
+      "statements": [
+        {
+          "id": "statement-mixed-problem-3",
+          "name": "Workplace safety incidents have increased to 5 events in January (3 minor injuries, 2 near-misses), above our target of zero incidents. This trend indicates potential safety culture issues and regulatory compliance risks.",
+          "value": 4,
+          "default": false,
+          "owner": "safety-coordinator@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why1-3",
+          "name": "Why are safety incidents occurring more frequently?",
+          "value": 3,
+          "default": false,
+          "owner": "safety-coordinator@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why1-answer-3",
+          "name": "Because workers are not consistently following established safety procedures, particularly regarding PPE usage and lockout/tagout protocols during equipment maintenance.",
+          "value": 3,
+          "default": false,
+          "owner": "safety-coordinator@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why2-3",
+          "name": "Why aren't workers following safety procedures consistently?",
+          "value": 2,
+          "default": false,
+          "owner": "safety-coordinator@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why2-answer-3",
+          "name": "Because safety procedure compliance is not regularly monitored or enforced, and workers perceive that productivity pressures take priority over safety protocols.",
+          "value": 2,
+          "default": false,
+          "owner": "production-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why3-3",
+          "name": "Why do workers perceive productivity pressures override safety?",
+          "value": 2,
+          "default": false,
+          "owner": "safety-coordinator@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why3-answer-3",
+          "name": "Because supervisor performance metrics focus primarily on output and schedule adherence, with limited emphasis on safety performance indicators or leading safety metrics.",
+          "value": 2,
+          "default": false,
+          "owner": "production-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why4-3",
+          "name": "Why don't supervisor metrics emphasize safety performance?",
+          "value": 1,
+          "default": false,
+          "owner": "safety-coordinator@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why4-answer-3",
+          "name": "Because organizational KPI systems were designed to drive short-term operational results and safety metrics are viewed as lagging indicators rather than integrated performance drivers.",
+          "value": 1,
+          "default": false,
+          "owner": "operations-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why5-3",
+          "name": "Why are safety metrics treated as separate from operational performance?",
+          "value": 0,
+          "default": false,
+          "owner": "safety-coordinator@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-mixed-why5-answer-3",
+          "name": "Because the organization's management culture views safety as a compliance requirement rather than a fundamental business driver, leading to separate tracking systems and disconnected accountability structures.",
+          "value": 0,
+          "default": false,
+          "owner": "operations-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "5whys-mixed-action-1",
+      "title": "Implement Integrated Production-Maintenance Planning Process",
+      "description": "Establish formal process requiring maintenance impact assessment for all production schedule changes, including workload analysis, interval adjustments, and resource planning",
+      "duedate": "2024-03-15",
+      "status": 1,
+      "assignees": ["production-manager@example.com", "maintenance-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "mixed-action-attachment-1",
+          "name": "integrated_planning_framework.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-engineer@example.com",
+          "uploadedAt": "2024-01-22T14:30:00Z",
+          "description": "Integrated production-maintenance planning framework with decision gates and review triggers"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Process Integration",
+      "priority": "High"
+    },
+    {
+      "id": "5whys-mixed-action-2",
+      "title": "Recalibrate Maintenance Intervals for Current Production Schedule",
+      "description": "Analyze equipment usage patterns under 12-hour schedule and adjust all preventive maintenance intervals, frequencies, and resource requirements accordingly",
+      "duedate": "2024-02-28",
+      "status": 0,
+      "assignees": ["maintenance-supervisor@example.com", "reliability-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "mixed-action-attachment-2",
+          "name": "maintenance_interval_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "reliability-engineer@example.com",
+          "uploadedAt": "2024-01-22T16:00:00Z",
+          "description": "Detailed analysis of required maintenance interval adjustments for extended production schedule"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Maintenance Optimization",
+      "priority": "High"
+    },
+    {
+      "id": "5whys-mixed-action-3",
+      "title": "Establish Shared Equipment Effectiveness Metrics",
+      "description": "Develop and implement Overall Equipment Effectiveness (OEE) metrics shared between production and maintenance with joint accountability for reliability targets",
+      "duedate": "2024-04-30",
+      "status": 0,
+      "assignees": ["operations-manager@example.com", "maintenance-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "mixed-action-attachment-3",
+          "name": "oee_dashboard_design.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "data-analyst@example.com",
+          "uploadedAt": "2024-01-22T17:15:00Z",
+          "description": "OEE dashboard mockup showing integrated production and maintenance performance metrics"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Performance Management",
+      "priority": "Medium"
+    },
+    {
+      "id": "5whys-mixed-action-4",
+      "title": "Conduct Emergency Equipment Condition Assessment",
+      "description": "Perform immediate comprehensive condition assessment of all critical equipment to identify and address components at risk of failure",
+      "duedate": "2024-02-15",
+      "status": 2,
+      "assignees": ["maintenance-supervisor@example.com", "vibration-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "mixed-action-attachment-4",
+          "name": "condition_assessment_checklist.jpg",
+          "url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "vibration-analyst@example.com",
+          "uploadedAt": "2024-01-22T18:00:00Z",
+          "description": "Comprehensive equipment condition assessment checklist and inspection procedures"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Immediate Response",
+      "priority": "High"
+    },
+    {
+      "id": "5whys-mixed-action-5",
+      "title": "Implement Weekly Cross-Functional Planning Meetings",
+      "description": "Establish weekly production-maintenance coordination meetings to review upcoming schedules, maintenance windows, and resource requirements",
+      "duedate": "2024-02-29",
+      "status": 1,
+      "assignees": ["production-manager@example.com", "maintenance-supervisor@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Communication",
+      "priority": "Medium"
+    }
+  ]
+}

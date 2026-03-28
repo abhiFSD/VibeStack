@@ -1,0 +1,512 @@
+{
+  "report": {
+    "name": "Customer Support Ticket Resolution - Critical Issues",
+    "type": "Value Stream Mapping Report",
+    "completed": false,
+    "assignedMembers": []
+  },
+  "vsmData": {
+    "process": [
+      {
+        "processID": "1704999888_301",
+        "Name": "Ticket Creation",
+        "CycleTime": "25.0",
+        "CycleTimeUnit": "minutes",
+        "CycleEfficiency": "",
+        "Attributes": [
+          {
+            "id": "attr-41",
+            "name": "Customer contact",
+            "status": "Value Added",
+            "value": "5.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-42",
+            "name": "Information gathering",
+            "status": "Value Enabled",
+            "value": "8.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-43",
+            "name": "System navigation delays",
+            "status": "Non-value Added",
+            "value": "7.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-44",
+            "name": "Duplicate data entry",
+            "status": "Non-value Added",
+            "value": "3.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-45",
+            "name": "System crashes/restarts",
+            "status": "Non-value Added",
+            "value": "2.0",
+            "unit": "minutes"
+          }
+        ],
+        "Note": "Outdated ticketing system causes significant delays. Frequent system crashes interrupt workflow.",
+        "CycleTimeIsSumOfAttributes": true,
+        "Images": [
+          "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop",
+          "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop"
+        ],
+        "Waste": ["Waiting", "Motion", "Defects"]
+      },
+      {
+        "processID": "1704999888_302",
+        "Name": "Initial Triage",
+        "CycleTime": "35.0",
+        "CycleTimeUnit": "minutes",
+        "CycleEfficiency": "",
+        "Attributes": [
+          {
+            "id": "attr-46",
+            "name": "Ticket review",
+            "status": "Value Added",
+            "value": "10.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-47",
+            "name": "Priority assignment",
+            "status": "Value Enabled",
+            "value": "5.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-48",
+            "name": "Searching for similar tickets",
+            "status": "Non-value Added",
+            "value": "12.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-49",
+            "name": "Manager approval waiting",
+            "status": "Non-value Added",
+            "value": "6.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-50",
+            "name": "Re-categorization rework",
+            "status": "Non-value Added",
+            "value": "2.0",
+            "unit": "minutes"
+          }
+        ],
+        "Note": "Manual triage process with poor search capabilities. Manager approval required for all tickets.",
+        "CycleTimeIsSumOfAttributes": true,
+        "Images": [
+          "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop",
+          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+        ],
+        "Waste": ["Waiting", "Overprocessing", "Motion"]
+      },
+      {
+        "processID": "1704999888_303",
+        "Name": "Assignment & Research",
+        "CycleTime": "45.0",
+        "CycleTimeUnit": "minutes",
+        "CycleEfficiency": "",
+        "Attributes": [
+          {
+            "id": "attr-51",
+            "name": "Agent assignment",
+            "status": "Value Enabled",
+            "value": "3.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-52",
+            "name": "Problem research",
+            "status": "Value Added",
+            "value": "15.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-53",
+            "name": "Knowledge base search",
+            "status": "Value Enabled",
+            "value": "8.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-54",
+            "name": "Multiple system logins",
+            "status": "Non-value Added",
+            "value": "8.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-55",
+            "name": "Incomplete information requests",
+            "status": "Non-value Added",
+            "value": "6.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-56",
+            "name": "Tool switching delays",
+            "status": "Non-value Added",
+            "value": "5.0",
+            "unit": "minutes"
+          }
+        ],
+        "Note": "Multiple disconnected systems require separate logins. Knowledge base is outdated and hard to search.",
+        "CycleTimeIsSumOfAttributes": true,
+        "Images": [
+          "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=600&fit=crop",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop"
+        ],
+        "Waste": ["Motion", "Waiting", "Overprocessing"]
+      },
+      {
+        "processID": "1704999888_304",
+        "Name": "Resolution & Testing",
+        "CycleTime": "40.0",
+        "CycleTimeUnit": "minutes",
+        "CycleEfficiency": "",
+        "Attributes": [
+          {
+            "id": "attr-57",
+            "name": "Solution implementation",
+            "status": "Value Added",
+            "value": "20.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-58",
+            "name": "Solution testing",
+            "status": "Value Enabled",
+            "value": "8.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-59",
+            "name": "Documentation update",
+            "status": "Value Enabled",
+            "value": "5.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-60",
+            "name": "System access issues",
+            "status": "Non-value Added",
+            "value": "4.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-61",
+            "name": "Multiple approval steps",
+            "status": "Non-value Added",
+            "value": "3.0",
+            "unit": "minutes"
+          }
+        ],
+        "Note": "Solution implementation is effective but hampered by system access problems and bureaucratic approvals.",
+        "CycleTimeIsSumOfAttributes": true,
+        "Images": [
+          "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop",
+          "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+        ],
+        "Waste": ["Waiting", "Motion", "Overprocessing"]
+      },
+      {
+        "processID": "1704999888_305",
+        "Name": "Customer Communication",
+        "CycleTime": "20.0",
+        "CycleTimeUnit": "minutes",
+        "CycleEfficiency": "",
+        "Attributes": [
+          {
+            "id": "attr-62",
+            "name": "Solution communication",
+            "status": "Value Added",
+            "value": "8.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-63",
+            "name": "Follow-up scheduling",
+            "status": "Value Enabled",
+            "value": "3.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-64",
+            "name": "Template customization",
+            "status": "Non-value Added",
+            "value": "5.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-65",
+            "name": "System status updates",
+            "status": "Non-value Added",
+            "value": "2.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-66",
+            "name": "Email formatting issues",
+            "status": "Non-value Added",
+            "value": "2.0",
+            "unit": "minutes"
+          }
+        ],
+        "Note": "Communication templates are outdated and require manual customization. Email system integration is poor.",
+        "CycleTimeIsSumOfAttributes": true,
+        "Images": [
+          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+          "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop"
+        ],
+        "Waste": ["Overprocessing", "Motion", "Defects"]
+      }
+    ],
+    "inventory": [
+      {
+        "WaitTimeOrInventory": "180",
+        "WaitTimeOrInventoryUnit": "minutes",
+        "waste": ["Waiting", "Overproduction"]
+      },
+      {
+        "WaitTimeOrInventory": "240",
+        "WaitTimeOrInventoryUnit": "minutes",
+        "waste": ["Waiting", "Motion"]
+      },
+      {
+        "WaitTimeOrInventory": "360",
+        "WaitTimeOrInventoryUnit": "minutes",
+        "waste": ["Waiting", "Defects", "Overprocessing"]
+      },
+      {
+        "WaitTimeOrInventory": "120",
+        "WaitTimeOrInventoryUnit": "minutes",
+        "waste": ["Waiting"]
+      },
+      {
+        "WaitTimeOrInventory": "480",
+        "WaitTimeOrInventoryUnit": "minutes",
+        "waste": ["Waiting", "Inventory", "Motion"]
+      }
+    ],
+    "demandData": {
+      "totalDemand": "150",
+      "timeToProduce": "480",
+      "timeToProduceUnit": "minutes"
+    },
+    "informationFlow": "Customer support requests via multiple channels (phone, email, chat, portal)\n↓\nManual ticket creation in legacy system\n↓\nDaily batch processing for triage\n↓\nManual assignment based on availability\n↓\nMultiple system checks for customer history\n↓\nManual status updates via email\n↓\nWeekly reporting through spreadsheets\n\nMajor Information Flow Problems:\n• No unified customer view across systems\n• Manual status updates create delays\n• Legacy systems don't communicate\n• No real-time reporting or dashboards\n• Email-heavy communication slows decisions\n• Knowledge base is fragmented and outdated",
+    "kaizenProject": "Customer Support Stream Transformation - Critical Improvement Initiative\n\nCurrent Crisis: 1545-minute (25.75-hour) lead time with only 32% efficiency\n\nRoot Cause Analysis:\n• Legacy system constraints cause 68% waste\n• Manual processes dominate workflow\n• Disconnected systems force redundant work\n• Poor information flow creates bottlenecks\n• Lack of automation increases errors\n\nTransformation Strategy:\n\n1. IMMEDIATE ACTIONS (30 days)\n   - Implement single sign-on for all support tools\n   - Create unified customer dashboard\n   - Eliminate manager approval for routine tickets\n   - Update knowledge base with current solutions\n\n2. SHORT-TERM IMPROVEMENTS (90 days)\n   - Deploy modern ticketing system with automation\n   - Integrate all customer-facing systems\n   - Implement auto-routing based on ticket type\n   - Create real-time performance dashboards\n\n3. LONG-TERM OPTIMIZATION (180 days)\n   - Implement AI-powered ticket categorization\n   - Deploy chatbot for common issues\n   - Create self-service customer portal\n   - Establish continuous improvement processes\n\nTarget Outcomes:\n• Reduce lead time from 25.75 hours to 8 hours (69% improvement)\n• Increase efficiency from 32% to 70%\n• Improve customer satisfaction by 40%\n• Reduce support costs by 30%\n• Eliminate 80% of manual, repetitive tasks",
+    "summaryData": {
+      "totalLeadTime": {
+        "value": "1545.00",
+        "unit": "minutes"
+      },
+      "totalCycleTime": {
+        "value": "165.00",
+        "unit": "minutes"
+      },
+      "cycleTimePercentage": "10.68",
+      "totalWaitTimeOrInventory": {
+        "value": "1380.00",
+        "unit": "minutes"
+      },
+      "waitTimeOrInventoryDelayPercentage": "89.32"
+    }
+  },
+  "aiAnalysis": {
+    "overallAssessment": {
+      "maturityLevel": "Needs Major Improvement",
+      "valueStreamHealth": "Critical Issues - Immediate Action Required",
+      "leadTimeEfficiency": "10.7% (Far Below Industry Standards)",
+      "improvementPotential": "Extremely High - 69% lead time reduction possible"
+    },
+    "keyFindings": [
+      "Critical Efficiency Crisis: Only 10.7% of time is value-added, indicating severe systemic problems",
+      "Excessive Wait Times: 89% of total lead time (23 hours) is pure waste with no customer value",
+      "Legacy System Burden: Outdated technology creates 40% of total cycle time waste",
+      "Manual Process Dominance: Lack of automation forces repetitive, error-prone manual work",
+      "Customer Impact: 25.75-hour resolution time severely damages customer satisfaction and retention"
+    ],
+    "strengthAreas": [
+      {
+        "process": "Resolution & Testing",
+        "highlights": "Core problem-solving skills are strong with 82% value-added content",
+        "bestPractices": "Systematic solution implementation, thorough testing, good documentation practices"
+      },
+      {
+        "process": "Customer Communication",
+        "highlights": "55% efficiency shows good communication intent despite system limitations",
+        "bestPractices": "Focus on customer clarity, follow-up scheduling, solution explanation"
+      }
+    ],
+    "improvementOpportunities": [
+      {
+        "process": "Ticket Creation",
+        "gaps": "48% waste due to system delays, crashes, and duplicate data entry",
+        "recommendations": "Replace legacy ticketing system, implement single data entry, upgrade infrastructure"
+      },
+      {
+        "process": "Initial Triage",
+        "gaps": "57% waste from manual searches, approval delays, and rework",
+        "recommendations": "Automate triage using AI, eliminate approval bottlenecks, improve search capabilities"
+      },
+      {
+        "process": "Assignment & Research",
+        "gaps": "42% waste from system navigation, tool switching, and access issues",
+        "recommendations": "Implement single sign-on, create unified dashboard, integrate knowledge base"
+      }
+    ],
+    "wasteAnalysis": {
+      "primaryWastes": [
+        {
+          "type": "Waiting",
+          "impact": "1380 minutes (89% of total lead time)",
+          "causes": "Queue delays, approval processes, system downtime, handoff delays",
+          "solutions": "Automated routing, eliminate approvals, system integration, real-time processing"
+        },
+        {
+          "type": "Motion",
+          "impact": "Excessive system switching and navigation (25+ minutes per ticket)",
+          "causes": "Disconnected systems, poor UI design, multiple logins required",
+          "solutions": "Single sign-on, unified interface, system integration, improved UX design"
+        },
+        {
+          "type": "Overprocessing",
+          "impact": "Redundant approvals, duplicate data entry, manual status updates",
+          "causes": "Bureaucratic processes, poor system integration, manual workflows",
+          "solutions": "Process simplification, automation, workflow optimization, role-based access"
+        },
+        {
+          "type": "Defects",
+          "impact": "System crashes, incorrect categorization, incomplete information",
+          "causes": "Legacy technology, inadequate training, poor data quality",
+          "solutions": "System modernization, training programs, data validation, quality controls"
+        }
+      ]
+    },
+    "flowMetrics": {
+      "currentState": {
+        "totalLeadTime": "1545 minutes (25.75 hours)",
+        "valueAddedTime": "165 minutes (10.7%)",
+        "waitTime": "1380 minutes (89.3%)",
+        "processCount": "5 manual-heavy processes",
+        "handoffCount": "4 major bottlenecks"
+      },
+      "futureStateTarget": {
+        "totalLeadTime": "480 minutes (8 hours)", 
+        "valueAddedTime": "165 minutes (34%)",
+        "waitTime": "315 minutes (66%)",
+        "processCount": "3 automated processes",
+        "handoffCount": "1 streamlined handoff"
+      }
+    },
+    "learningPoints": [
+      "Technology Debt Impact: This VSM demonstrates how legacy systems can completely dominate and destroy value stream efficiency",
+      "Cascade Effect of Poor Systems: Each system limitation multiplies across the entire value stream, creating exponential waste",
+      "Manual Process Trap: Without automation, even skilled workers become trapped in repetitive, low-value activities",
+      "Customer Experience Correlation: Poor internal flow directly translates to poor customer experience and business impact",
+      "Transformation Urgency: When efficiency drops below 15%, immediate systematic intervention is required to prevent business damage"
+    ],
+    "nextSteps": [
+      "URGENT: Replace Legacy Ticketing System within 30 days",
+      "Implement Single Sign-On and System Integration immediately",
+      "Eliminate Manager Approval Requirements for routine tickets",
+      "Deploy Automated Ticket Routing and Categorization",
+      "Create Unified Customer Dashboard with Real-Time Status"
+    ],
+    "industryBenchmark": {
+      "currentPerformance": "Critical - Far Below Standards",
+      "leadTimeComparison": "1545 minutes vs industry standard of 240-480 minutes",
+      "efficiencyGap": "10.7% vs industry minimum of 40-50%",
+      "improvementPotential": "69% lead time reduction with systematic technology and process improvements"
+    }
+  },
+  "actionItems": [
+    {
+      "id": "vsm-ai-9",
+      "title": "URGENT: Replace Legacy Ticketing System",
+      "description": "Implement modern cloud-based ticketing system to eliminate 48% waste in ticket creation process",
+      "duedate": "2024-02-01",
+      "status": 1,
+      "assignees": ["it-director@example.com", "support-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-vsm-7",
+          "name": "system_replacement_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "it-director@example.com",
+          "uploadedAt": "2024-01-10T09:00:00Z",
+          "description": "Critical system replacement implementation plan"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Technology Infrastructure",
+      "priority": "High"
+    },
+    {
+      "id": "vsm-ai-10",
+      "title": "Implement Single Sign-On Integration",
+      "description": "Deploy SSO to eliminate 8+ minutes of system navigation delays per ticket",
+      "duedate": "2024-01-25",
+      "status": 2,
+      "assignees": ["security-admin@example.com", "systems-integrator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-vsm-8",
+          "name": "sso_architecture.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "security-admin@example.com",
+          "uploadedAt": "2024-01-12T14:30:00Z",
+          "description": "Single sign-on system architecture and integration points"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "System Integration",
+      "priority": "High"
+    },
+    {
+      "id": "vsm-ai-11", 
+      "title": "Eliminate Manual Approval Bottlenecks",
+      "description": "Remove manager approval requirement for routine tickets to reduce triage waste by 57%",
+      "duedate": "2024-01-20",
+      "status": 3,
+      "assignees": ["operations-manager@example.com", "support-director@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Process Simplification",
+      "priority": "High"
+    },
+    {
+      "id": "vsm-ai-12",
+      "title": "Deploy Automated Ticket Routing",
+      "description": "Implement AI-powered ticket categorization and routing to reduce manual assignment time",
+      "duedate": "2024-03-01",
+      "status": 0,
+      "assignees": ["ai-specialist@example.com", "workflow-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-vsm-9",
+          "name": "ai_routing_flowchart.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "ai-specialist@example.com",
+          "uploadedAt": "2024-01-15T16:45:00Z",
+          "description": "Automated ticket routing and AI categorization workflow"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Process Automation",
+      "priority": "Medium"
+    }
+  ]
+}

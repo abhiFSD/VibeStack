@@ -1,0 +1,22 @@
+Now let's get started with the Brainstorming report.
+
+The Brainstorming report provides a structured way to capture and organize ideas generated during brainstorming sessions.
+
+At the top, you'll see the Action Items section for tracking follow-up actions based on your brainstorming results.
+
+**Data Entry Interface**
+Below that, you'll find a data table for capturing brainstorming ideas:
+
+Click "Add" to create new idea entries. For each idea, you'll provide:
+- **TEXT**: A concise title or summary of the idea
+- **Color**: A color that you like.
+
+Double-click to edit the idea or delete it like this. 
+
+It’s a simple drag-and-drop canvas to arrange your ideas in one place and share with team members. 
+
+The PDF provides professional documentation for innovation meetings, project planning, and creative problem-solving initiatives.
+
+That's it for the Brainstorming report. It's a valuable tool for capturing and organizing creative ideas. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

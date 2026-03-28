@@ -1,0 +1,322 @@
+{
+  "report": {
+    "name": "Assembly Line Station 3 - Mistake Proofing Assessment",
+    "type": "Mistake Proofing Report",
+    "completed": true,
+    "assignedMembers": ["quality-engineer@example.com", "production-supervisor@example.com", "process-analyst@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Incorrect Part Selection",
+      "orderIndex": 0,
+      "assignees": ["assembly-tech@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "part_selection_poka_yoke.jpg",
+          "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-engineer@example.com",
+          "uploadedAt": "2024-01-05T08:30:00Z",
+          "description": "Poka-yoke fixture preventing incorrect part selection on assembly line"
+        }
+      ],
+      "description": "Risk of assembling wrong parts due to similar appearance or inadequate identification systems",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 2
+        },
+        {
+          "name": "Consequences Score", 
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Cross-threading of Fasteners",
+      "orderIndex": 1,
+      "assignees": ["assembly-tech@example.com", "quality-inspector@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "torque_wrench_setup.jpg",
+          "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "assembly-tech@example.com",
+          "uploadedAt": "2024-01-08T14:15:00Z",
+          "description": "Calibrated torque wrench with preset stops to prevent cross-threading"
+        }
+      ],
+      "description": "Potential for cross-threading bolts or screws during assembly process",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 1
+        },
+        {
+          "name": "Consequences Score",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Electrical Connection Error",
+      "orderIndex": 2,
+      "assignees": ["electrical-tech@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "color_coded_connectors.jpg",
+          "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "electrical-tech@example.com",
+          "uploadedAt": "2024-01-10T11:20:00Z",
+          "description": "Color-coded electrical connectors to prevent mis-wiring"
+        }
+      ],
+      "description": "Risk of incorrect electrical connections causing functional or safety issues",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 1
+        },
+        {
+          "name": "Consequences Score",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Missing Quality Inspection",
+      "orderIndex": 3,
+      "assignees": ["quality-inspector@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "inspection_checklist_board.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-inspector@example.com",
+          "uploadedAt": "2024-01-12T09:45:00Z",
+          "description": "Visual inspection checklist board with mandatory sign-offs"
+        }
+      ],
+      "description": "Units proceeding without required quality inspection checkpoints",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 1
+        },
+        {
+          "name": "Consequences Score",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Tool Calibration Failure",
+      "orderIndex": 4,
+      "assignees": ["maintenance-tech@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-5",
+          "name": "calibration_tracking_system.jpg",
+          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "maintenance-tech@example.com",
+          "uploadedAt": "2024-01-15T13:30:00Z",
+          "description": "Digital tool calibration tracking system with expiration alerts"
+        }
+      ],
+      "description": "Using uncalibrated or out-of-tolerance tools affecting product quality",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 2
+        },
+        {
+          "name": "Consequences Score",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Documentation Error",
+      "orderIndex": 5,
+      "assignees": ["documentation-clerk@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-6",
+          "name": "barcode_scanning_system.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "documentation-clerk@example.com",
+          "uploadedAt": "2024-01-18T10:00:00Z",
+          "description": "Automated barcode scanning system to eliminate manual data entry errors"
+        }
+      ],
+      "description": "Incorrect manual data entry or documentation leading to traceability issues",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 2
+        },
+        {
+          "name": "Consequences Score",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "aiAnalysis": {
+    "overallAssessment": {
+      "maturityLevel": "Advanced",
+      "riskPriorityScore": "34/60",
+      "areaType": "Assembly Line Station 3",
+      "assessmentStatus": "Completed - Low Risk Profile"
+    },
+    "keyFindings": [
+      "Excellent Risk Mitigation: Low potential scores (1-2) across all failure modes indicate strong preventive controls",
+      "Critical Risk Focus: Electrical connection errors pose highest consequence risk (5/5) but with excellent controls",
+      "Systematic Approach: Comprehensive mistake-proofing controls cover all major failure modes",
+      "Technology Integration: Automated systems reduce human error potential in key processes",
+      "Quality Gates: Multiple inspection checkpoints prevent defects from advancing"
+    ],
+    "strengthAreas": [
+      {
+        "category": "Electrical Connection Error",
+        "highlights": "Color-coded connectors eliminate mis-wiring, critical safety risk well controlled",
+        "bestPractices": "Visual coding system, standardized connectors, automated testing verification"
+      },
+      {
+        "category": "Cross-threading of Fasteners",
+        "highlights": "Torque wrenches with preset stops prevent mechanical damage",
+        "bestPractices": "Calibrated tools, preset torque limits, operator training on proper technique"
+      },
+      {
+        "category": "Missing Quality Inspection",
+        "highlights": "Visual checklist boards ensure mandatory inspection completion",
+        "bestPractices": "Mandatory sign-offs, visual management, inspection gate controls"
+      }
+    ],
+    "improvementOpportunities": [
+      {
+        "category": "Incorrect Part Selection",
+        "gaps": "Moderate potential score indicates occasional part mix-ups still occur",
+        "recommendations": "Implement advanced poka-yoke fixtures, add RFID/barcode verification, enhance visual part identification"
+      },
+      {
+        "category": "Tool Calibration Failure",
+        "gaps": "Calibration tracking could be more proactive to prevent any lapses",
+        "recommendations": "Implement predictive calibration schedules, add real-time tool status indicators, automate calibration reminders"
+      },
+      {
+        "category": "Documentation Error",
+        "gaps": "Manual data entry still presents risk for traceability issues",
+        "recommendations": "Expand barcode automation, implement data validation checks, add automated documentation workflows"
+      }
+    ],
+    "learningPoints": [
+      "Poka-Yoke Excellence: This station demonstrates how physical constraints and visual systems can virtually eliminate human error potential.",
+      "Risk Priority Matrix: The combination of low potential (1-2) and varied consequences (2-5) shows effective risk prioritization and control implementation.",
+      "Technology as Enabler: Automated systems (barcode scanning, calibration tracking) significantly reduce error potential compared to manual processes.",
+      "Layered Defense: Multiple error-prevention methods (visual, physical, technological) create robust mistake-proofing systems.",
+      "Continuous Monitoring: Regular assessment and control verification maintain low-risk profiles over time."
+    ],
+    "nextSteps": [
+      "Implement advanced poka-yoke fixtures for part selection with RFID verification",
+      "Deploy predictive calibration system with real-time tool status monitoring",
+      "Expand barcode automation to eliminate remaining manual documentation",
+      "Conduct mistake-proofing training for operators on advanced error prevention techniques",
+      "Establish monthly mistake-proofing effectiveness reviews and control verification"
+    ],
+    "organizationalMaturity": {
+      "level": "Advanced (Level 4 of 5)",
+      "characteristics": [
+        "Systematic mistake-proofing implementation",
+        "Technology-enabled error prevention",
+        "Low risk potential across all failure modes",
+        "Strong quality control integration",
+        "Proactive calibration and maintenance systems"
+      ],
+      "readinessForAdvancement": "Ready for mistake-proofing mentorship and best practice sharing with other stations"
+    },
+    "benchmarkComparison": {
+      "industryAverage": "45/60 risk score",
+      "topPerformers": "30/60 risk score",
+      "positioning": "Significantly better than industry average, approaching top performer levels",
+      "competitiveInsights": "Risk profile indicates world-class mistake-proofing implementation"
+    }
+  },
+  "actionItems": [
+    {
+      "id": "mp-ai-1",
+      "title": "Upgrade Part Selection Poka-Yoke System",
+      "description": "Implement RFID-enabled part verification system to eliminate incorrect part selection entirely, adding electronic verification to existing physical constraints",
+      "duedate": "2024-03-15",
+      "status": 0,
+      "assignees": ["quality-engineer@example.com", "it-specialist@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-7",
+          "name": "rfid_system_proposal.jpg",
+          "url": "https://images.unsplash.com/photo-1553484771-8966baa92e8b?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "it-specialist@example.com",
+          "uploadedAt": "2024-01-20T14:30:00Z",
+          "description": "RFID part verification system proposal and implementation plan"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Incorrect Part Selection",
+      "priority": "High"
+    },
+    {
+      "id": "mp-ai-2",
+      "title": "Predictive Tool Calibration System",
+      "description": "Deploy IoT-enabled tool monitoring with predictive calibration alerts and real-time status indicators to prevent any calibration lapses",
+      "duedate": "2024-04-01",
+      "status": 1,
+      "assignees": ["maintenance-tech@example.com", "iot-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-8",
+          "name": "iot_calibration_dashboard.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "iot-engineer@example.com",
+          "uploadedAt": "2024-01-22T11:45:00Z",
+          "description": "IoT dashboard for real-time tool calibration monitoring"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Tool Calibration Failure",
+      "priority": "Medium"
+    },
+    {
+      "id": "mp-ai-3",
+      "title": "Automated Documentation Workflow",
+      "description": "Expand barcode automation to cover all documentation processes, eliminating manual data entry and implementing automated validation checks",
+      "duedate": "2024-03-30",
+      "status": 0,
+      "assignees": ["documentation-clerk@example.com", "process-analyst@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Documentation Error",
+      "priority": "Medium"
+    },
+    {
+      "id": "mp-ai-4",
+      "title": "Mistake-Proofing Training Program",
+      "description": "Develop comprehensive training program for operators on advanced error prevention techniques and continuous improvement of mistake-proofing systems",
+      "duedate": "2024-04-15",
+      "status": 0,
+      "assignees": ["training-coordinator@example.com", "quality-engineer@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Missing Quality Inspection",
+      "priority": "Low"
+    }
+  ]
+}

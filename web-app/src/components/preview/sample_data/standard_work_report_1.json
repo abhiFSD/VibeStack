@@ -1,0 +1,545 @@
+{
+  "report": {
+    "name": "Assembly Line Standard Work Excellence - Station 12 Cell Operations",
+    "type": "Standard Work Report",
+    "completed": true,
+    "assignedMembers": ["production-manager@example.com", "industrial-engineer@example.com", "quality-supervisor@example.com", "operator-lead@example.com", "continuous-improvement@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Work Instructions",
+      "orderIndex": 0,
+      "assignees": ["industrial-engineer@example.com", "operator-lead@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "detailed_work_instructions.jpg",
+          "url": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "industrial-engineer@example.com",
+          "uploadedAt": "2024-01-15T08:30:00Z",
+          "description": "Comprehensive work instructions with detailed step-by-step procedures and quality checkpoints"
+        }
+      ],
+      "description": "Comprehensive work instructions documentation with detailed procedures, quality standards, and visual aids for consistent execution.",
+      "statements": [
+        {
+          "name": "Work instructions are clearly documented with step-by-step procedures",
+          "value": 5
+        },
+        {
+          "name": "Visual aids and diagrams support written instructions effectively",
+          "value": 5
+        },
+        {
+          "name": "Quality checkpoints are integrated throughout the process",
+          "value": 5
+        },
+        {
+          "name": "Instructions include safety requirements and precautions",
+          "value": 5
+        },
+        {
+          "name": "Work instructions are easily accessible at the point of use",
+          "value": 5
+        },
+        {
+          "name": "Instructions specify required tools, materials, and equipment",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Process Standardization",
+      "orderIndex": 1,
+      "assignees": ["production-manager@example.com", "quality-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "standardized_process_layout.jpg",
+          "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "production-manager@example.com",
+          "uploadedAt": "2024-01-18T10:45:00Z",
+          "description": "Standardized workstation layout with designated locations for tools, materials, and work-in-progress"
+        }
+      ],
+      "description": "Process standardization ensuring consistent execution across all operators with defined work sequence and timing standards.",
+      "statements": [
+        {
+          "name": "Process sequence is clearly defined and consistently followed",
+          "value": 5
+        },
+        {
+          "name": "Cycle time standards are established and regularly monitored",
+          "value": 4
+        },
+        {
+          "name": "Workstation layout is standardized with designated locations",
+          "value": 5
+        },
+        {
+          "name": "Work-in-progress levels are defined and controlled",
+          "value": 5
+        },
+        {
+          "name": "Standard operating procedures are followed by all operators",
+          "value": 4
+        },
+        {
+          "name": "Process variations are minimized through standardization",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Training and Competency",
+      "orderIndex": 2,
+      "assignees": ["operator-lead@example.com", "continuous-improvement@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "operator_training_matrix.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operator-lead@example.com",
+          "uploadedAt": "2024-01-22T14:15:00Z",
+          "description": "Operator training matrix showing competency levels and certification status for standard work procedures"
+        }
+      ],
+      "description": "Comprehensive training program ensuring all operators are competent in standard work execution with regular skill assessment.",
+      "statements": [
+        {
+          "name": "All operators are trained on standard work procedures",
+          "value": 5
+        },
+        {
+          "name": "Training includes hands-on practice and competency verification",
+          "value": 5
+        },
+        {
+          "name": "Skill matrix tracks operator competency levels",
+          "value": 4
+        },
+        {
+          "name": "Regular refresher training maintains standard adherence",
+          "value": 4
+        },
+        {
+          "name": "New operators receive structured onboarding training",
+          "value": 5
+        },
+        {
+          "name": "Training effectiveness is measured and improved",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Documentation and Control",
+      "orderIndex": 3,
+      "assignees": ["quality-supervisor@example.com", "industrial-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "document_control_system.jpg",
+          "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-supervisor@example.com",
+          "uploadedAt": "2024-01-25T11:30:00Z",
+          "description": "Document control system with version management and change control procedures"
+        }
+      ],
+      "description": "Robust documentation control system ensuring standard work documents are current, controlled, and easily accessible.",
+      "statements": [
+        {
+          "name": "Document version control system ensures current standards are used",
+          "value": 5
+        },
+        {
+          "name": "Change control process manages updates to standard work",
+          "value": 5
+        },
+        {
+          "name": "Documents are stored in centralized, accessible locations",
+          "value": 5
+        },
+        {
+          "name": "Regular review and update schedule maintains document currency",
+          "value": 4
+        },
+        {
+          "name": "Document approval process ensures quality and accuracy",
+          "value": 5
+        },
+        {
+          "name": "Obsolete documents are removed from work areas",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Continuous Improvement",
+      "orderIndex": 4,
+      "assignees": ["continuous-improvement@example.com", "production-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-5",
+          "name": "kaizen_improvement_board.jpg",
+          "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "continuous-improvement@example.com",
+          "uploadedAt": "2024-01-28T09:00:00Z",
+          "description": "Kaizen improvement board displaying operator suggestions and standard work enhancement opportunities"
+        }
+      ],
+      "description": "Active continuous improvement process regularly updating and enhancing standard work based on operator feedback and performance data.",
+      "statements": [
+        {
+          "name": "Operator suggestions for standard work improvements are collected",
+          "value": 5
+        },
+        {
+          "name": "Performance data drives standard work optimization",
+          "value": 4
+        },
+        {
+          "name": "Regular kaizen events improve standard work effectiveness",
+          "value": 5
+        },
+        {
+          "name": "Best practices are shared across similar operations",
+          "value": 4
+        },
+        {
+          "name": "Standard work evolves based on lessons learned",
+          "value": 5
+        },
+        {
+          "name": "Improvement results are measured and documented",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Compliance and Audit",
+      "orderIndex": 5,
+      "assignees": ["quality-supervisor@example.com", "production-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-6",
+          "name": "audit_compliance_dashboard.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-supervisor@example.com",
+          "uploadedAt": "2024-01-30T13:45:00Z",
+          "description": "Compliance dashboard showing standard work adherence rates and audit results"
+        }
+      ],
+      "description": "Systematic compliance monitoring and audit system ensuring consistent adherence to standard work with regular verification.",
+      "statements": [
+        {
+          "name": "Regular audits verify standard work compliance",
+          "value": 5
+        },
+        {
+          "name": "Non-compliance is identified and corrected promptly",
+          "value": 4
+        },
+        {
+          "name": "Audit results drive corrective action and improvement",
+          "value": 5
+        },
+        {
+          "name": "Compliance metrics are tracked and reported",
+          "value": 4
+        },
+        {
+          "name": "Standard work adherence is part of performance evaluation",
+          "value": 4
+        },
+        {
+          "name": "Audit findings are communicated and addressed systematically",
+          "value": 5
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-sw-1",
+      "title": "Process Documentation Excellence",
+      "description": "<p><strong>Comprehensive Documentation:</strong> Exemplary standard work documentation with detailed step-by-step procedures, integrated quality checkpoints, and visual aids supporting consistent execution. All work instructions include safety requirements, tool specifications, and material requirements with easy point-of-use access.</p><p><strong>Visual Management Integration:</strong> Outstanding visual support system with diagrams, photos, and process flow charts enhancing operator understanding and reducing variation in execution.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["industrial-engineer@example.com", "operator-lead@example.com"]
+    },
+    {
+      "id": "highlight-sw-2",
+      "title": "Operational Standardization Success",
+      "description": "<p><strong>Process Consistency:</strong> Exceptional standardization across all workstations with clearly defined process sequences, established cycle time standards, and controlled work-in-progress levels. Standardized workstation layouts with designated locations ensure consistent execution.</p><p><strong>Performance Excellence:</strong> Process variations minimized through comprehensive standardization approach, resulting in predictable performance and quality outcomes across all operators.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["production-manager@example.com", "quality-supervisor@example.com"]
+    },
+    {
+      "id": "highlight-sw-3",
+      "title": "Training and Competency Framework",
+      "description": "<p><strong>Comprehensive Training System:</strong> Outstanding operator training program with hands-on practice, competency verification, and structured onboarding for new employees. Skill matrix effectively tracks competency levels ensuring all operators maintain standard adherence.</p><p><strong>Continuous Development:</strong> Regular refresher training and measured training effectiveness maintain high standards of execution with ongoing skill development and certification maintenance.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["operator-lead@example.com", "continuous-improvement@example.com"]
+    },
+    {
+      "id": "highlight-sw-4",
+      "title": "Document Control Mastery",
+      "description": "<p><strong>Version Control Excellence:</strong> Robust document control system with comprehensive version management, change control procedures, and centralized accessible storage. Regular review and update schedules maintain document currency with systematic approval processes.</p><p><strong>Quality Assurance:</strong> Document approval process ensures accuracy and quality while obsolete document removal prevents confusion and maintains current standard adherence.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["quality-supervisor@example.com", "industrial-engineer@example.com"]
+    },
+    {
+      "id": "highlight-sw-5",
+      "title": "Continuous Improvement Culture",
+      "description": "<p><strong>Operator Engagement:</strong> Exceptional continuous improvement process actively collecting operator suggestions and driving standard work optimization through performance data analysis. Regular kaizen events enhance standard work effectiveness with measurable results.</p><p><strong>Knowledge Sharing:</strong> Best practice sharing across similar operations and documented improvement results create organizational learning and standard work evolution based on lessons learned.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["continuous-improvement@example.com", "production-manager@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "sw-action-1",
+      "title": "Deploy Digital Work Instruction System",
+      "description": "Implement tablet-based digital work instruction system with interactive procedures, embedded videos, and real-time updates. Include operator feedback capability and performance tracking integration.",
+      "duedate": "2024-05-31",
+      "status": 1,
+      "assignees": ["industrial-engineer@example.com", "it-systems@example.com"],
+      "attachments": [
+        {
+          "id": "sw-action-attachment-1",
+          "name": "digital_work_instructions.jpg",
+          "url": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "industrial-engineer@example.com",
+          "uploadedAt": "2024-02-05T10:00:00Z",
+          "description": "Digital work instruction system with interactive procedures and real-time updates"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Technology Enhancement",
+      "priority": "High"
+    },
+    {
+      "id": "sw-action-2",
+      "title": "Expand Standard Work to Adjacent Production Cells",
+      "description": "Replicate successful standard work implementation to remaining 8 production cells using proven methodology and lessons learned. Include operator cross-training and knowledge transfer protocols.",
+      "duedate": "2024-08-15",
+      "status": 0,
+      "assignees": ["production-manager@example.com", "operator-lead@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Expansion",
+      "priority": "High"
+    },
+    {
+      "id": "sw-action-3",
+      "title": "Implement Real-Time Performance Dashboards",
+      "description": "Deploy visual dashboards showing real-time cycle time performance, quality metrics, and standard work compliance rates. Include operator self-monitoring capabilities and supervisor oversight tools.",
+      "duedate": "2024-06-30",
+      "status": 0,
+      "assignees": ["continuous-improvement@example.com", "data-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "sw-action-attachment-2",
+          "name": "performance_dashboard_mockup.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "data-analyst@example.com",
+          "uploadedAt": "2024-02-08T14:30:00Z",
+          "description": "Real-time performance dashboard mockup with compliance and performance metrics"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Performance Monitoring",
+      "priority": "Medium"
+    },
+    {
+      "id": "sw-action-4",
+      "title": "Establish Standard Work Certification Program",
+      "description": "Create formal certification program for operators including written and practical assessments. Include recertification requirements and advanced operator recognition levels.",
+      "duedate": "2024-07-31",
+      "status": 0,
+      "assignees": ["operator-lead@example.com", "training-coordinator@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Training Development",
+      "priority": "Medium"
+    },
+    {
+      "id": "sw-action-5",
+      "title": "Develop Predictive Standard Work Analytics",
+      "description": "Implement analytics system to predict standard work effectiveness and identify optimization opportunities. Include machine learning algorithms for performance pattern recognition.",
+      "duedate": "2024-09-30",
+      "status": 0,
+      "assignees": ["data-scientist@example.com", "industrial-engineer@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Advanced Analytics",
+      "priority": "Low"
+    }
+  ],
+  "chartData": [
+    {
+      "id": "op-1",
+      "posX": 0,
+      "posY": 15,
+      "text": "Auto",
+      "value": 15,
+      "Description": "Automated component loading from feeder system with vision verification",
+      "orderIndex": 0,
+      "reportID": "preview-standard-work-1"
+    },
+    {
+      "id": "op-2", 
+      "posX": 15,
+      "posY": 35,
+      "text": "Manual",
+      "value": 20,
+      "Description": "Manual positioning and alignment of components with fixture verification",
+      "orderIndex": 1,
+      "reportID": "preview-standard-work-1"
+    },
+    {
+      "id": "op-3",
+      "posX": 35,
+      "posY": 50,
+      "text": "Auto",
+      "value": 15,
+      "Description": "Automated welding operation with quality monitoring and feedback",
+      "orderIndex": 2,
+      "reportID": "preview-standard-work-1"
+    },
+    {
+      "id": "op-4",
+      "posX": 50,
+      "posY": 65,
+      "text": "Manual",
+      "value": 15,
+      "Description": "Manual quality inspection with go/no-go gauges and visual verification",
+      "orderIndex": 3,
+      "reportID": "preview-standard-work-1"
+    },
+    {
+      "id": "op-5",
+      "posX": 65,
+      "posY": 70,
+      "text": "Wait",
+      "value": 5,
+      "Description": "Wait for cooling cycle completion before part handling",
+      "orderIndex": 4,
+      "reportID": "preview-standard-work-1"
+    },
+    {
+      "id": "op-6",
+      "posX": 70,
+      "posY": 75,
+      "text": "Walk",
+      "value": 5,
+      "Description": "Transport completed part to next station using standard container",
+      "orderIndex": 5,
+      "reportID": "preview-standard-work-1"
+    },
+    {
+      "id": "op-7",
+      "posX": 75,
+      "posY": 80,
+      "text": "Manual",
+      "value": 5,
+      "Description": "Update production log and reset workstation for next cycle",
+      "orderIndex": 6,
+      "reportID": "preview-standard-work-1"
+    }
+  ],
+  "taktTime": 85,
+  "timeUnit": "seconds",
+  "aiAnalysis": {
+    "overallAssessment": {
+      "maturityLevel": "World-Class",
+      "organizationType": "Manufacturing Excellence",
+      "assessmentStatus": "Completed - Exemplary Standard Work Implementation"
+    },
+    "keyFindings": [
+      "Outstanding standard work documentation with comprehensive procedures and visual aids supporting consistent execution",
+      "Exceptional process standardization achieving predictable performance across all operators with minimal variation",
+      "Comprehensive training system with competency verification and ongoing skill development maintaining high standards",
+      "Robust document control system ensuring current standards with systematic change management and version control",
+      "Active continuous improvement culture driving standard work optimization through operator engagement and data analysis",
+      "Systematic compliance monitoring with regular audits and corrective action processes ensuring sustained adherence"
+    ],
+    "strengthAreas": [
+      {
+        "category": "Documentation Excellence",
+        "highlights": "Comprehensive work instructions with integrated quality checkpoints and visual aids",
+        "bestPractices": "Step-by-step procedures, safety requirements, tool specifications, point-of-use accessibility"
+      },
+      {
+        "category": "Process Standardization",
+        "highlights": "Consistent execution across operators with standardized layouts and controlled WIP levels",
+        "bestPractices": "Defined sequences, cycle time standards, designated locations, variation minimization"
+      },
+      {
+        "category": "Training and Competency",
+        "highlights": "Structured training program with hands-on practice and competency verification",
+        "bestPractices": "Skill matrix tracking, refresher training, onboarding programs, effectiveness measurement"
+      }
+    ],
+    "improvementOpportunities": [
+      {
+        "category": "Technology Integration",
+        "gaps": "Opportunity to enhance with digital work instructions and real-time performance monitoring",
+        "recommendations": "Deploy tablet-based systems, interactive procedures, performance dashboards, predictive analytics"
+      },
+      {
+        "category": "Expansion and Scaling",
+        "gaps": "Current excellence could be replicated across broader manufacturing operations",
+        "recommendations": "Systematic rollout methodology, knowledge transfer protocols, certification programs"
+      }
+    ],
+    "learningPoints": [
+      "Standard Work Excellence: Demonstrates comprehensive approach to process standardization with documentation, training, and control systems.",
+      "Visual Management Integration: Shows effective use of visual aids and standardized layouts supporting consistent execution.",
+      "Continuous Improvement Culture: Illustrates operator engagement in standard work optimization with systematic improvement processes.",
+      "Document Control Mastery: Exemplifies robust version control and change management ensuring current standard adherence.",
+      "Competency Framework: Demonstrates structured training and skill development maintaining execution consistency.",
+      "Compliance Monitoring: Shows systematic audit and verification processes ensuring sustained standard work adherence."
+    ],
+    "nextSteps": [
+      "Deploy digital work instruction system with interactive procedures and real-time updates",
+      "Expand standard work implementation to adjacent production cells using proven methodology",
+      "Implement real-time performance dashboards for operator self-monitoring and supervisor oversight",
+      "Establish formal standard work certification program with recertification requirements",
+      "Develop predictive analytics for standard work effectiveness and optimization opportunities"
+    ],
+    "organizationalMaturity": {
+      "level": "World-Class (Level 5 of 5)",
+      "characteristics": [
+        "Comprehensive standard work implementation with systematic documentation and control",
+        "Consistent execution across all operators with minimal process variation",
+        "Active continuous improvement culture driving ongoing optimization",
+        "Robust training and competency framework ensuring sustained performance",
+        "Advanced compliance monitoring and corrective action processes"
+      ],
+      "readinessForAdvancement": "Ready to serve as benchmark for standard work excellence and mentor other manufacturing operations"
+    },
+    "benchmarkComparison": {
+      "positioning": "Significantly exceeds industry benchmarks for standard work implementation and adherence",
+      "competitiveInsights": "Standard work capabilities position organization for operational excellence and competitive advantage"
+    }
+  }
+}

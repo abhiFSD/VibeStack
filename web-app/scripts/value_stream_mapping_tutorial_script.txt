@@ -1,0 +1,41 @@
+Now let's get started with the Value Stream Mapping report.
+
+The Value Stream Mapping report has a comprehensive visual interface designed to map your entire value stream. At the top, you'll see the Action Items section for tracking improvement opportunities.
+
+Below that, you'll find the main VSM interface with several key components:
+
+SUMMARY DATA - will be auto-generated as you add data. For the Total Lead Time, Total Cycle Time, and Total Wait Time or Inventory, you can change the time unit.
+
+TOTAL DEMAND/TARGET DATA - you can add Total Demand/Volume and Time to Produce and save, Takt Time/Target will be calculated.
+
+INFORMATION FLOW and KAIZEN PROJECT is a simple text area to add more details. 
+
+Let’s create some Process - 
+
+Click on the + button, add Process Name, and Add Process. 
+
+A new card appears below. With Inventory as you see here, let’s click on the Inventory - you can add Wait Time or Inventory and Select Waste Types from the available waste. 
+
+Under the Process card - you can also add Process Waste, like this - 
+
+Edit the name of the process - Cycle Time - and note. Or delete it here. 
+
+Let’s add some Attribute - enter Attribute Name and Value and unit.
+
+Under Status 3 options area available. 
+
+Value Added
+
+Value Enabled
+
+Non-value Added
+
+You can add Images or PDF here.. and bottom wait time or inventory and Cycle Time will show. 
+
+Let me quickly add some data - 
+
+Also, you can export the PDF from here - with all the details as you can see. 
+
+That's it for the Value Stream Mapping report. It's an essential tool for visualizing and improving your entire value stream. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

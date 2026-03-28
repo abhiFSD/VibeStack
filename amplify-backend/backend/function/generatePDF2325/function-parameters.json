@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "storage": {
+      "s3lfapistorage2b19a34b": ["create", "read", "update"]
+    }
+  },
+  "lambdaLayers": [],
+  "environmentVariables": {
+    "S3_BUCKET": "s3lfapistorage2b19a34b"
+  }
+}

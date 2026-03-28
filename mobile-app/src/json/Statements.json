@@ -1,0 +1,590 @@
+[
+    {
+        "learning_id": "1",
+        "self_statement": "I am well aware of the various techniques for improving my coaching skills.",
+        "peer_statement": "is well aware of the various techniques for improving their coaching skills.",
+        "direct_statement": "is well aware of the various techniques for improving their coaching skills.",
+        "boss_statement": "is well aware of the various techniques for improving their coaching skills."
+    },
+    {
+        "learning_id": "1",
+        "self_statement": "I actively work to improve my coaching skills.",
+        "peer_statement": "actively works to improve their coaching skills.",
+        "direct_statement": "actively works to improve their coaching skills.",
+        "boss_statement": "actively works to improve their coaching skills."
+    },
+    {
+        "learning_id": "1",
+        "self_statement": "I noticed an improvement in my employee’s performance directly due to my recent coaching skill activities.",
+        "peer_statement": "notices improvements in employee’s performance directly due to their recent coaching skill activities.",
+        "direct_statement": "notices improvements in my performance directly due to their recent coaching skill activities.",
+        "boss_statement": "notices improvements in their employee’s performance directly due to their recent coaching skill activities."
+    },
+    {
+        "learning_id": "1",
+        "self_statement": "I am well aware of the various techniques for improving my ability to assist others in their work tasks.",
+        "peer_statement": "is well aware of the various techniques for improving their ability to assist others in their work tasks.",
+        "direct_statement": "is well aware of the various techniques for improving their ability to assist me in my work tasks.",
+        "boss_statement": "is well aware of the various techniques for improving their ability to assist others in their work tasks."
+    },
+    {
+        "learning_id": "1",
+        "self_statement": "I actively work to improve my ability to assist others when needed.",
+        "peer_statement": "actively works to improve their ability to assist others when needed.",
+        "direct_statement": "actively works to improve their ability to assist me when needed.",
+        "boss_statement": "actively works to improve their ability to assist others when needed."
+    },
+    {
+        "learning_id": "1",
+        "self_statement": "I noticed an improvement in my employee’s performance directly due to my direct support in assisting employees.",
+        "peer_statement": "notices improvements in employee’s performance directly due to their direct support in assisting employees.",
+        "direct_statement": "notices improvements in my performance directly due to their direct support.",
+        "boss_statement": "notices improvements in employee’s performance directly due to their direct support in assisting employees."
+    },
+    {
+        "learning_id": "2",
+        "self_statement": "I am well aware of the various techniques for effectively communicating with my employees.",
+        "peer_statement": "is well aware of the various techniques for effectively communicating with their employees.",
+        "direct_statement": "is well aware of the various techniques for effectively communicating with me.",
+        "boss_statement": "is well aware of the various techniques for effectively communicating with their employees."
+    },
+    {
+        "learning_id": "2",
+        "self_statement": "I actively work to find ways to better communicate with my employees.",
+        "peer_statement": "actively works to find ways to better communicate with their employees.",
+        "direct_statement": "actively works to find ways to better communicate with me.",
+        "boss_statement": "actively works to find ways to better communicate with their employees."
+    },
+    {
+        "learning_id": "2",
+        "self_statement": "I noticed an improvement in my employee’s performance directly due to my recent activities in communicating with my employees.",
+        "peer_statement": "notices improvement in employee’s performance directly due to their recent activities in communicating with employees.",
+        "direct_statement": "notices improvement in my performance directly due to their recent activities in communicating with employees.",
+        "boss_statement": "notices improvement in their employee’s performance directly due to their recent activities in communicating with employees."
+    },
+    {
+        "learning_id": "2",
+        "self_statement": "I am well aware of the various techniques for improving my ability to impart and receive information with my employees.",
+        "peer_statement": "is well aware of the various techniques for improving their ability to impart and receive information with employees.",
+        "direct_statement": "is well aware of the various techniques for improving their ability to impart and receive information from me.",
+        "boss_statement": "is well aware of the various techniques for improving their ability to impart and receive information with employees."
+    },
+    {
+        "learning_id": "2",
+        "self_statement": "I actively work to improve my ability to assist others in the exchange of information.",
+        "peer_statement": "actively works to improve their ability to assist others in the exchange of information.",
+        "direct_statement": "actively works to improve their ability to assist me in the exchange of information.",
+        "boss_statement": "actively works to improve their ability to assist others in the exchange of information."
+    },
+    {
+        "learning_id": "2",
+        "self_statement": "I noticed an improvement in my employee’s performance directly related to my recent activities of exchanging information.",
+        "peer_statement": "notices improvements in employee’s performance directly related to their recent activities of exchanging information.",
+        "direct_statement": "notices improvements in my performance directly related to their recent activities of exchanging information.",
+        "boss_statement": "notices improvements in their employee’s performance directly related to their recent activities of exchanging information."
+    },
+    {
+        "learning_id": "3",
+        "self_statement": "I am well aware of methods and activities that I can do to decrease any conflict in my work group.",
+        "peer_statement": "is well aware of the methods and activities that can be done to decrease any conflict in their work group.",
+        "direct_statement": "is well aware of the methods and activities that can be done to decrease any conflict in our work group.",
+        "boss_statement": "is well aware of the methods and activities that can be done to decrease any conflict in their work group."
+    },
+    {
+        "learning_id": "3",
+        "self_statement": "I actively work to demonstrate ways of resolving conflict within my work group so they can work more effectively together.",
+        "peer_statement": "actively works to demonstrate ways of resolving conflict within their work group so they can work more effectively together.",
+        "direct_statement": "actively works to demonstrate ways of resolving conflict within our work group so we can work more effectively together.",
+        "boss_statement": "actively works to demonstrate ways of resolving conflict within their work group so they can work more effectively together."
+    },
+    {
+        "learning_id": "3",
+        "self_statement": "I noticed an improvement in my employees’ performance directly due to my better handling of any conflict.",
+        "peer_statement": "notices improvements in employees’ performance directly due to their better handling of any conflict.",
+        "direct_statement": "notices improvements in my performance directly due to their better handling of any conflict.",
+        "boss_statement": "notices improvements in employees’ performance directly due to their better handling of any conflict."
+    },
+    {
+        "learning_id": "3",
+        "self_statement": "I am well aware of things I can do to improve on how conflict is resolved in a constructive and positive way.",
+        "peer_statement": "is well aware methods and activities that can be done to improve on how conflict is resolved in a constructive and positive way.",
+        "direct_statement": "is well aware methods and activities that can be done to improve on how conflict is resolved in a constructive and positive way.",
+        "boss_statement": "is well aware methods and activities that can be done to improve on how conflict is resolved in a constructive and positive way."
+    },
+    {
+        "learning_id": "3",
+        "self_statement": "I actively demonstrate ways to better handle conflict allowing for a more productive work group.",
+        "peer_statement": "actively demonstrates ways to better handle conflict allowing for a more productive work group.",
+        "direct_statement": "actively demonstrates ways to better handle conflict allowing for a more productive work group.",
+        "boss_statement": "actively demonstrates ways to better handle conflict allowing for a more productive work group."
+    },
+    {
+        "learning_id": "3",
+        "self_statement": "I’ve noticed that my employees have been working together more productively due to policies and procedures I’ve implemented regarding on how I handle conflict.",
+        "peer_statement": "notices that employees have been working together more productively due to policies and procedures implemented regarding on how they handle conflict.",
+        "direct_statement": "notices that I have been working together more productively due to policies and procedures implemented regarding on how they handle conflict.",
+        "boss_statement": "notices that employees have been working together more productively due to policies and procedures implemented regarding on how conflict is handled."
+    },
+    {
+        "learning_id": "4",
+        "self_statement": "I am well aware of the various techniques for disciplining employees due to their performance issues.",
+        "peer_statement": "is well aware of the various techniques for disciplining employees due to their performance issues.",
+        "direct_statement": "is well aware of the various techniques for disciplining employees in our work group due to their performance issues.",
+        "boss_statement": "is well aware of the various techniques for disciplining employees due to performance issues."
+    },
+    {
+        "learning_id": "4",
+        "self_statement": "I actively work to find better ways to engage my employees before disciplinary action is required.",
+        "peer_statement": "actively works to find better ways to engage their employees before disciplinary action is required.",
+        "direct_statement": "actively works to find better ways to engage me before disciplinary action is required.",
+        "boss_statement": "actively works to find better ways to engage employees before disciplinary action is required."
+    },
+    {
+        "learning_id": "4",
+        "self_statement": "I noticed an improvement in my employees’ performance directly due to their understanding of my disciplinary principles.",
+        "peer_statement": "notices improvement in employees’ performance directly due to their understanding of disciplinary principles.",
+        "direct_statement": "notices improvement in my performance directly due to their understanding of disciplinary principles.",
+        "boss_statement": "notices improvement in employees’ performance directly due to their understanding of disciplinary principles."
+    },
+    {
+        "learning_id": "4",
+        "self_statement": "I am well aware of the various techniques for correcting employees due to their performance issues.",
+        "peer_statement": "is well aware of the various techniques for correcting employees due to their performance issues.",
+        "direct_statement": "is well aware of the various techniques for correcting me due to any performance issues I may have.",
+        "boss_statement": "is well aware of the various techniques for correcting employees due to their performance issues."
+    },
+    {
+        "learning_id": "4",
+        "self_statement": "I actively work to improve my ability to correct others when needed.",
+        "peer_statement": "actively works to improve their ability to correct others when needed.",
+        "direct_statement": "actively works to improve their ability to correct me when needed.",
+        "boss_statement": "actively works to improve their ability to correct others when needed."
+    },
+    {
+        "learning_id": "4",
+        "self_statement": "I noticed an improvement in my employees’ performance directly due to my correction of any poor performance.",
+        "peer_statement": "notices improvements in employees’ performance directly due to their correction of any poor performance.",
+        "direct_statement": "notices improvements in my performance directly due to their correction of any poor performance.",
+        "boss_statement": "notices improvements in employees’ performance directly due to their correction of any poor performance."
+    },
+    {
+        "learning_id": "5",
+        "self_statement": "I am well aware of activities that I can do to increase the effectiveness of engaging the diverse workforce in my work group.",
+        "peer_statement": "is well aware of the methods and activities that can be done to increase the effectiveness of engaging the diverse workforce in their work group.",
+        "direct_statement": "is well aware of the methods and activities that can be done to increase my effectiveness of engaging the diverse workforce in our work group.",
+        "boss_statement": "is well aware of the methods and activities that can be done to increase the effectiveness of engaging the diverse workforce in their work group."
+    },
+    {
+        "learning_id": "5",
+        "self_statement": "I actively work to demonstrate ways of engaging the various generations of employees so they can work more effectively together.",
+        "peer_statement": "actively works to demonstrate ways of engaging the various generations of employees so they can work more effectively together.",
+        "direct_statement": "actively works to demonstrate ways of engaging the various generations of employees so we can work more effectively together.",
+        "boss_statement": "actively works to demonstrate ways of engaging the various generations of employees so they can work more effectively together."
+    },
+    {
+        "learning_id": "5",
+        "self_statement": "I’ve noticed an improvement in my employees’ performance directly due to my effort to engage their individual and generational uniqueness.",
+        "peer_statement": "notices improvements in employees’ performance directly due to their efforts to engage individual and generational uniqueness.",
+        "direct_statement": "notices improvements in my performance directly due to their efforts to engage individual and generational uniqueness.",
+        "boss_statement": "notices improvements in their employees’ performance directly due to their efforts to engage individual and generational uniqueness."
+    },
+    {
+        "learning_id": "5",
+        "self_statement": "I am well aware of methods and activities that I can do to improve the way a team accepts ideas and works well with all employees.",
+        "peer_statement": "is well aware of the methods and activities that can be done to improve the way a team accepts ideas and works well with all employees.",
+        "direct_statement": "is well aware of the methods and activities that can be done to improve the way I accept ideas and work well within our work group.",
+        "boss_statement": "is well aware of the methods and activities that can be done to improve the way a team accepts ideas and works well with all employees."
+    },
+    {
+        "learning_id": "5",
+        "self_statement": "I actively demonstrate ways that my employees can accept ideas, work well with all employees, as well as understand how more effective it is than working alone.",
+        "peer_statement": "actively demonstrates ways that employees can accept ideas, work well with all employees, as well as understand how more effective it is than working alone.",
+        "direct_statement": "actively demonstrates ways that I can accept ideas, work well with all employees, as well as understand how more effective it is than me working alone.",
+        "boss_statement": "actively demonstrates ways that their employees can accept ideas, work well with all employees, as well as understand how more effective it is than working alone."
+    },
+    {
+        "learning_id": "5",
+        "self_statement": "I’ve noticed that my employees have been better engaged with each other, due to policies and procedures I’ve implemented.",
+        "peer_statement": "notices that employees have been better engaged with each other, due to policies and procedures implemented.",
+        "direct_statement": "notices that I have been better engaged within our work group, due to policies and procedures implemented.",
+        "boss_statement": "notices that their employees have been better engaged with each other, due to policies and procedures implemented."
+    },
+    {
+        "learning_id": "6",
+        "self_statement": "I’ve noticed that my employees have been contributing more ideas due to policies and procedures I’ve implemented.",
+        "peer_statement": "notices that employees have been contributing more ideas due to policies and procedures implemented.",
+        "direct_statement": "notices that I have been contributing more ideas due to policies and procedures implemented.",
+        "boss_statement": "notices that employees have been contributing more ideas due to policies and procedures implemented."
+    },
+    {
+        "learning_id": "6",
+        "self_statement": "I actively work to demonstrate my efforts of innovation and creativity so my employees they can learn from those examples.",
+        "peer_statement": "actively works to demonstrate their efforts of innovation and creativity so employees can learn from those examples.",
+        "direct_statement": "actively works to demonstrate their efforts of innovation and creativity so I can learn from those examples.",
+        "boss_statement": "actively works to demonstrate their efforts of innovation and creativity so employees can learn from those examples."
+    },
+    {
+        "learning_id": "6",
+        "self_statement": "I noticed an improvement in my employees’ origination and ingenuity directly due to my efforts of origination and ingenuity.",
+        "peer_statement": "notices improvement in employees’ origination and ingenuity directly due to their efforts of origination and ingenuity.",
+        "direct_statement": "notices improvement in my origination and ingenuity directly due to their efforts of origination and ingenuity.",
+        "boss_statement": "notices improvement in employees’ origination and ingenuity directly due to their efforts of origination and ingenuity."
+    },
+    {
+        "learning_id": "6",
+        "self_statement": "I am well aware of the methods and activities I can do to improve the way our work group originates ideas and ingenuity.",
+        "peer_statement": "is well aware of the methods and activities that can be done to improve the way their work group originates ideas and ingenuity.",
+        "direct_statement": "is well aware of the methods and activities that can be done to improve the way I can contribute original ideas and ingenuity.",
+        "boss_statement": "is well aware of the methods and activities that can be done to improve the way their work group originates ideas and ingenuity."
+    },
+    {
+        "learning_id": "6",
+        "self_statement": "I actively demonstrate ways that my employees can work together to originate ideas and develop its ingenuity and become more effective than working alone.",
+        "peer_statement": "actively demonstrates ways that employees can work together to originate ideas and develop its ingenuity and become more effective than working alone.",
+        "direct_statement": "actively demonstrates ways that I can work together to originate ideas and develop ingenuity and become more effective than me working alone.",
+        "boss_statement": "actively demonstrates ways that their employees can work together to originate ideas and develop its ingenuity and become more effective than working alone."
+    },
+    {
+        "learning_id": "6",
+        "self_statement": "I’ve noticed that my employees have been working together more to originate ideas and provide ingenuity, due to recent policies and procedures I’ve implemented.",
+        "peer_statement": "notices that employees have been working together more to originate ideas and provide ingenuity, due to recent policies and procedures implemented.",
+        "direct_statement": "notices that I have been working together more to originate ideas and provide ingenuity, due to recent policies and procedures implemented.",
+        "boss_statement": "notices that employees have been working together more to originate ideas and provide ingenuity, due to recent policies and procedures implemented."
+    },
+    {
+        "learning_id": "7",
+        "self_statement": "I am well aware of the various cycles of change as well as the techniques for managing these change cycles.",
+        "peer_statement": "is well aware of the various cycles of change as well as the techniques for managing these change cycles.",
+        "direct_statement": "is well aware of the various cycles of change as well as the techniques for managing these change cycles.",
+        "boss_statement": "is well aware of the various cycles of change as well as the techniques for managing these change cycles."
+    },
+    {
+        "learning_id": "7",
+        "self_statement": "I actively work to find better ways to engage my employees before, during, and after any major change.",
+        "peer_statement": "actively works to find better ways to engage their employees before, during, and after any major change.",
+        "direct_statement": "actively works to find better ways to engage me before, during, and after any major change.",
+        "boss_statement": "actively works to find better ways to engage employees before, during, and after any major change."
+    },
+    {
+        "learning_id": "7",
+        "self_statement": "I noticed an improvement in my employees’ performance directly due to their understanding of the change process.",
+        "peer_statement": "notices improvement in employees’ performance directly due to their understanding of the change process.",
+        "direct_statement": "notices improvement in me performance directly due to their understanding of the change process.",
+        "boss_statement": "notices improvement in employees’ performance directly due to their understanding of the change process."
+    },
+    {
+        "learning_id": "7",
+        "self_statement": "I am well aware of the various techniques of improving my ability of assisting others in going through change.",
+        "peer_statement": "is well aware of the various techniques of improving their ability of assisting others in going through change.",
+        "direct_statement": "is well aware of the various techniques of improving their ability of assisting me in going through change.",
+        "boss_statement": "is well aware of the various techniques of improving their ability of assisting others in going through change."
+    },
+    {
+        "learning_id": "7",
+        "self_statement": "I actively work to improve my ability to assist others when going through any change.",
+        "peer_statement": "actively works to improve their ability to assist others when going through any change.",
+        "direct_statement": "actively works to improve their ability to assist me when we are going through any change.",
+        "boss_statement": "actively works to improve their ability to assist others when going through any change."
+    },
+    {
+        "learning_id": "7",
+        "self_statement": "I notice an improvement in my employee’s performance, directly due to my support, while going through any change.",
+        "peer_statement": "notices improvement in employee’s performance, directly due to their support, while going through any change.",
+        "direct_statement": "notices improvement in my performance, directly due to their support, while going through any change.",
+        "boss_statement": "notices improvement in employee’s performance, directly due to their support, while going through any change."
+    },
+    {
+        "learning_id": "8",
+        "self_statement": "I am well aware of the various techniques for effectively conducting meetings with my employees.",
+        "peer_statement": "is well aware of the various techniques for effectively conducting meetings with employees.",
+        "direct_statement": "is well aware of the various techniques for effectively conducting meetings.",
+        "boss_statement": "is well aware of the various techniques for effectively conducting meetings with employees."
+    },
+    {
+        "learning_id": "8",
+        "self_statement": "I actively work to find ways to improve our meetings.",
+        "peer_statement": "actively works to find ways to improve meetings.",
+        "direct_statement": "actively works to find ways to improve meetings.",
+        "boss_statement": "actively works to find ways to improve meetings."
+    },
+    {
+        "learning_id": "8",
+        "self_statement": "I noticed an improvement in my work groups’ performance directly due to my recent activities in improving our meetings.",
+        "peer_statement": "notices improvements in their work groups’ performance directly due to recent activities in improving their meetings.",
+        "direct_statement": "notices improvements in my performance directly due to recent activities in improving their meetings.",
+        "boss_statement": "notices improvements in their work groups’ performance directly due to recent activities in improving meetings."
+    },
+    {
+        "learning_id": "8",
+        "self_statement": "I am well aware of the various techniques for leading effective meetings.",
+        "peer_statement": "is well aware of the various techniques for leading effective meetings.",
+        "direct_statement": "is well aware of the various techniques for leading effective meetings.",
+        "boss_statement": "is well aware of the various techniques for leading effective meetings."
+    },
+    {
+        "learning_id": "8",
+        "self_statement": "I actively work to find ways to improve our meetings.",
+        "peer_statement": "actively works to find ways to improve meetings.",
+        "direct_statement": "actively works to find ways to improve meetings.",
+        "boss_statement": "actively works to find ways to improve meetings."
+    },
+    {
+        "learning_id": "8",
+        "self_statement": "I noticed an improvement in my employee’s performance directly related to my recent activities in improving our meetings.",
+        "peer_statement": "notices improvement in employee’s performance directly related to their recent activities in improving meetings.",
+        "direct_statement": "notices improvement in my performance directly related to their recent activities in improving meetings.",
+        "boss_statement": "notices improvement in employee’s performance directly related to their recent activities in improving meetings."
+    },
+    {
+        "learning_id": "9",
+        "self_statement": "I am well aware of the various techniques for motivating my employees.",
+        "peer_statement": "is well aware of the various techniques for motivating employees.",
+        "direct_statement": "is well aware of the various techniques for motivating me.",
+        "boss_statement": "is well aware of the various techniques for motivating employees."
+    },
+    {
+        "learning_id": "9",
+        "self_statement": "I actively work to find ways to motivate employees.",
+        "peer_statement": "actively works to find ways to motivate employees.",
+        "direct_statement": "actively works to find ways to motivate me.",
+        "boss_statement": "actively works to find ways to motivate employees."
+    },
+    {
+        "learning_id": "9",
+        "self_statement": "I noticed an improvement in my employee’s performance directly due to my recent activities in motivating my employees.",
+        "peer_statement": "notices improvements in employee’s performance directly due to their recent activities in motivating employees.",
+        "direct_statement": "notices improvements in my performance directly due to their recent activities in motivating employees.",
+        "boss_statement": "notices improvements in employee’s performance directly due to their recent activities in motivating employees."
+    },
+    {
+        "learning_id": "9",
+        "self_statement": "I am well aware of the various techniques for improving my ability to keep others going in the right direction.",
+        "peer_statement": "is well aware of the various techniques for improving their ability to keep others going in the right direction.",
+        "direct_statement": "is well aware of the various techniques for improving their ability to keep me going in the right direction.",
+        "boss_statement": "is well aware of the various techniques for improving their ability to keep others going in the right direction."
+    },
+    {
+        "learning_id": "9",
+        "self_statement": "I actively work to improve my ability to be a resource for others when needed.",
+        "peer_statement": "actively works to improve their ability to be a resource for others when needed.",
+        "direct_statement": "actively works to improve their ability to be a resource when I need it.",
+        "boss_statement": "actively works to improve their ability to be a resource for others when needed."
+    },
+    {
+        "learning_id": "9",
+        "self_statement": "I noticed an improvement in my employee’s performance directly due to my ability to be a resource to help my employees.",
+        "peer_statement": "notices improvement in employee’s performance directly due to their ability to be a resource to help employees.",
+        "direct_statement": "notices improvement in my performance directly due to their ability to be a resource to help me.",
+        "boss_statement": "notices improvement in employee’s performance directly due to their ability to be a resource to help employees."
+    },
+    {
+        "learning_id": "10",
+        "self_statement": "I am well aware of the various techniques for improving performance from my employees.",
+        "peer_statement": "is well aware of the various techniques for improving performance from their employees.",
+        "direct_statement": "is well aware of the various techniques for improving performance from me.",
+        "boss_statement": "is well aware of the various techniques for improving performance from their employees."
+    },
+    {
+        "learning_id": "10",
+        "self_statement": "I actively work to find better ways to engage my employees in improving their performance.",
+        "peer_statement": "actively works to find better ways to engage employees in improving their performance.",
+        "direct_statement": "actively works to find better ways to engage me for improving my performance.",
+        "boss_statement": "actively works to find better ways to engage employees in improving their performance."
+    },
+    {
+        "learning_id": "10",
+        "self_statement": "I noticed an improvement in my employees’ performance directly due to my recent activities in performance improvement.",
+        "peer_statement": "notices improvements in employees’ performance directly due to their recent activities in performance improvement.",
+        "direct_statement": "notices improvements in my performance directly due to their recent activities in performance improvement.",
+        "boss_statement": "notices improvements in employees’ performance directly due to their recent activities in performance improvement."
+    },
+    {
+        "learning_id": "10",
+        "self_statement": "I am well aware of the various techniques for recognizing accomplishments of my employees.",
+        "peer_statement": "is well aware of the various techniques for recognizing accomplishments of their employees.",
+        "direct_statement": "is well aware of the various techniques for recognizing my accomplishments.",
+        "boss_statement": "is well aware of the various techniques for recognizing accomplishments of their employees."
+    },
+    {
+        "learning_id": "10",
+        "self_statement": "I actively work to find better ways to engage my employees to meeting their goals.",
+        "peer_statement": "actively works to find better ways to engage employees to meeting their goals.",
+        "direct_statement": "actively works to find better ways to engage me to meeting my goals.",
+        "boss_statement": "actively works to find better ways to engage employees to meeting their goals."
+    },
+    {
+        "learning_id": "10",
+        "self_statement": "I noticed an improvement in my employees’ accomplishments directly due to my efforts in working to improve their performance.",
+        "peer_statement": "notices improvements in employees’ accomplishments directly due to their efforts in working to improve their performance.",
+        "direct_statement": "notices improvements in my accomplishments directly due to their efforts in working to improve my performance.",
+        "boss_statement": "notices improvements in employees’ accomplishments directly due to their efforts in working to improve their performance."
+    },
+    {
+        "learning_id": "11",
+        "self_statement": "I am well aware of the various techniques for effectively problem solving with my employees.",
+        "peer_statement": "is well aware of the various techniques for effectively problem solving with their employees.",
+        "direct_statement": "is well aware of the various techniques for effectively problem solving with our work group.",
+        "boss_statement": "is well aware of the various techniques for effectively problem solving with their employees."
+    },
+    {
+        "learning_id": "11",
+        "self_statement": "I actively work to find better ways to engage my employees in problem solving.",
+        "peer_statement": "actively works to find better ways to engage their employees in problem solving.",
+        "direct_statement": "actively works to find better ways to engage me in problem solving.",
+        "boss_statement": "actively works to find better ways to engage their employees in problem solving."
+    },
+    {
+        "learning_id": "11",
+        "self_statement": "I noticed an improvement in my work groups’ performance directly due to my recent activities in problem solving.",
+        "peer_statement": "notices improvements in their work groups’ performance directly due to their recent activities in problem solving.",
+        "direct_statement": "notices improvements in my performance directly due to their recent activities in problem solving.",
+        "boss_statement": "notices improvements in their work groups’ performance directly due to their recent activities in problem solving."
+    },
+    {
+        "learning_id": "11",
+        "self_statement": "I am well aware of the various techniques for effectively finding solutions to pending issues.",
+        "peer_statement": "is well aware of the various techniques for effectively finding solutions to pending issues.",
+        "direct_statement": "is well aware of the various techniques for effectively finding solutions to pending issues.",
+        "boss_statement": "is well aware of the various techniques for effectively finding solutions to pending issues."
+    },
+    {
+        "learning_id": "11",
+        "self_statement": "I actively work to find better ways to engage my employees in finding better solutions to pending issues.",
+        "peer_statement": "actively works to find better ways to engage employees in finding better solutions to pending issues.",
+        "direct_statement": "actively works to find better ways to engage me in finding better solutions to pending issues.",
+        "boss_statement": "actively works to find better ways to engage employees in finding better solutions to pending issues."
+    },
+    {
+        "learning_id": "11",
+        "self_statement": "I noticed an improvement in my employee’s performance directly related to my recent activities in developing solutions to pending issues.",
+        "peer_statement": "notices improvements in employee’s performance directly related to their recent activities in developing solutions to pending issues.",
+        "direct_statement": "notices improvements in my performance directly related to their recent activities in developing solutions to pending issues.",
+        "boss_statement": "notices improvements in employee’s performance directly related to their recent activities in developing solutions to pending issues."
+    },
+    {
+        "learning_id": "12",
+        "self_statement": "I am well aware of the various techniques for supervising employees that are not physically present on a daily basis.",
+        "peer_statement": "is well aware of the various techniques for supervising employees that are not physically present on a daily basis.",
+        "direct_statement": "is well aware of the various techniques for supervising me even though I am not physically present on a daily basis.",
+        "boss_statement": "is well aware of the various techniques for supervising employees that are not physically present on a daily basis."
+    },
+    {
+        "learning_id": "12",
+        "self_statement": "I actively work to find better ways to engage my employees while working remotely.",
+        "peer_statement": "actively works to find better ways to engage their employees while working remotely.",
+        "direct_statement": "actively works to find better ways to engage me while working remotely.",
+        "boss_statement": "actively works to find better ways to engage their employees while working remotely."
+    },
+    {
+        "learning_id": "12",
+        "self_statement": "I noticed an improvement in my employees’ performance directly due to my recent activities in remote supervising.",
+        "peer_statement": "notices improvements in employees’ performance directly due to their recent activities in remote supervising.",
+        "direct_statement": "notices improvements in my performance directly due to their recent activities in remote supervising.",
+        "boss_statement": "notices improvements in employees’ performance directly due to their recent activities in remote supervising."
+    },
+    {
+        "learning_id": "12",
+        "self_statement": "I am well aware of the various techniques for supervising employees working remotely.",
+        "peer_statement": "is well aware of the various techniques for supervising employees working remotely.",
+        "direct_statement": "is well aware of the various techniques for supervising me while working remotely.",
+        "boss_statement": "is well aware of the various techniques for supervising employees working remotely."
+    },
+    {
+        "learning_id": "12",
+        "self_statement": "I actively work to find better ways to engage my employees while they’re working remotely.",
+        "peer_statement": "actively works to find better ways to engage their employees while they’re working remotely.",
+        "direct_statement": "actively works to find better ways to engage me while they’re working remotely.",
+        "boss_statement": "actively works to find better ways to engage their employees while they’re working remotely."
+    },
+    {
+        "learning_id": "12",
+        "self_statement": "I noticed an improvement in my employees’ performance directly due to my recent activities in directing employees working remotely.",
+        "peer_statement": "notices improvements in employees’ performance directly due to their recent activities in directing employees working remotely.",
+        "direct_statement": "notices improvements in my performance directly due to their recent activities in directing employees working remotely.",
+        "boss_statement": "notices improvements in employees’ performance directly due to their recent activities in directing employees working remotely."
+    },
+    {
+        "learning_id": "13",
+        "self_statement": "I am well aware of activities that I can do to increase the effectiveness of time management in my work group.",
+        "peer_statement": "is well aware of activities that can be done to increase the effectiveness of time management within their work group.",
+        "direct_statement": "is well aware of activities that can be done to increase the effectiveness of time management within our work group.",
+        "boss_statement": "is well aware of activities that can be done to increase the effectiveness of time management within their work group."
+    },
+    {
+        "learning_id": "13",
+        "self_statement": "I actively work to demonstrate effective time management so that my employees can more effectively manage their time.",
+        "peer_statement": "actively works to demonstrate effective time management so that the employees can more effectively manage their time.",
+        "direct_statement": "actively works to demonstrate effective time management so that the I can more effectively manage my time.",
+        "boss_statement": "actively works to demonstrate effective time management so that the employees can more effectively manage their time."
+    },
+    {
+        "learning_id": "13",
+        "self_statement": "I’ve noticed an improvement in my employees’ time management directly due to my efforts to more effectively manage my time.",
+        "peer_statement": "notices improvement in employees’ time management directly due to their efforts to more effectively manage time.",
+        "direct_statement": "notices improvement in my time management directly due to their efforts to more effectively manage their time.",
+        "boss_statement": "notices improvement in employees’ time management directly due to their efforts to more effectively manage time."
+    },
+    {
+        "learning_id": "13",
+        "self_statement": "I am well aware of things I can do to improve the way our work group establishes and maintains priorities.",
+        "peer_statement": "is well aware of methods and activities that can be done to improve the way the work group establishes and maintains priorities.",
+        "direct_statement": "is well aware of methods and activities that can be done to improve the way our work group establishes and maintains priorities.",
+        "boss_statement": "is well aware of methods and activities that can be done to improve the way the work group establishes and maintains priorities."
+    },
+    {
+        "learning_id": "13",
+        "self_statement": "I actively demonstrate time management activities such that my employees can learn from.",
+        "peer_statement": "actively demonstrates time management activities such that that their employees can learn from.",
+        "direct_statement": "actively demonstrates time management activities such that that our work group can learn from.",
+        "boss_statement": "actively demonstrates time management activities such that that their employees can learn from."
+    },
+    {
+        "learning_id": "13",
+        "self_statement": "I’ve noticed that my employees have been establishing and maintaining priorities more, due to policies and procedures I’ve implemented.",
+        "peer_statement": "notices that employees have been establishing and maintaining priorities more, due to policies and procedures implemented.",
+        "direct_statement": "notices that I have been establishing and maintaining priorities more, due to policies and procedures implemented.",
+        "boss_statement": "notices that employees have been establishing and maintaining priorities more, due to policies and procedures implemented."
+    },
+    {
+        "learning_id": "14",
+        "self_statement": "I am well aware of activities that I can do to build trust in my work group.",
+        "peer_statement": "is well aware of the methods and activities that can be done to build trust in my work group.",
+        "direct_statement": "is well aware of the methods and activities that can be done to build trust in our work group.",
+        "boss_statement": "is well aware of the methods and activities that can be done to build trust in the work group."
+    },
+    {
+        "learning_id": "14",
+        "self_statement": "I actively work to demonstrate to employees that they can trust me.",
+        "peer_statement": "actively works to demonstrate to employees that they can trust me.",
+        "direct_statement": "actively works to demonstrate to me that they can be trusted.",
+        "boss_statement": "actively works to demonstrate to employees that they can trust what is said."
+    },
+    {
+        "learning_id": "14",
+        "self_statement": "I noticed an improvement in my employees’ performance directly due to my showing of trusting them as well as their trust in me.",
+        "peer_statement": "notices improvement in employees’ performance directly due to me showing of trusting them as well as their trust in me.",
+        "direct_statement": "notices improvement in my performance directly due to their showing of trusting them as well as their trust in me.",
+        "boss_statement": "notices improvement in employees’ performance directly due to being trusted."
+    },
+    {
+        "learning_id": "14",
+        "self_statement": "I’m well aware of techniques for improving my ability to develop more trust in my work group.",
+        "peer_statement": "is well aware of techniques for improving their ability to develop more trust in their work group.",
+        "direct_statement": "is well aware of techniques for improving their ability to develop more trust in me.",
+        "boss_statement": "is well aware of techniques for improving their ability to develop more trust in their work group."
+    },
+    {
+        "learning_id": "14",
+        "self_statement": "I actively work to demonstrate to my team they can have confidence in what I say.",
+        "peer_statement": "actively works to demonstrate to their work group they can have confidence in what is said.",
+        "direct_statement": "actively works to demonstrate to me that they can have confidence in me in what I say.",
+        "boss_statement": "actively works to demonstrate to their work group they can have confidence in what is said."
+    },
+    {
+        "learning_id": "14",
+        "self_statement": "I noticed an improvements in employees’ level of performance due to my activities in building more trust.",
+        "peer_statement": "notices improvements in employees’ level of performance and confidence in me due to my showing confidence (and trust) in them.",
+        "direct_statement": "notices improvements in my level of performance and confidence in me due to my showing confidence (and trust) in them.",
+        "boss_statement": "notices improvements in employees’ level of performance due to their activities in building more trust."
+    }
+]

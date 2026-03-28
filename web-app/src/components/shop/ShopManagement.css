@@ -1,0 +1,27 @@
+.table td {
+  vertical-align: middle;
+}
+
+.badge {
+  font-size: 0.9rem;
+  padding: 8px 12px;
+}
+
+.btn-sm {
+  min-width: 100px;
+}
+
+.btn-sm.btn-outline-primary,
+.btn-sm.btn-outline-danger {
+  min-width: auto;
+  width: 40px;
+}
+
+.form-switch {
+  padding-left: 2.5em;
+}
+
+.modal-body {
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
+} 

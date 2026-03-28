@@ -1,0 +1,82 @@
+Hello and welcome to LeanFit Pro. Here we'll learn how to create a Mistake Proofing report.
+
+First, login to LeanFit and you'll see a menu. This opens a mega menu for the application. Locate the Reports option here and click on it.
+
+Now you can see the reports page with a Create Report button. Let's click on it.
+
+You can add a report name here and select Mistake Proofing from the report type dropdown menu. We have 21 report types available.
+
+You can also assign this report to a project and assign it to organization members.
+
+Let's create the Mistake Proofing report now.
+
+Once it's created, you can see the video tutorial from here. Click on Edit to edit the report details, such as the report name. Note that you cannot change the report type once it's created. Everything else remains the same, and you can update the details.
+
+You can also copy a report with all its data.
+
+Additionally, you can mark the report as completed. When you do this, the system will reward you with awards according to your organization's configuration.
+
+Now let's get started with the Mistake Proofing report. Click on Open to open the report.
+
+Now, this is the Action Item section where you can create action items for this report. Click here and the action item creation modal will appear. You can add a title, description, and set a due date for the action item. The report is already selected. You can add members if the report has assignees - they will show here.
+
+You can add images to your action item, then create it. You've successfully created an action item.
+
+The Mistake Proofing report uses a unique system to identify and assess potential failures. Notice that instead of "Categories", the system uses "Potential Failures" for this report type.
+
+Unlike other reports, Mistake Proofing doesn't have default categories. You'll create custom potential failures specific to your process or product.
+
+To add a potential failure, click the plus button. Enter the name of the potential failure you want to assess, such as:
+- Incorrect Part Selection
+- Cross-threading of Fasteners
+- Electrical Connection Error
+- Missing Quality Inspection
+- Tool Calibration Failure
+- Documentation Error
+
+When you create a potential failure, the system automatically adds two assessment statements:
+
+**Potential Score**: How likely is it that this failure will happen?
+- 1 = Very unlikely (rare occurrence)
+- 2 = Unlikely (occasional occurrence)
+- 3 = Possible (moderate occurrence)
+- 4 = Likely (frequent occurrence)
+- 5 = Very likely (almost certain)
+
+**Consequences Score**: How severe would the impact be if this failure occurred?
+- 1 = Minimal impact (no safety or quality concern)
+- 2 = Minor impact (slight quality issue)
+- 3 = Moderate impact (noticeable quality issue)
+- 4 = Major impact (significant quality or safety concern)
+- 5 = Critical impact (severe safety risk or total failure)
+
+The system calculates a total score for each potential failure by adding the Potential and Consequences scores, helping you prioritize which failures need immediate attention.
+
+Note that you cannot add additional statements to potential failures - the system only uses these two standardized assessment criteria.
+
+In the Additional Details section for each potential failure, you can:
+- Add detailed descriptions of the failure mode
+- Upload photos of existing mistake-proofing solutions
+- Document poka-yoke devices or procedures
+- Specify detection methods and controls
+- Tag relevant team members
+
+You can't rearrange potential failures, but you can organize them by creation order or priority.
+
+The radar chart visualization shows your assessment scores across all potential failures, making it easy to identify high-risk areas that need mistake-proofing solutions.
+
+Each potential failure card displays:
+- The failure name
+- Total score (sum of Potential and Consequences)
+- Average score
+- Color-coded risk level
+
+The system helps you prioritize mistake-proofing efforts based on the combination of likelihood and severity, following standard risk assessment practices.
+
+Finally, you can export to PDF and get yourself a comprehensive Mistake Proofing report with risk assessments, poka-yoke solutions, and implementation recommendations.
+
+The PDF export provides a professional format perfect for quality reviews, process improvement meetings, and documenting your error prevention strategies.
+
+That's it for the Mistake Proofing report. It's an essential tool for implementing poka-yoke and building quality at the source. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

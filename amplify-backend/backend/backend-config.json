@@ -1,0 +1,662 @@
+{
+  "api": {
+    "apifetchdata": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "fetchDataFromMySQL"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "generatePDFEmail"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "emailService"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "fetchAllQuizzes"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "emailFeedback"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "handleOrganizationInvite"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "notificationEmail"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "generatePDF2325"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "createStripeCustomer"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "handleSubscribe"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "handleStripeWebhook"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "handleUserManagement"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "awardEmailMutatuon"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "cancelSubscription"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "lfapi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "LfAPI"
+        }
+      ],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [
+            {
+              "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+              "userPoolConfig": {
+                "userPoolId": "authLfAPI"
+              }
+            },
+            {
+              "authenticationType": "AWS_IAM"
+            }
+          ],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDate": "2025-11-28T15:39:00.400Z",
+              "apiKeyExpirationDays": 365,
+              "description": ""
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
+  "auth": {
+    "LfAPI": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "awardEmailMutatuon": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "cancelSubscription": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "createStripeCustomer": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "emailFeedback": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "emailService": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "fetchAllQuizzes": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "fetchDataFromMySQL": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "generatePDF2325": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "generatePDFEmail": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "handleOrganizationInvite": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "handleStripeWebhook": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "handleSubscribe": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "handleUserManagement": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "notificationEmail": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput",
+            "GraphQLAPIKeyOutput"
+          ],
+          "category": "api",
+          "resourceName": "lfapi"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_awardEmailMutatuon_apiKey": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "awardEmailMutatuon"
+        }
+      ]
+    },
+    "AMPLIFY_function_awardEmailMutatuon_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "awardEmailMutatuon"
+        }
+      ]
+    },
+    "AMPLIFY_function_awardEmailMutatuon_graphqlEndpoint": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "awardEmailMutatuon"
+        }
+      ]
+    },
+    "AMPLIFY_function_awardEmailMutatuon_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "awardEmailMutatuon"
+        }
+      ]
+    },
+    "AMPLIFY_function_cancelSubscription_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "cancelSubscription"
+        }
+      ]
+    },
+    "AMPLIFY_function_cancelSubscription_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "cancelSubscription"
+        }
+      ]
+    },
+    "AMPLIFY_function_createStripeCustomer_apiLfapiGraphqlapiendpointoutput": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "createStripeCustomer"
+        }
+      ]
+    },
+    "AMPLIFY_function_createStripeCustomer_apiLfapiGraphqlapikeyoutput": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "createStripeCustomer"
+        }
+      ]
+    },
+    "AMPLIFY_function_createStripeCustomer_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "createStripeCustomer"
+        }
+      ]
+    },
+    "AMPLIFY_function_createStripeCustomer_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "createStripeCustomer"
+        }
+      ]
+    },
+    "AMPLIFY_function_createStripeCustomer_stripePriceIdMonthly": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "createStripeCustomer"
+        }
+      ]
+    },
+    "AMPLIFY_function_createStripeCustomer_stripePriceIdYearly": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "createStripeCustomer"
+        }
+      ]
+    },
+    "AMPLIFY_function_createStripeCustomer_stripeSecretKey": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "createStripeCustomer"
+        }
+      ]
+    },
+    "AMPLIFY_function_emailFeedback_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "emailFeedback"
+        }
+      ]
+    },
+    "AMPLIFY_function_emailFeedback_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "emailFeedback"
+        }
+      ]
+    },
+    "AMPLIFY_function_emailService_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "emailService"
+        }
+      ]
+    },
+    "AMPLIFY_function_emailService_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "emailService"
+        }
+      ]
+    },
+    "AMPLIFY_function_fetchAllQuizzes_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "fetchAllQuizzes"
+        }
+      ]
+    },
+    "AMPLIFY_function_fetchAllQuizzes_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "fetchAllQuizzes"
+        }
+      ]
+    },
+    "AMPLIFY_function_fetchDataFromMySQL_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "fetchDataFromMySQL"
+        }
+      ]
+    },
+    "AMPLIFY_function_fetchDataFromMySQL_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "fetchDataFromMySQL"
+        }
+      ]
+    },
+    "AMPLIFY_function_generatePDF2325_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "generatePDF2325"
+        }
+      ]
+    },
+    "AMPLIFY_function_generatePDF2325_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "generatePDF2325"
+        }
+      ]
+    },
+    "AMPLIFY_function_generatePDFEmail_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "generatePDFEmail"
+        }
+      ]
+    },
+    "AMPLIFY_function_generatePDFEmail_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "generatePDFEmail"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleOrganizationInvite_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleOrganizationInvite"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleOrganizationInvite_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleOrganizationInvite"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleStripeWebhook_apiLfapiGraphqlapiendpointoutput": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleStripeWebhook"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleStripeWebhook_apiLfapiGraphqlapikeyoutput": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleStripeWebhook"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleStripeWebhook_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleStripeWebhook"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleStripeWebhook_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleStripeWebhook"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleStripeWebhook_stripeSecretKey": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleStripeWebhook"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleStripeWebhook_stripeWebhookSecret": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleStripeWebhook"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleSubscribe_apiLfapiGraphqlapiendpointoutput": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleSubscribe"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleSubscribe_apiLfapiGraphqlapikeyoutput": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleSubscribe"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleSubscribe_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleSubscribe"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleSubscribe_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleSubscribe"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleSubscribe_stripePriceIdMonthly": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleSubscribe"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleSubscribe_stripePriceIdYearly": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleSubscribe"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleSubscribe_stripeSecretKey": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleSubscribe"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleUserManagement_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleUserManagement"
+        }
+      ]
+    },
+    "AMPLIFY_function_handleUserManagement_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handleUserManagement"
+        }
+      ]
+    },
+    "AMPLIFY_function_notificationEmail_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "notificationEmail"
+        }
+      ]
+    },
+    "AMPLIFY_function_notificationEmail_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "notificationEmail"
+        }
+      ]
+    },
+    "AMPLIFY_function_syncPaymentStatus_apiLfapiGraphqlapiendpointoutput": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "syncPaymentStatus"
+        }
+      ]
+    },
+    "AMPLIFY_function_syncPaymentStatus_apiLfapiGraphqlapikeyoutput": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "syncPaymentStatus"
+        }
+      ]
+    },
+    "AMPLIFY_function_syncPaymentStatus_stripeSecretKey": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "syncPaymentStatus"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "s3lfapistorage2b19a34b": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3"
+    }
+  }
+}

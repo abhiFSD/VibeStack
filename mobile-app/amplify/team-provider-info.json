@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mfapp-staging-51f6f-authRole",
+      "UnauthRoleArn": "arn:aws:iam::407975590983:role/amplify-mfapp-staging-51f6f-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::407975590983:role/amplify-mfapp-staging-51f6f-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-mfapp-staging-51f6f-deployment",
+      "UnauthRoleName": "amplify-mfapp-staging-51f6f-unauthRole",
+      "StackName": "amplify-mfapp-staging-51f6f",
+      "StackId": "arn:aws:cloudformation:us-west-2:407975590983:stack/amplify-mfapp-staging-51f6f/6dd81910-2a25-11ef-8368-0a70993d795d",
+      "AmplifyAppId": "d3mg3gkyw8g143"
+    },
+    "categories": {
+      "auth": {
+        "MfApp": {}
+      }
+    }
+  }
+}

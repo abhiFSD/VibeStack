@@ -1,0 +1,454 @@
+{
+  "report": {
+    "name": "Executive Leadership Team - Annual Assessment",
+    "type": "Leadership Report",
+    "completed": true,
+    "assignedMembers": ["ceo@example.com", "hr-director@example.com", "operations-vp@example.com", "leadership-coach@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Communications",
+      "orderIndex": 0,
+      "assignees": ["communications-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "town_hall_meeting.jpg",
+          "url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "communications-manager@example.com",
+          "uploadedAt": "2024-01-05T10:30:00Z",
+          "description": "Executive town hall meeting demonstrating transparent communication"
+        }
+      ],
+      "description": "Assessment of leadership communication effectiveness across all organizational levels",
+      "statements": [
+        {
+          "name": "I communicate clearly and effectively with my team members.",
+          "value": 5
+        },
+        {
+          "name": "I actively listen to feedback and concerns from my team.",
+          "value": 4
+        },
+        {
+          "name": "I provide regular updates on organizational goals and progress.",
+          "value": 5
+        },
+        {
+          "name": "I encourage open dialogue and transparent communication.",
+          "value": 4
+        },
+        {
+          "name": "I adapt my communication style to different audiences effectively.",
+          "value": 4
+        },
+        {
+          "name": "I ensure important information cascades appropriately throughout the organization.",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Leadership and Coaching",
+      "orderIndex": 1,
+      "assignees": ["leadership-coach@example.com", "hr-director@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "coaching_session.jpg",
+          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "leadership-coach@example.com",
+          "uploadedAt": "2024-01-08T14:15:00Z",
+          "description": "Executive coaching session for leadership development"
+        }
+      ],
+      "description": "Evaluation of leadership capabilities and coaching effectiveness for team development",
+      "statements": [
+        {
+          "name": "I provide clear direction and vision to my team.",
+          "value": 5
+        },
+        {
+          "name": "I coach and develop team members to reach their full potential.",
+          "value": 4
+        },
+        {
+          "name": "I delegate effectively while maintaining appropriate oversight.",
+          "value": 4
+        },
+        {
+          "name": "I inspire and motivate others to achieve excellence.",
+          "value": 5
+        },
+        {
+          "name": "I lead by example and demonstrate the behaviors I expect.",
+          "value": 5
+        },
+        {
+          "name": "I create development opportunities for emerging leaders.",
+          "value": 4
+        },
+        {
+          "name": "I provide constructive feedback that promotes growth.",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Decision Making",
+      "orderIndex": 2,
+      "assignees": ["ceo@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "strategic_planning_session.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "ceo@example.com",
+          "uploadedAt": "2024-01-10T11:20:00Z",
+          "description": "Strategic planning session showcasing data-driven decision making"
+        }
+      ],
+      "description": "Assessment of decision-making processes and quality at the executive level",
+      "statements": [
+        {
+          "name": "I make timely decisions based on available data and analysis.",
+          "value": 4
+        },
+        {
+          "name": "I involve appropriate stakeholders in important decision-making processes.",
+          "value": 5
+        },
+        {
+          "name": "I communicate the rationale behind major decisions clearly.",
+          "value": 4
+        },
+        {
+          "name": "I take responsibility for the outcomes of my decisions.",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Performance Management and Goal Setting",
+      "orderIndex": 3,
+      "assignees": ["hr-director@example.com", "operations-vp@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "performance_dashboard.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-vp@example.com",
+          "uploadedAt": "2024-01-12T09:45:00Z",
+          "description": "Executive performance dashboard with KPI tracking and goal progress"
+        }
+      ],
+      "description": "Evaluation of goal setting processes and performance management systems",
+      "statements": [
+        {
+          "name": "I set clear, measurable, and achievable goals for my team.",
+          "value": 5
+        },
+        {
+          "name": "I regularly monitor and review progress toward established goals.",
+          "value": 4
+        },
+        {
+          "name": "I provide ongoing support to help team members achieve their objectives.",
+          "value": 4
+        },
+        {
+          "name": "I adjust goals and expectations when circumstances change appropriately.",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Process Improvement",
+      "orderIndex": 4,
+      "assignees": ["process-improvement-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-5",
+          "name": "kaizen_event.jpg",
+          "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-improvement-manager@example.com",
+          "uploadedAt": "2024-01-15T13:30:00Z",
+          "description": "Leadership-sponsored Kaizen event for process optimization"
+        }
+      ],
+      "description": "Assessment of leadership commitment to continuous improvement initiatives",
+      "statements": [
+        {
+          "name": "I actively champion continuous improvement initiatives.",
+          "value": 5
+        },
+        {
+          "name": "I allocate appropriate resources for process improvement projects.",
+          "value": 4
+        },
+        {
+          "name": "I recognize and celebrate improvement achievements.",
+          "value": 4
+        },
+        {
+          "name": "I encourage innovation and creative problem-solving.",
+          "value": 5
+        },
+        {
+          "name": "I eliminate barriers that prevent process improvements.",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Trust Building",
+      "orderIndex": 5,
+      "assignees": ["hr-director@example.com"],
+      "attachments": [],
+      "description": "Evaluation of trust-building capabilities and relationship management",
+      "statements": [
+        {
+          "name": "I consistently follow through on my commitments and promises.",
+          "value": 5
+        },
+        {
+          "name": "I maintain confidentiality when appropriate and build trust through discretion.",
+          "value": 5
+        },
+        {
+          "name": "I admit mistakes and take responsibility for my actions.",
+          "value": 4
+        },
+        {
+          "name": "I demonstrate integrity in all my professional interactions.",
+          "value": 5
+        },
+        {
+          "name": "I create an environment where others feel safe to express concerns.",
+          "value": 4
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-1",
+      "title": "Accomplishments and significant events",
+      "description": "<p><strong>Strategic Vision Implementation:</strong> Successfully launched company-wide digital transformation initiative, achieving 95% employee adoption rate within 6 months. This strategic initiative directly supports our 3-year growth plan and competitive positioning.</p><p><strong>Leadership Development Success:</strong> Graduated 12 high-potential leaders through our Executive Leadership Accelerator program, with 100% retention rate and 3 internal promotions to senior management roles.</p><p><strong>Operational Excellence Achievement:</strong> Led cross-functional team to achieve 23% improvement in operational efficiency through lean methodology implementation, exceeding annual targets by 8%.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["ceo@example.com", "operations-vp@example.com"]
+    },
+    {
+      "id": "highlight-2",
+      "title": "Improvement PDCAs",
+      "description": "<p><strong>Communication Enhancement PDCA:</strong> Implemented systematic approach to improve executive communication effectiveness. Plan: Structured monthly town halls. Do: Executed 6-month pilot. Check: 87% employee satisfaction increase. Act: Standardized across all divisions.</p><p><strong>Decision-Making Optimization:</strong> Deployed data-driven decision framework reducing decision cycle time by 35% while improving decision quality scores from 3.2 to 4.1 (5-point scale).</p><p><strong>Performance Management Evolution:</strong> Transitioned from annual to quarterly goal-setting with real-time feedback mechanisms, resulting in 28% improvement in goal achievement rates.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["hr-director@example.com", "process-improvement-manager@example.com"]
+    },
+    {
+      "id": "highlight-3",
+      "title": "Special recognitions",
+      "description": "<p><strong>Industry Leadership Award:</strong> Organization recognized as 'Excellence in Leadership Development' by National Management Association for innovative executive coaching program and measurable leadership impact.</p><p><strong>Best Workplace Culture:</strong> Achieved top 10% ranking in employee engagement survey, specifically citing exceptional leadership trust and communication as key differentiators.</p><p><strong>Sustainability Leadership:</strong> CEO invited to speak at International Leadership Conference on 'Building Trust-Centric Organizations' based on our exemplary leadership practices and business results.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["ceo@example.com"]
+    },
+    {
+      "id": "highlight-4",
+      "title": "Upcoming issues and events",
+      "description": "<p><strong>Q2 Leadership Summit:</strong> Planning comprehensive leadership development summit for 50+ managers focusing on advanced coaching techniques and change leadership. Expected to enhance organizational coaching capabilities significantly.</p><p><strong>Succession Planning Initiative:</strong> Launching systematic succession planning process for all key leadership positions, with emphasis on internal development and knowledge transfer protocols.</p><p><strong>Digital Leadership Capabilities:</strong> Addressing emerging need for digital leadership skills across executive team to support ongoing digital transformation and remote team management excellence.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["hr-director@example.com", "leadership-coach@example.com"]
+    },
+    {
+      "id": "highlight-5",
+      "title": "Resource and support needs",
+      "description": "<p><strong>Advanced Coaching Certification:</strong> Request for budget allocation to certify all executives in advanced coaching methodologies (ICF certification program) - estimated investment $45,000 with projected ROI of 340% based on team performance improvements.</p><p><strong>Leadership Assessment Technology:</strong> Need for comprehensive 360-degree assessment platform to enhance leadership development tracking and provide data-driven insights for continuous improvement.</p><p><strong>Executive Mentorship Network:</strong> Support needed to establish external executive mentorship network with industry leaders to bring fresh perspectives and accelerate leadership growth.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["hr-director@example.com", "finance-director@example.com"]
+    },
+    {
+      "id": "highlight-6",
+      "title": "Action Items",
+      "description": "<p><strong>Coaching Certification Program:</strong> Implement executive coaching certification for all team members to enhance developmental leadership capabilities (Due: April 1, 2024)</p><p><strong>Advanced Delegation Framework:</strong> Create comprehensive delegation framework with accountability metrics and development opportunities (Due: March 15, 2024)</p><p><strong>Agile Goal Management System:</strong> Deploy dynamic goal management system with quarterly adjustments and real-time tracking (Due: May 1, 2024)</p><p><strong>Leadership Mentorship Network:</strong> Establish formal mentorship network connecting executives with emerging leaders (Due: April 15, 2024)</p><p><strong>Innovation Lab Initiative:</strong> Launch dedicated innovation lab for creative problem-solving and systematic innovation (Due: June 1, 2024)</p>",
+      "images": [],
+      "assignees": ["leadership-coach@example.com", "hr-director@example.com", "operations-vp@example.com"]
+    }
+  ],
+  "aiAnalysis": {
+    "overallAssessment": {
+      "maturityLevel": "Exemplary",
+      "organizationType": "Executive Leadership Team",
+      "assessmentStatus": "Completed - Outstanding Leadership Performance"
+    },
+    "keyFindings": [
+      "Communication Excellence: Strong transparent communication with consistent cascading of information",
+      "Visionary Leadership: Outstanding ability to provide direction, inspire teams, and lead by example",
+      "Decision Authority: Excellent stakeholder involvement and accountability in decision-making",
+      "Goal-Oriented Management: Strong goal setting and performance monitoring capabilities",
+      "Continuous Improvement Champion: Exceptional commitment to process improvement and innovation",
+      "Trust Foundation: Exemplary integrity and trust-building capabilities"
+    ],
+    "highlightsAnalysis": {
+      "accomplishments": "Demonstrates exceptional strategic vision implementation with 95% employee adoption of digital transformation. Leadership development program shows outstanding results with 100% retention and 3 internal promotions.",
+      "improvements": "Systematic PDCA approach to communication enhancement resulted in 87% employee satisfaction increase. Decision-making optimization reduced cycle time by 35% while improving quality scores.",
+      "recognitions": "Achieved industry leadership award for excellence in leadership development and top 10% ranking in employee engagement specifically citing leadership trust and communication.",
+      "initiatives": "Comprehensive leadership summit planning and succession planning initiative demonstrates forward-thinking approach to organizational development and knowledge transfer."
+    },
+    "strengthAreas": [
+      {
+        "category": "Trust Building",
+        "highlights": "Outstanding integrity, accountability, and confidentiality management",
+        "bestPractices": "Consistent follow-through, responsibility ownership, safe environment creation, professional integrity"
+      },
+      {
+        "category": "Communications",
+        "highlights": "Excellent transparent communication with effective information cascading",
+        "bestPractices": "Clear team communication, regular organizational updates, information flow management"
+      },
+      {
+        "category": "Process Improvement",
+        "highlights": "Strong continuous improvement leadership and innovation championing",
+        "bestPractices": "Active improvement advocacy, creative problem-solving encouragement, barrier elimination"
+      }
+    ],
+    "improvementOpportunities": [
+      {
+        "category": "Leadership and Coaching",
+        "gaps": "Coaching and delegation capabilities could be enhanced for maximum team development",
+        "recommendations": "Implement structured coaching programs, establish mentorship networks, enhance delegation frameworks with clear accountability"
+      },
+      {
+        "category": "Performance Management and Goal Setting",
+        "gaps": "Goal adjustment and ongoing support systems could be more dynamic",
+        "recommendations": "Develop agile goal management processes, create real-time support systems, implement adaptive performance frameworks"
+      }
+    ],
+    "learningPoints": [
+      "Trust-Centric Leadership: This leadership team demonstrates how integrity and trust-building form the foundation for all other leadership capabilities.",
+      "Communication as Strategy: The consistent high scores in communication show how transparent, multi-directional communication drives organizational alignment.",
+      "Improvement Culture: Leadership's commitment to continuous improvement creates a culture where innovation and optimization are organizational priorities.",
+      "Stakeholder Engagement: The emphasis on involving appropriate stakeholders in decisions demonstrates mature collaborative leadership.",
+      "Development Focus: The balance of directive leadership with coaching shows understanding of both results and people development needs."
+    ],
+    "nextSteps": [
+      "Implement Executive Coaching Certification program for all leadership team members",
+      "Develop Advanced Delegation Framework with clear accountability and development metrics",
+      "Create Agile Goal Management System with quarterly adjustment capabilities",
+      "Establish Leadership Mentorship Network for emerging leaders throughout organization",
+      "Launch Innovation Lab initiative to further enhance creative problem-solving capabilities"
+    ],
+    "organizationalMaturity": {
+      "level": "Exemplary (Level 5 of 5)",
+      "characteristics": [
+        "Consistently exceptional performance across all leadership dimensions",
+        "Strong trust-based culture with transparent communication",
+        "Systematic approach to continuous improvement and innovation",
+        "Mature decision-making processes with stakeholder engagement",
+        "Balanced focus on results and people development"
+      ],
+      "readinessForAdvancement": "Ready to serve as benchmark organization and mentor other leadership teams"
+    },
+    "benchmarkComparison": {
+      "positioning": "Significantly exceeds top performer benchmarks, approaching world-class leadership standards",
+      "competitiveInsights": "Leadership capabilities position organization for sustained competitive advantage and industry recognition"
+    }
+  },
+  "actionItems": [
+    {
+      "id": "leader-ai-1",
+      "title": "Executive Coaching Certification Program",
+      "description": "Implement comprehensive coaching certification for all executive team members to enhance developmental leadership capabilities and team coaching effectiveness",
+      "duedate": "2024-04-01",
+      "status": 0,
+      "assignees": ["leadership-coach@example.com", "hr-director@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-6",
+          "name": "coaching_certification_program.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "leadership-coach@example.com",
+          "uploadedAt": "2024-01-18T14:20:00Z",
+          "description": "Executive coaching certification program curriculum and timeline"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Leadership and Coaching",
+      "priority": "High"
+    },
+    {
+      "id": "leader-ai-2",
+      "title": "Advanced Delegation Framework Development",
+      "description": "Create comprehensive delegation framework with clear accountability metrics, development opportunities, and empowerment guidelines for optimal team growth",
+      "duedate": "2024-03-15",
+      "status": 1,
+      "assignees": ["operations-vp@example.com", "hr-director@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-7",
+          "name": "delegation_framework_model.jpg",
+          "url": "https://images.unsplash.com/photo-1553484771-8966baa92e8b?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-vp@example.com",
+          "uploadedAt": "2024-01-20T11:45:00Z",
+          "description": "Advanced delegation framework model with accountability structures"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Leadership and Coaching",
+      "priority": "High"
+    },
+    {
+      "id": "leader-ai-3",
+      "title": "Agile Goal Management System Implementation",
+      "description": "Deploy dynamic goal management system enabling quarterly adjustments, real-time progress tracking, and adaptive performance frameworks",
+      "duedate": "2024-05-01",
+      "status": 0,
+      "assignees": ["performance-manager@example.com", "it-director@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Performance Management and Goal Setting",
+      "priority": "Medium"
+    },
+    {
+      "id": "leader-ai-4",
+      "title": "Leadership Mentorship Network Launch",
+      "description": "Establish formal mentorship network connecting executive leaders with emerging leaders throughout the organization for succession planning and development",
+      "duedate": "2024-04-15",
+      "status": 0,
+      "assignees": ["hr-director@example.com", "ceo@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Trust Building",
+      "priority": "Medium"
+    },
+    {
+      "id": "leader-ai-5",
+      "title": "Innovation Lab Initiative",
+      "description": "Launch dedicated innovation lab to enhance creative problem-solving capabilities and systematic innovation processes across all departments",
+      "duedate": "2024-06-01",
+      "status": 0,
+      "assignees": ["process-improvement-manager@example.com", "innovation-director@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Process Improvement",
+      "priority": "Low"
+    }
+  ]
+}

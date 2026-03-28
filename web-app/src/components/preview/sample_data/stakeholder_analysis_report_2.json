@@ -1,0 +1,178 @@
+{
+  "report": {
+    "name": "Process Improvement Initiative - Mixed Stakeholder Engagement Assessment",
+    "type": "Stakeholder Analysis Report",
+    "completed": false,
+    "assignedMembers": ["project-manager@example.com", "hr-coordinator@example.com", "department-supervisor@example.com"]
+  },
+  "chartData": [
+    {
+      "id": "stakeholder-1",
+      "text": "Department Manager\nModerate support, resource constraints",
+      "textColor": "#32CD32",
+      "posX": 500,
+      "posY": 150,
+      "reportID": "stakeholder-report-2"
+    },
+    {
+      "id": "stakeholder-2",
+      "text": "Team Lead A\nPositive attitude, limited authority",
+      "textColor": "#FF8C00",
+      "posX": 300,
+      "posY": 120,
+      "reportID": "stakeholder-report-2"
+    },
+    {
+      "id": "stakeholder-3",
+      "text": "IT Support\nTechnical concerns, workload issues",
+      "textColor": "#4169E1",
+      "posX": 600,
+      "posY": 350,
+      "reportID": "stakeholder-report-2"
+    },
+    {
+      "id": "stakeholder-4",
+      "text": "Operations Staff\nMixed reactions, change uncertainty",
+      "textColor": "#9932CC",
+      "posX": 250,
+      "posY": 300,
+      "reportID": "stakeholder-report-2"
+    },
+    {
+      "id": "stakeholder-5",
+      "text": "Quality Coordinator\nCompliance concerns, process skepticism",
+      "textColor": "#FF6347",
+      "posX": 450,
+      "posY": 380,
+      "reportID": "stakeholder-report-2"
+    },
+    {
+      "id": "stakeholder-6",
+      "text": "Finance Contact\nBudget limitations, ROI questions",
+      "textColor": "#20B2AA",
+      "posX": 700,
+      "posY": 300,
+      "reportID": "stakeholder-report-2"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-stakeholder-mixed-1",
+      "title": "Moderate Leadership Support with Resource Constraints",
+      "description": "<p><strong>Limited Management Engagement:</strong> Department manager providing moderate support but facing resource constraints and competing priorities limiting full engagement and change leadership capabilities for improvement initiative.</p><p><strong>Authority Gap Challenges:</strong> Key stakeholders with positive attitudes lacking sufficient authority to drive change, requiring enhanced leadership engagement and empowerment strategies for effective implementation.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["project-manager@example.com", "department-supervisor@example.com"]
+    },
+    {
+      "id": "highlight-stakeholder-mixed-2",
+      "title": "Mixed Staff Reactions and Change Uncertainty",
+      "description": "<p><strong>Varied Team Response:</strong> Operations staff showing mixed reactions to improvement initiative with some enthusiasm balanced by uncertainty about change impact, job security, and process modifications requiring targeted communication.</p><p><strong>Communication Gap Identification:</strong> Limited stakeholder communication and engagement leading to uncertainty, rumor circulation, and resistance development requiring systematic change communication strategy enhancement.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["hr-coordinator@example.com", "communications@example.com"]
+    },
+    {
+      "id": "highlight-stakeholder-mixed-3",
+      "title": "Technical and Compliance Resistance Points",
+      "description": "<p><strong>IT Support Concerns:</strong> Technical team expressing workload concerns and implementation skepticism due to limited consultation during planning phase and unclear technical requirements definition affecting support commitment.</p><p><strong>Quality Process Skepticism:</strong> Quality coordinator raising compliance concerns and process modification skepticism requiring enhanced stakeholder engagement and requirement validation for buy-in achievement.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["technical-lead@example.com", "quality-manager@example.com"]
+    },
+    {
+      "id": "highlight-stakeholder-mixed-4",
+      "title": "Budget and ROI Validation Challenges",
+      "description": "<p><strong>Financial Stakeholder Concerns:</strong> Finance contact expressing budget limitations and ROI validation questions requiring enhanced business case development and financial benefit quantification for continued support.</p><p><strong>Resource Allocation Issues:</strong> Limited budget allocation and competing priorities affecting stakeholder engagement, training resources, and implementation support requiring strategic resource planning.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["finance-liaison@example.com", "project-manager@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "stakeholder-mixed-action-1",
+      "title": "Enhance Leadership Engagement and Authority Clarification",
+      "description": "Develop comprehensive leadership engagement strategy including authority clarification, resource allocation planning, and management commitment protocols to strengthen change leadership.",
+      "duedate": "2024-06-30",
+      "status": 1,
+      "assignees": ["project-manager@example.com", "senior-management@example.com"],
+      "attachments": [
+        {
+          "id": "stakeholder-mixed-action-attachment-1",
+          "name": "leadership_engagement_strategy.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "project-manager@example.com",
+          "uploadedAt": "2024-02-28T11:00:00Z",
+          "description": "Leadership engagement strategy with authority clarification and resource planning"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Leadership Development",
+      "priority": "High"
+    },
+    {
+      "id": "stakeholder-mixed-action-2",
+      "title": "Implement Comprehensive Change Communication Plan",
+      "description": "Deploy systematic communication strategy with stakeholder-specific messaging, regular updates, feedback collection, and rumor management to address uncertainty and build engagement.",
+      "duedate": "2024-07-15",
+      "status": 0,
+      "assignees": ["communications@example.com", "hr-coordinator@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Communication Enhancement",
+      "priority": "High"
+    },
+    {
+      "id": "stakeholder-mixed-action-3",
+      "title": "Address Technical and Compliance Stakeholder Concerns",
+      "description": "Conduct targeted stakeholder sessions with IT and quality teams to address concerns, validate requirements, and develop collaborative implementation approach for technical buy-in.",
+      "duedate": "2024-08-01",
+      "status": 0,
+      "assignees": ["technical-lead@example.com", "quality-manager@example.com"],
+      "attachments": [
+        {
+          "id": "stakeholder-mixed-action-attachment-2",
+          "name": "technical_stakeholder_sessions.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "technical-lead@example.com",
+          "uploadedAt": "2024-03-02T15:45:00Z",
+          "description": "Technical stakeholder engagement sessions with concern validation and collaborative planning"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Technical Alignment",
+      "priority": "Medium"
+    },
+    {
+      "id": "stakeholder-mixed-action-4",
+      "title": "Strengthen Business Case and ROI Validation",
+      "description": "Enhance business case development with detailed ROI analysis, benefit quantification, and cost-benefit validation to address financial stakeholder concerns and secure budget support.",
+      "duedate": "2024-08-31",
+      "status": 0,
+      "assignees": ["business-analyst@example.com", "finance-liaison@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Financial Validation",
+      "priority": "Medium"
+    },
+    {
+      "id": "stakeholder-mixed-action-5",
+      "title": "Develop Stakeholder Feedback and Monitoring System",
+      "description": "Create systematic stakeholder feedback collection and monitoring system with regular pulse surveys, concern tracking, and adaptive engagement strategies for continuous improvement.",
+      "duedate": "2024-09-30",
+      "status": 0,
+      "assignees": ["project-coordinator@example.com", "feedback-analyst@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Monitoring & Feedback",
+      "priority": "Medium"
+    }
+  ]
+}

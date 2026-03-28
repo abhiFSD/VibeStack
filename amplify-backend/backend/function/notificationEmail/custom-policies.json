@@ -1,0 +1,10 @@
+[
+  {
+    "Action": [
+      "appsync:GraphQL"
+    ],
+    "Resource": [
+      "*"
+    ]
+  }
+]

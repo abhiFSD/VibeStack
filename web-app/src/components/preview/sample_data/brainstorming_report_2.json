@@ -1,0 +1,178 @@
+{
+  "report": {
+    "name": "Process Improvement Ideas - Operations Team",
+    "type": "Brainstorming Report", 
+    "completed": false,
+    "assignedMembers": ["tom.wilson@example.com", "emma.davis@example.com", "carlos.martinez@example.com"]
+  },
+  "chartData": [
+    {
+      "id": "idea-1",
+      "text": "Automated inventory tracking system",
+      "textColor": "#4169E1",
+      "posX": 180,
+      "posY": 100,
+      "reportID": "report-2"
+    },
+    {
+      "id": "idea-2",
+      "text": "Digital work order management",
+      "textColor": "#32CD32", 
+      "posX": 400,
+      "posY": 80,
+      "reportID": "report-2"
+    },
+    {
+      "id": "idea-3",
+      "text": "Employee suggestion portal",
+      "textColor": "#FF6347",
+      "posX": 620,
+      "posY": 120,
+      "reportID": "report-2"
+    },
+    {
+      "id": "idea-4",
+      "text": "Real-time performance dashboards",
+      "textColor": "#9932CC",
+      "posX": 240,
+      "posY": 250,
+      "reportID": "report-2"
+    },
+    {
+      "id": "idea-5",
+      "text": "Cross-training schedule optimization",
+      "textColor": "#FF8C00",
+      "posX": 480,
+      "posY": 220,
+      "reportID": "report-2"
+    },
+    {
+      "id": "idea-6",
+      "text": "Preventive maintenance alerts",
+      "textColor": "#20B2AA",
+      "posX": 650,
+      "posY": 280,
+      "reportID": "report-2"
+    },
+    {
+      "id": "idea-7",
+      "text": "Standard operating procedure updates",
+      "textColor": "#DC143C",
+      "posX": 300,
+      "posY": 400,
+      "reportID": "report-2"
+    },
+    {
+      "id": "idea-8",
+      "text": "Quality control checkpoints",
+      "textColor": "#4682B4",
+      "posX": 550,
+      "posY": 380,
+      "reportID": "report-2"
+    },
+    {
+      "id": "idea-9", 
+      "text": "Waste reduction tracking",
+      "textColor": "#228B22",
+      "posX": 720,
+      "posY": 420,
+      "reportID": "report-2"
+    }
+  ],
+  "categories": [],
+  "actionItems": [
+    {
+      "id": "action-1",
+      "title": "Pilot Digital Work Order System",
+      "description": "Implement trial run of digital work order management in packaging department to evaluate efficiency gains and user adoption",
+      "assignee": "tom.wilson@example.com",
+      "dueDate": "2024-03-20",
+      "status": 1,
+      "priority": "High",
+      "category": "Technology",
+      "attachments": [
+        {
+          "id": "action-attachment-1",
+          "name": "work_order_system_demo.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "tom.wilson@example.com",
+          "uploadedAt": "2024-01-15T08:30:00Z",
+          "description": "Digital work order system interface demonstration"
+        }
+      ]
+    },
+    {
+      "id": "action-2",
+      "title": "Employee Suggestion Portal Setup",
+      "description": "Create internal portal for collecting and reviewing process improvement suggestions from floor staff",
+      "assignee": "emma.davis@example.com",
+      "dueDate": "2024-04-05",
+      "status": 0,
+      "priority": "Medium",
+      "category": "Communication",
+      "attachments": []
+    },
+    {
+      "id": "action-3",
+      "title": "Performance Dashboard Requirements",
+      "description": "Define KPI requirements and data sources for real-time operations dashboard including throughput, quality, and efficiency metrics",
+      "assignee": "carlos.martinez@example.com", 
+      "dueDate": "2024-03-10",
+      "status": 0,
+      "priority": "Medium",
+      "category": "Analytics",
+      "attachments": [
+        {
+          "id": "action-attachment-2",
+          "name": "dashboard_mockup.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "carlos.martinez@example.com",
+          "uploadedAt": "2024-01-18T11:15:00Z",
+          "description": "Performance dashboard design mockup with key metrics"
+        }
+      ]
+    },
+    {
+      "id": "action-4",
+      "title": "Standard Operating Procedure Review",
+      "description": "Conduct comprehensive review of current SOPs to identify outdated processes and improvement opportunities",
+      "assignee": "emma.davis@example.com",
+      "dueDate": "2024-04-30",
+      "status": 0,
+      "priority": "Low",
+      "category": "Documentation",
+      "attachments": []
+    }
+  ],
+  "attachments": [
+    {
+      "id": "main-attachment-1",
+      "name": "operations_team_brainstorming.jpg",
+      "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+      "type": "image",
+      "uploadedBy": "tom.wilson@example.com",
+      "uploadedAt": "2024-01-12T10:00:00Z",
+      "description": "Operations team brainstorming session focused on process automation and workflow improvements"
+    },
+    {
+      "id": "main-attachment-2",
+      "name": "process_mapping_whiteboard.jpg",
+      "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+      "type": "image",
+      "uploadedBy": "emma.davis@example.com",
+      "uploadedAt": "2024-01-12T11:30:00Z",
+      "description": "Process mapping whiteboard session with workflow analysis and bottleneck identification"
+    },
+    {
+      "id": "main-attachment-3",
+      "name": "operational_efficiency_workshop.jpg",
+      "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=600&fit=crop",
+      "type": "image",
+      "uploadedBy": "carlos.martinez@example.com",
+      "uploadedAt": "2024-01-12T14:45:00Z",
+      "description": "Operational efficiency workshop with lean methodology application and continuous improvement focus"
+    }
+  ]
+}

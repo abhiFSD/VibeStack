@@ -1,0 +1,518 @@
+{
+  "report": {
+    "name": "Production Efficiency Analysis - Output Variations",
+    "type": "Fishbone Diagram Report",
+    "completed": false,
+    "bones": 6,
+    "assignedMembers": [
+      "production-manager@example.com",
+      "operations-supervisor@example.com"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Method",
+      "orderIndex": 0,
+      "assignees": ["operations-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-fishbone-mixed-method-1",
+          "name": "process_documentation_review.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-supervisor@example.com",
+          "uploadedAt": "2024-01-22T09:30:00Z",
+          "description": "Process documentation and standard work review"
+        }
+      ],
+      "description": "Process methods and procedures analysis",
+      "statements": [
+        {
+          "name": "Standard operating procedures are comprehensive and current",
+          "value": 3
+        },
+        {
+          "name": "Work instructions are clear and accessible to operators",
+          "value": 2
+        },
+        {
+          "name": "Quality control checkpoints are properly positioned",
+          "value": 3
+        },
+        {
+          "name": "Process validation is regularly performed",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Machine",
+      "orderIndex": 1,
+      "assignees": ["maintenance-technician@example.com"],
+      "attachments": [],
+      "description": "Equipment and machinery analysis",
+      "statements": [
+        {
+          "name": "Equipment is properly calibrated and maintained",
+          "value": 3
+        },
+        {
+          "name": "Machines operate within specified tolerances",
+          "value": 2
+        },
+        {
+          "name": "Preventive maintenance schedules are followed consistently",
+          "value": 3
+        },
+        {
+          "name": "Equipment capabilities match production requirements",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Material",
+      "orderIndex": 2,
+      "assignees": ["procurement-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-fishbone-mixed-material-1",
+          "name": "supplier_performance_data.jpg",
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "procurement-coordinator@example.com",
+          "uploadedAt": "2024-01-22T11:15:00Z",
+          "description": "Supplier performance and delivery metrics"
+        }
+      ],
+      "description": "Raw materials and components analysis",
+      "statements": [
+        {
+          "name": "Incoming materials meet quality specifications",
+          "value": 3
+        },
+        {
+          "name": "Supplier quality systems are robust and certified",
+          "value": 2
+        },
+        {
+          "name": "Material traceability is maintained throughout process",
+          "value": 3
+        },
+        {
+          "name": "Storage conditions preserve material integrity",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Manpower",
+      "orderIndex": 3,
+      "assignees": ["shift-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-fishbone-mixed-manpower-1",
+          "name": "staffing_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "shift-supervisor@example.com",
+          "uploadedAt": "2024-01-22T13:45:00Z",
+          "description": "Staffing levels and skill distribution analysis"
+        }
+      ],
+      "description": "Human resources and workforce analysis",
+      "statements": [
+        {
+          "name": "Operators are properly trained and certified",
+          "value": 3
+        },
+        {
+          "name": "Staffing levels are adequate for quality production",
+          "value": 2
+        },
+        {
+          "name": "Employee engagement and motivation levels are high",
+          "value": 3
+        },
+        {
+          "name": "Skills and competencies match job requirements",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Measurement",
+      "orderIndex": 4,
+      "assignees": ["quality-technician@example.com"],
+      "attachments": [],
+      "description": "Measurement systems and quality control analysis",
+      "statements": [
+        {
+          "name": "Measurement systems are accurate and precise",
+          "value": 3
+        },
+        {
+          "name": "Quality inspection procedures are consistently followed",
+          "value": 2
+        },
+        {
+          "name": "Statistical process control is effectively implemented",
+          "value": 2
+        },
+        {
+          "name": "Measurement data is reliable and actionable",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Environment",
+      "orderIndex": 5,
+      "assignees": ["facilities-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-fishbone-mixed-environment-1",
+          "name": "environmental_monitoring.jpg",
+          "url": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "facilities-coordinator@example.com",
+          "uploadedAt": "2024-01-22T15:20:00Z",
+          "description": "Environmental conditions monitoring and control"
+        }
+      ],
+      "description": "Environmental and workplace conditions analysis",
+      "statements": [
+        {
+          "name": "Temperature and humidity are controlled within specifications",
+          "value": 3
+        },
+        {
+          "name": "Workplace cleanliness and organization support quality",
+          "value": 2
+        },
+        {
+          "name": "Lighting and ergonomics optimize operator performance",
+          "value": 3
+        },
+        {
+          "name": "Air quality and contamination controls are effective",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "chartData": [
+    {
+      "id": "fishbone-mixed-problem-statement",
+      "text": "Daily production output varies 20-30% from target with inconsistent quality",
+      "textColor": "#ff9800",
+      "posX": "750",
+      "posY": "320",
+      "value": "",
+      "date": "",
+      "Description": "Main problem statement positioned at fish head",
+      "orderIndex": 0
+    },
+    {
+      "id": "fishbone-mixed-method-primary",
+      "text": "METHOD",
+      "textColor": "#1976d2",
+      "posX": "200",
+      "posY": "150",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 1
+    },
+    {
+      "id": "fishbone-mixed-method-cause-1",
+      "text": "Incomplete work instructions",
+      "textColor": "#666666",
+      "posX": "120",
+      "posY": "120",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 2
+    },
+    {
+      "id": "fishbone-mixed-method-cause-2",
+      "text": "Inconsistent process execution",
+      "textColor": "#666666",
+      "posX": "140",
+      "posY": "180",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 3
+    },
+    {
+      "id": "fishbone-mixed-machine-primary",
+      "text": "MACHINE",
+      "textColor": "#1976d2",
+      "posX": "400",
+      "posY": "100",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 4
+    },
+    {
+      "id": "fishbone-mixed-machine-cause-1",
+      "text": "Irregular maintenance",
+      "textColor": "#666666",
+      "posX": "320",
+      "posY": "70",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 5
+    },
+    {
+      "id": "fishbone-mixed-machine-cause-2",
+      "text": "Performance variations",
+      "textColor": "#666666",
+      "posX": "340",
+      "posY": "130",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 6
+    },
+    {
+      "id": "fishbone-mixed-material-primary",
+      "text": "MATERIAL",
+      "textColor": "#1976d2",
+      "posX": "600",
+      "posY": "120",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 7
+    },
+    {
+      "id": "fishbone-mixed-material-cause-1",
+      "text": "Quality inconsistencies",
+      "textColor": "#666666",
+      "posX": "520",
+      "posY": "90",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 8
+    },
+    {
+      "id": "fishbone-mixed-material-cause-2",
+      "text": "Delivery timing issues",
+      "textColor": "#666666",
+      "posX": "540",
+      "posY": "150",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 9
+    },
+    {
+      "id": "fishbone-mixed-manpower-primary",
+      "text": "MANPOWER",
+      "textColor": "#1976d2",
+      "posX": "200",
+      "posY": "450",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 10
+    },
+    {
+      "id": "fishbone-mixed-manpower-cause-1",
+      "text": "Skill level variations",
+      "textColor": "#666666",
+      "posX": "120",
+      "posY": "420",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 11
+    },
+    {
+      "id": "fishbone-mixed-manpower-cause-2",
+      "text": "Staffing shortages",
+      "textColor": "#666666",
+      "posX": "140",
+      "posY": "480",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 12
+    },
+    {
+      "id": "fishbone-mixed-measurement-primary",
+      "text": "MEASUREMENT",
+      "textColor": "#1976d2",
+      "posX": "400",
+      "posY": "500",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 13
+    },
+    {
+      "id": "fishbone-mixed-measurement-cause-1",
+      "text": "Measurement delays",
+      "textColor": "#666666",
+      "posX": "320",
+      "posY": "470",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 14
+    },
+    {
+      "id": "fishbone-mixed-measurement-cause-2",
+      "text": "Data interpretation gaps",
+      "textColor": "#666666",
+      "posX": "340",
+      "posY": "530",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 15
+    },
+    {
+      "id": "fishbone-mixed-environment-primary",
+      "text": "ENVIRONMENT",
+      "textColor": "#1976d2",
+      "posX": "600",
+      "posY": "480",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 16
+    },
+    {
+      "id": "fishbone-mixed-environment-cause-1",
+      "text": "Variable conditions",
+      "textColor": "#666666",
+      "posX": "520",
+      "posY": "450",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 17
+    },
+    {
+      "id": "fishbone-mixed-environment-cause-2",
+      "text": "Layout inefficiencies",
+      "textColor": "#666666",
+      "posX": "540",
+      "posY": "510",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 18
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-fishbone-mixed-1",
+      "title": "Systematic Category Investigation",
+      "content": "The team successfully applied the fishbone structure across all six major categories, demonstrating good understanding of the methodology. However, the depth of investigation varies between categories, with some requiring additional analysis and evidence collection.",
+      "category": "Methodology Application",
+      "attachments": [
+        {
+          "id": "highlight-mixed-attachment-1",
+          "name": "category_analysis_progress.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "production-manager@example.com",
+          "uploadedAt": "2024-01-22T16:00:00Z",
+          "description": "Category-by-category analysis progress documentation"
+        }
+      ]
+    },
+    {
+      "id": "highlight-fishbone-mixed-2",
+      "title": "Initial Evidence Collection",
+      "content": "Good start on gathering supporting evidence for identified causes, including supplier performance data and environmental monitoring. More comprehensive data collection is needed to strengthen the analysis and validate all identified causes.",
+      "category": "Evidence Development",
+      "attachments": []
+    },
+    {
+      "id": "highlight-fishbone-mixed-3",
+      "title": "Team Participation Framework",
+      "content": "Appropriate involvement of relevant functional areas in the analysis process. However, some areas need deeper subject matter expert engagement to ensure comprehensive investigation and buy-in for corrective actions.",
+      "category": "Team Collaboration",
+      "attachments": [
+        {
+          "id": "highlight-mixed-attachment-2",
+          "name": "team_collaboration_session.jpg",
+          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-supervisor@example.com",
+          "uploadedAt": "2024-01-22T16:30:00Z",
+          "description": "Cross-functional team collaboration session"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "fishbone-mixed-action-1",
+      "title": "Complete Comprehensive Data Collection for All Categories",
+      "description": "Gather detailed supporting evidence for each identified cause including maintenance records, training documentation, supplier audits, and measurement system analysis",
+      "duedate": "2024-03-01",
+      "status": 1,
+      "assignees": ["production-manager@example.com", "data-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "mixed-action-attachment-1",
+          "name": "data_collection_checklist.jpg",
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "data-analyst@example.com",
+          "uploadedAt": "2024-01-22T17:00:00Z",
+          "description": "Comprehensive data collection checklist and timeline"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Analysis Enhancement",
+      "priority": "High"
+    },
+    {
+      "id": "fishbone-mixed-action-2",
+      "title": "Standardize Work Instructions and Process Documentation",
+      "description": "Review and update all standard operating procedures, work instructions, and process documentation to ensure clarity and consistency",
+      "duedate": "2024-02-28",
+      "status": 0,
+      "assignees": ["operations-supervisor@example.com", "process-engineer@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Process Improvement",
+      "priority": "High"
+    },
+    {
+      "id": "fishbone-mixed-action-3",
+      "title": "Implement Equipment Performance Monitoring System",
+      "description": "Establish systematic monitoring and tracking of equipment performance variations to identify patterns and prevent issues",
+      "duedate": "2024-03-31",
+      "status": 0,
+      "assignees": ["maintenance-technician@example.com", "operations-supervisor@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Equipment Management",
+      "priority": "Medium"
+    },
+    {
+      "id": "fishbone-mixed-action-4",
+      "title": "Develop Supplier Performance Improvement Plan",
+      "description": "Work with key suppliers to address quality inconsistencies and delivery timing issues through collaborative improvement initiatives",
+      "duedate": "2024-04-15",
+      "status": 0,
+      "assignees": ["procurement-coordinator@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Supply Chain",
+      "priority": "Medium"
+    }
+  ]
+}

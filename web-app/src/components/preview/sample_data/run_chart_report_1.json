@@ -1,0 +1,354 @@
+{
+  "report": {
+    "name": "Customer Satisfaction Score Trend Analysis - Monthly Performance",
+    "type": "Run Chart Report",
+    "completed": true,
+    "target": 4.0,
+    "xaxis": "Month",
+    "yaxis": "Satisfaction Score",
+    "trend": true,
+    "assignedMembers": [
+      "customer-experience-manager@example.com",
+      "quality-analyst@example.com",
+      "service-improvement-lead@example.com"
+    ]
+  },
+  "chartData": [
+    {
+      "date": "2024-01-31",
+      "value": 3.2,
+      "text": "Jan 2024",
+      "Description": "Baseline customer satisfaction - improvement initiative launch point"
+    },
+    {
+      "date": "2024-02-29",
+      "value": 3.4,
+      "text": "Feb 2024",
+      "Description": "Initial improvement following staff training program implementation"
+    },
+    {
+      "date": "2024-03-31",
+      "value": 3.6,
+      "text": "Mar 2024",
+      "Description": "Continued upward trend with process standardization impact"
+    },
+    {
+      "date": "2024-04-30",
+      "value": 3.9,
+      "text": "Apr 2024",
+      "Description": "Significant improvement following response time optimization"
+    },
+    {
+      "date": "2024-05-31",
+      "value": 4.1,
+      "text": "May 2024",
+      "Description": "Strong performance with new feedback system integration"
+    },
+    {
+      "date": "2024-06-30",
+      "value": 4.3,
+      "text": "Jun 2024",
+      "Description": "Excellent progress with customer-centric culture development"
+    },
+    {
+      "date": "2024-07-31",
+      "value": 4.2,
+      "text": "Jul 2024",
+      "Description": "Slight variation within control limits - normal process variation"
+    },
+    {
+      "date": "2024-08-31",
+      "value": 4.4,
+      "text": "Aug 2024",
+      "Description": "Peak performance with proactive service excellence initiatives"
+    },
+    {
+      "date": "2024-09-30",
+      "value": 4.5,
+      "text": "Sep 2024",
+      "Description": "Sustained high performance demonstrating process stability"
+    },
+    {
+      "date": "2024-10-31",
+      "value": 4.4,
+      "text": "Oct 2024",
+      "Description": "Consistent excellent performance with minor natural variation"
+    },
+    {
+      "date": "2024-11-30",
+      "value": 4.6,
+      "text": "Nov 2024",
+      "Description": "Outstanding achievement with customer loyalty program impact"
+    },
+    {
+      "date": "2024-12-31",
+      "value": 4.5,
+      "text": "Dec 2024",
+      "Description": "Year-end excellence maintaining high customer satisfaction levels"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-run-csat-1",
+      "title": "Sustained Improvement Trend Analysis",
+      "content": "The run chart demonstrates a clear, sustained improvement trend from 3.2 to 4.5+ over 12 months, representing a 41% increase in customer satisfaction. The trend shows statistical significance with 7 consecutive points above the median, indicating genuine process improvement rather than random variation.",
+      "category": "Trend Analysis",
+      "attachments": [
+        {
+          "id": "highlight-run-csat-attachment-1",
+          "name": "trend_analysis_statistics.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-analyst@example.com",
+          "uploadedAt": "2024-12-15T09:00:00Z",
+          "description": "Statistical trend analysis and significance testing results"
+        }
+      ]
+    },
+    {
+      "id": "highlight-run-csat-2",
+      "title": "Process Stability Achievement",
+      "content": "Final six months (Jul-Dec) show stable performance around 4.4-4.6 range with controlled variation. No runs, trends, or shifts indicate process has reached new stable state at world-class customer satisfaction levels. Standard deviation reduced from 0.3 to 0.1.",
+      "category": "Process Control",
+      "attachments": [
+        {
+          "id": "highlight-run-csat-attachment-2",
+          "name": "process_stability_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "service-improvement-lead@example.com",
+          "uploadedAt": "2024-12-15T10:30:00Z",
+          "description": "Process stability metrics and control chart analysis"
+        }
+      ]
+    },
+    {
+      "id": "highlight-run-csat-3",
+      "title": "Intervention Impact Correlation",
+      "content": "Clear correlation between improvement initiatives and satisfaction increases: Feb training (+0.2), Apr response optimization (+0.3), May feedback system (+0.2), Nov loyalty program (+0.2). Each intervention shows measurable positive impact within 30 days.",
+      "category": "Improvement Validation",
+      "attachments": [
+        {
+          "id": "highlight-run-csat-attachment-3",
+          "name": "intervention_impact_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "customer-experience-manager@example.com",
+          "uploadedAt": "2024-12-15T11:15:00Z",
+          "description": "Intervention timing and customer satisfaction impact correlation"
+        }
+      ]
+    },
+    {
+      "id": "highlight-run-csat-4",
+      "title": "Industry Benchmark Achievement",
+      "content": "Current performance of 4.5+ places organization in top 10% of industry benchmarks for customer satisfaction. The improvement trajectory from below-average (3.2) to world-class (4.5+) demonstrates exceptional organizational learning and customer focus.",
+      "category": "Benchmark Performance",
+      "attachments": [
+        {
+          "id": "highlight-run-csat-attachment-4",
+          "name": "industry_benchmark_comparison.jpg",
+          "url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-analyst@example.com",
+          "uploadedAt": "2024-12-15T12:00:00Z",
+          "description": "Industry benchmark comparison and performance ranking analysis"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "run-csat-action-1",
+      "title": "Establish Customer Satisfaction Control System",
+      "description": "Implement statistical process control for customer satisfaction monitoring. Create control charts with upper/lower control limits based on current stable performance to detect future shifts or trends quickly.",
+      "duedate": "2025-02-15",
+      "status": 1,
+      "assignees": ["quality-analyst@example.com", "data-scientist@example.com"],
+      "attachments": [
+        {
+          "id": "run-csat-action-attachment-1",
+          "name": "spc_control_system_design.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-analyst@example.com",
+          "uploadedAt": "2024-12-15T13:00:00Z",
+          "description": "Statistical process control system design for customer satisfaction monitoring"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Process Control",
+      "priority": "High"
+    },
+    {
+      "id": "run-csat-action-2",
+      "title": "Document Best Practice Improvement Model",
+      "description": "Create comprehensive documentation of improvement methodology used to achieve 41% satisfaction increase. Include intervention timing, impact measurement, and sustainability practices for organizational knowledge base.",
+      "duedate": "2025-01-31",
+      "status": 2,
+      "assignees": ["service-improvement-lead@example.com", "knowledge-manager@example.com"],
+      "attachments": [
+        {
+          "id": "run-csat-action-attachment-2",
+          "name": "improvement_methodology_documentation.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "service-improvement-lead@example.com",
+          "uploadedAt": "2024-12-15T14:30:00Z",
+          "description": "Best practice improvement methodology documentation and templates"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Knowledge Management",
+      "priority": "High"
+    },
+    {
+      "id": "run-csat-action-3",
+      "title": "Deploy Predictive Satisfaction Analytics",
+      "description": "Implement machine learning model to predict customer satisfaction trends based on leading indicators. Include early warning system for potential satisfaction decline before it impacts scores.",
+      "duedate": "2025-03-30",
+      "status": 0,
+      "assignees": ["data-scientist@example.com", "customer-analytics-team@example.com"],
+      "attachments": [
+        {
+          "id": "run-csat-action-attachment-3",
+          "name": "predictive_analytics_framework.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "data-scientist@example.com",
+          "uploadedAt": "2024-12-15T15:45:00Z",
+          "description": "Predictive customer satisfaction analytics framework and early warning system"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Predictive Analytics",
+      "priority": "Medium"
+    },
+    {
+      "id": "run-csat-action-4",
+      "title": "Replicate Success Model Across Business Units",
+      "description": "Apply proven customer satisfaction improvement methodology to other business units showing below-benchmark performance. Include change management support and measurement systems.",
+      "duedate": "2025-06-30",
+      "status": 0,
+      "assignees": ["customer-experience-manager@example.com", "organizational-development@example.com"],
+      "attachments": [
+        {
+          "id": "run-csat-action-attachment-4",
+          "name": "success_replication_strategy.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "organizational-development@example.com",
+          "uploadedAt": "2024-12-15T16:30:00Z",
+          "description": "Success model replication strategy and change management framework"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Organizational Scaling",
+      "priority": "Medium"
+    },
+    {
+      "id": "run-csat-action-5",
+      "title": "Establish Customer Satisfaction Excellence Awards",
+      "description": "Create recognition program celebrating teams and individuals contributing to world-class customer satisfaction achievement. Include quarterly excellence awards and annual customer champion recognition.",
+      "duedate": "2025-02-28",
+      "status": 0,
+      "assignees": ["hr-recognition-team@example.com", "customer-experience-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Employee Recognition",
+      "priority": "Low"
+    }
+  ],
+  "aiAnalysis": {
+    "overallAssessment": {
+      "chartType": "Run Chart - Time Series Analysis",
+      "trendPattern": "Sustained Improvement with Stable End State",
+      "processPerformance": "Exemplary - World-Class Achievement",
+      "statisticalSignificance": "Highly Significant Improvement Trend"
+    },
+    "keyFindings": [
+      "Outstanding 41% improvement: Customer satisfaction increased from 3.2 to 4.5+ over 12 months",
+      "Statistically significant trend: 7+ consecutive points above median demonstrate genuine improvement",
+      "Process stability achieved: Final 6 months show controlled variation around 4.4-4.6 range",
+      "Intervention effectiveness: Clear correlation between improvement initiatives and satisfaction increases",
+      "Industry leadership: Current performance places organization in top 10% of customer satisfaction benchmarks"
+    ],
+    "trendAnalysis": {
+      "primaryTrend": "Strong upward trend from Jan-Jun 2024, followed by stable high performance",
+      "trendSignificance": "7 consecutive points above median (statistically significant)",
+      "variationPattern": "Decreasing variation over time - from σ=0.3 to σ=0.1",
+      "seasonalEffects": "No seasonal patterns detected - improvement sustained across all periods",
+      "outliers": "No outliers identified - all points within expected control limits"
+    },
+    "processInsights": {
+      "improvementPhase": "Jan-Jun: Systematic improvement through targeted interventions",
+      "stabilityPhase": "Jul-Dec: Process reached new stable state at world-class levels",
+      "capability": "Current process capable of sustaining 4.4-4.6 satisfaction consistently",
+      "predictability": "High predictability - process under statistical control",
+      "sustainability": "Strong evidence of sustainable improvement - not temporary gains"
+    },
+    "interventionAnalysis": [
+      {
+        "intervention": "Staff Training Program (Feb 2024)",
+        "impact": "+0.2 points improvement",
+        "effectiveness": "High - immediate and sustained impact",
+        "timeToEffect": "Within 30 days of implementation"
+      },
+      {
+        "intervention": "Response Time Optimization (Apr 2024)",
+        "impact": "+0.3 points improvement",
+        "effectiveness": "Excellent - largest single intervention impact",
+        "timeToEffect": "Immediate effect visible in monthly data"
+      },
+      {
+        "intervention": "Feedback System Integration (May 2024)",
+        "impact": "+0.2 points improvement", 
+        "effectiveness": "High - contributed to stability achievement",
+        "timeToEffect": "Progressive improvement over 2 months"
+      },
+      {
+        "intervention": "Customer Loyalty Program (Nov 2024)",
+        "impact": "+0.2 points improvement",
+        "effectiveness": "High - maintained momentum in stable phase",
+        "timeToEffect": "Immediate positive response"
+      }
+    ],
+    "statisticalValidation": {
+      "median": "4.1 (calculated from 12 data points)",
+      "consecutivePointsAboveMedian": "8 points (Jul-Dec exceeds 7-point significance threshold)",
+      "standardDeviation": "0.46 overall, 0.1 in stable phase (Jul-Dec)",
+      "trendSlope": "+0.11 points per month (Jan-Jun improvement phase)",
+      "r-squared": "0.94 (strong correlation with time during improvement phase)"
+    },
+    "benchmarkComparison": {
+      "industryAverage": "3.8 customer satisfaction score",
+      "industryTopQuartile": "4.2 customer satisfaction score",
+      "industryTopDecile": "4.5+ customer satisfaction score",
+      "currentPosition": "Top 10% - World-class performance achievement",
+      "competitiveAdvantage": "Significant differentiation through customer experience excellence"
+    },
+    "learningPoints": [
+      "Systematic Approach Works: Planned interventions with measurement show clear cause-effect relationships",
+      "Trend Significance: Run charts provide early detection of improvement trends before traditional metrics",
+      "Process Stability: Achieving stable high performance requires different approach than improvement phase",
+      "Intervention Timing: Spacing improvements allows each intervention to be measured and stabilized",
+      "Statistical Evidence: Data-driven improvement provides objective validation of organizational capabilities",
+      "Sustainability Focus: Maintaining gains requires ongoing attention to process control and variation",
+      "Customer-Centric Culture: Sustained improvement indicates fundamental organizational transformation"
+    ],
+    "futureRecommendations": [
+      "Implement control charts to maintain current performance levels and detect any future process changes",
+      "Document and standardize the improvement methodology for replication across other business areas",
+      "Develop predictive models to anticipate satisfaction changes before they occur",
+      "Create advanced customer experience innovations to maintain competitive differentiation",
+      "Establish continuous improvement culture to sustain world-class performance long-term"
+    ],
+    "runChartSpecificInsights": {
+      "medianRule": "Applied - 8 consecutive points above median indicate significant improvement",
+      "trendRule": "Applied - 6+ consecutive increasing points indicate significant upward trend",
+      "shiftRule": "Applied - No unexpected shifts detected in stable performance period",
+      "cyclicalPattern": "None detected - improvement shows linear progression without seasonal effects",
+      "processCapability": "Excellent - process demonstrates ability to consistently deliver world-class results"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+Now let's get started with the 5 Whys report.
+
+Now, this is the Action Item section where you can create action items for this report.
+
+
+The 5 Whys report uses a unique system for root cause analysis. Notice that instead of "Categories", the system uses "Problems" for this report type.
+
+To add a problem, click the plus button. Enter the name of the problem you want to analyze. Unlike other reports, 5 Whys doesn't have default categories - you'll create custom problems specific to your investigation.
+
+Each problem can include:
+- Problem statement and root cause analysis chain
+- Additional details with descriptions
+- Attachments like photos, documents, and evidence
+- Assignees responsible for the investigation
+
+When you click on a problem card to add statements, notice that they're called "Whys" instead of "Statements" for this report type.
+
+For each Why, you can:
+- Enter the question (Why does this happen?)
+- Document the answer/finding
+- Add supporting evidence
+- Assign severity or priority values
+
+In the Additional Details section for each problem, you can:
+- Add comprehensive problem descriptions
+- Upload photos of the issue
+- Document impact and urgency
+- Tag relevant team members
+
+You can rearrange problems using the rearrange button to organize them by priority or investigation sequence.
+
+you can Mark this as root cause? more than once if needed.
+
+You can have multiple problems in one report, allowing you to investigate several issues simultaneously or track related problems.
+
+You can also add more details like images, text and assignees under additinal details here. 
+
+Finally, you can export to PDF and get yourself a comprehensive 5 Whys report documenting your root cause analysis, supporting evidence, and action plans.
+
+The PDF export provides a professional format perfect for problem-solving meetings, corrective action documentation, and sharing findings with stakeholders.
+
+That's it for the 5 Whys report. It's an essential tool for systematic root cause analysis. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

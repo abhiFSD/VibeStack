@@ -1,0 +1,335 @@
+{
+  "report": {
+    "name": "Part Dimension Variability Analysis - Bearing Housing",
+    "type": "Histogram Report",
+    "completed": true,
+    "assignedMembers": [
+      "quality-engineer@example.com",
+      "production-supervisor@example.com",
+      "process-engineer@example.com"
+    ]
+  },
+  "chartData": [
+    {
+      "id": "hist-bin-1",
+      "text": "49.95-49.97",
+      "value": "2",
+      "posX": "100",
+      "posY": "50",
+      "date": "",
+      "Description": "Critical dimension measurements below specification - requires investigation"
+    },
+    {
+      "id": "hist-bin-2", 
+      "text": "49.97-49.99",
+      "value": "8",
+      "posX": "150",
+      "posY": "200",
+      "date": "",
+      "Description": "Lower tolerance range measurements - acceptable but monitoring required"
+    },
+    {
+      "id": "hist-bin-3",
+      "text": "49.99-50.01",
+      "value": "23",
+      "posX": "200",
+      "posY": "575",
+      "date": "",
+      "Description": "Optimal target range - center of specification with highest frequency"
+    },
+    {
+      "id": "hist-bin-4",
+      "text": "50.01-50.03",
+      "value": "31",
+      "posX": "250",
+      "posY": "775",
+      "date": "",
+      "Description": "Peak frequency bin - process centered slightly above nominal"
+    },
+    {
+      "id": "hist-bin-5",
+      "text": "50.03-50.05",
+      "value": "28",
+      "posX": "300",
+      "posY": "700",
+      "date": "",
+      "Description": "High frequency range within upper tolerance limits"
+    },
+    {
+      "id": "hist-bin-6",
+      "text": "50.05-50.07",
+      "value": "15",
+      "posX": "350",
+      "posY": "375",
+      "date": "",
+      "Description": "Upper tolerance range - acceptable but approaching specification limit"
+    },
+    {
+      "id": "hist-bin-7",
+      "text": "50.07-50.09",
+      "value": "7",
+      "posX": "400",
+      "posY": "175",
+      "date": "",
+      "Description": "Near upper specification limit - requires process adjustment"
+    },
+    {
+      "id": "hist-bin-8",
+      "text": "50.09-50.11",
+      "value": "3",
+      "posX": "450",
+      "posY": "75",
+      "date": "",
+      "Description": "Above specification limit - immediate corrective action required"
+    },
+    {
+      "id": "hist-bin-9",
+      "text": "50.11-50.13",
+      "value": "1",
+      "posX": "500",
+      "posY": "25",
+      "date": "",
+      "Description": "Outlier measurements - investigate special causes"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-histogram-process-1",
+      "title": "Process Capability Analysis Results",
+      "content": "The bearing housing dimension histogram reveals a process that is statistically capable but slightly off-center. With Cp = 1.33 and Cpk = 1.15, the process shows good inherent capability but requires centering adjustment to optimize performance and reduce variation.",
+      "category": "Statistical Analysis",
+      "attachments": [
+        {
+          "id": "highlight-histogram-attachment-1",
+          "name": "process_capability_study.jpg",
+          "url": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-engineer@example.com",
+          "uploadedAt": "2024-01-20T09:30:00Z",
+          "description": "Comprehensive process capability analysis documentation"
+        }
+      ]
+    },
+    {
+      "id": "highlight-histogram-process-2",
+      "title": "Normal Distribution Validation",
+      "content": "Statistical testing confirms the measurement data follows a normal distribution (Anderson-Darling p-value = 0.158), validating the use of standard process capability indices and control chart methodologies for ongoing process monitoring.",
+      "category": "Data Validation",
+      "attachments": [
+        {
+          "id": "highlight-histogram-attachment-2",
+          "name": "normality_test_results.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-engineer@example.com",
+          "uploadedAt": "2024-01-20T10:15:00Z",
+          "description": "Statistical normality testing and validation results"
+        }
+      ]
+    },
+    {
+      "id": "highlight-histogram-process-3",
+      "title": "Process Centering Opportunity",
+      "content": "The histogram shows the process mean (50.024mm) is shifted 0.024mm above the nominal dimension (50.000mm). This centering adjustment opportunity can reduce defect risk by 35% and improve overall process capability to world-class levels.",
+      "category": "Improvement Opportunity",
+      "attachments": [
+        {
+          "id": "highlight-histogram-attachment-3",
+          "name": "centering_adjustment_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-engineer@example.com",
+          "uploadedAt": "2024-01-20T11:00:00Z",
+          "description": "Process centering adjustment analysis and projected improvements"
+        }
+      ]
+    },
+    {
+      "id": "highlight-histogram-process-4",
+      "title": "Control Chart Integration",
+      "content": "This histogram analysis directly supports implementation of X-bar and R control charts for ongoing statistical process control. The established process parameters enable immediate deployment of real-time monitoring systems.",
+      "category": "SPC Implementation",
+      "attachments": [
+        {
+          "id": "highlight-histogram-attachment-4",
+          "name": "control_chart_setup.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-engineer@example.com",
+          "uploadedAt": "2024-01-20T11:30:00Z",
+          "description": "Control chart implementation plan based on histogram analysis"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "histogram-action-1",
+      "title": "Implement Machine Tool Offset Adjustment",
+      "description": "Adjust CNC machining center tool offset by -0.024mm to center the process mean on nominal dimension. Include verification measurements on first 10 parts after adjustment.",
+      "duedate": "2024-02-05",
+      "status": 1,
+      "assignees": ["cnc-operator@example.com", "setup-technician@example.com"],
+      "attachments": [
+        {
+          "id": "histogram-action-attachment-1",
+          "name": "tool_offset_procedure.jpg",
+          "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "cnc-operator@example.com",
+          "uploadedAt": "2024-01-20T12:00:00Z",
+          "description": "CNC tool offset adjustment procedure documentation"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Process Adjustment",
+      "priority": "High"
+    },
+    {
+      "id": "histogram-action-2",
+      "title": "Deploy Real-Time SPC Monitoring System",
+      "description": "Install automated measurement system with X-bar and R control charts for continuous monitoring of bearing housing dimensions. Set control limits based on histogram analysis.",
+      "duedate": "2024-02-20",
+      "status": 0,
+      "assignees": ["quality-engineer@example.com", "automation-technician@example.com"],
+      "attachments": [
+        {
+          "id": "histogram-action-attachment-2",
+          "name": "spc_system_design.jpg",
+          "url": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "automation-technician@example.com",
+          "uploadedAt": "2024-01-20T13:15:00Z",
+          "description": "Real-time SPC monitoring system design and implementation plan"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Statistical Control",
+      "priority": "Medium"
+    },
+    {
+      "id": "histogram-action-3",
+      "title": "Investigate Special Cause Variation Sources",
+      "description": "Conduct detailed investigation of measurement points outside specification limits. Include tool wear analysis, machine stability assessment, and environmental factor evaluation.",
+      "duedate": "2024-02-10",
+      "status": 0,
+      "assignees": ["process-engineer@example.com", "maintenance-technician@example.com"],
+      "attachments": [
+        {
+          "id": "histogram-action-attachment-3",
+          "name": "special_cause_investigation.jpg",
+          "url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-engineer@example.com",
+          "uploadedAt": "2024-01-20T14:00:00Z",
+          "description": "Special cause variation investigation methodology and checklist"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Root Cause Analysis",
+      "priority": "Medium"
+    },
+    {
+      "id": "histogram-action-4",
+      "title": "Establish Process Capability Tracking Dashboard",
+      "description": "Create real-time dashboard displaying Cp, Cpk, and process performance metrics with trending analysis. Include automated alerts when capability indices fall below 1.33.",
+      "duedate": "2024-03-01",
+      "status": 0,
+      "assignees": ["quality-manager@example.com", "data-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "histogram-action-attachment-4",
+          "name": "capability_dashboard_mockup.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "data-analyst@example.com",
+          "uploadedAt": "2024-01-20T15:30:00Z",
+          "description": "Process capability tracking dashboard design and specifications"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Performance Monitoring",
+      "priority": "Low"
+    }
+  ],
+  "aiAnalysis": {
+    "overallAssessment": {
+      "distributionType": "Normal Distribution",
+      "processCapability": "Capable with Centering Opportunity",
+      "controlStatus": "Statistically Stable",
+      "improvementPotential": "High - Process Centering Required"
+    },
+    "keyFindings": [
+      "Process Capability: Good inherent capability (Cp = 1.33) with centering opportunity (Cpk = 1.15)",
+      "Distribution Shape: Normal distribution validated, enabling standard SPC methodologies",
+      "Process Mean: Shifted 0.024mm above nominal, representing systematic bias requiring correction",
+      "Variation Sources: Common cause variation pattern with minimal special causes detected",
+      "Specification Conformance: 96.5% within specification limits with potential for 99.7% after centering"
+    ],
+    "strengthAreas": [
+      {
+        "category": "Process Stability",
+        "highlights": "Consistent normal distribution pattern indicating stable process conditions",
+        "bestPractices": "Regular measurement sampling, standardized procedures, controlled environmental conditions"
+      },
+      {
+        "category": "Inherent Capability",
+        "highlights": "Strong inherent process capability exceeding minimum requirements",
+        "bestPractices": "Well-maintained equipment, trained operators, quality raw materials"
+      },
+      {
+        "category": "Data Collection",
+        "highlights": "Comprehensive measurement data enabling robust statistical analysis",
+        "bestPractices": "Systematic sampling plan, calibrated measurement equipment, documented procedures"
+      }
+    ],
+    "improvementOpportunities": [
+      {
+        "category": "Process Centering",
+        "gaps": "Process mean significantly shifted from nominal dimension",
+        "recommendations": "Implement tool offset adjustment, verify centering through confirmation runs, establish monitoring protocols"
+      },
+      {
+        "category": "Real-Time Monitoring",
+        "gaps": "Limited real-time process control capabilities",
+        "recommendations": "Deploy automated SPC system, implement control charts, establish automated alerting"
+      },
+      {
+        "category": "Special Cause Detection",
+        "gaps": "Outlier measurements indicate potential special causes",
+        "recommendations": "Investigate extreme values, implement preventive maintenance, enhance operator training"
+      }
+    ],
+    "statisticalInsights": {
+      "processParameters": {
+        "mean": "50.024mm",
+        "standardDeviation": "0.024mm",
+        "processCapability": "Cp = 1.33, Cpk = 1.15",
+        "specificationLimits": "49.95mm - 50.10mm"
+      },
+      "normalityAssessment": "Confirmed normal distribution (Anderson-Darling p-value = 0.158)",
+      "outlierAnalysis": "3 measurements above upper specification limit require investigation",
+      "centeringOpportunity": "0.024mm adjustment needed to optimize process performance"
+    },
+    "learningPoints": [
+      "Histogram Power: Visual representation immediately reveals process centering issues not obvious in tabular data",
+      "Capability vs Performance: High inherent capability (Cp) can be undermined by poor centering (Cpk difference)",
+      "Normal Distribution Validation: Statistical testing confirms histogram shape supports standard SPC methodologies",
+      "Specification Focus: Process optimization requires balancing capability improvement with specification compliance",
+      "Continuous Improvement: Histogram analysis provides baseline for measuring improvement effectiveness over time"
+    ],
+    "nextSteps": [
+      "Execute immediate process centering adjustment through tool offset modification",
+      "Implement real-time SPC monitoring with control chart deployment",
+      "Investigate and eliminate special causes contributing to outlier measurements",
+      "Establish ongoing process capability tracking and reporting systems",
+      "Develop predictive maintenance program to sustain process improvements"
+    ],
+    "industryBenchmark": {
+      "currentPerformance": "Above Average - Good capability with improvement opportunity",
+      "worldClassTarget": "Cp ≥ 2.0, Cpk ≥ 1.67 for critical dimensions",
+      "improvementPotential": "35% defect reduction achievable through process centering",
+      "competitivePosition": "Process centering will advance capability to industry leading levels"
+    }
+  }
+}

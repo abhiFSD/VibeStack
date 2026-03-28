@@ -1,0 +1,335 @@
+[   {
+        "title": "Uncategorized Waste",
+        "definition": "Uncategorized Waste - Here you can put wastes that don't fall into any particular category, or wastes you plan to categorize later."
+    },
+    {
+        "title": "Waiting Waste",
+        "definition": "Waiting waste is time spent waiting for material, info., etc.",
+        "to_detect": {
+        "ask": [
+            "Am I always watching or doing a process that is not adding value?",
+            "Can something else be completed that is value-added while I am waiting?",
+            "Is standardized work being followed?",
+            "Are there buffers between processes for a reason? And, if so, have there been any ideas on how the buffers can be reduced or eliminated?",
+            "Are Kanbans being used effectively?",
+            "Does the transport time between processes seem excessive?",
+            "Are Key Performance Indicators being met?"
+        ]
+        },
+        "examples": [
+        "Delays from upstream processes.",
+        "Schedules not aligned with production capacity.",
+        "Kanban calculation not correct.",
+        "Delays in receiving information on customers.",
+        "Cross-departmental resource commitments.",
+        "Customer back-ups due to equipment not working properly.",
+        "Excessive signatures or verbal approvals required."
+        ],
+        "to_eliminate": [
+        "Review and standardize signature and approval requirements.",
+        "Cross-train employees to accommodate changes in demands.",
+        "Balance work loads throughout the day and ensure employees are working optimally.",
+        "Identify and eliminate bottlenecks.",
+        "Ensure equipment and supplies (materials, documents, paperwork, etc.) are located in close proximity of their required use.",
+        "Ensure work is labeled and prioritize (as appropriate)."
+        ]
+    },
+    {
+      "title": "Motion Waste",
+      "definition": "Motion Waste is unnecessary movement that does not add value. Motion Waste is any movement or unnecessary motion of people, material, supplies, documents, etc. that does not add value.",
+      "to_detect": {
+        "ask": [
+          "Can walking or excess movement of work (i.e., supplies, documents, information, customers, etc.) be reduced?",
+          "Can body movement be  improved using ergonomics?",
+          "Are shortcuts being used to reduce keystrokes for data and information input and/or retrieval?",
+          "Is the work area optimized for ease of work and ergonomic reasons?",
+          "Is there an active 5S program?",
+          "Is standard work being followed and improved upon?",
+          "Is cross-training being done?"
+        ]
+      },
+      "examples": [
+        "Searching for materials, supplies, schedules, documents, work orders, etc.",
+        "Searching for computer files on your desktop.",
+        "Searching for equipment.",
+        "Hand-carrying paperwork to another process.",
+        "Searching for poorly located supplies.",
+        "Obtaining equipment that is not centrally located.",
+        "Sending excessive emails and/or attachments."
+      ],
+      "to_eliminate": [
+        "Ensure supply areas are well organized utilizing color-codes and labels for quick access.",
+        "Arrange Desktop PC files for easy retrieval (establish file naming conventions for the department).",
+        "Establish standards of communication ensuring production schedules are known.",
+        "Relocate employees, equipment, etc. in close proximity."
+      ]
+    },
+    {
+        "title": "Transport Waste",
+        "definition": "Transport Waste is moving supplies, documents, and customers excessively. Transport Waste is the excess movement of customers, equipment, supplies, documents, information, etc. within an organization. Excess transport affects the delivery of any work or service withing an organization.",
+        "to_detect": {
+          "ask": [
+            "Is there excessive inventory?",
+            "Has the physical layout been optimized for customer, information and/or supplies?",
+            "Is the communication of work/customer transfer seamless so that it only moves if the downstream process signals for it?"
+          ]
+        },
+        "examples": [
+          "Delivering unneeded work (e.g., reports, documents, etc.) to the next process.",
+          "Filing same work documents in different locations (e.g., keeping hardcopy while also having it available electronically).",
+          "Over-addressing email distribution lists.",
+          "Hand-carrying work to another process due to inefficient layout.",
+          "Moving data from one system to another.",
+          "Updating customer records in different systems.",
+          "Sending and/or requesting unnecessary data to/from the customer.",
+          "Moving materials, supplies, documents, etc. to early or late, and/or to the wrong location."
+        ],
+        "to_eliminate": [
+          "Ensure the distance to move something is minimized.",
+          "Establish standard times for materials, supplies, materials, and paperwork to be moved or processed.",
+          "Create standard locations for supplies, equipment, and files.",
+          "Create visual controls and communicate standards for use of supplies, equipment, and files."
+        ]
+      },
+      {
+        "title": "Overprocessing Waste",
+        "definition": "Overprocessing Waste is providing work not part of the customer requirements. Overprocessing Waste is putting more effort into things that a customer, does not want or need. This waste is going above and beyond the needs and expectations of the customer.",
+        "to_detect": {
+          "ask": [
+            "What is the basic purpose or function of this process?",
+            "Is this a poor process design?",
+            "Are there incorrect equipment or process capability specifications?",
+            "Is there a clear understanding of the customer requirements?",
+            "Is someone doing the same process but differently?"
+          ]
+        },
+        "examples": [
+          "Retesting (i.e., performing a second quality inspection to look busy, or because you do not trust the previous test).",
+          "Putting additional information or data in a report or document.",
+          "Requesting and processing information or materials that will never be used.",
+          "Milking a task out so you can make it to the end of your shift without starting something new."
+        ],
+        "to_eliminate": [
+          "Review all steps within a process and eliminate non value-added activities.",
+          "Standardize work procedures to best practice.",
+          "Eliminate redundant information required on documentation."
+        ]
+      },
+      {
+        "title": "Inventory Waste",
+        "definition": "Inventory Waste is unnecessary material, documents, etc. Inventory Waste is excessive piles of supplies, paperwork, computer files (e.g., emails), which cause extra time searching. They all take up space or require someone's time to stock and search if not organized. Work-In-Process (WIP) may be an asset, but it is waste.",
+        "to_detect": {
+          "ask": [
+            "Are there queues or excess supplies throughout the value stream or processes?",
+            "Are supplies purchased in larger quantities than what the demand is?",
+            "Are non-storage areas being used for storage, e.g., equipment stored in ailseway?",
+            "Is there obsolete or expired inventory/supplies?",
+            "Is there obsolete equipment?",
+            "Is the process capable?,",
+            "Is standard work being followed and improved upon?",
+            "Is there too much variation in the process?"
+          ]
+        },
+        "examples": [
+          "Extra materials or supplies that need to be stored.",
+          "Extra or outdated manuals, newsletters, or magazines.",
+          "Excessive office supplies.",
+          "Obsolete prints, files, and equipment.",
+          "Obsolete office equipment.",
+          "Insufficient cross-training of employees.",
+          "Redundant materials/supply locations within the same department."
+        ],
+        "to_eliminate": [
+          "Produce or provide only the necessary information, supply, or service to satisfy the downstream customer.",
+          "Standardize minimum and maximum levels for supplies and keep organized.",
+          "Audit the supply replenishment system to ensure correct levels of supplies are always on hand and available.",
+          "Ensure work arrives at the next process on time."
+        ]
+      },
+      {
+        "title": "Defect Waste",
+        "definition": "Defect Waste is redoing work done previously. Defect Waste refers to all processing required in creating a defect and the additional work required to correct a defect or error. It takes less time to do work correctly the first time than the time it would take to do it over.",
+        "to_detect": {
+          "ask": [
+            "What is the defect rate?",
+            "What is the Six Sigma value for the process?",
+            "Are there common reasons for the defects?",
+            "Are defects hiding in inventory or processes?",
+            "Is there a lack of process capability for the equipment or process?",
+            "Is standard work being followed?"
+          ]
+        },
+        "examples": [
+          "Returns.",
+          "Customer complaints.",
+          "No self-inspection.",
+          "No human automation.",
+          "No standard work.",
+          "Missing information.",
+          "Interruptions."
+        ],
+        "to_eliminate": [
+          "Create visual controls to ensure work standards are met.",
+          "Create work standards to best practice.",
+          "Ensure preventive maintenance schedules are adhered to for all equipment.",
+          "Ensure cross-training is conducted to accommodate increases in demand."
+        ]
+      },
+      {
+        "title": "Skills (People) Waste",
+        "definition": "Skills Waste is not using people to full potential. People's Skills Waste is the underutilization of people and is a result of not placing people where they can (and will) use their knowledge, skills, and abilities to their fullest potential providing value-added work and services.",
+        "to_detect": {
+          "ask": [
+            "Are employees effectively cross-trained?",
+            "Are employees encouraged to suggest improvements?",
+            "Are new employees trained to best practices?",
+            "Are employees improving the work standard?"
+          ]
+        },
+        "examples": [
+          "Not involving employees in improvement ideas and teams.",
+          "Lacking balanced work within the department or work group.",
+          "Having high absenteeism and turnover.",
+          "Having an inadequate performance management system.",
+          "Hiring someone with inadequate skills.",
+          "Assigning an employee two jobs due to understaffing.",
+          "Deadlines not being met.",
+          "Providing no cross-training when employees are sitting idle due to bottleneck in upstream process."
+        ],
+        "to_eliminate": [
+          "Develop a robust performance appraisal system.",
+          "Ensure employees has a training and development plan and monitor it to ensure it is being followed.",
+          "Challenge employees on performance objectives.",
+          "Be flexible in allowing employees to try new ideas."
+        ]
+      },
+      {
+        "title": "Unevenness Waste",
+        "definition": "Unevenness Waste is work arriving without being scheduled. Unevenness Waste is the lack of a consistent flow of inputs/information/scheduled work from upstream processes that causes many other types of waste. Waste of unevenness creates fluctuations in workloads and unbalanced services.",
+        "to_detect": {
+          "ask": [
+            "Are employees effectively cross-trained?",
+            "Is work scheduled to the day or hour?",
+            "Are employees aware of the next process' requirements?",
+            "Are there times when work piles up in front of a particular process?",
+            "Have bottlenecks and/or constraints been identified?"
+          ]
+        },
+        "examples": [
+          "Not having sufficient or complete information ahead of time to meet schedules, thus causing overtime.",
+          "Scheduling all work to be completed at the end of the shift and not during the day at even intervals.",
+          "Having no leveling of work within the department or work group, e.g., batching work.",
+          "Having poor standards/processes (e.g., difficulty finding materials, supplies, documents, etc.).",
+          "Lacking performance standards (or clearly defined work parameters) from the downstream process. (i.e., customer)."
+        ],
+        "to_eliminate": [
+          "Cross-train employees to accommodate fluctuations in work loads.",
+          "Determine customer demand and create a visual leveling system for everyone to see.",
+          "Create standards for how work should flow.",
+          "Create continuous flow where possible."
+        ]
+      },
+      {
+        "title": "Overburden Waste",
+        "definition": "Overburden Waste is work added with no support or resources. Overburden Waste  occurs when the capacity of the process is not known and/or is not adequately scheduled.",
+        "to_detect": {
+          "ask": [
+            "Are employees effectively cross-trained?",
+            "Is capacity known for all processes?",
+            "Are we flexible when demand for supplies/services changes?",
+            "Is work scheduled through multiple processes with standard times?",
+            "Is standard work being followed?"
+          ]
+        },
+        "examples": [
+          "Having people cover for others while they are away without adequate training.",
+          "Admitting new customers without additional capacity.",
+          "Knowing demand will increase for a brief period of time but not making available additional resources."
+        ],
+        "to_eliminate": []
+      },
+      {
+        "title": "Environmental Waste",
+        "definition": "Environmental Waste includes all products or processes bad for the planet. Environmental Resources Waste is anything non-compliant that is generated by an organization that negatively impacts the environment, whether it is solid or liquid, is classified as environmental waste.",
+        "to_detect": {
+          "ask": [
+            "Are employees aware of environmental waste?",
+            "Are there supplies or materials that have a reusable alternative or recycled potential?",
+            "Are there any forms of recycling being done now?"
+          ]
+        },
+        "examples": [
+          "Providing no process to recycle paper and plastic products, batteries, computers, etc.",
+          "Not disposing of bio-materials properly.",
+          "Using the utilization of power with machines and equipment without regard.",
+          "Providing no process on water usage conservation."
+        ],
+        "to_eliminate": [
+          "Train employees with examples on environmental wastes.",
+          "Conduct a Waste Walk.",
+          "Create a team to continue to research and find ways to conserve."
+        ]
+      },
+      {
+        "title": "Social Responsibilty Waste",
+        "definition": "Social Responsibility Waste is using media sources inefficiently. Social Responsibility Waste is broad and includes poverty, discrimination, health and injuries, nutrition, literacy and education, office policies, and social media networking.",
+        "to_detect": {
+          "ask": [
+            "Are employees aware of personal communication rules during work time?",
+            "Are social networks (Facebook, Twitter, etc.) being used to promote the services to the appropriate market segment?",
+            "Are employees ethical in how business is being conducted internally as well as externally?",
+            "Is training on diversification in the workplace conducted regularly?"
+          ]
+        },
+        "examples": [
+          "Socializing excessively in person, via phone/texting/emailing, or visiting social networking sites.",
+          "Advertising products or services on social networking sites that are not read by target customers.",
+          "Having fraud, theft, and/or abuse occurring.",
+          "Discriminating against an employee or prospective new hire for any reason as defined legally."
+        ],
+        "to_eliminate": [
+          "Ensure employees have read and signed the company standards for what is proper communication within the organization.",
+          "Research competitor's social networking sites to determine if your organization's sites need to be updated.",
+          "Ensure employees clearly understands what is acceptable and what is not acceptable in terms of business ethics and discrimination of any kind."
+        ]
+      },
+      {
+        "title": "Overproduction Waste",
+        "definition": "Overproduction Waste is producing some type of work prior to it being required is waste of overproduction.  Providing a service above and beyond what is needed is also considered overproduction. Overproduction is when too much of something is made or served and is the greatest of all the wastes.  Overproduction of work or services can cause other wastes.  For example, by preparing extra copies of a report, you are using extra paper, extra time to handle the reports, and extra motion and transportation to dispose of the reports, and so on.",
+        "to_detect": {
+          "ask": [
+            "Is required production or work faster or slower than takt time (or demand)?",
+            "Is there inventory (i.e., parts, materials, documents, reports, etc.) in a queue waiting to be processed?",
+            "Is there a lack of one-piece or small lot work flow?",
+            "Is work scheduled according to a master schedule or production quotas?",
+            "Is a pull system being used?",
+            "Is takt time or demand known?"
+          ]
+        },
+        "examples": [
+          "Push production methods",
+          "Production not in sync with planning",
+          "Long setups",
+          "Continuing to produce parts regardless of downstream need",
+          "Sending emails with attachments to recipients that do not use the information",
+          "Making extra copies of documents, emails, etc.",
+          "Emailing or faxing the same document multiple times",
+          "Entering repetitive information on multiple documents",
+          "Attending or conducting ineffective meetings",
+          "Producing reports that are not used",
+          "Performing more analysis than is required",
+          "Unclear expectations of what information is required by who and when",
+          "Lacking knowledge on how-to-use or where-to-find additional features in MS Word/Excel designed to significantly increase productivity",
+          "Sending completed reports or too much information to the next process without knowing when, or exactly what, is needed"
+        ],
+        "to_eliminate": [
+          "Establish continuous work flow in terms of product or service needed at the appropriate time to the downstream customer.",
+          "Ensure information is only entered into one common database. ",
+          "Create checklists to ensure all necessary information is attained.",
+          "Create visual controls and/or kanbans to prevent early processing of information or services.",
+          "Ensure email distribution lists, reports, etc. are sent to only necessary employees, customers, and/or suppliers.",
+          "Provide continuous improvement training to employees when time is available."
+        ]
+      }
+  ]
+  

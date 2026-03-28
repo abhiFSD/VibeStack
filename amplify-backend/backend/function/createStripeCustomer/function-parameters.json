@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "storage": {
+      "Organization:@model(appsync)": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "stripeSecretKey",
+      "environmentVariableName": "STRIPE_SECRET_KEY"
+    },
+    {
+      "cloudFormationParameterName": "stripePriceIdMonthly",
+      "environmentVariableName": "STRIPE_PRICE_ID_MONTHLY"
+    },
+    {
+      "cloudFormationParameterName": "stripePriceIdYearly",
+      "environmentVariableName": "STRIPE_PRICE_ID_YEARLY"
+    },
+    {
+      "cloudFormationParameterName": "apiLfapiGraphqlapiendpointoutput",
+      "environmentVariableName": "API_LFAPI_GRAPHQLAPIENDPOINTOUTPUT"
+    },
+    {
+      "cloudFormationParameterName": "apiLfapiGraphqlapikeyoutput",
+      "environmentVariableName": "API_LFAPI_GRAPHQLAPIKEYOUTPUT"
+    }
+  ]
+}

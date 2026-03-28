@@ -1,0 +1,212 @@
+[
+    {
+       "id":"783734hd33",
+       "name":"The area is clear of excess equipment, paperwork, or other types of materials.",
+       "category_name":"Sort",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"wrw23322rd",
+       "name":"The area looks organized.",
+       "category_name":"Sort",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"dasadqwe23",
+       "name":"The area is clear of excess personal items or is appropriately placed.",
+       "category_name":"Sort",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"qe231qwdf3",
+       "name":"The area is clear of outdated manuals, brochures, visual performance charts, etc.",
+       "category_name":"Sort",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"asd22476756w",
+       "name":"Electronic files are organized and only recent ones are available.",
+       "category_name":"Sort",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"23343asre3545",
+       "name":"Emails are not kept longer than a certain period of time to ensure time not wasted looking for one.",
+       "category_name":"Sort",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"27868asre3545",
+       "name":"Equipment, paperwork, or other types of materials are in their correct places.",
+       "category_name":"Set In Order",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"2049asre3545",
+       "name":"Equipment, paperwork, supplies, etc. are properly labeled.",
+       "category_name":"Set In Order",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"230jiyasre3545",
+       "name":"Visual indicators are used to help locate items as needed.",
+       "category_name":"Set In Order",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"268gjasre3545",
+       "name":"Electronic files and folders use a standard naming convention.",
+       "category_name":"Set In Order",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"233sd1asre3545",
+       "name":"Email folders are organized by a standard naming convention.",
+       "category_name":"Set In Order",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"233sd4fre3545",
+       "name":"Equipment of all types is free or grime and dust.",
+       "category_name":"Shine",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"233sd1a23e3545",
+       "name":"Trash containers are emptied on a regular basis.",
+       "category_name":"Shine",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"233sd1asr34fs45",
+       "name":"Bulletin boards (physical ones as well as Web postings) are up-to-date.",
+       "category_name":"Shine",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"233s23dfe45",
+       "name":"Desktop areas are clean.",
+       "category_name":"Shine",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"233s223sd45",
+       "name":"Employees can explain the benefits of 5S.",
+       "category_name":"Standardize",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"233s2567f45",
+       "name":"Checklists are available and visible to help identify correct locations for items.",
+       "category_name":"Standardize",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"243df3dfe45",
+       "name":"Display boards are up-to-date.",
+       "category_name":"Standardize",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"2342f73dfe45",
+       "name":"Specific cleaning assignments are assigned.",
+       "category_name":"Standardize",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"78ghs23dfe45",
+       "name":"5S standards are posted and everyone is aware of them.",
+       "category_name":"Standardize",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"78ghs2df45a",
+       "name":"There is no equipment, supplies, etc. creating work hazards.",
+       "category_name":"Safety",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"78ghs2iosd0",
+       "name":"Employees are wearing protective clothing.",
+       "category_name":"Safety",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"78ghs2-skhdi9",
+       "name":"Entrance ways and pathways are clear.",
+       "category_name":"Safety",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"78ghs23d0jshd=d",
+       "name":"Fire extinguishers and safety equipment are easily accessible.",
+       "category_name":"Safety",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"78ghs297bhoj3-dw",
+       "name":"There are no trip hazards (cords, wires, equipment, etc.) in the area.",
+       "category_name":"Safety",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"sdswwef33443df-dw",
+       "name":"Success 5S stories are shared. ",
+       "category_name":"Sustain",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"wew5767fgr6-dw",
+       "name":"There have been improvements to the 5S program.",
+       "category_name":"Sustain",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"gh67we3kj9kih-dw",
+       "name":"Everyone is aware of their role in 5S.",
+       "category_name":"Sustain",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"34fgt2fhk908-dw",
+       "name":"5S seems to be a way of life.",
+       "category_name":"Sustain",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"34dfgfgfh776-dw",
+       "name":"Reward and recognition is evident for 5S.",
+       "category_name":"Sustain",
+       "value":3,
+       "static":true
+    }
+ ]

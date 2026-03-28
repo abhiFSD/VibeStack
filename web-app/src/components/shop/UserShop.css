@@ -1,0 +1,41 @@
+.shop-item-card {
+  transition: transform 0.2s;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shop-item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user-coins {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shop-item-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: calc(0.375rem - 1px);
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+
+.shop-item-card .card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.shop-item-card .btn {
+  width: 100%;
+}
+
+.badge {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+} 

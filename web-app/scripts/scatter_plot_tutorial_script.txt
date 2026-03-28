@@ -1,0 +1,40 @@
+Now let's get started with the Scatter Plot report. Click on Open to open the report.
+
+The Scatter Plot report helps you analyze the relationship between two variables, identifying correlations and patterns that might not be obvious in tabular data.
+
+At the top, you'll see the Action Items section for tracking analysis tasks and actions based on your correlation findings.
+
+**Data Entry Interface**
+Below that, you'll find a data table specifically designed for two-variable analysis:
+
+Click "Add" to create new data entries. For Scatter Plots, you must provide:
+- **X Value**: The independent variable or input factor
+- **Y Value**: The dependent variable or output measure
+- **Description**: Additional context about this data pair (optional)
+
+Both X and Y values are required for proper scatter plot analysis.
+
+**Two-Variable Data Management**
+You can:
+- Edit any entry by clicking the edit icon
+- Delete entries using the trash icon
+- Add as many data pairs as needed for meaningful correlation analysis
+
+**Scatter Plot Visualization**
+The system generates a scatter plot chart showing:
+- **X-axis**: Your independent variable values
+- **Y-axis**: Your dependent variable values
+- **Data Points**: Each entry plotted as a point on the chart
+- **Trend Analysis**: Visual patterns indicating correlation strength and direction
+
+Export your Scatter Plot analysis to PDF, including:
+- Complete data table with X and Y value pairs
+- Visual scatter plot showing correlation patterns
+- Analysis summary describing relationship strength and direction
+- Recommendations based on correlation findings
+
+The PDF provides professional documentation for data analysis meetings, process improvement planning, and hypothesis validation.
+
+That's it for the Scatter Plot report. It's a valuable tool for understanding relationships between variables and supporting data-driven decision making. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

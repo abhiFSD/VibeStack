@@ -1,0 +1,223 @@
+/* Normalized styles for highlight content - consistent between editor and display */
+.highlight-content {
+  font-size: 13px !important;
+  line-height: 1.4 !important;
+  color: #000000 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+/* Reset any inline styles that might come through */
+.highlight-content * {
+  /* Reset font sizes except for specific elements */
+  font-size: inherit !important;
+  line-height: inherit !important;
+  font-family: inherit !important;
+  /* Remove any background colors except for code blocks */
+  background-color: transparent !important;
+  /* Remove any text colors except links */
+  color: inherit !important;
+  /* Remove margins and paddings that might come from external sources */
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-indent: 0 !important;
+}
+
+/* Heading normalization - make them smaller and proportional */
+.highlight-content h1,
+.highlight-content h2,
+.highlight-content h3,
+.highlight-content h4,
+.highlight-content h5,
+.highlight-content h6 {
+  font-weight: bold;
+  line-height: 1.3;
+  margin: 4px 0 2px 0; /* Reduced margins */
+  color: inherit;
+}
+
+.highlight-content h1 {
+  font-size: 16px; /* Instead of default ~32px */
+}
+
+.highlight-content h2 {
+  font-size: 15px; /* Instead of default ~24px */
+}
+
+.highlight-content h3 {
+  font-size: 14px; /* Instead of default ~18px */
+}
+
+.highlight-content h4,
+.highlight-content h5,
+.highlight-content h6 {
+  font-size: 13px; /* Same as body text but bold */
+}
+
+/* Paragraph normalization */
+.highlight-content p {
+  margin: 2px 0 4px 0; /* Reduced margins */
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* List normalization */
+.highlight-content ul,
+.highlight-content ol {
+  margin: 2px 0 4px 0; /* Reduced margins */
+  padding-left: 16px; /* Reduced indent */
+}
+
+.highlight-content li {
+  margin: 1px 0; /* Minimal spacing between list items */
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Nested lists */
+.highlight-content ul ul,
+.highlight-content ol ol,
+.highlight-content ul ol,
+.highlight-content ol ul {
+  margin: 0;
+  padding-left: 12px;
+}
+
+/* Bold and italic */
+.highlight-content strong,
+.highlight-content b {
+  font-weight: bold;
+}
+
+.highlight-content em,
+.highlight-content i {
+  font-style: italic;
+}
+
+/* Line breaks */
+.highlight-content br {
+  line-height: inherit;
+}
+
+/* Remove default margins from first and last elements */
+.highlight-content > *:first-child {
+  margin-top: 0;
+}
+
+.highlight-content > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Blockquote normalization */
+.highlight-content blockquote {
+  margin: 4px 0;
+  padding: 2px 8px;
+  border-left: 2px solid #ccc;
+  font-style: italic;
+  font-size: inherit;
+}
+
+/* Code formatting - override the general reset */
+.highlight-content code {
+  font-family: 'Courier New', monospace !important;
+  font-size: 12px !important;
+  background-color: #f5f5f5 !important;
+  padding: 1px 2px;
+  border-radius: 2px;
+}
+
+.highlight-content pre {
+  margin: 4px 0;
+  padding: 4px;
+  background-color: #f5f5f5 !important;
+  border-radius: 2px;
+  font-family: 'Courier New', monospace !important;
+  font-size: 12px !important;
+  line-height: 1.2 !important;
+  overflow-x: auto;
+}
+
+.highlight-content pre code {
+  background-color: transparent !important;
+  padding: 0;
+}
+
+/* Table normalization (if used) */
+.highlight-content table {
+  border-collapse: collapse;
+  margin: 4px 0;
+  font-size: inherit;
+}
+
+.highlight-content th,
+.highlight-content td {
+  border: 1px solid #ddd;
+  padding: 2px 4px;
+  font-size: inherit;
+}
+
+.highlight-content th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+/* Link styling - override the general reset */
+.highlight-content a {
+  color: #007bff !important;
+  text-decoration: underline;
+}
+
+.highlight-content a:hover {
+  color: #0056b3 !important;
+}
+
+/* Horizontal rule */
+.highlight-content hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 4px 0;
+}
+
+/* Override Quill editor styles to match display */
+.ql-editor.highlight-content-editor {
+  font-size: 13px !important;
+  line-height: 1.4 !important;
+  padding: 8px !important;
+}
+
+/* Editor-specific heading styles */
+.ql-editor.highlight-content-editor h1 {
+  font-size: 16px !important;
+  margin: 4px 0 2px 0 !important;
+}
+
+.ql-editor.highlight-content-editor h2 {
+  font-size: 15px !important;
+  margin: 4px 0 2px 0 !important;
+}
+
+.ql-editor.highlight-content-editor h3 {
+  font-size: 14px !important;
+  margin: 4px 0 2px 0 !important;
+}
+
+.ql-editor.highlight-content-editor h4,
+.ql-editor.highlight-content-editor h5,
+.ql-editor.highlight-content-editor h6 {
+  font-size: 13px !important;
+  margin: 4px 0 2px 0 !important;
+}
+
+/* Editor paragraph and list styles */
+.ql-editor.highlight-content-editor p {
+  margin: 2px 0 4px 0 !important;
+}
+
+.ql-editor.highlight-content-editor ul,
+.ql-editor.highlight-content-editor ol {
+  margin: 2px 0 4px 0 !important;
+  padding-left: 16px !important;
+}
+
+.ql-editor.highlight-content-editor li {
+  margin: 1px 0 !important;
+}

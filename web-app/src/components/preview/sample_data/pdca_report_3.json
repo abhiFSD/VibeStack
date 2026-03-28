@@ -1,0 +1,242 @@
+{
+  "report": {
+    "name": "Office Space Organization - Initial PDCA Attempt",
+    "type": "PDCA Report",
+    "completed": false,
+    "assignedMembers": ["office-coordinator@example.com", "admin-assistant@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Plan",
+      "orderIndex": 0,
+      "assignees": ["office-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "cluttered_office_current_state.jpg",
+          "url": "https://images.unsplash.com/photo-1604754742629-3e5728249d73?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "office-coordinator@example.com",
+          "uploadedAt": "2024-03-01T10:00:00Z",
+          "description": "Current cluttered office state with disorganized storage and workspace inefficiencies"
+        }
+      ],
+      "description": "Basic planning attempt to address office organization issues with limited systematic approach and unclear goal setting.",
+      "statements": [
+        {
+          "name": "General problem identified: office is disorganized and messy",
+          "value": 2
+        },
+        {
+          "name": "Limited analysis of root causes or contributing factors",
+          "value": 1
+        },
+        {
+          "name": "Vague goal: make office more organized and efficient",
+          "value": 2
+        },
+        {
+          "name": "Basic action plan with limited detail and no timeline",
+          "value": 2
+        },
+        {
+          "name": "No specific success metrics or measurement methods defined",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Do",
+      "orderIndex": 1,
+      "assignees": ["admin-assistant@example.com", "office-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "organization_attempt.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "admin-assistant@example.com",
+          "uploadedAt": "2024-03-08T15:30:00Z",
+          "description": "Initial organization attempts with basic sorting and some labeling efforts"
+        }
+      ],
+      "description": "Limited implementation efforts with basic organization activities but lack of systematic approach and follow-through.",
+      "statements": [
+        {
+          "name": "Some filing cabinets organized but inconsistently",
+          "value": 2
+        },
+        {
+          "name": "Basic labeling attempted but many areas still unlabeled",
+          "value": 2
+        },
+        {
+          "name": "Common area tidied up temporarily",
+          "value": 3
+        },
+        {
+          "name": "Storage closet partially sorted but not completed",
+          "value": 2
+        },
+        {
+          "name": "No systematic workflow changes implemented",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Check",
+      "orderIndex": 2,
+      "assignees": ["office-coordinator@example.com"],
+      "attachments": [],
+      "description": "Informal evaluation showing minimal lasting improvement with many areas reverting to previous disorganized state.",
+      "statements": [
+        {
+          "name": "Minimal lasting improvement observed in most areas",
+          "value": 2
+        },
+        {
+          "name": "Some areas already reverting to previous disorganized state",
+          "value": 1
+        },
+        {
+          "name": "Staff feedback mixed with limited adoption of changes",
+          "value": 2
+        },
+        {
+          "name": "No formal measurement or documentation of results",
+          "value": 1
+        },
+        {
+          "name": "Unclear whether goals were achieved due to vague objectives",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Act",
+      "orderIndex": 3,
+      "assignees": ["office-coordinator@example.com", "admin-assistant@example.com"],
+      "attachments": [],
+      "description": "Limited action phase with uncertainty about next steps and minimal learning from initial attempt.",
+      "statements": [
+        {
+          "name": "Limited understanding of what worked and what didn't",
+          "value": 1
+        },
+        {
+          "name": "No systematic documentation of lessons learned",
+          "value": 1
+        },
+        {
+          "name": "Uncertain about whether to continue or try different approach",
+          "value": 2
+        },
+        {
+          "name": "Some frustration with lack of progress and sustainability",
+          "value": 2
+        },
+        {
+          "name": "Next steps unclear without better planning framework",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "pdca-highlight-1",
+      "title": "Plan",
+      "description": "<p><strong>Basic Problem Recognition:</strong> General awareness that office is disorganized and messy, affecting daily operations, but limited systematic analysis of specific issues or contributing factors.</p><p><strong>Planning Limitations:</strong> Vague goal setting without specific, measurable objectives or timeline, and basic action plan lacking detail and systematic approach to sustainable improvement.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["office-coordinator@example.com"]
+    },
+    {
+      "id": "pdca-highlight-2",
+      "title": "Do",
+      "description": "<p><strong>Limited Implementation:</strong> Basic organization activities including partial filing cabinet organization and some labeling efforts, but lacking systematic approach and comprehensive coverage of problem areas.</p><p><strong>Execution Challenges:</strong> Inconsistent implementation with some areas receiving attention while others remain unchanged, and no systematic workflow improvements to support sustainable organization.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["admin-assistant@example.com", "office-coordinator@example.com"]
+    },
+    {
+      "id": "pdca-highlight-3",
+      "title": "Check",
+      "description": "<p><strong>Minimal Progress:</strong> Informal evaluation showing limited lasting improvement with many areas already reverting to previous disorganized state due to lack of systematic sustainment approach.</p><p><strong>Measurement Gaps:</strong> No formal measurement or documentation of results, making it difficult to determine actual progress or identify specific areas needing attention for future improvement efforts.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["office-coordinator@example.com"]
+    },
+    {
+      "id": "pdca-highlight-4",
+      "title": "Act",
+      "description": "<p><strong>Learning Challenges:</strong> Limited understanding of what worked and what didn't work, with no systematic documentation of lessons learned or analysis of implementation barriers and success factors.</p><p><strong>Next Steps Uncertainty:</strong> Unclear direction for future improvement efforts due to lack of systematic evaluation and planning framework, resulting in frustration and uncertainty about continuation approach.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["office-coordinator@example.com", "admin-assistant@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "pdca-ai-1",
+      "title": "Learn PDCA Methodology Basics",
+      "description": "Attend training or research PDCA methodology to understand systematic approach to problem-solving and improvement",
+      "duedate": "2024-05-15",
+      "status": 0,
+      "assignees": ["office-coordinator@example.com", "admin-assistant@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-5",
+          "name": "pdca_training_resources.jpg",
+          "url": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "office-coordinator@example.com",
+          "uploadedAt": "2024-04-05T09:30:00Z",
+          "description": "Collection of PDCA training materials and methodology resources"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Learning",
+      "priority": "High"
+    },
+    {
+      "id": "pdca-ai-2",
+      "title": "Define Specific Measurable Goals",
+      "description": "Develop specific, measurable goals for office organization improvement with clear success criteria",
+      "duedate": "2024-05-30",
+      "status": 0,
+      "assignees": ["office-coordinator@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Goal Setting",
+      "priority": "High"
+    },
+    {
+      "id": "pdca-ai-3",
+      "title": "Conduct Proper Root Cause Analysis",
+      "description": "Perform systematic root cause analysis to understand why office becomes disorganized and identify specific contributing factors",
+      "duedate": "2024-06-15",
+      "status": 0,
+      "assignees": ["admin-assistant@example.com", "office-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-7",
+          "name": "root_cause_analysis_tools.jpg",
+          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "admin-assistant@example.com",
+          "uploadedAt": "2024-04-10T14:45:00Z",
+          "description": "Root cause analysis tools and methods for office organization problems"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Problem Analysis",
+      "priority": "Medium"
+    }
+  ]
+}

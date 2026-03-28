@@ -1,0 +1,40 @@
+Now let's get started with the Run Chart report.
+
+The Run Chart report displays data over time, helping you identify trends, patterns, and changes in process performance.
+
+At the top, you'll see the Action Items section for tracking analysis tasks and improvement actions based on your time series data.
+
+**Data Entry Interface**
+Below that, you'll find a data table specifically designed for time-based data:
+
+Click "Add" to create new data entries. For Run Charts, you'll provide:
+- **Value**: The numerical measurement or metric being tracked
+- **Date**: The specific date when this measurement was taken
+- **Description**: Additional context about this data point (optional)
+
+**Time-Based Data Management**
+The system automatically sorts your data by date chronologically, which is essential for proper trend analysis.
+
+You can:
+- Edit any entry by clicking the edit icon
+- Delete entries using the trash icon
+- Add data points over any time period for trend analysis
+
+**Run Chart Visualization**
+The system generates a line chart showing:
+- **X-axis**: Time progression (dates sorted chronologically)
+- **Y-axis**: Your measured values
+- **Trend Line**: Connected data points showing changes over time
+- **Reference Lines**: Average or target lines for comparison (if applicable)
+
+Export your Run Chart analysis to PDF, including:
+- Complete data table with values and dates
+- Visual trend chart with time series data
+- Statistical summary and trend analysis
+- Insights about patterns and recommended actions
+
+The PDF provides professional documentation for performance reviews, trend analysis meetings, and continuous improvement planning.
+
+That's it for the Run Chart report. It's an essential tool for understanding performance trends and process behavior over time. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

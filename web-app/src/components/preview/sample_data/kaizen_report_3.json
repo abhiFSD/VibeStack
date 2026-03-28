@@ -1,0 +1,344 @@
+{
+  "report": {
+    "name": "Customer Service Process - Initial Kaizen Attempt",
+    "type": "Kaizen Project Report",
+    "completed": false,
+    "assignedMembers": ["customer-service-manager@example.com"]
+  },
+  "categories": [
+    {
+      "name": "(Prepare)",
+      "orderIndex": 0,
+      "assignees": ["customer-service-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "unclear_project_rationale.jpg",
+          "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "customer-service-manager@example.com",
+          "uploadedAt": "2024-01-05T14:20:00Z",
+          "description": "Informal discussion about customer service issues without clear business case or strategic direction"
+        }
+      ],
+      "description": "Inadequate preparation phase lacking structured approach and clear foundation",
+      "statements": [
+        {
+          "name": "Share the Business Case and link to Strategic Direction.",
+          "value": 1
+        },
+        {
+          "name": "Provide Lean/Six Sigma training.",
+          "value": 1
+        },
+        {
+          "name": "Identify and eliminate potential barriers.",
+          "value": 2
+        },
+        {
+          "name": "Create evaluation methods.",
+          "value": 1
+        },
+        {
+          "name": "Determine management engagement.",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Planning",
+      "orderIndex": 1,
+      "assignees": ["customer-service-representative@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "unstructured_brainstorming.jpg",
+          "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "customer-service-representative@example.com",
+          "uploadedAt": "2024-01-08T16:30:00Z",
+          "description": "Unstructured brainstorming session without formal planning methodology or clear objectives"
+        },
+        {
+          "id": "attachment-3",
+          "name": "missing_analysis_tools.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "customer-service-representative@example.com",
+          "uploadedAt": "2024-01-10T12:45:00Z",
+          "description": "Workspace showing lack of proper analysis tools and structured planning materials"
+        }
+      ],
+      "description": "Poor planning phase missing essential analytical tools and structured methodology",
+      "statements": [
+        {
+          "name": "Assemble team with the right knowledge and implement a project charter.",
+          "value": 1
+        },
+        {
+          "name": "Create A3 Report problem statement.",
+          "value": 1
+        },
+        {
+          "name": "Create SIPOC Diagram.",
+          "value": 1
+        },
+        {
+          "name": "Create current state value stream map.",
+          "value": 1
+        },
+        {
+          "name": "Determine cycle time for each step in the process.",
+          "value": 1
+        },
+        {
+          "name": "Perform virtual waste walks.",
+          "value": 2
+        },
+        {
+          "name": "Complete stakeholder analysis.",
+          "value": 1
+        },
+        {
+          "name": "Format everything using PDCA format.",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "PDCA - Implementation",
+      "orderIndex": 2,
+      "assignees": ["customer-service-representative@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "chaotic_workspace_attempt.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "customer-service-representative@example.com",
+          "uploadedAt": "2024-01-12T10:15:00Z",
+          "description": "Customer service workspace showing failed improvement attempts without systematic approach"
+        },
+        {
+          "id": "attachment-5",
+          "name": "no_documentation_tracking.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "customer-service-representative@example.com",
+          "uploadedAt": "2024-01-15T13:20:00Z",
+          "description": "Lack of proper documentation and progress tracking systems"
+        }
+      ],
+      "description": "Ineffective implementation lacking systematic PDCA approach and proper execution",
+      "statements": [
+        {
+          "name": "Review team goal prior to Kaizen event.",
+          "value": 1
+        },
+        {
+          "name": "Document and take photos of before state.",
+          "value": 2
+        },
+        {
+          "name": "Determine Takt time requirements.",
+          "value": 1
+        },
+        {
+          "name": "Identify the seven types of waste.",
+          "value": 2
+        },
+        {
+          "name": "Update current state map during the event.",
+          "value": 1
+        },
+        {
+          "name": "Meet with stakeholders and keep them informed.",
+          "value": 1
+        },
+        {
+          "name": "Implement 5S.",
+          "value": 2
+        },
+        {
+          "name": "Complete daily recap and present to management.",
+          "value": 1
+        },
+        {
+          "name": "Create PDCA worksheet and update it regularly.",
+          "value": 1
+        },
+        {
+          "name": "Create a training plan.",
+          "value": 1
+        },
+        {
+          "name": "Implement the process.",
+          "value": 2
+        },
+        {
+          "name": "Correct problems as they occur.",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Follow-Up",
+      "orderIndex": 3,
+      "assignees": ["customer-service-manager@example.com"],
+      "attachments": [],
+      "description": "Minimal follow-up with no sustainment plan or improvement tracking",
+      "statements": [
+        {
+          "name": "Continue to communicate and stay engaged.",
+          "value": 1
+        },
+        {
+          "name": "Ensure PDCA is complete.",
+          "value": 1
+        },
+        {
+          "name": "Provide ongoing support.",
+          "value": 1
+        },
+        {
+          "name": "Create a Kaizen Event Dashboard.",
+          "value": 1
+        },
+        {
+          "name": "Request feedback on the process.",
+          "value": 2
+        },
+        {
+          "name": "Practice Gemba.",
+          "value": 1
+        },
+        {
+          "name": "Apply Kaizen to Kaizen (improve the improvement process).",
+          "value": 1
+        },
+        {
+          "name": "Provide recognition and rewards to team members.",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "kaizen3-ai-1",
+      "title": "Fundamental Kaizen Training Program",
+      "description": "Enroll team in comprehensive Kaizen fundamentals training covering basic lean principles, PDCA methodology, and project management essentials",
+      "duedate": "2024-02-15",
+      "status": 0,
+      "assignees": ["lean-training-coordinator@example.com", "customer-service-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-6",
+          "name": "kaizen_fundamentals_curriculum.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "lean-training-coordinator@example.com",
+          "uploadedAt": "2024-01-18T11:30:00Z",
+          "description": "Kaizen fundamentals training curriculum designed for beginners"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "(Prepare)",
+      "priority": "High"
+    },
+    {
+      "id": "kaizen3-ai-2",
+      "title": "Business Case Development Workshop",
+      "description": "Conduct workshop to develop proper business case with strategic alignment, problem quantification, and management engagement strategy",
+      "duedate": "2024-02-01",
+      "status": 1,
+      "assignees": ["business-improvement-manager@example.com", "customer-service-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-7",
+          "name": "business_case_workshop_agenda.jpg",
+          "url": "https://images.unsplash.com/photo-1553484771-8966baa92e8b?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "business-improvement-manager@example.com",
+          "uploadedAt": "2024-01-20T09:45:00Z",
+          "description": "Business case development workshop agenda and methodology"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "(Prepare)",
+      "priority": "High"
+    },
+    {
+      "id": "kaizen3-ai-3",
+      "title": "Structured Planning Methodology Training",
+      "description": "Implement training on essential planning tools including A3 problem solving, SIPOC diagrams, value stream mapping, and stakeholder analysis",
+      "duedate": "2024-03-01",
+      "status": 0,
+      "assignees": ["process-improvement-specialist@example.com", "customer-service-team@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Planning",
+      "priority": "High"
+    },
+    {
+      "id": "kaizen3-ai-4",
+      "title": "Mentorship and Guidance Assignment",
+      "description": "Assign experienced Kaizen facilitator to provide hands-on mentorship and guidance throughout project restart and execution",
+      "duedate": "2024-01-30",
+      "status": 0,
+      "assignees": ["senior-kaizen-facilitator@example.com", "customer-service-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Planning",
+      "priority": "High"
+    },
+    {
+      "id": "kaizen3-ai-5",
+      "title": "Project Charter and Team Formation",
+      "description": "Create proper project charter with clear objectives, team roles, timeline, and success metrics using structured methodology",
+      "duedate": "2024-02-20",
+      "status": 0,
+      "assignees": ["project-coordinator@example.com", "customer-service-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Planning",
+      "priority": "Medium"
+    },
+    {
+      "id": "kaizen3-ai-6",
+      "title": "Basic 5S Implementation Training",
+      "description": "Provide hands-on 5S training and implementation support to establish foundation for systematic workplace organization",
+      "duedate": "2024-03-15",
+      "status": 0,
+      "assignees": ["5s-specialist@example.com", "customer-service-representative@example.com"],
+      "attachments": [],
+      "orderIndex": 5,
+      "category": "PDCA - Implementation",
+      "priority": "Medium"
+    },
+    {
+      "id": "kaizen3-ai-7",
+      "title": "Documentation and Tracking System Setup",
+      "description": "Establish proper documentation protocols, progress tracking systems, and visual management tools for project execution",
+      "duedate": "2024-03-30",
+      "status": 0,
+      "assignees": ["documentation-coordinator@example.com", "customer-service-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 6,
+      "category": "PDCA - Implementation",
+      "priority": "Medium"
+    },
+    {
+      "id": "kaizen3-ai-8",
+      "title": "Management Engagement and Support Framework",
+      "description": "Develop formal management engagement plan with regular reviews, support mechanisms, and accountability structures",
+      "duedate": "2024-02-10",
+      "status": 0,
+      "assignees": ["operations-director@example.com", "customer-service-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 7,
+      "category": "(Prepare)",
+      "priority": "Low"
+    }
+  ]
+}

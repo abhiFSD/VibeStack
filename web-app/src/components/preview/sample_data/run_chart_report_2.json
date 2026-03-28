@@ -1,0 +1,212 @@
+{
+  "report": {
+    "name": "Production Output Efficiency - Weekly Performance Tracking",
+    "type": "Run Chart Report",
+    "completed": false,
+    "target": 85,
+    "xaxis": "Week",
+    "yaxis": "Efficiency %",
+    "trend": false,
+    "assignedMembers": [
+      "production-manager@example.com",
+      "operations-analyst@example.com"
+    ]
+  },
+  "chartData": [
+    {
+      "date": "2024-01-07",
+      "value": 78,
+      "text": "Week 1",
+      "Description": "Baseline production efficiency - equipment warming up after maintenance"
+    },
+    {
+      "date": "2024-01-14",
+      "value": 82,
+      "text": "Week 2",
+      "Description": "Improved performance with operator familiarization"
+    },
+    {
+      "date": "2024-01-21",
+      "value": 75,
+      "text": "Week 3",
+      "Description": "Drop due to material quality issues and supplier delays"
+    },
+    {
+      "date": "2024-01-28",
+      "value": 88,
+      "text": "Week 4",
+      "Description": "Strong recovery with new material supplier and process adjustments"
+    },
+    {
+      "date": "2024-02-04",
+      "value": 79,
+      "text": "Week 5",
+      "Description": "Decline following equipment breakdown and emergency repairs"
+    },
+    {
+      "date": "2024-02-11",
+      "value": 84,
+      "text": "Week 6",
+      "Description": "Improvement after maintenance completion and operator training"
+    },
+    {
+      "date": "2024-02-18",
+      "value": 81,
+      "text": "Week 7",
+      "Description": "Stable performance but below target - need process optimization"
+    },
+    {
+      "date": "2024-02-25",
+      "value": 86,
+      "text": "Week 8",
+      "Description": "Good week with focus on standardized work implementation"
+    },
+    {
+      "date": "2024-03-03",
+      "value": 77,
+      "text": "Week 9",
+      "Description": "Poor performance due to staff shortage and overtime fatigue"
+    },
+    {
+      "date": "2024-03-10",
+      "value": 85,
+      "text": "Week 10",
+      "Description": "Recovery with temporary staffing and improved scheduling"
+    },
+    {
+      "date": "2024-03-17",
+      "value": 83,
+      "text": "Week 11",
+      "Description": "Moderate performance - process variation still evident"
+    },
+    {
+      "date": "2024-03-24",
+      "value": 80,
+      "text": "Week 12",
+      "Description": "Declining trend requiring systematic improvement approach"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-run-prod-1",
+      "title": "High Process Variation Concern",
+      "content": "Production efficiency shows concerning variation between 75-88% with no clear trend direction. Standard deviation of 4.1% indicates unstable process requiring root cause analysis. Multiple factors causing week-to-week fluctuations prevent consistent performance.",
+      "category": "Process Stability",
+      "attachments": [
+        {
+          "id": "highlight-run-prod-attachment-1",
+          "name": "process_variation_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-analyst@example.com",
+          "uploadedAt": "2024-03-25T09:00:00Z",
+          "description": "Process variation analysis showing multiple assignable causes"
+        }
+      ]
+    },
+    {
+      "id": "highlight-run-prod-2",
+      "title": "Multiple Special Causes Identified",
+      "content": "Analysis reveals several special causes disrupting normal process flow: equipment breakdowns (Week 5), material quality issues (Week 3), staffing shortages (Week 9). Each cause creates significant drops requiring reactive recovery efforts rather than proactive prevention.",
+      "category": "Root Cause Analysis",
+      "attachments": [
+        {
+          "id": "highlight-run-prod-attachment-2",
+          "name": "special_causes_documentation.jpg",
+          "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "production-manager@example.com",
+          "uploadedAt": "2024-03-25T10:30:00Z",
+          "description": "Documentation of special causes and their impact on production efficiency"
+        }
+      ]
+    },
+    {
+      "id": "highlight-run-prod-3",
+      "title": "Performance Below Industry Standards",
+      "content": "Average efficiency of 81.5% falls short of industry benchmark of 90%+ and company target of 85%. The gap represents significant opportunity for improvement but requires systematic approach to address underlying process instability.",
+      "category": "Performance Gap",
+      "attachments": [
+        {
+          "id": "highlight-run-prod-attachment-3",
+          "name": "benchmark_comparison_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-analyst@example.com",
+          "uploadedAt": "2024-03-25T11:15:00Z",
+          "description": "Industry benchmark comparison and performance gap analysis"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "run-prod-action-1",
+      "title": "Implement Preventive Maintenance Program",
+      "description": "Establish scheduled maintenance to prevent equipment breakdowns causing efficiency drops. Include predictive maintenance technologies and operator-led maintenance training to reduce unexpected downtime.",
+      "duedate": "2024-05-15",
+      "status": 1,
+      "assignees": ["maintenance-manager@example.com", "equipment-technician@example.com"],
+      "attachments": [
+        {
+          "id": "run-prod-action-attachment-1",
+          "name": "preventive_maintenance_schedule.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "maintenance-manager@example.com",
+          "uploadedAt": "2024-03-25T13:00:00Z",
+          "description": "Comprehensive preventive maintenance program and scheduling system"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Equipment Reliability",
+      "priority": "High"
+    },
+    {
+      "id": "run-prod-action-2",
+      "title": "Establish Supplier Quality Partnership Program",
+      "description": "Work with key suppliers to improve material quality consistency and reduce supply disruptions. Include quality agreements, regular audits, and backup supplier development.",
+      "duedate": "2024-04-30",
+      "status": 0,
+      "assignees": ["procurement-manager@example.com", "quality-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "run-prod-action-attachment-2",
+          "name": "supplier_quality_program.jpg",
+          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "procurement-manager@example.com",
+          "uploadedAt": "2024-03-25T14:00:00Z",
+          "description": "Supplier quality partnership program framework and implementation plan"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Supply Chain",
+      "priority": "High"
+    },
+    {
+      "id": "run-prod-action-3",
+      "title": "Deploy Statistical Process Control System",
+      "description": "Implement real-time SPC monitoring to detect process shifts quickly. Include control charts, automated alerts, and operator training on variation reduction techniques.",
+      "duedate": "2024-06-30",
+      "status": 0,
+      "assignees": ["quality-analyst@example.com", "operations-analyst@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Process Control",
+      "priority": "Medium"
+    },
+    {
+      "id": "run-prod-action-4",
+      "title": "Develop Cross-Training and Staffing Flexibility",
+      "description": "Create cross-training program to reduce impact of staff shortages. Include skills matrix, rotation schedules, and emergency staffing protocols to maintain efficiency during absences.",
+      "duedate": "2024-05-31",
+      "status": 0,
+      "assignees": ["hr-training-coordinator@example.com", "production-supervisor@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Workforce Development",
+      "priority": "Medium"
+    }
+  ]
+}

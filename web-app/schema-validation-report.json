@@ -1,0 +1,43 @@
+{
+  "schemaValidation": {
+    "organizationType": true,
+    "subscriptionInvoiceType": true,
+    "subscriptionMutations": {
+      "createStripeCustomer": true,
+      "updateSubscription": true,
+      "updateSubscriptionQuantity": true
+    },
+    "requiredFields": {
+      "organizationSubscriptionFields": [
+        "stripeCustomerId",
+        "stripeSubscriptionId",
+        "subscriptionStatus",
+        "subscriptionPeriodEnd",
+        "billingPeriod",
+        "activeUserCount",
+        "purchasedLicenses"
+      ],
+      "invoiceFields": [
+        "organizationId",
+        "stripeInvoiceId",
+        "amount",
+        "status",
+        "billingPeriodStart",
+        "billingPeriodEnd",
+        "userCount",
+        "pricePerUser",
+        "isProrated"
+      ]
+    }
+  },
+  "queryTests": {
+    "organizationQuery": true,
+    "invoiceQuery": true,
+    "memberQuery": true
+  },
+  "responseTypes": true,
+  "summary": {
+    "totalTests": 3,
+    "passedTests": 3
+  }
+}

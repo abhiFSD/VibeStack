@@ -1,0 +1,685 @@
+{
+  "report": {
+    "name": "Customer Complaint Analysis - Product Quality Defects",
+    "type": "Fishbone Diagram Report",
+    "completed": true,
+    "bones": 6,
+    "assignedMembers": [
+      "quality-manager@example.com",
+      "production-supervisor@example.com",
+      "process-engineer@example.com"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Method",
+      "orderIndex": 0,
+      "assignees": ["process-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-fishbone-method-1",
+          "name": "sop_review_process.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-engineer@example.com",
+          "uploadedAt": "2024-01-18T10:30:00Z",
+          "description": "Standard operating procedure review documentation"
+        }
+      ],
+      "description": "Process methodology and procedure-related causes",
+      "statements": [
+        {
+          "name": "Standard operating procedures are comprehensive and current",
+          "value": 4
+        },
+        {
+          "name": "Work instructions are clear and accessible to operators",
+          "value": 5
+        },
+        {
+          "name": "Quality control checkpoints are properly positioned",
+          "value": 4
+        },
+        {
+          "name": "Process validation is regularly performed",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Machine",
+      "orderIndex": 1,
+      "assignees": ["maintenance-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-fishbone-machine-1",
+          "name": "equipment_calibration.jpg",
+          "url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "maintenance-supervisor@example.com",
+          "uploadedAt": "2024-01-18T11:45:00Z",
+          "description": "Equipment calibration and maintenance records"
+        },
+        {
+          "id": "attachment-fishbone-machine-2",
+          "name": "preventive_maintenance_schedule.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "maintenance-supervisor@example.com",
+          "uploadedAt": "2024-01-18T12:00:00Z",
+          "description": "Comprehensive preventive maintenance scheduling system"
+        }
+      ],
+      "description": "Equipment and machinery-related causes",
+      "statements": [
+        {
+          "name": "Equipment is properly calibrated and maintained",
+          "value": 5
+        },
+        {
+          "name": "Machines operate within specified tolerances",
+          "value": 4
+        },
+        {
+          "name": "Preventive maintenance schedules are followed consistently",
+          "value": 5
+        },
+        {
+          "name": "Equipment capabilities match production requirements",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Material",
+      "orderIndex": 2,
+      "assignees": ["supply-chain-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-fishbone-material-1",
+          "name": "supplier_quality_audit.jpg",
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "supply-chain-manager@example.com",
+          "uploadedAt": "2024-01-18T14:15:00Z",
+          "description": "Supplier quality audit results and certification documentation"
+        }
+      ],
+      "description": "Raw materials and component-related causes",
+      "statements": [
+        {
+          "name": "Incoming materials meet quality specifications",
+          "value": 4
+        },
+        {
+          "name": "Supplier quality systems are robust and certified",
+          "value": 5
+        },
+        {
+          "name": "Material traceability is maintained throughout process",
+          "value": 4
+        },
+        {
+          "name": "Storage conditions preserve material integrity",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Manpower",
+      "orderIndex": 3,
+      "assignees": ["hr-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-fishbone-manpower-1",
+          "name": "training_certification_records.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "hr-manager@example.com",
+          "uploadedAt": "2024-01-18T13:30:00Z",
+          "description": "Employee training and certification tracking system"
+        },
+        {
+          "id": "attachment-fishbone-manpower-2",
+          "name": "competency_assessment.jpg",
+          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "hr-manager@example.com",
+          "uploadedAt": "2024-01-18T13:45:00Z",
+          "description": "Competency assessment and skills verification process"
+        }
+      ],
+      "description": "Human resources and workforce-related causes",
+      "statements": [
+        {
+          "name": "Operators are properly trained and certified",
+          "value": 5
+        },
+        {
+          "name": "Staffing levels are adequate for quality production",
+          "value": 4
+        },
+        {
+          "name": "Employee engagement and motivation levels are high",
+          "value": 4
+        },
+        {
+          "name": "Skills and competencies match job requirements",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Measurement",
+      "orderIndex": 4,
+      "assignees": ["quality-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-fishbone-measurement-1",
+          "name": "measurement_system_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-engineer@example.com",
+          "uploadedAt": "2024-01-18T15:00:00Z",
+          "description": "Measurement system analysis and gauge R&R studies"
+        }
+      ],
+      "description": "Measurement systems and quality control causes",
+      "statements": [
+        {
+          "name": "Measurement systems are accurate and precise",
+          "value": 5
+        },
+        {
+          "name": "Quality inspection procedures are consistently followed",
+          "value": 4
+        },
+        {
+          "name": "Statistical process control is effectively implemented",
+          "value": 5
+        },
+        {
+          "name": "Measurement data is reliable and actionable",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Environment",
+      "orderIndex": 5,
+      "assignees": ["facilities-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-fishbone-environment-1",
+          "name": "environmental_controls.jpg",
+          "url": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "facilities-manager@example.com",
+          "uploadedAt": "2024-01-18T16:20:00Z",
+          "description": "Environmental control systems and monitoring equipment"
+        }
+      ],
+      "description": "Environmental and workplace condition causes",
+      "statements": [
+        {
+          "name": "Temperature and humidity are controlled within specifications",
+          "value": 5
+        },
+        {
+          "name": "Workplace cleanliness and organization support quality",
+          "value": 4
+        },
+        {
+          "name": "Lighting and ergonomics optimize operator performance",
+          "value": 4
+        },
+        {
+          "name": "Air quality and contamination controls are effective",
+          "value": 5
+        }
+      ]
+    }
+  ],
+  "chartData": [
+    {
+      "id": "fishbone-problem-statement",
+      "text": "Customer complaints about product quality defects increased by 15% in Q4",
+      "textColor": "#d32f2f",
+      "posX": "750",
+      "posY": "320",
+      "value": "",
+      "date": "",
+      "Description": "Main problem statement positioned at fish head",
+      "orderIndex": 0
+    },
+    {
+      "id": "fishbone-method-primary",
+      "text": "METHOD",
+      "textColor": "#1976d2",
+      "posX": "200",
+      "posY": "150",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 1
+    },
+    {
+      "id": "fishbone-method-cause-1",
+      "text": "Inconsistent SOP execution",
+      "textColor": "#333333",
+      "posX": "120",
+      "posY": "120",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 2
+    },
+    {
+      "id": "fishbone-method-cause-2",
+      "text": "Inadequate process validation",
+      "textColor": "#333333",
+      "posX": "140",
+      "posY": "180",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 3
+    },
+    {
+      "id": "fishbone-machine-primary",
+      "text": "MACHINE",
+      "textColor": "#1976d2",
+      "posX": "400",
+      "posY": "100",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 4
+    },
+    {
+      "id": "fishbone-machine-cause-1",
+      "text": "Calibration drift",
+      "textColor": "#333333",
+      "posX": "320",
+      "posY": "70",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 5
+    },
+    {
+      "id": "fishbone-machine-cause-2",
+      "text": "Tool wear beyond limits",
+      "textColor": "#333333",
+      "posX": "340",
+      "posY": "130",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 6
+    },
+    {
+      "id": "fishbone-material-primary",
+      "text": "MATERIAL",
+      "textColor": "#1976d2",
+      "posX": "600",
+      "posY": "120",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 7
+    },
+    {
+      "id": "fishbone-material-cause-1",
+      "text": "Supplier variability",
+      "textColor": "#333333",
+      "posX": "520",
+      "posY": "90",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 8
+    },
+    {
+      "id": "fishbone-material-cause-2",
+      "text": "Storage contamination",
+      "textColor": "#333333",
+      "posX": "540",
+      "posY": "150",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 9
+    },
+    {
+      "id": "fishbone-manpower-primary",
+      "text": "MANPOWER",
+      "textColor": "#1976d2",
+      "posX": "200",
+      "posY": "450",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 10
+    },
+    {
+      "id": "fishbone-manpower-cause-1",
+      "text": "Training gaps",
+      "textColor": "#333333",
+      "posX": "120",
+      "posY": "420",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 11
+    },
+    {
+      "id": "fishbone-manpower-cause-2",
+      "text": "Experience level variations",
+      "textColor": "#333333",
+      "posX": "140",
+      "posY": "480",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 12
+    },
+    {
+      "id": "fishbone-measurement-primary",
+      "text": "MEASUREMENT",
+      "textColor": "#1976d2",
+      "posX": "400",
+      "posY": "500",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 13
+    },
+    {
+      "id": "fishbone-measurement-cause-1",
+      "text": "Gauge repeatability issues",
+      "textColor": "#333333",
+      "posX": "320",
+      "posY": "470",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 14
+    },
+    {
+      "id": "fishbone-measurement-cause-2",
+      "text": "Inspection frequency gaps",
+      "textColor": "#333333",
+      "posX": "340",
+      "posY": "530",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 15
+    },
+    {
+      "id": "fishbone-environment-primary",
+      "text": "ENVIRONMENT",
+      "textColor": "#1976d2",
+      "posX": "600",
+      "posY": "480",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 16
+    },
+    {
+      "id": "fishbone-environment-cause-1",
+      "text": "Temperature fluctuations",
+      "textColor": "#333333",
+      "posX": "520",
+      "posY": "450",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 17
+    },
+    {
+      "id": "fishbone-environment-cause-2",
+      "text": "Contamination sources",
+      "textColor": "#333333",
+      "posX": "540",
+      "posY": "510",
+      "value": "",
+      "date": "",
+      "Description": "Secondary bone cause",
+      "orderIndex": 18
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-fishbone-exemplary-1",
+      "title": "Comprehensive Root Cause Analysis",
+      "content": "This fishbone analysis demonstrates exemplary systematic investigation across all six major categories (Method, Machine, Material, Manpower, Measurement, Environment). The team conducted thorough analysis of each category with specific, actionable causes identified for each major bone.",
+      "category": "Analysis Excellence",
+      "attachments": [
+        {
+          "id": "highlight-fishbone-attachment-1",
+          "name": "comprehensive_analysis_framework.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-01-18T17:00:00Z",
+          "description": "Systematic cause-and-effect analysis framework documentation"
+        }
+      ]
+    },
+    {
+      "id": "highlight-fishbone-exemplary-2",
+      "title": "Evidence-Based Investigation",
+      "content": "Each major cause category is supported by concrete evidence including calibration records, training documentation, supplier audits, and environmental monitoring data. This evidence-based approach ensures that identified causes are factual rather than assumptions.",
+      "category": "Data Integration",
+      "attachments": [
+        {
+          "id": "highlight-fishbone-attachment-2",
+          "name": "evidence_collection_summary.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-engineer@example.com",
+          "uploadedAt": "2024-01-18T17:15:00Z",
+          "description": "Comprehensive evidence collection and validation summary"
+        }
+      ]
+    },
+    {
+      "id": "highlight-fishbone-exemplary-3",
+      "title": "Cross-Functional Team Collaboration",
+      "content": "The analysis involved subject matter experts from each relevant area (Process Engineering, Maintenance, Supply Chain, HR, Quality, and Facilities), ensuring comprehensive perspective and buy-in for identified causes and subsequent corrective actions.",
+      "category": "Team Engagement",
+      "attachments": [
+        {
+          "id": "highlight-fishbone-attachment-3",
+          "name": "cross_functional_team_session.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-01-18T17:30:00Z",
+          "description": "Cross-functional fishbone analysis team session"
+        }
+      ]
+    },
+    {
+      "id": "highlight-fishbone-exemplary-4",
+      "title": "Actionable Cause Identification",
+      "content": "All identified causes are specific, measurable, and actionable. Rather than vague statements, each cause is defined with sufficient detail to enable targeted corrective action development and implementation.",
+      "category": "Solution Focus",
+      "attachments": []
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "fishbone-exemplary-action-1",
+      "title": "Implement Advanced Measurement System Analysis (MSA) Program",
+      "description": "Conduct comprehensive gauge R&R studies on all critical measurement systems, establish ongoing MSA monitoring, and implement automated calibration tracking system",
+      "duedate": "2024-03-15",
+      "status": 2,
+      "assignees": ["quality-engineer@example.com", "metrology-specialist@example.com"],
+      "attachments": [
+        {
+          "id": "exemplary-action-attachment-1",
+          "name": "msa_program_framework.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-engineer@example.com",
+          "uploadedAt": "2024-01-18T18:00:00Z",
+          "description": "Advanced MSA program implementation framework"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Measurement System",
+      "priority": "High"
+    },
+    {
+      "id": "fishbone-exemplary-action-2",
+      "title": "Establish Supplier Quality Partnership Program",
+      "description": "Develop formal partnership agreements with key suppliers including joint quality planning, shared metrics, and collaborative improvement initiatives",
+      "duedate": "2024-04-30",
+      "status": 1,
+      "assignees": ["supply-chain-manager@example.com", "supplier-quality-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "exemplary-action-attachment-2",
+          "name": "supplier_partnership_model.jpg",
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "supply-chain-manager@example.com",
+          "uploadedAt": "2024-01-18T18:15:00Z",
+          "description": "Strategic supplier quality partnership development model"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Material Excellence",
+      "priority": "High"
+    },
+    {
+      "id": "fishbone-exemplary-action-3",
+      "title": "Deploy Predictive Maintenance Technology Platform",
+      "description": "Implement IoT sensors and AI-driven predictive analytics to anticipate equipment issues before they impact quality, including vibration analysis and thermal monitoring",
+      "duedate": "2024-06-30",
+      "status": 1,
+      "assignees": ["maintenance-supervisor@example.com", "digital-transformation-lead@example.com"],
+      "attachments": [
+        {
+          "id": "exemplary-action-attachment-3",
+          "name": "predictive_maintenance_roadmap.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "digital-transformation-lead@example.com",
+          "uploadedAt": "2024-01-18T18:30:00Z",
+          "description": "Predictive maintenance technology implementation roadmap"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Equipment Reliability",
+      "priority": "Medium"
+    },
+    {
+      "id": "fishbone-exemplary-action-4",
+      "title": "Enhance Environmental Control Automation",
+      "description": "Install advanced environmental monitoring and control systems with real-time alerting and automatic adjustments for temperature, humidity, and contamination control",
+      "duedate": "2024-05-15",
+      "status": 0,
+      "assignees": ["facilities-manager@example.com", "automation-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "exemplary-action-attachment-4",
+          "name": "environmental_control_upgrade.jpg",
+          "url": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "facilities-manager@example.com",
+          "uploadedAt": "2024-01-18T18:45:00Z",
+          "description": "Advanced environmental control system upgrade plan"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Environment Optimization",
+      "priority": "Medium"
+    },
+    {
+      "id": "fishbone-exemplary-action-5",
+      "title": "Implement Competency-Based Training Certification System",
+      "description": "Develop comprehensive skills assessment and certification program with ongoing competency validation, including simulation-based training for critical operations",
+      "duedate": "2024-04-15",
+      "status": 0,
+      "assignees": ["hr-manager@example.com", "training-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "exemplary-action-attachment-5",
+          "name": "competency_certification_framework.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "training-coordinator@example.com",
+          "uploadedAt": "2024-01-18T19:00:00Z",
+          "description": "Comprehensive competency-based certification framework"
+        }
+      ],
+      "orderIndex": 4,
+      "category": "Human Capital Development",
+      "priority": "High"
+    }
+  ],
+  "aiAnalysis": {
+    "overallAssessment": {
+      "maturityLevel": "World-Class Excellence",
+      "methodologyAdherence": "Exemplary Fishbone Implementation",
+      "rootCauseQuality": "Comprehensive and Systematic",
+      "actionabilityLevel": "Outstanding - Strategic Implementation Ready"
+    },
+    "keyFindings": [
+      "Comprehensive Category Coverage: Outstanding systematic investigation across all six major fishbone categories with deep analysis",
+      "Evidence-Based Analysis: Exceptional integration of concrete data, documentation, and measurement to support each identified cause",
+      "Cross-Functional Excellence: Exemplary collaboration involving subject matter experts from all relevant functional areas",
+      "Actionable Cause Identification: Superior specificity in cause definition enabling targeted and effective corrective action development",
+      "Strategic Problem Selection: Complex quality issue appropriately matched to fishbone methodology capabilities and organizational scope"
+    ],
+    "strengthAreas": [
+      {
+        "category": "Methodology Excellence",
+        "highlights": "Perfect application of 6M fishbone structure with comprehensive cause investigation",
+        "bestPractices": "Systematic category analysis, evidence-based validation, and actionable cause specification"
+      },
+      {
+        "category": "Team Collaboration",
+        "highlights": "Outstanding cross-functional engagement with appropriate subject matter expertise",
+        "bestPractices": "Multi-disciplinary perspective, shared ownership, and collaborative problem-solving approach"
+      },
+      {
+        "category": "Evidence Integration",
+        "highlights": "Exceptional use of data, documentation, and measurement to validate identified causes",
+        "bestPractices": "Calibration records, training documentation, supplier audits, and environmental monitoring integration"
+      }
+    ],
+    "improvementOpportunities": [],
+    "methodologyInsights": {
+      "categoryCompleteness": "Outstanding - all six major categories thoroughly investigated with appropriate depth",
+      "causeSpecificity": "Excellent - causes are specific, measurable, and directly actionable",
+      "evidenceQuality": "Superior - comprehensive documentation and data supporting all major causes",
+      "actionabilityLevel": "World-Class - enables immediate development of targeted corrective actions"
+    },
+    "learningPoints": [
+      "Systematic Investigation: World-class fishbone analysis requires thorough investigation of all relevant categories, not just obvious ones",
+      "Evidence Foundation: Superior cause-and-effect analysis integrates multiple forms of evidence to validate identified causes",
+      "Cross-Functional Perspective: Complex quality problems benefit from diverse expertise and collaborative investigation approach",
+      "Actionable Specificity: The most effective fishbone diagrams identify causes with sufficient detail to enable targeted corrective action",
+      "Strategic Scope: Fishbone methodology works best when problem scope matches the complexity and capability of the analysis approach"
+    ],
+    "nextSteps": [
+      "Prioritize identified causes based on impact analysis and resource requirements for corrective action development",
+      "Develop detailed corrective action plans addressing the highest-impact causes identified in the analysis",
+      "Establish measurement and monitoring systems to track effectiveness of implemented corrective actions",
+      "Document lessons learned and best practices for future fishbone analysis applications",
+      "Consider advanced analytical techniques (FMEA, Statistical Analysis) for deeper investigation of prioritized causes"
+    ],
+    "industryBenchmark": {
+      "currentPerformance": "World-Class - Exemplary application of fishbone methodology",
+      "methodologyComparison": "Superior execution compared to industry best practices for cause-and-effect analysis",
+      "evidenceQuality": "Outstanding - comprehensive integration of data and documentation exceeds standard practices",
+      "organizationalImpact": "High - analysis provides clear foundation for effective quality improvement initiatives"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.upload-btn {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border: none !important;
+}
+
+.upload-btn:hover:not(:disabled) {
+  transform: translateX(10px) translateY(-10px) scale(1.05) !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.upload-btn:active:not(:disabled) {
+  transform: translateX(10px) translateY(-10px) scale(0.95) !important;
+}
+
+.upload-btn .fa-camera {
+  color: #0d6efd;
+}
+
+.upload-btn:disabled {
+  background-color: rgba(240, 240, 240, 0.9) !important;
+} 

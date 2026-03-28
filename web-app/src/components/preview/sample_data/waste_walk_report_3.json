@@ -1,0 +1,260 @@
+{
+  "report": {
+    "name": "Initial Waste Assessment - Small Manufacturing Facility",
+    "type": "Waste Walk Report",
+    "completed": false,
+    "assignedMembers": ["plant-manager@example.com", "production-lead@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Production",
+      "orderIndex": 0,
+      "assignees": ["production-lead@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "waste_walk_production_chaos.jpg",
+          "url": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "production-lead@example.com",
+          "uploadedAt": "2024-03-05T08:30:00Z",
+          "description": "Initial waste walk findings showing significant waste in all categories throughout production"
+        }
+      ],
+      "description": "Production operations reveal extensive waste in all categories with no systematic approach to identification or elimination.",
+      "statements": [
+        {
+          "name": "Excessive waiting waste throughout production process",
+          "value": "Workers idle 40% of time waiting for materials, instructions, or equipment"
+        },
+        {
+          "name": "Severe motion waste with disorganized workstations",
+          "value": "Tools scattered, supplies distant, workers constantly searching and reaching"
+        },
+        {
+          "name": "No pull system resulting in massive overproduction",
+          "value": "Making to forecast with 3+ months of finished goods inventory accumulated"
+        },
+        {
+          "name": "No standard work leading to process variations",
+          "value": "Each operator using different methods with varying cycle times and quality"
+        }
+      ]
+    },
+    {
+      "name": "Quality",
+      "orderIndex": 1,
+      "assignees": ["plant-manager@example.com"],
+      "attachments": [],
+      "description": "Quality management essentially non-existent with high defect rates and no systematic improvement approach.",
+      "statements": [
+        {
+          "name": "Defect rates exceeding 8% with customer complaints",
+          "value": "No incoming inspection, in-process checks, or final verification performed"
+        },
+        {
+          "name": "Large rework area accepting defects as normal",
+          "value": "25% of workforce dedicated to fixing problems rather than prevention"
+        },
+        {
+          "name": "No error-proofing or mistake prevention methods",
+          "value": "Relying entirely on operator attention with no aids or devices"
+        },
+        {
+          "name": "Employee skills wasted with no input mechanism",
+          "value": "Workers discouraged from suggesting improvements after ideas ignored"
+        }
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "orderIndex": 2,
+      "assignees": ["production-lead@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "waste_walk_equipment_neglect.jpg",
+          "url": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "production-lead@example.com",
+          "uploadedAt": "2024-03-05T10:00:00Z",
+          "description": "Equipment maintenance neglect contributing to multiple waste types"
+        }
+      ],
+      "description": "No maintenance program exists with equipment running to failure causing extensive operational waste.",
+      "statements": [
+        {
+          "name": "Equipment failures cause 4+ hours daily production loss",
+          "value": "No preventive maintenance with machines breaking down unpredictably"
+        },
+        {
+          "name": "Maintenance tools and parts completely disorganized",
+          "value": "Hours spent searching for tools and waiting for parts orders"
+        },
+        {
+          "name": "Equipment severely overburdened beyond capacity",
+          "value": "Running at 150% rated speed to meet demand causing premature failures"
+        },
+        {
+          "name": "Environmental waste from leaking and inefficient equipment",
+          "value": "Oil leaks, compressed air losses, and energy waste throughout facility"
+        }
+      ]
+    },
+    {
+      "name": "Administration",
+      "orderIndex": 3,
+      "assignees": ["plant-manager@example.com"],
+      "attachments": [],
+      "description": "Administrative processes completely paper-based with extreme overprocessing and information waste.",
+      "statements": [
+        {
+          "name": "Overwhelming paper inventory with lost documents",
+          "value": "Rooms full of paper files with frequent inability to find needed information"
+        },
+        {
+          "name": "Extreme overprocessing with quadruple data entry",
+          "value": "Same data handwritten on multiple forms then entered in different systems"
+        },
+        {
+          "name": "Uncontrolled social media use affecting productivity",
+          "value": "Employees on phones constantly with no policy or awareness of impact"
+        },
+        {
+          "name": "Severe workload unevenness causing stress and errors",
+          "value": "Panic at month-end with 80-hour weeks while mid-month sees make-work"
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "waste-highlight-1",
+      "title": "Pervasive Waiting Waste",
+      "waste_type": "Waiting Waste",
+      "description": "<p><strong>Production Standstills:</strong> Workers idle 40% of shift waiting for materials from chaotic warehouse, unclear instructions from supervisors, or broken equipment repairs.</p><p><strong>Information Bottlenecks:</strong> Critical production information stuck in office paperwork with 2-3 hour delays for basic decisions and approvals.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["production-lead@example.com"]
+    },
+    {
+      "id": "waste-highlight-2",
+      "title": "Extreme Motion Inefficiency",
+      "waste_type": "Motion Waste",
+      "description": "<p><strong>Workstation Chaos:</strong> No 5S implementation with tools scattered across facility, requiring constant searching and walking to gather materials for each job.</p><p><strong>Layout Dysfunction:</strong> Related processes separated by entire building length with workers making 50+ trips daily between stations.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["production-lead@example.com"]
+    },
+    {
+      "id": "waste-highlight-3",
+      "title": "Transport Chaos",
+      "waste_type": "Transport Waste",
+      "description": "<p><strong>Material Handling Waste:</strong> Products moved 7-8 times between processes due to no flow planning, with forklifts constantly crisscrossing paths.</p><p><strong>Storage Randomness:</strong> Materials stored wherever space available requiring extensive searching and transport to locate needed items.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1616401776146-90d3c0b35f46?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["plant-manager@example.com"]
+    },
+    {
+      "id": "waste-highlight-4",
+      "title": "Rampant Overprocessing",
+      "waste_type": "Overprocessing Waste",
+      "description": "<p><strong>Unnecessary Operations:</strong> Multiple inspection steps adding no value, excessive packaging beyond customer requirements, and gold-plating of basic products.</p><p><strong>Information Redundancy:</strong> Same production data recorded on 4 different forms, entered in 3 systems, with weekly reports no one reads.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["plant-manager@example.com"]
+    },
+    {
+      "id": "waste-highlight-5",
+      "title": "Inventory Explosion",
+      "waste_type": "Inventory Waste",
+      "description": "<p><strong>Overproduction Results:</strong> Three months of finished goods inventory cramming warehouse, with oldest items becoming obsolete before shipping.</p><p><strong>Raw Material Excess:</strong> Six months of raw materials purchased in bulk for discounts now deteriorating and consuming valuable space.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["production-lead@example.com"]
+    },
+    {
+      "id": "waste-highlight-6",
+      "title": "Defect Epidemic",
+      "waste_type": "Defect Waste",
+      "description": "<p><strong>Quality Crisis:</strong> 8% defect rate with 25% of workforce dedicated to rework, customer complaints increasing, and no root cause analysis performed.</p><p><strong>Hidden Defects:</strong> Problems discovered by customers rather than internal checks, damaging reputation and requiring expensive returns processing.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1548610762-7c6afe24c261?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["plant-manager@example.com"]
+    },
+    {
+      "id": "waste-highlight-7",
+      "title": "Skills Completely Wasted",
+      "waste_type": "Skills (People) Waste",
+      "description": "<p><strong>Demoralized Workforce:</strong> Employees report having given up on improvements after years of ignored suggestions, now just doing minimum required.</p><p><strong>No Development:</strong> Zero training programs with employees learning through trial and error, perpetuating bad practices and inefficiencies.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["plant-manager@example.com"]
+    },
+    {
+      "id": "waste-highlight-8",
+      "title": "Massive Overproduction",
+      "waste_type": "Overproduction Waste",
+      "description": "<p><strong>Forecast-Driven Chaos:</strong> Production based on optimistic sales forecasts rather than actual demand, creating mountains of unsold inventory.</p><p><strong>Batch Mentality:</strong> Large batch sizes to maximize equipment utilization creating excess inventory, quality problems, and cash flow crisis.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["production-lead@example.com", "plant-manager@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "waste-ai-1",
+      "title": "Conduct Basic 5S Implementation",
+      "description": "Start fundamental workplace organization in one pilot area to demonstrate waste reduction potential",
+      "duedate": "2024-05-15",
+      "status": 0,
+      "assignees": ["production-lead@example.com"],
+      "attachments": [],
+      "orderIndex": 0,
+      "category": "Workplace Organization",
+      "priority": "High"
+    },
+    {
+      "id": "waste-ai-2",
+      "title": "Establish Basic Visual Management",
+      "description": "Create simple production boards to make waiting waste visible and begin addressing root causes",
+      "duedate": "2024-04-30",
+      "status": 0,
+      "assignees": ["plant-manager@example.com", "production-lead@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "waste_walk_action_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "plant-manager@example.com",
+          "uploadedAt": "2024-03-08T15:00:00Z",
+          "description": "Initial action plan to address critical waste findings"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Visual Management",
+      "priority": "High"
+    },
+    {
+      "id": "waste-ai-3",
+      "title": "Train Leadership in Waste Identification",
+      "description": "Provide basic lean training to management team focusing on 8 wastes identification",
+      "duedate": "2024-04-15",
+      "status": 0,
+      "assignees": ["plant-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Training",
+      "priority": "High"
+    }
+  ]
+}

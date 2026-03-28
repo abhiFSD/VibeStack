@@ -1,0 +1,145 @@
+:root {
+  --primary: #00897b;
+  --primary-light: #4ebaaa;
+  --primary-dark: #005b4f;
+  --primary-hover: #00796b;
+  --primary-transparent: rgba(0, 137, 123, 0.1);
+}
+
+/* Override Bootstrap theme colors */
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover) !important;
+  border-color: var(--primary-hover) !important;
+}
+
+.btn-outline-primary,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.btn-outline-primary:hover {
+  color: white !important;
+  background-color: var(--primary) !important;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+/* Navigation styles */
+body .navbar.navbar-expand-lg,
+body .navbar.fixed-top,
+body .navbar.bg-light {
+  background-color: var(--primary) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body .navbar .navbar-brand,
+body .navbar .nav-link,
+body .navbar .dropdown-toggle {
+  color: white !important;
+}
+
+body .navbar .nav-link:hover,
+body .navbar .dropdown-toggle:hover {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+body .navbar .btn-outline-primary {
+  color: white !important;
+  border-color: white !important;
+  background-color: transparent !important;
+}
+
+body .navbar .btn-outline-primary:hover {
+  color: var(--primary) !important;
+  background-color: white !important;
+}
+
+/* Dropdown styles */
+body .navbar .dropdown-menu {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body .navbar .dropdown-item:hover {
+  background-color: var(--primary-transparent);
+}
+
+body .navbar .dropdown-item.active {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* Award styles */
+.award-modal .modal-content {
+  background-color: rgba(0, 137, 123, 0.95) !important;
+}
+
+/* Progress bars */
+.progress-bar,
+.progress-bar-striped {
+  background-color: var(--primary) !important;
+}
+
+/* Links */
+a:not(.btn):not(.navbar-brand) {
+  color: var(--primary);
+}
+
+a:not(.btn):not(.navbar-brand):hover {
+  color: var(--primary-dark);
+}
+
+/* Active states */
+.nav-link.active,
+.nav-pills .nav-link.active {
+  color: var(--primary) !important;
+  background-color: var(--primary-transparent) !important;
+}
+
+.dropdown-item.active, 
+.dropdown-item:active {
+  background-color: var(--primary) !important;
+  color: white !important;
+}
+
+/* Form focus states */
+.form-control:focus {
+  border-color: var(--primary-light) !important;
+  box-shadow: 0 0 0 0.25rem rgba(0, 137, 123, 0.25) !important;
+}
+
+/* Badge colors */
+.badge.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+/* Timeline styles */
+.timeline-line {
+  background-color: var(--primary-light) !important;
+}
+
+/* Card hover effects */
+.card:hover {
+  border-color: var(--primary-light);
+}
+
+/* Make sure theme colors persist after page load */
+body {
+  --bs-primary: var(--primary) !important;
+  --bs-primary-rgb: 0, 137, 123 !important;
+} 

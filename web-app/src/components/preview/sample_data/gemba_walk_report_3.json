@@ -1,0 +1,216 @@
+{
+  "report": {
+    "name": "Initial Assessment Gemba Walk - Warehouse Operations",
+    "type": "Gemba Walk Report",
+    "completed": false,
+    "assignedMembers": ["warehouse-manager@example.com", "operations-coordinator@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Production",
+      "orderIndex": 0,
+      "assignees": ["warehouse-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "gemba_warehouse_observations.jpg",
+          "url": "https://images.unsplash.com/photo-1604328462391-2c1b9a9cd8b1?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "warehouse-manager@example.com",
+          "uploadedAt": "2024-03-01T08:00:00Z",
+          "description": "Initial gemba walk observations documenting warehouse organization and workflow opportunities"
+        }
+      ],
+      "description": "Warehouse operations assessment revealing significant opportunities for improvement in organization and systematic approaches.",
+      "statements": [
+        {
+          "name": "No visible production boards or performance displays",
+          "value": "Unable to locate any performance tracking or status information in the area"
+        },
+        {
+          "name": "Limited evidence of 5S implementation throughout facility",
+          "value": "Storage areas disorganized, items not labeled, unclear designated locations for equipment"
+        },
+        {
+          "name": "Standard work procedures not visible or documented",
+          "value": "No posted procedures observed, work methods appear to vary between individuals"
+        },
+        {
+          "name": "Basic safety practices in place but could be enhanced",
+          "value": "PPE available but not consistently used, safety signage limited and unclear"
+        }
+      ]
+    },
+    {
+      "name": "Quality",
+      "orderIndex": 1,
+      "assignees": ["operations-coordinator@example.com"],
+      "attachments": [],
+      "description": "Quality management systems showing minimal implementation with significant development opportunities.",
+      "statements": [
+        {
+          "name": "No quality metrics or tracking systems visible",
+          "value": "Unable to find any quality performance displays or measurement systems"
+        },
+        {
+          "name": "Inspection procedures unclear or not documented",
+          "value": "No visible inspection checklists or quality verification processes observed"
+        },
+        {
+          "name": "No systematic approach to defect tracking or problem solving",
+          "value": "No evidence of defect logs, root cause analysis, or improvement initiatives"
+        },
+        {
+          "name": "Limited quality awareness among staff observed",
+          "value": "Staff focused on task completion with limited discussion of quality requirements"
+        }
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "orderIndex": 2,
+      "assignees": ["warehouse-manager@example.com"],
+      "attachments": [],
+      "description": "Maintenance approach appears reactive with minimal preventive systems or organization in place.",
+      "statements": [
+        {
+          "name": "No preventive maintenance schedules or tracking visible",
+          "value": "Unable to locate any maintenance planning or scheduling information"
+        },
+        {
+          "name": "Equipment condition monitoring not evident",
+          "value": "No visible monitoring systems or condition tracking for equipment assets"
+        },
+        {
+          "name": "Maintenance tools and supplies disorganized",
+          "value": "Tools scattered in various locations, no designated storage or organization system"
+        },
+        {
+          "name": "Reactive approach to equipment issues observed",
+          "value": "Equipment problems addressed only when failures occur, no proactive prevention"
+        }
+      ]
+    },
+    {
+      "name": "Human Resources",
+      "orderIndex": 3,
+      "assignees": ["operations-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "gemba_communication_gaps.jpg",
+          "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-coordinator@example.com",
+          "uploadedAt": "2024-03-01T10:30:00Z",
+          "description": "Gemba observations of communication systems and employee engagement opportunities"
+        }
+      ],
+      "description": "Workforce engagement and development systems requiring significant enhancement to support operational improvement.",
+      "statements": [
+        {
+          "name": "Training records not visible or current",
+          "value": "No evidence of training documentation or skill development tracking"
+        },
+        {
+          "name": "Communication limited to basic safety and schedule information",
+          "value": "Minimal information shared, no performance updates or improvement focus"
+        },
+        {
+          "name": "No evidence of employee engagement in improvement activities",
+          "value": "No suggestion systems, improvement projects, or employee participation observed"
+        },
+        {
+          "name": "Recognition programs not visible or active",
+          "value": "No employee recognition displays or achievement acknowledgment systems"
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "gemba-highlight-1",
+      "title": "Organization Foundation Needed",
+      "description": "<p><strong>Basic Systems Missing:</strong> Warehouse operations lack fundamental organizational systems with no visible performance tracking, minimal 5S implementation, and unclear standard work procedures affecting operational efficiency.</p><p><strong>Structure Development Required:</strong> Significant opportunity to establish basic lean foundation including visual management, workplace organization, and systematic approaches to daily operations.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["warehouse-manager@example.com"]
+    },
+    {
+      "id": "gemba-highlight-2",
+      "title": "Quality System Development Opportunity",
+      "description": "<p><strong>Minimal Quality Focus:</strong> Quality management systems virtually non-existent with no visible metrics, inspection procedures, or defect tracking systems, representing significant development opportunity.</p><p><strong>Awareness Building Needed:</strong> Staff focused on task completion with limited quality awareness, indicating need for fundamental quality training and system implementation.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["operations-coordinator@example.com"]
+    },
+    {
+      "id": "gemba-highlight-3",
+      "title": "Maintenance System Establishment Required",
+      "description": "<p><strong>Reactive Approach Limitations:</strong> Maintenance operations entirely reactive with no preventive scheduling, equipment monitoring, or systematic tool organization, leading to inefficiencies and equipment reliability issues.</p><p><strong>Foundation Building Opportunity:</strong> Significant opportunity to implement basic preventive maintenance systems and organization approaches to improve equipment reliability and reduce downtime.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["warehouse-manager@example.com"]
+    },
+    {
+      "id": "gemba-highlight-4",
+      "title": "Engagement System Development",
+      "description": "<p><strong>Communication Enhancement Needed:</strong> Basic communication systems present but limited scope with minimal performance information, improvement focus, or employee engagement mechanisms.</p><p><strong>Recognition System Opportunity:</strong> No visible employee recognition or achievement systems, representing opportunity to build engagement culture supporting continuous improvement initiatives.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["operations-coordinator@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "gemba-ai-1",
+      "title": "Implement Basic 5S Organization System",
+      "description": "Start fundamental 5S implementation beginning with sorting and organizing storage areas to establish foundation for operational improvement",
+      "duedate": "2024-05-15",
+      "status": 0,
+      "assignees": ["warehouse-manager@example.com", "operations-coordinator@example.com"],
+      "attachments": [],
+      "orderIndex": 0,
+      "category": "Workplace Organization",
+      "priority": "High"
+    },
+    {
+      "id": "gemba-ai-2",
+      "title": "Establish Basic Performance Tracking",
+      "description": "Create simple visual management board to track basic warehouse metrics like daily shipments, accuracy, and safety",
+      "duedate": "2024-04-30",
+      "status": 0,
+      "assignees": ["operations-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "gemba_improvement_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-coordinator@example.com",
+          "uploadedAt": "2024-03-05T11:45:00Z",
+          "description": "Gemba walk improvement plan based on observations and identified opportunities"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Visual Management",
+      "priority": "High"
+    },
+    {
+      "id": "gemba-ai-3",
+      "title": "Develop Standard Work Procedures",
+      "description": "Document basic work procedures for key warehouse processes and create simple visual guides for consistent execution",
+      "duedate": "2024-06-01",
+      "status": 0,
+      "assignees": ["warehouse-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Process Documentation",
+      "priority": "Medium"
+    }
+  ]
+}

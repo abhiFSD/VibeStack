@@ -1,0 +1,66 @@
+Hello and welcome to LeanFit Pro. Here we'll learn how to create a 5S report.
+
+First, login to LeanFit and you'll see a menu. This opens a mega menu for the application. Locate the Reports option here and click on it.
+
+Now you can see the reports page with a Create Report button. Let's click on it.
+
+You can add a report name here and select any report type from this dropdown menu. We have 21 report types available.
+
+You can also assign this report to a project and assign it to organization members.
+
+Let's create the report now.
+
+Once it's created, you can see the video tutorial from here. Click on Edit to edit the report details, such as the report name. Note that you cannot change the report type once it's
+created. Everything else remains the same, and you can update the details.
+
+You can also copy a report with all its data.
+
+Additionally, you can mark the report as completed. When you do this, the system will reward you with awards according to your organization's configuration.
+
+Now let's get started with the 5S report. Now, this is the Action Item section where you can create action items for this report. Click here and the action item creation modal will appear. You can add a title, description, and set
+a due date for the action item. The report is already selected. You can add members if the report has assignees - they will show here.
+
+You can add images to your action item, then create it. You've successfully created an action item.
+
+Now in 5S, you can see we have 6 categories by default. The system provides preset categories for the 6S methodology:
+
+- Sort: Remove unnecessary items from the workspace
+- Set In Order: Organize remaining items for easy access
+- Shine: Clean and maintain the area regularly  
+- Standardize: Create standards for the first 3S activities
+- Sustain: Maintain and continuously improve the system
+- Safety: Ensure safe working conditions (6th S)
+
+You can add these preset default categories like this, or you can also add your custom categories like this.
+
+Also, you can upload any images to the category in the Additional Details section. You can also add description text and add some names that you want to tag. Note that this is just text
+with no relation to actual assignees here.
+
+Now you can rearrange these categories using this rearrange button, and arrange them according to your needs like this.
+
+We can also add statements to categories from here. If it's a custom category, you need to add new statements like this. You can also make it a default statement for this category.
+
+If the category is a preset category, you'll see some default statements already added, so you can just select from these or create your custom ones from here. For example, typical 5S statements include:
+
+For Sort:
+- "The area is clear of excess equipment, paperwork, or other types of materials"
+- "The area looks organized"
+- "Electronic files are organized and only recent ones are available"
+
+For Set In Order:
+- "A place for everything and everything in its place"
+- "Items are labelled"
+- "Items are returned to their proper location after use"
+
+Each statement is scored from 1 to 5 based on how well your area performs against that standard.
+
+Let me assign some statements to the rest of the categories so we can visualize the chart.
+
+Now you can see that as we change these statement values from here... and here... the chart will automatically update the data and show you instantly.
+
+Finally, you can export to PDF and get yourself a PDF locally to print and share.
+
+That's it for the 5S report. It's very easy and responsive to use. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and
+we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

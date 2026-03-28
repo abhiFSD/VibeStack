@@ -1,0 +1,97 @@
+Hello and welcome to LeanFit Pro. Here we'll learn how to create a Lean Assessment report.
+
+First, login to LeanFit and you'll see a menu. This opens a mega menu for the application. Locate the Reports option here and click on it.
+
+Now you can see the reports page with a Create Report button. Let's click on it.
+
+You can add a report name here and select Lean Assessment from the report type dropdown menu. We have 21 report types available.
+
+You can also assign this report to a project and assign it to organization members.
+
+Let's create the Lean Assessment report now.
+
+Once it's created, you can see the video tutorial from here. Click on Edit to edit the report details, such as the report name. Note that you cannot change the report type once it's created. Everything else remains the same, and you can update the details.
+
+You can also copy a report with all its data.
+
+Additionally, you can mark the report as completed. When you do this, the system will reward you with awards according to your organization's configuration.
+
+Now let's get started with the Lean Assessment report. Click on Open to open the report.
+
+Now, this is the Action Item section where you can create action items for this report. Click here and the action item creation modal will appear. You can add a title, description, and set a due date for the action item. The report is already selected. You can add members if the report has assignees - they will show here.
+
+You can add images to your action item, then create it. You've successfully created an action item.
+
+The Lean Assessment report provides a comprehensive evaluation of your organization's lean maturity across key performance areas.
+
+The system provides five default assessment categories that cover critical aspects of lean implementation:
+
+- Leadership: Vision, strategic planning, resource allocation, and accountability
+- Customer Focus: Customer engagement, satisfaction measurement, and responsiveness
+- Process Management: Key process identification, performance metrics, and variation control
+- Staff (Employee) Management: Safety culture, development programs, and performance systems
+- Information/Analysis: Data-driven decision making and information systems
+
+You can use these preset default categories or add your own custom categories for specific areas you want to assess.
+
+To add a category, click the plus button. You can select from the default categories or create a custom category name.
+
+Each category can include:
+- Assessment statements with scoring from 1 to 5
+- Additional details with descriptions and evidence
+- Attachments like photos, documents, and metrics
+- Assignees responsible for that category
+
+To add statements to a category, click on the category card. The system provides pre-defined lean assessment statements based on best practices. For example:
+
+For Leadership:
+- Leadership has defined and communicated a clear vision and is committed to process improvement
+- Process improvement is regularly discussed at our strategic planning meetings
+- Adequate resources are continuously assigned for achieving operational excellence
+- We have a good balance of attainable and stretch goals
+- We have process owners that are held accountable for performance measurements
+
+For Customer Focus:
+- My organization does a good job of listening and involving its customers
+- Customer satisfaction measurements capture actionable information needed for improvement
+- My organization obtains and uses customer information relative to competition and/or benchmarks
+- Customer satisfaction takes top priority at my organization
+- My organization remains flexible to changing customer needs and expectations
+
+For Process Management:
+- My organization identifies its key processes to achieve improved performance
+- Performance measures are used for the control and improvement of key processes
+- The processes that we use are smooth and work well
+- Input from internal and external customers are incorporated into process improvement efforts
+- Process variation is understood and monitored at my organization
+
+Each statement is scored from 1 to 5, where:
+- 1 = Poor/Not implemented
+- 2 = Below average
+- 3 = Average/Partially implemented
+- 4 = Good/Well implemented
+- 5 = Excellent/Best practice
+
+The radar chart visualization shows your assessment scores across all categories, making it easy to identify strengths and opportunities at a glance.
+
+You can add custom statements specific to your organization's lean assessment criteria or modify existing ones.
+
+In the Additional Details section for each category, you can:
+- Add detailed observations and evidence
+- Upload supporting documents and photos
+- Document specific examples and metrics
+- Tag relevant team members
+
+You can rearrange categories using the rearrange button to organize them based on assessment flow or priority.
+
+The system calculates an overall maturity score based on your category assessments, helping track progress over time.
+
+You can switch between vertical and horizontal layouts for better viewing of your categories and assessments.
+
+Finally, you can export to PDF and get yourself a comprehensive Lean Assessment report with radar charts, scores, and detailed assessments to guide your improvement strategy.
+
+The PDF export provides a professional format perfect for leadership reviews, benchmarking, and strategic planning sessions.
+
+That's it for the Lean Assessment report. It's an excellent tool for evaluating organizational lean maturity and identifying improvement opportunities. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

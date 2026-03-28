@@ -1,0 +1,15 @@
+Now let's get started with the Fishbone Diagram report. 
+
+The Fishbone Diagram report has a specialized interface for cause-and-effect analysis. At the top, you'll see the Action Items section for tracking follow-up actions.
+
+Below that, you'll find the main Fishbone interface designed for systematically identifying and organizing potential causes of a problem.
+
+Add instruction same as brainstorming (will add on the video)
+
+Export your Fishbone Diagram to PDF for presentations, team meetings, and documentation purposes.
+
+The visual format makes it easy to communicate complex cause-and-effect relationships to stakeholders.
+
+That's it for the Fishbone Diagram report. It's an essential tool for systematic root cause analysis and problem-solving. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

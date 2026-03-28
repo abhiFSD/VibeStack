@@ -1,0 +1,226 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lfapi-prod-ccf91-authRole",
+      "UnauthRoleArn": "arn:aws:iam::XXXXXXXXXXXX:role/amplify-lfapi-prod-ccf91-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::XXXXXXXXXXXX:role/amplify-lfapi-prod-ccf91-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-lfapi-prod-ccf91-deployment",
+      "UnauthRoleName": "amplify-lfapi-prod-ccf91-unauthRole",
+      "StackName": "amplify-lfapi-prod-ccf91",
+      "StackId": "arn:aws:cloudformation:us-west-2:XXXXXXXXXXXX:stack/amplify-lfapi-prod-ccf91/152d5690-89c9-11f0-9f68-0aa8b4a95d07",
+      "AmplifyAppId": "XXXXXXXXXXXXXX"
+    },
+    "categories": {
+      "function": {
+        "awardEmailMutatuon": {
+          "apiKey": "da2-XXXXXXXXXXXXXXXXXXXXXXXXXX",
+          "graphqlEndpoint": "https://XXXXXXXXXXXXXXXXXXXXX.appsync-api.us-west-2.amazonaws.com/graphql",
+          "deploymentBucketName": "amplify-lfapi-prod-ccf91-deployment",
+          "s3Key": "amplify-builds/awardEmailMutatuon-58706145387356674f32-build.zip"
+        },
+        "createStripeCustomer": {
+          "apiLfapiGraphqlapiendpointoutput": "https://XXXXXXXXXXXXXXXXXXXXX.appsync-api.us-west-2.amazonaws.com/graphql",
+          "apiLfapiGraphqlapikeyoutput": "da2-XXXXXXXXXXXXXXXXXXXXXXXXXX",
+          "stripePriceIdMonthly": "price_XXXXXXXXXXXXXXXXXXXXXXXX",
+          "stripePriceIdYearly": "price_XXXXXXXXXXXXXXXXXXXXXXXX",
+          "stripeSecretKey": "sk_live_XXXXXXXXXXXXXXXXXXXXXXXX_STRIPE_SECRET_KEY_HERE",
+          "deploymentBucketName": "amplify-lfapi-prod-ccf91-deployment",
+          "s3Key": "amplify-builds/createStripeCustomer-6f66536b7577574f5450-build.zip"
+        },
+        "handleStripeWebhook": {
+          "apiLfapiGraphqlapiendpointoutput": "https://XXXXXXXXXXXXXXXXXXXXX.appsync-api.us-west-2.amazonaws.com/graphql",
+          "apiLfapiGraphqlapikeyoutput": "da2-XXXXXXXXXXXXXXXXXXXXXXXXXX",
+          "stripeSecretKey": "sk_live_XXXXXXXXXXXXXXXXXXXXXXXX_STRIPE_SECRET_KEY_HERE",
+          "stripeWebhookSecret": "whsec_XXXXXXXXXXXXXXXXXXXXXXXX",
+          "deploymentBucketName": "amplify-lfapi-prod-ccf91-deployment",
+          "s3Key": "amplify-builds/handleStripeWebhook-74616564427769345344-build.zip"
+        },
+        "handleSubscribe": {
+          "apiLfapiGraphqlapiendpointoutput": "https://XXXXXXXXXXXXXXXXXXXXX.appsync-api.us-west-2.amazonaws.com/graphql",
+          "apiLfapiGraphqlapikeyoutput": "da2-XXXXXXXXXXXXXXXXXXXXXXXXXX",
+          "stripePriceIdMonthly": "price_XXXXXXXXXXXXXXXXXXXXXXXX",
+          "stripePriceIdYearly": "price_XXXXXXXXXXXXXXXXXXXXXXXX",
+          "stripeSecretKey": "sk_live_XXXXXXXXXXXXXXXXXXXXXXXX_STRIPE_SECRET_KEY_HERE",
+          "deploymentBucketName": "amplify-lfapi-prod-ccf91-deployment",
+          "s3Key": "amplify-builds/handleSubscribe-4e546d4839644642354d-build.zip"
+        },
+        "syncPaymentStatus": {
+          "apiLfapiGraphqlapiendpointoutput": "https://XXXXXXXXXXXXXXXXXXXXX.appsync-api.us-west-2.amazonaws.com/graphql",
+          "apiLfapiGraphqlapikeyoutput": "da2-XXXXXXXXXXXXXXXXXXXXXXXXXX",
+          "stripeSecretKey": "sk_live_XXXXXXXXXXXXXXXXXXXXXXXX_STRIPE_SECRET_KEY_HERE"
+        },
+        "cancelSubscription": {
+          "deploymentBucketName": "amplify-lfapi-prod-ccf91-deployment",
+          "s3Key": "amplify-builds/cancelSubscription-7a2b3763594544747a7a-build.zip"
+        },
+        "emailFeedback": {
+          "deploymentBucketName": "amplify-lfapi-prod-ccf91-deployment",
+          "s3Key": "amplify-builds/emailFeedback-53735a444c6f6b725946-build.zip"
+        },
+        "emailService": {
+          "deploymentBucketName": "amplify-lfapi-prod-ccf91-deployment",
+          "s3Key": "amplify-builds/emailService-45794856524e33774d4a-build.zip"
+        },
+        "fetchAllQuizzes": {
+          "deploymentBucketName": "amplify-lfapi-prod-ccf91-deployment",
+          "s3Key": "amplify-builds/fetchAllQuizzes-766742716b63486e7336-build.zip"
+        },
+        "fetchDataFromMySQL": {
+          "deploymentBucketName": "amplify-lfapi-prod-ccf91-deployment",
+          "s3Key": "amplify-builds/fetchDataFromMySQL-46776242515156346864-build.zip"
+        },
+        "generatePDF2325": {
+          "deploymentBucketName": "amplify-lfapi-prod-ccf91-deployment",
+          "s3Key": "amplify-builds/generatePDF2325-626276484e50716a6366-build.zip"
+        },
+        "generatePDFEmail": {
+          "deploymentBucketName": "amplify-lfapi-prod-ccf91-deployment",
+          "s3Key": "amplify-builds/generatePDFEmail-655059524c387742504c-build.zip"
+        },
+        "handleOrganizationInvite": {
+          "deploymentBucketName": "amplify-lfapi-prod-ccf91-deployment",
+          "s3Key": "amplify-builds/handleOrganizationInvite-30725064377550765733-build.zip"
+        },
+        "handleUserManagement": {
+          "deploymentBucketName": "amplify-lfapi-prod-ccf91-deployment",
+          "s3Key": "amplify-builds/handleUserManagement-776c6b64365a4c36754e-build.zip"
+        },
+        "notificationEmail": {
+          "deploymentBucketName": "amplify-lfapi-prod-ccf91-deployment",
+          "s3Key": "amplify-builds/notificationEmail-767658447176306b7139-build.zip"
+        }
+      },
+      "auth": {
+        "LfAPI": {}
+      },
+      "storage": {
+        "s3lfapistorage2b19a34b": {}
+      }
+    }
+  },
+  "staging": {
+    "awscloudformation": {},
+    "categories": {
+      "function": {
+        "awardEmailMutatuon": {},
+        "cancelSubscription": {},
+        "createStripeCustomer": {},
+        "emailFeedback": {},
+        "emailService": {},
+        "fetchAllQuizzes": {},
+        "fetchDataFromMySQL": {},
+        "generatePDF2325": {},
+        "generatePDFEmail": {},
+        "handleOrganizationInvite": {},
+        "handleStripeWebhook": {},
+        "handleSubscribe": {},
+        "handleUserManagement": {},
+        "notificationEmail": {},
+        "lfapi": {},
+        "LfAPI": {}
+      }
+    }
+  },
+  "stage": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lfapi-stage-3c61c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::XXXXXXXXXXXX:role/amplify-lfapi-stage-3c61c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::XXXXXXXXXXXX:role/amplify-lfapi-stage-3c61c-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-lfapi-stage-3c61c-deployment",
+      "UnauthRoleName": "amplify-lfapi-stage-3c61c-unauthRole",
+      "StackName": "amplify-lfapi-stage-3c61c",
+      "StackId": "arn:aws:cloudformation:us-west-2:XXXXXXXXXXXX:stack/amplify-lfapi-stage-3c61c/17bea080-05e3-11f1-be6d-06c6cf08c00d",
+      "AmplifyAppId": "XXXXXXXXXXXXXX"
+    },
+    "categories": {
+      "auth": {
+        "LfAPI": {}
+      },
+      "function": {
+        "awardEmailMutatuon": {
+          "graphqlEndpoint": "https://3ggjvqhkaze7lalzn5bfg5mc4m.appsync-api.us-west-2.amazonaws.com/graphql",
+          "apiKey": "da2-XXXXXXXXXXXXXXXXXXXXXXXXXX",
+          "deploymentBucketName": "amplify-lfapi-stage-3c61c-deployment",
+          "s3Key": "amplify-builds/awardEmailMutatuon-58706145387356674f32-build.zip"
+        },
+        "cancelSubscription": {
+          "deploymentBucketName": "amplify-lfapi-stage-3c61c-deployment",
+          "s3Key": "amplify-builds/cancelSubscription-7a2b3763594544747a7a-build.zip"
+        },
+        "createStripeCustomer": {
+          "stripeSecretKey": "sk_live_XXXXXXXXXXXXXXXXXXXXXXXX_STRIPE_SECRET_KEY_HERE",
+          "stripePriceIdMonthly": "price_XXXXXXXXXXXXXXXXXXXXXXXX",
+          "stripePriceIdYearly": "price_XXXXXXXXXXXXXXXXXXXXXXXX",
+          "apiLfapiGraphqlapiendpointoutput": "https://3ggjvqhkaze7lalzn5bfg5mc4m.appsync-api.us-west-2.amazonaws.com/graphql",
+          "apiLfapiGraphqlapikeyoutput": "da2-XXXXXXXXXXXXXXXXXXXXXXXXXX",
+          "deploymentBucketName": "amplify-lfapi-stage-3c61c-deployment",
+          "s3Key": "amplify-builds/createStripeCustomer-6f66536b7577574f5450-build.zip"
+        },
+        "emailFeedback": {
+          "deploymentBucketName": "amplify-lfapi-stage-3c61c-deployment",
+          "s3Key": "amplify-builds/emailFeedback-53735a444c6f6b725946-build.zip"
+        },
+        "emailService": {
+          "deploymentBucketName": "amplify-lfapi-stage-3c61c-deployment",
+          "s3Key": "amplify-builds/emailService-45794856524e33774d4a-build.zip"
+        },
+        "fetchAllQuizzes": {
+          "deploymentBucketName": "amplify-lfapi-stage-3c61c-deployment",
+          "s3Key": "amplify-builds/fetchAllQuizzes-766742716b63486e7336-build.zip"
+        },
+        "fetchDataFromMySQL": {
+          "deploymentBucketName": "amplify-lfapi-stage-3c61c-deployment",
+          "s3Key": "amplify-builds/fetchDataFromMySQL-46776242515156346864-build.zip"
+        },
+        "generatePDF2325": {
+          "deploymentBucketName": "amplify-lfapi-stage-3c61c-deployment",
+          "s3Key": "amplify-builds/generatePDF2325-626276484e50716a6366-build.zip"
+        },
+        "generatePDFEmail": {
+          "deploymentBucketName": "amplify-lfapi-stage-3c61c-deployment",
+          "s3Key": "amplify-builds/generatePDFEmail-655059524c387742504c-build.zip"
+        },
+        "handleOrganizationInvite": {
+          "deploymentBucketName": "amplify-lfapi-stage-3c61c-deployment",
+          "s3Key": "amplify-builds/handleOrganizationInvite-30725064377550765733-build.zip"
+        },
+        "handleStripeWebhook": {
+          "stripeSecretKey": "sk_live_XXXXXXXXXXXXXXXXXXXXXXXX_STRIPE_SECRET_KEY_HERE",
+          "apiLfapiGraphqlapiendpointoutput": "https://3ggjvqhkaze7lalzn5bfg5mc4m.appsync-api.us-west-2.amazonaws.com/graphql",
+          "apiLfapiGraphqlapikeyoutput": "da2-XXXXXXXXXXXXXXXXXXXXXXXXXX",
+          "stripeWebhookSecret": "whsec_XXXXXXXXXXXXXXXXXXXXXXXX",
+          "deploymentBucketName": "amplify-lfapi-stage-3c61c-deployment",
+          "s3Key": "amplify-builds/handleStripeWebhook-74616564427769345344-build.zip"
+        },
+        "handleSubscribe": {
+          "stripePriceIdMonthly": "price_XXXXXXXXXXXXXXXXXXXXXXXX",
+          "stripePriceIdYearly": "price_XXXXXXXXXXXXXXXXXXXXXXXX",
+          "apiLfapiGraphqlapiendpointoutput": "https://3ggjvqhkaze7lalzn5bfg5mc4m.appsync-api.us-west-2.amazonaws.com/graphql",
+          "apiLfapiGraphqlapikeyoutput": "da2-XXXXXXXXXXXXXXXXXXXXXXXXXX",
+          "stripeSecretKey": "sk_live_XXXXXXXXXXXXXXXXXXXXXXXX_STRIPE_SECRET_KEY_HERE",
+          "deploymentBucketName": "amplify-lfapi-stage-3c61c-deployment",
+          "s3Key": "amplify-builds/handleSubscribe-4e546d4839644642354d-build.zip"
+        },
+        "handleUserManagement": {
+          "deploymentBucketName": "amplify-lfapi-stage-3c61c-deployment",
+          "s3Key": "amplify-builds/handleUserManagement-776c6b64365a4c36754e-build.zip"
+        },
+        "notificationEmail": {
+          "deploymentBucketName": "amplify-lfapi-stage-3c61c-deployment",
+          "s3Key": "amplify-builds/notificationEmail-767658447176306b7139-build.zip"
+        },
+        "lfapi": {},
+        "LfAPI": {}
+      },
+      "api": {
+        "apifetchdata": {},
+        "lfapi": {}
+      },
+      "storage": {
+        "s3lfapistorage2b19a34b": {}
+      }
+    }
+  }
+}

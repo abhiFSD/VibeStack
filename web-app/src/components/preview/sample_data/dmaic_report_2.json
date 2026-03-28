@@ -1,0 +1,341 @@
+{
+  "report": {
+    "name": "Inventory Turnover Improvement - DMAIC Project",
+    "type": "DMAIC Report",
+    "completed": false,
+    "assignedMembers": ["green-belt@example.com", "warehouse-manager@example.com", "operations-analyst@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Define",
+      "orderIndex": 0,
+      "assignees": ["green-belt@example.com", "warehouse-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "basic_problem_statement.jpg",
+          "url": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "green-belt@example.com",
+          "uploadedAt": "2024-02-10T10:30:00Z",
+          "description": "Basic problem statement focusing on inventory turnover without comprehensive business case"
+        }
+      ],
+      "description": "Define phase with adequate problem identification but lacking comprehensive Six Sigma project structure and detailed business case development.",
+      "statements": [
+        {
+          "name": "Problem identified: Low inventory turnover at 4.2x annually vs industry standard 6x",
+          "value": 4
+        },
+        {
+          "name": "Business case partially developed with estimated impact but incomplete financial analysis",
+          "value": 3
+        },
+        {
+          "name": "Project scope defined but boundaries not clearly established or communicated",
+          "value": 3
+        },
+        {
+          "name": "Customer requirements gathered informally without structured Voice of Customer analysis",
+          "value": 2
+        },
+        {
+          "name": "Project team assembled but roles and responsibilities not clearly defined",
+          "value": 3
+        },
+        {
+          "name": "Project charter drafted but lacks executive sponsorship and resource commitment",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Measure",
+      "orderIndex": 1,
+      "assignees": ["operations-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "inventory_data_collection.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-analyst@example.com",
+          "uploadedAt": "2024-02-15T14:20:00Z",
+          "description": "Manual data collection process without standardized measurement system validation"
+        }
+      ],
+      "description": "Measure phase with basic data collection but lacking rigorous measurement system analysis and statistical validation.",
+      "statements": [
+        {
+          "name": "Baseline data collected: Current inventory turnover 4.2x with high variation",
+          "value": 4
+        },
+        {
+          "name": "Measurement system analysis not performed - data accuracy and repeatability unknown",
+          "value": 2
+        },
+        {
+          "name": "Basic process capability assessment completed but lacks statistical rigor",
+          "value": 3
+        },
+        {
+          "name": "Data collection plan informal with inconsistent measurement procedures",
+          "value": 2
+        },
+        {
+          "name": "Defect definition unclear and not aligned with customer requirements",
+          "value": 2
+        },
+        {
+          "name": "Sigma level not calculated due to insufficient defect data classification",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Analyze",
+      "orderIndex": 2,
+      "assignees": ["green-belt@example.com", "operations-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "basic_cause_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "green-belt@example.com",
+          "uploadedAt": "2024-02-22T11:00:00Z",
+          "description": "Simple brainstorming session without advanced statistical analysis or hypothesis testing"
+        }
+      ],
+      "description": "Analyze phase using basic problem-solving tools but lacking advanced Six Sigma statistical analysis and hypothesis testing.",
+      "statements": [
+        {
+          "name": "Root cause analysis attempted using simple brainstorming without statistical validation",
+          "value": 3
+        },
+        {
+          "name": "Basic Pareto analysis completed but lacks depth and statistical significance testing",
+          "value": 3
+        },
+        {
+          "name": "Process mapping completed but missing detailed flow analysis and value stream assessment",
+          "value": 3
+        },
+        {
+          "name": "No statistical analysis performed - no DOE, regression, or hypothesis testing",
+          "value": 1
+        },
+        {
+          "name": "Correlation analysis attempted but lacks statistical rigor and confidence intervals",
+          "value": 2
+        },
+        {
+          "name": "Key variables identified through observation rather than statistical validation",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Improve",
+      "orderIndex": 3,
+      "assignees": ["warehouse-manager@example.com", "operations-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "solution_brainstorming.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "warehouse-manager@example.com",
+          "uploadedAt": "2024-03-01T13:45:00Z",
+          "description": "Team brainstorming session for improvement solutions without systematic evaluation"
+        }
+      ],
+      "description": "Improve phase with solution implementation but lacking pilot testing, risk assessment, and systematic validation.",
+      "statements": [
+        {
+          "name": "Solutions generated through brainstorming but not systematically evaluated",
+          "value": 3
+        },
+        {
+          "name": "No pilot testing performed - solutions implemented without validation",
+          "value": 1
+        },
+        {
+          "name": "Risk assessment minimal with no formal mitigation strategies developed",
+          "value": 2
+        },
+        {
+          "name": "Implementation plan basic without detailed timeline or responsibility matrix",
+          "value": 3
+        },
+        {
+          "name": "Change management limited - minimal stakeholder engagement or training",
+          "value": 2
+        },
+        {
+          "name": "Results mixed: 15% improvement achieved but below Six Sigma expectations",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Control",
+      "orderIndex": 4,
+      "assignees": ["warehouse-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-5",
+          "name": "basic_monitoring_chart.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "warehouse-manager@example.com",
+          "uploadedAt": "2024-03-10T16:00:00Z",
+          "description": "Simple tracking chart without statistical process control implementation"
+        }
+      ],
+      "description": "Control phase with basic monitoring but lacking statistical process control and systematic sustainment planning.",
+      "statements": [
+        {
+          "name": "Basic monitoring established but no statistical process control charts implemented",
+          "value": 2
+        },
+        {
+          "name": "Process capability not reassessed after improvement implementation",
+          "value": 1
+        },
+        {
+          "name": "Procedures updated informally without systematic documentation or training",
+          "value": 2
+        },
+        {
+          "name": "Training provided but not comprehensive or standardized across the organization",
+          "value": 3
+        },
+        {
+          "name": "No formal response plan for performance degradation or out-of-control situations",
+          "value": 1
+        },
+        {
+          "name": "Sustainment uncertain - only 2 months of performance tracking completed",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-dmaic-mixed-1",
+      "title": "(Prepare)",
+      "description": "<p><strong>Basic Project Setup:</strong> Green Belt initiated project with informal preparation lacking comprehensive project charter and executive sponsorship. Initial business case estimation attempted but incomplete financial analysis and resource commitment unclear.</p><p><strong>Team Formation Gaps:</strong> Project team assembled but roles and responsibilities not clearly defined. Limited Six Sigma expertise available requiring mentorship and additional training support.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["green-belt@example.com", "operations-manager@example.com"]
+    },
+    {
+      "id": "highlight-dmaic-mixed-2",
+      "title": "Define",
+      "description": "<p><strong>Problem Identification Adequate:</strong> Problem identified as low inventory turnover at 4.2x annually versus industry standard 6x. Project scope defined but boundaries not clearly established or communicated to all stakeholders.</p><p><strong>VOC Analysis Missing:</strong> Customer requirements gathered informally without structured Voice of Customer analysis. Business case partially developed with estimated impact but lacking comprehensive financial validation.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1553520208-33e0fa3f1ea8?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["green-belt@example.com", "warehouse-manager@example.com"]
+    },
+    {
+      "id": "highlight-dmaic-mixed-3",
+      "title": "Measure",
+      "description": "<p><strong>Basic Data Collection:</strong> Baseline data collected showing current inventory turnover 4.2x with high variation. However, measurement system analysis not performed leaving data accuracy and repeatability unknown.</p><p><strong>Statistical Rigor Missing:</strong> Basic process capability assessment completed but lacks statistical validation. Data collection plan informal with inconsistent measurement procedures and no sigma level calculation performed.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["operations-analyst@example.com"]
+    },
+    {
+      "id": "highlight-dmaic-mixed-4",
+      "title": "Analyze",
+      "description": "<p><strong>Limited Analysis Tools:</strong> Root cause analysis attempted using simple brainstorming without statistical validation. Basic Pareto analysis completed but lacks depth and statistical significance testing.</p><p><strong>Statistical Gap:</strong> No advanced statistical analysis performed - no DOE, regression, or hypothesis testing. Key variables identified through observation rather than statistical validation, limiting confidence in findings.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["green-belt@example.com", "operations-analyst@example.com"]
+    },
+    {
+      "id": "highlight-dmaic-mixed-5",
+      "title": "Improve",
+      "description": "<p><strong>Solution Implementation:</strong> Solutions generated through brainstorming but not systematically evaluated. No pilot testing performed with solutions implemented without validation, creating implementation risk.</p><p><strong>Mixed Results:</strong> 15% improvement achieved but below Six Sigma expectations. Risk assessment minimal with no formal mitigation strategies and limited change management stakeholder engagement.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["warehouse-manager@example.com", "operations-analyst@example.com"]
+    },
+    {
+      "id": "highlight-dmaic-mixed-6",
+      "title": "Control",
+      "description": "<p><strong>Basic Monitoring Only:</strong> Basic monitoring established but no statistical process control charts implemented. Process capability not reassessed after improvement implementation leaving sustainment uncertain.</p><p><strong>Sustainment Risk:</strong> Procedures updated informally without systematic documentation. Only 2 months of performance tracking completed with no formal response plan for performance degradation situations.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["warehouse-manager@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "dmaic-mixed-action-1",
+      "title": "Enhance Measurement System Analysis and Statistical Validation",
+      "description": "Implement comprehensive MSA study to validate data accuracy and repeatability. Add statistical significance testing and process capability assessment using proper Six Sigma methodology. Engage Black Belt mentor for technical guidance.",
+      "duedate": "2024-05-31",
+      "status": 0,
+      "assignees": ["operations-analyst@example.com", "black-belt-mentor@example.com"],
+      "attachments": [
+        {
+          "id": "dmaic-mixed-action-attachment-1",
+          "name": "msa_implementation_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "black-belt-mentor@example.com",
+          "uploadedAt": "2024-03-20T10:30:00Z",
+          "description": "Measurement System Analysis implementation plan for enhanced data validation"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Statistical Enhancement",
+      "priority": "High"
+    },
+    {
+      "id": "dmaic-mixed-action-2",
+      "title": "Implement Statistical Process Control for Sustained Performance",
+      "description": "Deploy proper SPC charts (X-bar and R charts) for inventory turnover monitoring. Establish control limits, response procedures, and systematic review cycles. Train team on SPC interpretation and reaction protocols.",
+      "duedate": "2024-06-30",
+      "status": 0,
+      "assignees": ["warehouse-manager@example.com", "quality-engineer@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Process Control",
+      "priority": "High"
+    },
+    {
+      "id": "dmaic-mixed-action-3",
+      "title": "Conduct Pilot Testing for Additional Improvement Opportunities",
+      "description": "Design and execute pilot tests for remaining improvement solutions. Include statistical validation, risk assessment, and cost-benefit analysis. Use DOE methodology for multi-variable optimization.",
+      "duedate": "2024-07-31",
+      "status": 0,
+      "assignees": ["green-belt@example.com", "operations-analyst@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Solution Validation",
+      "priority": "Medium"
+    },
+    {
+      "id": "dmaic-mixed-action-4",
+      "title": "Develop Comprehensive Project Charter and Business Case",
+      "description": "Retrofit project with formal charter including executive sponsorship, resource commitment, and quantified business case. Establish clear project scope, timeline, and success criteria for future DMAIC projects.",
+      "duedate": "2024-04-30",
+      "status": 1,
+      "assignees": ["green-belt@example.com", "operations-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Project Management",
+      "priority": "Medium"
+    }
+  ]
+}

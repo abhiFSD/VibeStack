@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+vendor/
+venv/
+__pycache__/
+
+# Build outputs
+build/
+dist/
+.next/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+storage/logs/
+
+# Databases
+*.sql
+*.dump
+*.sqlite
+
+# Secrets
+SECRET_SCAN_REPORT.txt
+*.pem
+*.key
+
+# Lock files
+package-lock.json
+composer.lock
+yarn.lock
+poetry.lock

@@ -1,0 +1,208 @@
+{
+  "report": {
+    "name": "Equipment Age vs Maintenance Cost Correlation Analysis",
+    "type": "Scatter Plot Report",
+    "completed": false,
+    "assignedMembers": [
+      "maintenance-manager@example.com",
+      "asset-analyst@example.com"
+    ]
+  },
+  "chartData": [
+    {
+      "posX": "2",
+      "posY": "12",
+      "text": "Line 1",
+      "Description": "New equipment with minimal maintenance requirements and low costs"
+    },
+    {
+      "posX": "3",
+      "posY": "8",
+      "text": "Line 2",
+      "Description": "Recent installation with unexpectedly low maintenance due to warranty coverage"
+    },
+    {
+      "posX": "4",
+      "posY": "18",
+      "text": "Line 3",
+      "Description": "Early operational issues causing higher than expected maintenance costs"
+    },
+    {
+      "posX": "5",
+      "posY": "15",
+      "text": "Line 4",
+      "Description": "Moderate age equipment with standard preventive maintenance expenses"
+    },
+    {
+      "posX": "7",
+      "posY": "22",
+      "text": "Line 5",
+      "Description": "Mid-range equipment showing typical wear-related maintenance increases"
+    },
+    {
+      "posX": "8",
+      "posY": "19",
+      "text": "Line 6",
+      "Description": "Well-maintained equipment performing better than age would suggest"
+    },
+    {
+      "posX": "10",
+      "posY": "28",
+      "text": "Line 7",
+      "Description": "Aging equipment with increased maintenance frequency and costs"
+    },
+    {
+      "posX": "11",
+      "posY": "35",
+      "text": "Line 8",
+      "Description": "Older equipment experiencing significant component wear and replacement needs"
+    },
+    {
+      "posX": "12",
+      "posY": "25",
+      "text": "Line 9",
+      "Description": "Surprisingly low costs due to recent major overhaul and refurbishment"
+    },
+    {
+      "posX": "14",
+      "posY": "42",
+      "text": "Line 10",
+      "Description": "High maintenance costs reflecting end-of-life equipment challenges"
+    },
+    {
+      "posX": "15",
+      "posY": "38",
+      "text": "Line 11",
+      "Description": "Legacy equipment with increasing failure rates and repair complexity"
+    },
+    {
+      "posX": "16",
+      "posY": "45",
+      "text": "Line 12",
+      "Description": "Maximum age equipment approaching replacement decision threshold"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-scatter-maintenance-1",
+      "title": "Moderate Correlation with High Variation",
+      "content": "Equipment age shows moderate correlation with maintenance costs (R² = 0.58), but significant variation suggests other factors strongly influence expenses. Some older equipment performs exceptionally well while newer equipment shows unexpected cost spikes.",
+      "category": "Correlation Analysis",
+      "attachments": [
+        {
+          "id": "highlight-scatter-maintenance-attachment-1",
+          "name": "correlation_variation_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "asset-analyst@example.com",
+          "uploadedAt": "2024-12-20T09:00:00Z",
+          "description": "Moderate correlation analysis showing significant data variation and outliers"
+        }
+      ]
+    },
+    {
+      "id": "highlight-scatter-maintenance-2",
+      "title": "Maintenance Quality Impact",
+      "content": "Data reveals maintenance strategy significantly affects age-cost relationship. Well-maintained older equipment (Lines 6, 9) outperform newer equipment with poor maintenance practices (Line 3), indicating process quality matters more than age alone.",
+      "category": "Process Quality",
+      "attachments": [
+        {
+          "id": "highlight-scatter-maintenance-attachment-2",
+          "name": "maintenance_strategy_impact.jpg",
+          "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "maintenance-manager@example.com",
+          "uploadedAt": "2024-12-20T10:30:00Z",
+          "description": "Analysis showing impact of maintenance strategy on equipment performance"
+        }
+      ]
+    },
+    {
+      "id": "highlight-scatter-maintenance-3",
+      "title": "Replacement Decision Complexity",
+      "content": "Scatter plot shows replacement decisions cannot rely solely on age criteria. Equipment performance varies significantly, requiring individual assessment based on condition, costs, and maintenance history rather than blanket age-based policies.",
+      "category": "Asset Management",
+      "attachments": [
+        {
+          "id": "highlight-scatter-maintenance-attachment-3",
+          "name": "replacement_decision_framework.jpg",
+          "url": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "asset-analyst@example.com",
+          "uploadedAt": "2024-12-20T11:15:00Z",
+          "description": "Equipment replacement decision framework incorporating multiple factors"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "scatter-maintenance-action-1",
+      "title": "Investigate High-Variation Outliers",
+      "description": "Conduct detailed analysis of equipment showing unexpected performance (Lines 3, 6, 9). Identify factors causing deviation from age-cost correlation to improve predictive models.",
+      "duedate": "2025-02-15",
+      "status": 1,
+      "assignees": ["maintenance-engineer@example.com", "asset-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "scatter-maintenance-action-attachment-1",
+          "name": "outlier_investigation_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "maintenance-engineer@example.com",
+          "uploadedAt": "2024-12-20T13:00:00Z",
+          "description": "Comprehensive outlier investigation methodology and analysis framework"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Data Analysis",
+      "priority": "High"
+    },
+    {
+      "id": "scatter-maintenance-action-2",
+      "title": "Develop Multi-Factor Predictive Model",
+      "description": "Expand correlation analysis beyond age to include maintenance quality scores, operating conditions, and usage intensity. Create comprehensive cost prediction model.",
+      "duedate": "2025-03-31",
+      "status": 0,
+      "assignees": ["data-scientist@example.com", "maintenance-manager@example.com"],
+      "attachments": [
+        {
+          "id": "scatter-maintenance-action-attachment-2",
+          "name": "predictive_model_framework.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "data-scientist@example.com",
+          "uploadedAt": "2024-12-20T14:00:00Z",
+          "description": "Multi-factor predictive maintenance cost modeling framework"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Predictive Analytics",
+      "priority": "Medium"
+    },
+    {
+      "id": "scatter-maintenance-action-3",
+      "title": "Standardize Maintenance Quality Practices",
+      "description": "Document and implement best practices from high-performing equipment. Create standardized maintenance protocols to reduce variation in age-cost relationships.",
+      "duedate": "2025-04-30",
+      "status": 0,
+      "assignees": ["maintenance-supervisor@example.com", "process-improvement@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Process Standardization",
+      "priority": "Medium"
+    },
+    {
+      "id": "scatter-maintenance-action-4",
+      "title": "Implement Condition-Based Replacement Strategy",
+      "description": "Replace age-based replacement policies with condition-based criteria incorporating maintenance costs, performance metrics, and reliability indicators.",
+      "duedate": "2025-05-31",
+      "status": 0,
+      "assignees": ["asset-manager@example.com", "maintenance-planner@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Asset Strategy",
+      "priority": "Low"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "prod": {
+    "configLevel": "amplifyAdmin"
+  },
+  "staging": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "LF"
+  },
+  "stage": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "LF"
+  }
+}

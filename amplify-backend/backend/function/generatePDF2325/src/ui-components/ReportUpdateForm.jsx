@@ -1,0 +1,794 @@
+/***************************************************************************
+ * The contents of this file were generated with Amplify Studio.           *
+ * Please refrain from making any modifications to this file.              *
+ * Any changes to this file will be overwritten when running amplify pull. *
+ **************************************************************************/
+
+/* eslint-disable */
+import * as React from "react";
+import {
+  Button,
+  Flex,
+  Grid,
+  SwitchField,
+  TextField,
+} from "@aws-amplify/ui-react";
+import { fetchByPath, getOverrideProps, validateField } from "./utils";
+import { API } from "aws-amplify";
+import { getReport } from "../graphql/queries";
+import { updateReport } from "../graphql/mutations";
+export default function ReportUpdateForm(props) {
+  const {
+    id: idProp,
+    report: reportModelProp,
+    onSuccess,
+    onError,
+    onSubmit,
+    onValidate,
+    onChange,
+    overrides,
+    ...rest
+  } = props;
+  const initialValues = {
+    name: "",
+    type: "",
+    user_sub: "",
+    ai_id: "",
+    completed: false,
+    bones: "",
+    trend: false,
+    target: "",
+    media: "",
+    xaxis: "",
+    yaxis: "",
+    _version: "",
+    _deleted: false,
+    _lastChangedAt: "",
+  };
+  const [name, setName] = React.useState(initialValues.name);
+  const [type, setType] = React.useState(initialValues.type);
+  const [user_sub, setUser_sub] = React.useState(initialValues.user_sub);
+  const [ai_id, setAi_id] = React.useState(initialValues.ai_id);
+  const [completed, setCompleted] = React.useState(initialValues.completed);
+  const [bones, setBones] = React.useState(initialValues.bones);
+  const [trend, setTrend] = React.useState(initialValues.trend);
+  const [target, setTarget] = React.useState(initialValues.target);
+  const [media, setMedia] = React.useState(initialValues.media);
+  const [xaxis, setXaxis] = React.useState(initialValues.xaxis);
+  const [yaxis, setYaxis] = React.useState(initialValues.yaxis);
+  const [_version, set_version] = React.useState(initialValues._version);
+  const [_deleted, set_deleted] = React.useState(initialValues._deleted);
+  const [_lastChangedAt, set_lastChangedAt] = React.useState(
+    initialValues._lastChangedAt
+  );
+  const [errors, setErrors] = React.useState({});
+  const resetStateValues = () => {
+    const cleanValues = reportRecord
+      ? { ...initialValues, ...reportRecord }
+      : initialValues;
+    setName(cleanValues.name);
+    setType(cleanValues.type);
+    setUser_sub(cleanValues.user_sub);
+    setAi_id(cleanValues.ai_id);
+    setCompleted(cleanValues.completed);
+    setBones(cleanValues.bones);
+    setTrend(cleanValues.trend);
+    setTarget(cleanValues.target);
+    setMedia(cleanValues.media);
+    setXaxis(cleanValues.xaxis);
+    setYaxis(cleanValues.yaxis);
+    set_version(cleanValues._version);
+    set_deleted(cleanValues._deleted);
+    set_lastChangedAt(cleanValues._lastChangedAt);
+    setErrors({});
+  };
+  const [reportRecord, setReportRecord] = React.useState(reportModelProp);
+  React.useEffect(() => {
+    const queryData = async () => {
+      const record = idProp
+        ? (
+            await API.graphql({
+              query: getReport.replaceAll("__typename", ""),
+              variables: { id: idProp },
+            })
+          )?.data?.getReport
+        : reportModelProp;
+      setReportRecord(record);
+    };
+    queryData();
+  }, [idProp, reportModelProp]);
+  React.useEffect(resetStateValues, [reportRecord]);
+  const validations = {
+    name: [],
+    type: [],
+    user_sub: [],
+    ai_id: [],
+    completed: [],
+    bones: [],
+    trend: [],
+    target: [],
+    media: [],
+    xaxis: [],
+    yaxis: [],
+    _version: [],
+    _deleted: [],
+    _lastChangedAt: [],
+  };
+  const runValidationTasks = async (
+    fieldName,
+    currentValue,
+    getDisplayValue
+  ) => {
+    const value =
+      currentValue && getDisplayValue
+        ? getDisplayValue(currentValue)
+        : currentValue;
+    let validationResponse = validateField(value, validations[fieldName]);
+    const customValidator = fetchByPath(onValidate, fieldName);
+    if (customValidator) {
+      validationResponse = await customValidator(value, validationResponse);
+    }
+    setErrors((errors) => ({ ...errors, [fieldName]: validationResponse }));
+    return validationResponse;
+  };
+  const convertTimeStampToDate = (ts) => {
+    if (Math.abs(Date.now() - ts) < Math.abs(Date.now() - ts * 1000)) {
+      return new Date(ts);
+    }
+    return new Date(ts * 1000);
+  };
+  const convertToLocal = (date) => {
+    const df = new Intl.DateTimeFormat("default", {
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      calendar: "iso8601",
+      numberingSystem: "latn",
+      hourCycle: "h23",
+    });
+    const parts = df.formatToParts(date).reduce((acc, part) => {
+      acc[part.type] = part.value;
+      return acc;
+    }, {});
+    return `${parts.year}-${parts.month}-${parts.day}T${parts.hour}:${parts.minute}`;
+  };
+  return (
+    <Grid
+      as="form"
+      rowGap="15px"
+      columnGap="15px"
+      padding="20px"
+      onSubmit={async (event) => {
+        event.preventDefault();
+        let modelFields = {
+          name: name ?? null,
+          type: type ?? null,
+          user_sub: user_sub ?? null,
+          ai_id: ai_id ?? null,
+          completed: completed ?? null,
+          bones: bones ?? null,
+          trend: trend ?? null,
+          target: target ?? null,
+          media: media ?? null,
+          xaxis: xaxis ?? null,
+          yaxis: yaxis ?? null,
+          _version: _version ?? null,
+          _deleted: _deleted ?? null,
+          _lastChangedAt: _lastChangedAt ?? null,
+        };
+        const validationResponses = await Promise.all(
+          Object.keys(validations).reduce((promises, fieldName) => {
+            if (Array.isArray(modelFields[fieldName])) {
+              promises.push(
+                ...modelFields[fieldName].map((item) =>
+                  runValidationTasks(fieldName, item)
+                )
+              );
+              return promises;
+            }
+            promises.push(
+              runValidationTasks(fieldName, modelFields[fieldName])
+            );
+            return promises;
+          }, [])
+        );
+        if (validationResponses.some((r) => r.hasError)) {
+          return;
+        }
+        if (onSubmit) {
+          modelFields = onSubmit(modelFields);
+        }
+        try {
+          Object.entries(modelFields).forEach(([key, value]) => {
+            if (typeof value === "string" && value === "") {
+              modelFields[key] = null;
+            }
+          });
+          await API.graphql({
+            query: updateReport.replaceAll("__typename", ""),
+            variables: {
+              input: {
+                id: reportRecord.id,
+                ...modelFields,
+              },
+            },
+          });
+          if (onSuccess) {
+            onSuccess(modelFields);
+          }
+        } catch (err) {
+          if (onError) {
+            const messages = err.errors.map((e) => e.message).join("\n");
+            onError(modelFields, messages);
+          }
+        }
+      }}
+      {...getOverrideProps(overrides, "ReportUpdateForm")}
+      {...rest}
+    >
+      <TextField
+        label="Name"
+        isRequired={false}
+        isReadOnly={false}
+        value={name}
+        onChange={(e) => {
+          let { value } = e.target;
+          if (onChange) {
+            const modelFields = {
+              name: value,
+              type,
+              user_sub,
+              ai_id,
+              completed,
+              bones,
+              trend,
+              target,
+              media,
+              xaxis,
+              yaxis,
+              _version,
+              _deleted,
+              _lastChangedAt,
+            };
+            const result = onChange(modelFields);
+            value = result?.name ?? value;
+          }
+          if (errors.name?.hasError) {
+            runValidationTasks("name", value);
+          }
+          setName(value);
+        }}
+        onBlur={() => runValidationTasks("name", name)}
+        errorMessage={errors.name?.errorMessage}
+        hasError={errors.name?.hasError}
+        {...getOverrideProps(overrides, "name")}
+      ></TextField>
+      <TextField
+        label="Type"
+        isRequired={false}
+        isReadOnly={false}
+        value={type}
+        onChange={(e) => {
+          let { value } = e.target;
+          if (onChange) {
+            const modelFields = {
+              name,
+              type: value,
+              user_sub,
+              ai_id,
+              completed,
+              bones,
+              trend,
+              target,
+              media,
+              xaxis,
+              yaxis,
+              _version,
+              _deleted,
+              _lastChangedAt,
+            };
+            const result = onChange(modelFields);
+            value = result?.type ?? value;
+          }
+          if (errors.type?.hasError) {
+            runValidationTasks("type", value);
+          }
+          setType(value);
+        }}
+        onBlur={() => runValidationTasks("type", type)}
+        errorMessage={errors.type?.errorMessage}
+        hasError={errors.type?.hasError}
+        {...getOverrideProps(overrides, "type")}
+      ></TextField>
+      <TextField
+        label="User sub"
+        isRequired={false}
+        isReadOnly={false}
+        value={user_sub}
+        onChange={(e) => {
+          let { value } = e.target;
+          if (onChange) {
+            const modelFields = {
+              name,
+              type,
+              user_sub: value,
+              ai_id,
+              completed,
+              bones,
+              trend,
+              target,
+              media,
+              xaxis,
+              yaxis,
+              _version,
+              _deleted,
+              _lastChangedAt,
+            };
+            const result = onChange(modelFields);
+            value = result?.user_sub ?? value;
+          }
+          if (errors.user_sub?.hasError) {
+            runValidationTasks("user_sub", value);
+          }
+          setUser_sub(value);
+        }}
+        onBlur={() => runValidationTasks("user_sub", user_sub)}
+        errorMessage={errors.user_sub?.errorMessage}
+        hasError={errors.user_sub?.hasError}
+        {...getOverrideProps(overrides, "user_sub")}
+      ></TextField>
+      <TextField
+        label="Ai id"
+        isRequired={false}
+        isReadOnly={false}
+        value={ai_id}
+        onChange={(e) => {
+          let { value } = e.target;
+          if (onChange) {
+            const modelFields = {
+              name,
+              type,
+              user_sub,
+              ai_id: value,
+              completed,
+              bones,
+              trend,
+              target,
+              media,
+              xaxis,
+              yaxis,
+              _version,
+              _deleted,
+              _lastChangedAt,
+            };
+            const result = onChange(modelFields);
+            value = result?.ai_id ?? value;
+          }
+          if (errors.ai_id?.hasError) {
+            runValidationTasks("ai_id", value);
+          }
+          setAi_id(value);
+        }}
+        onBlur={() => runValidationTasks("ai_id", ai_id)}
+        errorMessage={errors.ai_id?.errorMessage}
+        hasError={errors.ai_id?.hasError}
+        {...getOverrideProps(overrides, "ai_id")}
+      ></TextField>
+      <SwitchField
+        label="Completed"
+        defaultChecked={false}
+        isDisabled={false}
+        isChecked={completed}
+        onChange={(e) => {
+          let value = e.target.checked;
+          if (onChange) {
+            const modelFields = {
+              name,
+              type,
+              user_sub,
+              ai_id,
+              completed: value,
+              bones,
+              trend,
+              target,
+              media,
+              xaxis,
+              yaxis,
+              _version,
+              _deleted,
+              _lastChangedAt,
+            };
+            const result = onChange(modelFields);
+            value = result?.completed ?? value;
+          }
+          if (errors.completed?.hasError) {
+            runValidationTasks("completed", value);
+          }
+          setCompleted(value);
+        }}
+        onBlur={() => runValidationTasks("completed", completed)}
+        errorMessage={errors.completed?.errorMessage}
+        hasError={errors.completed?.hasError}
+        {...getOverrideProps(overrides, "completed")}
+      ></SwitchField>
+      <TextField
+        label="Bones"
+        isRequired={false}
+        isReadOnly={false}
+        type="number"
+        step="any"
+        value={bones}
+        onChange={(e) => {
+          let value = isNaN(parseInt(e.target.value))
+            ? e.target.value
+            : parseInt(e.target.value);
+          if (onChange) {
+            const modelFields = {
+              name,
+              type,
+              user_sub,
+              ai_id,
+              completed,
+              bones: value,
+              trend,
+              target,
+              media,
+              xaxis,
+              yaxis,
+              _version,
+              _deleted,
+              _lastChangedAt,
+            };
+            const result = onChange(modelFields);
+            value = result?.bones ?? value;
+          }
+          if (errors.bones?.hasError) {
+            runValidationTasks("bones", value);
+          }
+          setBones(value);
+        }}
+        onBlur={() => runValidationTasks("bones", bones)}
+        errorMessage={errors.bones?.errorMessage}
+        hasError={errors.bones?.hasError}
+        {...getOverrideProps(overrides, "bones")}
+      ></TextField>
+      <SwitchField
+        label="Trend"
+        defaultChecked={false}
+        isDisabled={false}
+        isChecked={trend}
+        onChange={(e) => {
+          let value = e.target.checked;
+          if (onChange) {
+            const modelFields = {
+              name,
+              type,
+              user_sub,
+              ai_id,
+              completed,
+              bones,
+              trend: value,
+              target,
+              media,
+              xaxis,
+              yaxis,
+              _version,
+              _deleted,
+              _lastChangedAt,
+            };
+            const result = onChange(modelFields);
+            value = result?.trend ?? value;
+          }
+          if (errors.trend?.hasError) {
+            runValidationTasks("trend", value);
+          }
+          setTrend(value);
+        }}
+        onBlur={() => runValidationTasks("trend", trend)}
+        errorMessage={errors.trend?.errorMessage}
+        hasError={errors.trend?.hasError}
+        {...getOverrideProps(overrides, "trend")}
+      ></SwitchField>
+      <TextField
+        label="Target"
+        isRequired={false}
+        isReadOnly={false}
+        value={target}
+        onChange={(e) => {
+          let { value } = e.target;
+          if (onChange) {
+            const modelFields = {
+              name,
+              type,
+              user_sub,
+              ai_id,
+              completed,
+              bones,
+              trend,
+              target: value,
+              media,
+              xaxis,
+              yaxis,
+              _version,
+              _deleted,
+              _lastChangedAt,
+            };
+            const result = onChange(modelFields);
+            value = result?.target ?? value;
+          }
+          if (errors.target?.hasError) {
+            runValidationTasks("target", value);
+          }
+          setTarget(value);
+        }}
+        onBlur={() => runValidationTasks("target", target)}
+        errorMessage={errors.target?.errorMessage}
+        hasError={errors.target?.hasError}
+        {...getOverrideProps(overrides, "target")}
+      ></TextField>
+      <TextField
+        label="Media"
+        isRequired={false}
+        isReadOnly={false}
+        value={media}
+        onChange={(e) => {
+          let { value } = e.target;
+          if (onChange) {
+            const modelFields = {
+              name,
+              type,
+              user_sub,
+              ai_id,
+              completed,
+              bones,
+              trend,
+              target,
+              media: value,
+              xaxis,
+              yaxis,
+              _version,
+              _deleted,
+              _lastChangedAt,
+            };
+            const result = onChange(modelFields);
+            value = result?.media ?? value;
+          }
+          if (errors.media?.hasError) {
+            runValidationTasks("media", value);
+          }
+          setMedia(value);
+        }}
+        onBlur={() => runValidationTasks("media", media)}
+        errorMessage={errors.media?.errorMessage}
+        hasError={errors.media?.hasError}
+        {...getOverrideProps(overrides, "media")}
+      ></TextField>
+      <TextField
+        label="Xaxis"
+        isRequired={false}
+        isReadOnly={false}
+        value={xaxis}
+        onChange={(e) => {
+          let { value } = e.target;
+          if (onChange) {
+            const modelFields = {
+              name,
+              type,
+              user_sub,
+              ai_id,
+              completed,
+              bones,
+              trend,
+              target,
+              media,
+              xaxis: value,
+              yaxis,
+              _version,
+              _deleted,
+              _lastChangedAt,
+            };
+            const result = onChange(modelFields);
+            value = result?.xaxis ?? value;
+          }
+          if (errors.xaxis?.hasError) {
+            runValidationTasks("xaxis", value);
+          }
+          setXaxis(value);
+        }}
+        onBlur={() => runValidationTasks("xaxis", xaxis)}
+        errorMessage={errors.xaxis?.errorMessage}
+        hasError={errors.xaxis?.hasError}
+        {...getOverrideProps(overrides, "xaxis")}
+      ></TextField>
+      <TextField
+        label="Yaxis"
+        isRequired={false}
+        isReadOnly={false}
+        value={yaxis}
+        onChange={(e) => {
+          let { value } = e.target;
+          if (onChange) {
+            const modelFields = {
+              name,
+              type,
+              user_sub,
+              ai_id,
+              completed,
+              bones,
+              trend,
+              target,
+              media,
+              xaxis,
+              yaxis: value,
+              _version,
+              _deleted,
+              _lastChangedAt,
+            };
+            const result = onChange(modelFields);
+            value = result?.yaxis ?? value;
+          }
+          if (errors.yaxis?.hasError) {
+            runValidationTasks("yaxis", value);
+          }
+          setYaxis(value);
+        }}
+        onBlur={() => runValidationTasks("yaxis", yaxis)}
+        errorMessage={errors.yaxis?.errorMessage}
+        hasError={errors.yaxis?.hasError}
+        {...getOverrideProps(overrides, "yaxis")}
+      ></TextField>
+      <TextField
+        label="Version"
+        isRequired={false}
+        isReadOnly={false}
+        type="number"
+        step="any"
+        value={_version}
+        onChange={(e) => {
+          let value = isNaN(parseInt(e.target.value))
+            ? e.target.value
+            : parseInt(e.target.value);
+          if (onChange) {
+            const modelFields = {
+              name,
+              type,
+              user_sub,
+              ai_id,
+              completed,
+              bones,
+              trend,
+              target,
+              media,
+              xaxis,
+              yaxis,
+              _version: value,
+              _deleted,
+              _lastChangedAt,
+            };
+            const result = onChange(modelFields);
+            value = result?._version ?? value;
+          }
+          if (errors._version?.hasError) {
+            runValidationTasks("_version", value);
+          }
+          set_version(value);
+        }}
+        onBlur={() => runValidationTasks("_version", _version)}
+        errorMessage={errors._version?.errorMessage}
+        hasError={errors._version?.hasError}
+        {...getOverrideProps(overrides, "_version")}
+      ></TextField>
+      <SwitchField
+        label="Deleted"
+        defaultChecked={false}
+        isDisabled={false}
+        isChecked={_deleted}
+        onChange={(e) => {
+          let value = e.target.checked;
+          if (onChange) {
+            const modelFields = {
+              name,
+              type,
+              user_sub,
+              ai_id,
+              completed,
+              bones,
+              trend,
+              target,
+              media,
+              xaxis,
+              yaxis,
+              _version,
+              _deleted: value,
+              _lastChangedAt,
+            };
+            const result = onChange(modelFields);
+            value = result?._deleted ?? value;
+          }
+          if (errors._deleted?.hasError) {
+            runValidationTasks("_deleted", value);
+          }
+          set_deleted(value);
+        }}
+        onBlur={() => runValidationTasks("_deleted", _deleted)}
+        errorMessage={errors._deleted?.errorMessage}
+        hasError={errors._deleted?.hasError}
+        {...getOverrideProps(overrides, "_deleted")}
+      ></SwitchField>
+      <TextField
+        label="Last changed at"
+        isRequired={false}
+        isReadOnly={false}
+        type="datetime-local"
+        value={
+          _lastChangedAt &&
+          convertToLocal(convertTimeStampToDate(_lastChangedAt))
+        }
+        onChange={(e) => {
+          let value =
+            e.target.value === "" ? "" : Number(new Date(e.target.value));
+          if (onChange) {
+            const modelFields = {
+              name,
+              type,
+              user_sub,
+              ai_id,
+              completed,
+              bones,
+              trend,
+              target,
+              media,
+              xaxis,
+              yaxis,
+              _version,
+              _deleted,
+              _lastChangedAt: value,
+            };
+            const result = onChange(modelFields);
+            value = result?._lastChangedAt ?? value;
+          }
+          if (errors._lastChangedAt?.hasError) {
+            runValidationTasks("_lastChangedAt", value);
+          }
+          set_lastChangedAt(value);
+        }}
+        onBlur={() => runValidationTasks("_lastChangedAt", _lastChangedAt)}
+        errorMessage={errors._lastChangedAt?.errorMessage}
+        hasError={errors._lastChangedAt?.hasError}
+        {...getOverrideProps(overrides, "_lastChangedAt")}
+      ></TextField>
+      <Flex
+        justifyContent="space-between"
+        {...getOverrideProps(overrides, "CTAFlex")}
+      >
+        <Button
+          children="Reset"
+          type="reset"
+          onClick={(event) => {
+            event.preventDefault();
+            resetStateValues();
+          }}
+          isDisabled={!(idProp || reportModelProp)}
+          {...getOverrideProps(overrides, "ResetButton")}
+        ></Button>
+        <Flex
+          gap="15px"
+          {...getOverrideProps(overrides, "RightAlignCTASubFlex")}
+        >
+          <Button
+            children="Submit"
+            type="submit"
+            variation="primary"
+            isDisabled={
+              !(idProp || reportModelProp) ||
+              Object.values(errors).some((e) => e?.hasError)
+            }
+            {...getOverrideProps(overrides, "SubmitButton")}
+          ></Button>
+        </Flex>
+      </Flex>
+    </Grid>
+  );
+}

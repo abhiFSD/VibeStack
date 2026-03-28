@@ -1,0 +1,135 @@
+{
+  "report": {
+    "name": "Basic Office Reorganization - Initial Stakeholder Identification Attempt",
+    "type": "Stakeholder Analysis Report",
+    "completed": false,
+    "assignedMembers": ["office-supervisor@example.com", "admin-clerk@example.com"]
+  },
+  "chartData": [
+    {
+      "id": "stakeholder-1",
+      "text": "Office Manager\nUnclear support level",
+      "textColor": "#32CD32",
+      "posX": 300,
+      "posY": 250,
+      "reportID": "stakeholder-report-3"
+    },
+    {
+      "id": "stakeholder-2",
+      "text": "Coworkers\nNot consulted, unknown reactions",
+      "textColor": "#FF6347",
+      "posX": 200,
+      "posY": 350,
+      "reportID": "stakeholder-report-3"
+    },
+    {
+      "id": "stakeholder-3",
+      "text": "Building Maintenance\nNot considered initially",
+      "textColor": "#4169E1",
+      "posX": 600,
+      "posY": 400,
+      "reportID": "stakeholder-report-3"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-stakeholder-basic-1",
+      "title": "Limited Stakeholder Identification and Mapping",
+      "description": "<p><strong>Incomplete Stakeholder Analysis:</strong> Basic stakeholder identification limited to immediate contacts without systematic mapping of influence, interests, or impact relationships. Missing key stakeholders including decision makers and affected parties.</p><p><strong>No Power-Interest Assessment:</strong> Lack of stakeholder influence and interest analysis resulting in unclear engagement priorities and potential resistance points remaining unidentified and unaddressed.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["office-supervisor@example.com", "admin-clerk@example.com"]
+    },
+    {
+      "id": "highlight-stakeholder-basic-2",
+      "title": "Absence of Systematic Engagement Strategy",
+      "description": "<p><strong>No Communication Planning:</strong> Lack of stakeholder communication strategy with no planned touchpoints, information sharing, or feedback collection mechanisms resulting in limited awareness and potential resistance.</p><p><strong>Informal Approach Limitations:</strong> Informal stakeholder management approach without structured engagement, documentation, or relationship tracking limiting effectiveness and scalability of improvement efforts.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["training-coordinator@example.com", "office-supervisor@example.com"]
+    },
+    {
+      "id": "highlight-stakeholder-basic-3",
+      "title": "Missing Change Management Foundation",
+      "description": "<p><strong>No Change Leadership:</strong> Absence of identified change champions or leadership support limiting change momentum and organizational alignment for even basic improvement initiatives.</p><p><strong>Risk Assessment Gap:</strong> No stakeholder-related risk assessment or mitigation planning potentially exposing improvement efforts to unexpected resistance or implementation barriers.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["change-management@example.com", "office-supervisor@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "stakeholder-basic-action-1",
+      "title": "Provide Fundamental Stakeholder Analysis Training",
+      "description": "Deliver basic training on stakeholder identification, mapping, influence assessment, and engagement planning to build foundational stakeholder management capabilities.",
+      "duedate": "2024-07-31",
+      "status": 0,
+      "assignees": ["training-coordinator@example.com", "stakeholder-specialist@example.com"],
+      "attachments": [
+        {
+          "id": "stakeholder-basic-action-attachment-1",
+          "name": "stakeholder_analysis_training.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "training-coordinator@example.com",
+          "uploadedAt": "2024-03-05T10:30:00Z",
+          "description": "Fundamental stakeholder analysis training with mapping and engagement planning techniques"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Capability Building",
+      "priority": "High"
+    },
+    {
+      "id": "stakeholder-basic-action-2",
+      "title": "Conduct Comprehensive Stakeholder Identification Workshop",
+      "description": "Facilitate stakeholder identification workshop to systematically map all affected parties, decision makers, influencers, and support resources for complete stakeholder landscape understanding.",
+      "duedate": "2024-08-15",
+      "status": 0,
+      "assignees": ["external-facilitator@example.com", "office-supervisor@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Stakeholder Mapping",
+      "priority": "High"
+    },
+    {
+      "id": "stakeholder-basic-action-3",
+      "title": "Develop Basic Communication and Engagement Plan",
+      "description": "Create simple stakeholder communication plan with information sharing protocols, feedback collection methods, and regular touchpoint scheduling for systematic engagement approach.",
+      "duedate": "2024-09-01",
+      "status": 0,
+      "assignees": ["communications@example.com", "admin-clerk@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Communication Planning",
+      "priority": "Medium"
+    },
+    {
+      "id": "stakeholder-basic-action-4",
+      "title": "Establish Change Leadership and Support Structure",
+      "description": "Identify and engage change champions and leadership support to provide organizational backing, resource allocation, and change momentum for improvement initiatives.",
+      "duedate": "2024-09-30",
+      "status": 0,
+      "assignees": ["management-liaison@example.com", "change-coordinator@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Change Leadership",
+      "priority": "Medium"
+    },
+    {
+      "id": "stakeholder-basic-action-5",
+      "title": "Restart Initiative with Proper Stakeholder Foundation",
+      "description": "Restart improvement initiative using systematic stakeholder analysis, engagement planning, and change management approach to ensure sustainable success and organizational support.",
+      "duedate": "2024-10-31",
+      "status": 0,
+      "assignees": ["office-supervisor@example.com", "improvement-facilitator@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Project Restart",
+      "priority": "Medium"
+    }
+  ]
+}

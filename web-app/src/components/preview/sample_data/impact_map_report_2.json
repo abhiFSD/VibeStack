@@ -1,0 +1,178 @@
+{
+  "report": {
+    "name": "Operational Improvement Initiative - Mixed Impact Analysis Assessment",
+    "type": "Impact Map Report", 
+    "completed": false,
+    "assignedMembers": ["operations-manager@example.com", "project-coordinator@example.com", "business-analyst@example.com"]
+  },
+  "chartData": [
+    {
+      "id": "impact-1",
+      "text": "Quality Control Automation\n40% manual reduction (ROI: 160%)",
+      "textColor": "#32CD32",
+      "posX": 100,
+      "posY": 100,
+      "reportID": "impact-report-2"
+    },
+    {
+      "id": "impact-2",
+      "text": "Data Analytics Dashboard\nLimited real-time capabilities (ROI: 140%)",
+      "textColor": "#FF8C00",
+      "posX": 600,
+      "posY": 120,
+      "reportID": "impact-report-2"
+    },
+    {
+      "id": "impact-3",
+      "text": "Customer Service Portal\nLimited functionality (ROI: 120%)",
+      "textColor": "#4169E1",
+      "posX": 750,
+      "posY": 150,
+      "reportID": "impact-report-2"
+    },
+    {
+      "id": "impact-4",
+      "text": "Employee Training Platform\nBasic content delivery (ROI: 95%)",
+      "textColor": "#9932CC",
+      "posX": 150,
+      "posY": 380,
+      "reportID": "impact-report-2"
+    },
+    {
+      "id": "impact-5",
+      "text": "Inventory Management System\nIntegration challenges (ROI: 85%)",
+      "textColor": "#FF6347",
+      "posX": 350,
+      "posY": 420,
+      "reportID": "impact-report-2"
+    },
+    {
+      "id": "impact-6",
+      "text": "Supplier Integration System\nConnectivity issues (ROI: 65%)",
+      "textColor": "#20B2AA",
+      "posX": 700,
+      "posY": 400,
+      "reportID": "impact-report-2"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-impact-mixed-1",
+      "title": "Quality Control Automation Progress",
+      "description": "<p><strong>Partial Success Achievement:</strong> Quality control automation showing solid progress with 72% performance and 40% manual inspection reduction. Automated systems functioning but requiring calibration refinement and operator training enhancement.</p><p><strong>Implementation Challenges:</strong> Integration complexity and user adoption requiring systematic change management approach to achieve target performance levels and maximize automation investment benefits.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["quality-manager@example.com", "automation-engineer@example.com"]
+    },
+    {
+      "id": "highlight-impact-mixed-2", 
+      "title": "Inventory Management System Development",
+      "description": "<p><strong>Mixed Implementation Results:</strong> Warehouse management system achieving 68% performance with initial efficiency improvements but facing integration challenges and user adoption barriers limiting full value realization.</p><p><strong>Technical and Change Challenges:</strong> System functionality adequate but requiring enhanced training programs, workflow optimization, and technical integration improvements to reach target performance levels.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["warehouse-manager@example.com", "it-support@example.com"]
+    },
+    {
+      "id": "highlight-impact-mixed-3",
+      "title": "Data Analytics Capability Gaps",
+      "description": "<p><strong>Basic Reporting Functionality:</strong> Data analytics dashboard providing basic reporting capabilities with 58% performance but limited real-time features and data integration challenges affecting decision support effectiveness.</p><p><strong>Enhancement Opportunities:</strong> Technical architecture requiring enhancement for real-time capabilities, improved data integration, and advanced analytics features to support strategic decision making.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["data-analyst@example.com", "dashboard-developer@example.com"]
+    },
+    {
+      "id": "highlight-impact-mixed-4",
+      "title": "Customer Service Portal Limitations",
+      "description": "<p><strong>Limited Self-Service Capabilities:</strong> Customer service portal showing 55% performance with basic functionality but moderate user engagement and feature limitations requiring systematic enhancement approach.</p><p><strong>User Experience Improvement Needs:</strong> Portal functionality adequate for basic needs but requiring enhanced features, improved user interface, and better integration with existing customer service processes.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["customer-service@example.com", "web-development@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "impact-mixed-action-1",
+      "title": "Enhance Quality Control Automation Calibration",
+      "description": "Improve automated inspection system calibration accuracy and implement comprehensive operator training program to achieve target performance levels and maximize ROI potential.",
+      "duedate": "2024-06-15",
+      "status": 1,
+      "assignees": ["quality-manager@example.com", "training-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "impact-mixed-action-attachment-1",
+          "name": "calibration_improvement_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-02-15T11:00:00Z",
+          "description": "Quality control automation calibration improvement plan with operator training requirements"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Quality Enhancement",
+      "priority": "High"
+    },
+    {
+      "id": "impact-mixed-action-2",
+      "title": "Deploy Integrated Data Analytics Platform",
+      "description": "Upgrade basic dashboard to comprehensive analytics platform with real-time capabilities, advanced data integration, and predictive analytics for improved decision support.",
+      "duedate": "2024-07-31",
+      "status": 0,
+      "assignees": ["data-analyst@example.com", "systems-architect@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Analytics Upgrade",
+      "priority": "High"
+    },
+    {
+      "id": "impact-mixed-action-3",
+      "title": "Implement Change Management for Inventory System",
+      "description": "Develop comprehensive change management program including user training, workflow optimization, and adoption tracking to improve inventory management system utilization and performance.",
+      "duedate": "2024-08-15",
+      "status": 0,
+      "assignees": ["change-management@example.com", "warehouse-manager@example.com"],
+      "attachments": [
+        {
+          "id": "impact-mixed-action-attachment-2",
+          "name": "change_management_framework.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "change-management@example.com",
+          "uploadedAt": "2024-02-18T14:45:00Z",
+          "description": "Comprehensive change management framework for inventory system adoption and performance improvement"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Change Management",
+      "priority": "Medium"
+    },
+    {
+      "id": "impact-mixed-action-4",
+      "title": "Enhance Customer Service Portal Features",
+      "description": "Expand portal functionality with advanced self-service capabilities, improved user interface, and better integration with existing customer service processes to increase engagement.",
+      "duedate": "2024-09-30",
+      "status": 0,
+      "assignees": ["web-development@example.com", "ux-designer@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Customer Experience",
+      "priority": "Medium"
+    },
+    {
+      "id": "impact-mixed-action-5",
+      "title": "Develop Comprehensive Impact Measurement Framework",
+      "description": "Create systematic impact measurement and tracking system with regular performance reviews, stakeholder feedback collection, and adaptive improvement planning for sustained progress.",
+      "duedate": "2024-10-31",
+      "status": 0,
+      "assignees": ["project-coordinator@example.com", "performance-analyst@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Performance Management",
+      "priority": "Medium"
+    }
+  ]
+}

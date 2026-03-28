@@ -1,0 +1,330 @@
+{
+  "report": {
+    "name": "Equipment Breakdown Investigation - Initial Analysis",
+    "type": "Fishbone Diagram Report",
+    "completed": false,
+    "bones": 4,
+    "assignedMembers": [
+      "maintenance-lead@example.com"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Method",
+      "orderIndex": 0,
+      "assignees": ["maintenance-lead@example.com"],
+      "attachments": [],
+      "description": "Basic procedure review",
+      "statements": [
+        {
+          "name": "Standard operating procedures are comprehensive and current",
+          "value": 2
+        },
+        {
+          "name": "Work instructions are clear and accessible to operators",
+          "value": 1
+        },
+        {
+          "name": "Quality control checkpoints are properly positioned",
+          "value": 2
+        },
+        {
+          "name": "Process validation is regularly performed",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Machine",
+      "orderIndex": 1,
+      "assignees": ["maintenance-lead@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-fishbone-basic-machine-1",
+          "name": "equipment_failure_photo.jpg",
+          "url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "maintenance-lead@example.com",
+          "uploadedAt": "2024-01-25T10:00:00Z",
+          "description": "Photo of failed equipment component"
+        }
+      ],
+      "description": "Equipment failure investigation",
+      "statements": [
+        {
+          "name": "Equipment is properly calibrated and maintained",
+          "value": 1
+        },
+        {
+          "name": "Machines operate within specified tolerances",
+          "value": 1
+        },
+        {
+          "name": "Preventive maintenance schedules are followed consistently",
+          "value": 2
+        },
+        {
+          "name": "Equipment capabilities match production requirements",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Material",
+      "orderIndex": 2,
+      "assignees": ["maintenance-lead@example.com"],
+      "attachments": [],
+      "description": "Parts and materials check",
+      "statements": [
+        {
+          "name": "Incoming materials meet quality specifications",
+          "value": 2
+        },
+        {
+          "name": "Supplier quality systems are robust and certified",
+          "value": 1
+        },
+        {
+          "name": "Material traceability is maintained throughout process",
+          "value": 1
+        },
+        {
+          "name": "Storage conditions preserve material integrity",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Manpower",
+      "orderIndex": 3,
+      "assignees": ["maintenance-lead@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-fishbone-basic-manpower-1",
+          "name": "staffing_notes.jpg",
+          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "maintenance-lead@example.com",
+          "uploadedAt": "2024-01-25T11:30:00Z",
+          "description": "Handwritten notes about staffing issues"
+        }
+      ],
+      "description": "Basic staffing assessment",
+      "statements": [
+        {
+          "name": "Operators are properly trained and certified",
+          "value": 2
+        },
+        {
+          "name": "Staffing levels are adequate for quality production",
+          "value": 1
+        },
+        {
+          "name": "Employee engagement and motivation levels are high",
+          "value": 1
+        },
+        {
+          "name": "Skills and competencies match job requirements",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "chartData": [
+    {
+      "id": "fishbone-basic-problem-statement",
+      "text": "Machine keeps breaking down",
+      "textColor": "#d32f2f",
+      "posX": "600",
+      "posY": "300",
+      "value": "",
+      "date": "",
+      "Description": "Basic problem statement",
+      "orderIndex": 0
+    },
+    {
+      "id": "fishbone-basic-method-primary",
+      "text": "METHOD",
+      "textColor": "#1976d2",
+      "posX": "200",
+      "posY": "200",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 1
+    },
+    {
+      "id": "fishbone-basic-method-cause-1",
+      "text": "No proper procedures",
+      "textColor": "#999999",
+      "posX": "150",
+      "posY": "180",
+      "value": "",
+      "date": "",
+      "Description": "Vague cause statement",
+      "orderIndex": 2
+    },
+    {
+      "id": "fishbone-basic-machine-primary",
+      "text": "MACHINE",
+      "textColor": "#1976d2",
+      "posX": "350",
+      "posY": "150",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 3
+    },
+    {
+      "id": "fishbone-basic-machine-cause-1",
+      "text": "Old equipment",
+      "textColor": "#999999",
+      "posX": "300",
+      "posY": "130",
+      "value": "",
+      "date": "",
+      "Description": "General cause statement",
+      "orderIndex": 4
+    },
+    {
+      "id": "fishbone-basic-machine-cause-2",
+      "text": "Not maintained",
+      "textColor": "#999999",
+      "posX": "320",
+      "posY": "170",
+      "value": "",
+      "date": "",
+      "Description": "Vague cause statement",
+      "orderIndex": 5
+    },
+    {
+      "id": "fishbone-basic-material-primary",
+      "text": "MATERIAL",
+      "textColor": "#1976d2",
+      "posX": "200",
+      "posY": "400",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 6
+    },
+    {
+      "id": "fishbone-basic-material-cause-1",
+      "text": "Bad parts",
+      "textColor": "#999999",
+      "posX": "150",
+      "posY": "380",
+      "value": "",
+      "date": "",
+      "Description": "General cause statement",
+      "orderIndex": 7
+    },
+    {
+      "id": "fishbone-basic-manpower-primary",
+      "text": "MANPOWER",
+      "textColor": "#1976d2",
+      "posX": "350",
+      "posY": "450",
+      "value": "",
+      "date": "",
+      "Description": "Primary bone category label",
+      "orderIndex": 8
+    },
+    {
+      "id": "fishbone-basic-manpower-cause-1",
+      "text": "Not enough people",
+      "textColor": "#999999",
+      "posX": "300",
+      "posY": "430",
+      "value": "",
+      "date": "",
+      "Description": "Basic cause statement",
+      "orderIndex": 9
+    },
+    {
+      "id": "fishbone-basic-manpower-cause-2",
+      "text": "No training",
+      "textColor": "#999999",
+      "posX": "320",
+      "posY": "470",
+      "value": "",
+      "date": "",
+      "Description": "General cause statement",
+      "orderIndex": 10
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-fishbone-basic-1",
+      "title": "Initial Problem Recognition",
+      "content": "The team identified that equipment breakdowns are a recurring issue affecting production. While this awareness is a starting point, the problem definition needs to be more specific with quantified impact and scope definition.",
+      "category": "Problem Awareness",
+      "attachments": []
+    },
+    {
+      "id": "highlight-fishbone-basic-2",
+      "title": "Basic Category Structure",
+      "content": "An attempt was made to organize causes using the fishbone framework. However, only 4 categories were used instead of the standard 6M approach, and the analysis lacks depth and supporting evidence.",
+      "category": "Methodology Application",
+      "attachments": [
+        {
+          "id": "highlight-basic-attachment-1",
+          "name": "basic_fishbone_attempt.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "maintenance-lead@example.com",
+          "uploadedAt": "2024-01-25T14:00:00Z",
+          "description": "Initial attempt at fishbone diagram structure"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "fishbone-basic-action-1",
+      "title": "Learn Fishbone Diagram Methodology",
+      "description": "Attend training on proper fishbone diagram construction including 6M categories, systematic investigation, and evidence collection techniques",
+      "duedate": "2024-03-01",
+      "status": 0,
+      "assignees": ["maintenance-lead@example.com"],
+      "attachments": [
+        {
+          "id": "basic-action-attachment-1",
+          "name": "fishbone_training_materials.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "training-coordinator@example.com",
+          "uploadedAt": "2024-01-25T15:00:00Z",
+          "description": "Fishbone methodology training materials and resources"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Skills Development",
+      "priority": "High"
+    },
+    {
+      "id": "fishbone-basic-action-2",
+      "title": "Define Problem Statement with Specific Metrics",
+      "description": "Develop clear, measurable problem statement including frequency, impact, costs, and specific failure modes",
+      "duedate": "2024-02-28",
+      "status": 0,
+      "assignees": ["maintenance-lead@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Problem Definition",
+      "priority": "High"
+    },
+    {
+      "id": "fishbone-basic-action-3",
+      "title": "Assemble Cross-Functional Analysis Team",
+      "description": "Identify and engage subject matter experts from relevant areas to ensure comprehensive investigation and analysis",
+      "duedate": "2024-02-15",
+      "status": 0,
+      "assignees": ["maintenance-lead@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Team Building",
+      "priority": "Medium"
+    }
+  ]
+}

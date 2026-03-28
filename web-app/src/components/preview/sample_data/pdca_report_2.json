@@ -1,0 +1,294 @@
+{
+  "report": {
+    "name": "Customer Service Response Time Improvement - PDCA Cycle",
+    "type": "PDCA Report",
+    "completed": false,
+    "assignedMembers": ["service-manager@example.com", "team-supervisor@example.com", "customer-analyst@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Plan",
+      "orderIndex": 0,
+      "assignees": ["service-manager@example.com", "customer-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "response_time_baseline.jpg",
+          "url": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "customer-analyst@example.com",
+          "uploadedAt": "2024-02-01T09:15:00Z",
+          "description": "Current customer service response time data showing average 4.5 hours baseline"
+        }
+      ],
+      "description": "Planning phase identifying customer service response time issues and developing improvement strategy with mixed approach quality.",
+      "statements": [
+        {
+          "name": "Problem identified: 4.5 hour average response time exceeds 2 hour target",
+          "value": 4
+        },
+        {
+          "name": "Basic root cause analysis completed but lacking depth",
+          "value": 3
+        },
+        {
+          "name": "Goal established: Reduce response time to 2 hours within 3 months",
+          "value": 4
+        },
+        {
+          "name": "Action plan developed but some gaps in detail and timeline",
+          "value": 3
+        },
+        {
+          "name": "Success metrics defined but measurement methods need improvement",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Do",
+      "orderIndex": 1,
+      "assignees": ["team-supervisor@example.com", "service-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "ticket_system_implementation.jpg",
+          "url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "team-supervisor@example.com",
+          "uploadedAt": "2024-02-15T14:30:00Z",
+          "description": "Implementation of new ticketing system with priority routing and automated notifications"
+        }
+      ],
+      "description": "Implementation of planned improvements with moderate success and some execution challenges encountered.",
+      "statements": [
+        {
+          "name": "New ticketing system implemented but with initial technical issues",
+          "value": 3
+        },
+        {
+          "name": "Priority routing system deployed successfully",
+          "value": 4
+        },
+        {
+          "name": "Staff training completed but adoption has been inconsistent",
+          "value": 2
+        },
+        {
+          "name": "Automated notification system working as designed",
+          "value": 4
+        },
+        {
+          "name": "Workflow changes implemented with mixed compliance rates",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Check",
+      "orderIndex": 2,
+      "assignees": ["customer-analyst@example.com", "service-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "interim_performance_results.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "customer-analyst@example.com",
+          "uploadedAt": "2024-04-01T11:45:00Z",
+          "description": "Interim results showing response time reduced to 3.2 hours but not meeting 2 hour target"
+        }
+      ],
+      "description": "Evaluation showing partial improvement with response time reduced but target not fully achieved due to implementation challenges.",
+      "statements": [
+        {
+          "name": "Response time improved from 4.5 to 3.2 hours (29% improvement but short of 2hr target)",
+          "value": 3
+        },
+        {
+          "name": "Customer satisfaction scores improved modestly (15% increase)",
+          "value": 3
+        },
+        {
+          "name": "Priority ticket handling improved significantly",
+          "value": 4
+        },
+        {
+          "name": "Staff productivity metrics show mixed results",
+          "value": 2
+        },
+        {
+          "name": "System utilization lower than expected due to adoption issues",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Act",
+      "orderIndex": 3,
+      "assignees": ["service-manager@example.com", "team-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "improvement_action_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "service-manager@example.com",
+          "uploadedAt": "2024-04-15T16:20:00Z",
+          "description": "Action plan addressing identified gaps and planning next improvement cycle"
+        }
+      ],
+      "description": "Action phase focusing on addressing identified gaps and planning next cycle to achieve full target performance.",
+      "statements": [
+        {
+          "name": "Partial improvements documented and retained",
+          "value": 3
+        },
+        {
+          "name": "Gap analysis completed identifying training and adoption issues",
+          "value": 4
+        },
+        {
+          "name": "Additional training programs planned to address compliance gaps",
+          "value": 3
+        },
+        {
+          "name": "System refinements identified for better user experience",
+          "value": 3
+        },
+        {
+          "name": "Next PDCA cycle planned but timeline uncertain",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "pdca-highlight-1",
+      "title": "Plan",
+      "description": "<p><strong>Problem Identification:</strong> Customer service response time averaging 4.5 hours significantly exceeds 2-hour service level target, impacting customer satisfaction and competitive positioning in marketplace.</p><p><strong>Planning Approach:</strong> Basic root cause analysis identified workflow inefficiencies and lack of priority routing, though analysis could have been more comprehensive for better solution targeting.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["service-manager@example.com", "customer-analyst@example.com"]
+    },
+    {
+      "id": "pdca-highlight-2",
+      "title": "Do",
+      "description": "<p><strong>System Implementation:</strong> Successfully deployed new ticketing system with priority routing and automated notification capabilities, though initial technical issues required additional troubleshooting and system adjustments.</p><p><strong>Change Management Challenges:</strong> Staff training completed but adoption rates varied across team members, highlighting need for more comprehensive change management approach and ongoing support systems.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["team-supervisor@example.com", "service-manager@example.com"]
+    },
+    {
+      "id": "pdca-highlight-3",
+      "title": "Check",
+      "description": "<p><strong>Partial Success:</strong> Response time improved 29% from 4.5 to 3.2 hours representing meaningful progress, though falling short of 2-hour target due to incomplete system adoption and workflow compliance issues.</p><p><strong>Mixed Performance Indicators:</strong> Priority ticket handling improved significantly while overall productivity metrics showed inconsistent results, indicating need for targeted improvements in next cycle.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["customer-analyst@example.com", "service-manager@example.com"]
+    },
+    {
+      "id": "pdca-highlight-4",
+      "title": "Act",
+      "description": "<p><strong>Learning Integration:</strong> Completed comprehensive gap analysis identifying training and adoption issues as primary barriers to full target achievement, providing clear direction for next improvement cycle.</p><p><strong>Next Steps Planning:</strong> Partial improvements retained and documented, with additional training programs and system refinements planned, though timeline for next PDCA cycle requires better definition and resource allocation.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["service-manager@example.com", "team-supervisor@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "pdca-ai-1",
+      "title": "Enhanced Staff Training Program",
+      "description": "Develop comprehensive training program addressing system adoption gaps and workflow compliance issues identified in current cycle",
+      "duedate": "2024-06-01",
+      "status": 0,
+      "assignees": ["team-supervisor@example.com", "service-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-5",
+          "name": "training_needs_assessment.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "team-supervisor@example.com",
+          "uploadedAt": "2024-04-20T10:30:00Z",
+          "description": "Assessment of specific training needs based on system adoption challenges"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Training",
+      "priority": "High"
+    },
+    {
+      "id": "pdca-ai-2",
+      "title": "System User Experience Improvements",
+      "description": "Implement system refinements to improve user experience and increase adoption rates based on staff feedback",
+      "duedate": "2024-05-30",
+      "status": 1,
+      "assignees": ["customer-analyst@example.com", "service-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-6",
+          "name": "system_improvement_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "customer-analyst@example.com",
+          "uploadedAt": "2024-04-25T14:15:00Z",
+          "description": "Planned system improvements to enhance user experience and adoption"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "System Enhancement",
+      "priority": "Medium"
+    },
+    {
+      "id": "pdca-ai-3",
+      "title": "Workflow Compliance Monitoring",
+      "description": "Establish monitoring system for workflow compliance and provide ongoing coaching for consistent process adherence",
+      "duedate": "2024-05-15",
+      "status": 0,
+      "assignees": ["team-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-7",
+          "name": "compliance_monitoring_framework.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "team-supervisor@example.com",
+          "uploadedAt": "2024-04-28T09:45:00Z",
+          "description": "Framework for monitoring and improving workflow compliance rates"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Process Monitoring",
+      "priority": "Medium"
+    },
+    {
+      "id": "pdca-ai-4",
+      "title": "Next PDCA Cycle Planning",
+      "description": "Complete planning for next PDCA cycle with refined goals and improved implementation strategy based on lessons learned",
+      "duedate": "2024-06-15",
+      "status": 0,
+      "assignees": ["service-manager@example.com", "customer-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-8",
+          "name": "next_cycle_framework.jpg",
+          "url": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "service-manager@example.com",
+          "uploadedAt": "2024-05-02T13:20:00Z",
+          "description": "Framework for next PDCA cycle incorporating lessons learned from current implementation"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Planning",
+      "priority": "High"
+    }
+  ]
+}

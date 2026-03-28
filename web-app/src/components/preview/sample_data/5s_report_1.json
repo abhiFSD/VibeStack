@@ -1,0 +1,396 @@
+{
+  "report": {
+    "name": "Main Production Floor - 5S Audit",
+    "type": "5S Report",
+    "completed": false,
+    "assignedMembers": []
+  },
+  "categories": [
+    {
+      "name": "Sort",
+      "orderIndex": 0,
+      "assignees": ["john.doe@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "before_sort_production_floor.jpg",
+          "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "john.doe@example.com",
+          "uploadedAt": "2024-01-10T09:30:00Z",
+          "description": "Before image showing cluttered production floor area"
+        },
+        {
+          "id": "attachment-2", 
+          "name": "after_sort_production_floor.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "john.doe@example.com", 
+          "uploadedAt": "2024-01-10T14:15:00Z",
+          "description": "After image showing organized production floor area"
+        }
+      ],
+      "description": "Assessment of Sort practices in Main Production Floor",
+      "statements": [
+        {
+          "name": "The area is clear of excess equipment, paperwork, or other types of materials.",
+          "value": 4
+        },
+        {
+          "name": "The area looks organized.",
+          "value": 3
+        },
+        {
+          "name": "The area is clear of excess personal items or is appropriately placed.",
+          "value": 4
+        },
+        {
+          "name": "The area is clear of outdated manuals, brochures, visual performance charts, etc.",
+          "value": 3
+        },
+        {
+          "name": "Electronic files are organized and only recent ones are available.",
+          "value": 2
+        },
+        {
+          "name": "Emails are not kept longer than a certain period of time to ensure time not wasted looking for one.",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Set In Order",
+      "orderIndex": 1,
+      "assignees": ["jane.smith@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "labeling_system_example.jpg", 
+          "url": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "jane.smith@example.com",
+          "uploadedAt": "2024-01-12T11:20:00Z",
+          "description": "Example of effective labeling system implementation"
+        }
+      ],
+      "description": "Assessment of Set In Order practices in Main Production Floor",
+      "statements": [
+        {
+          "name": "A place for everything and everything in its place.",
+          "value": 4
+        },
+        {
+          "name": "Items are labelled.",
+          "value": 5
+        },
+        {
+          "name": "Standard procedures and information are visible and available.",
+          "value": 4
+        },
+        {
+          "name": "There are no items on the floor that interrupt workflow.",
+          "value": 5
+        },
+        {
+          "name": "Items are returned to their proper location after use.",
+          "value": 3
+        },
+        {
+          "name": "Standard supplies and stock are appropriate to demand and available.",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Shine",
+      "orderIndex": 2,
+      "assignees": [],
+      "attachments": [],
+      "description": "Assessment of Shine practices in Main Production Floor",
+      "statements": [
+        {
+          "name": "Equipment is regularly cleaned and protected to maintain high performance.",
+          "value": 4
+        },
+        {
+          "name": "The standard cleaning schedule is displayed.",
+          "value": 3
+        },
+        {
+          "name": "The standard equipment maintenance schedules are displayed.",
+          "value": 3
+        },
+        {
+          "name": "The area looks clean, bright, and inviting.",
+          "value": 5
+        },
+        {
+          "name": "Equipment and facilities are in excellent condition.",
+          "value": 4
+        },
+        {
+          "name": "Trash and recycling bins are empty.",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Standardize",
+      "orderIndex": 3,
+      "assignees": ["mike.johnson@example.com"],
+      "attachments": [],
+      "description": "Assessment of Standardize practices in Main Production Floor",
+      "statements": [
+        {
+          "name": "5S evaluation forms are posted, utilized, and current.",
+          "value": 2
+        },
+        {
+          "name": "An improvement idea list is posted.",
+          "value": 2
+        },
+        {
+          "name": "There is consistency in the workplace.",
+          "value": 3
+        },
+        {
+          "name": "Visual guidance exists for workplace standards.",
+          "value": 3
+        },
+        {
+          "name": "Job or cross-training is ongoing.",
+          "value": 3
+        },
+        {
+          "name": "Standards for the area exist and are available.",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Sustain",
+      "orderIndex": 4,
+      "assignees": [],
+      "attachments": [],
+      "description": "Assessment of Sustain practices in Main Production Floor",
+      "statements": [
+        {
+          "name": "The standards are actually followed.",
+          "value": 3
+        },
+        {
+          "name": "Time is dedicated daily to sustain 5S.",
+          "value": 2
+        },
+        {
+          "name": "All equipment and supplies have an identified owner.",
+          "value": 4
+        },
+        {
+          "name": "5S is regularly audited with posted results.",
+          "value": 2
+        },
+        {
+          "name": "Recognition is given to teams with high 5S scores.",
+          "value": 2
+        },
+        {
+          "name": "5S is part of daily culture.",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Safety",
+      "orderIndex": 5,
+      "assignees": ["sarah.wilson@example.com"],
+      "attachments": [],
+      "description": "Assessment of Safety practices in Main Production Floor",
+      "statements": [
+        {
+          "name": "Safety equipment is in place and accessible.",
+          "value": 5
+        },
+        {
+          "name": "Emergency contact information is posted.",
+          "value": 5
+        },
+        {
+          "name": "Personal protective equipment is available, utilized and in good condition.",
+          "value": 4
+        },
+        {
+          "name": "Fire extinguishers are available and serviced.",
+          "value": 5
+        },
+        {
+          "name": "Safety records are posted.",
+          "value": 4
+        },
+        {
+          "name": "Emergency exit and routes are clear.",
+          "value": 5
+        }
+      ]
+    }
+  ],
+  "aiAnalysis": {
+    "overallAssessment": {
+      "maturityLevel": "Developing",
+      "totalScore": "3.5/5.0",
+      "areaType": "Main Production Floor",
+      "assessmentStatus": "In Progress - Mixed Performance"
+    },
+    "keyFindings": [
+      "Safety Excellence: Outstanding safety culture with near-perfect scores (4.7/5.0 average)",
+      "Strong Physical Organization: Good performance in Set In Order and Shine practices (4.2/5.0 average)",
+      "Digital Gap: Electronic file and email management significantly lag behind physical organization (2.0/5.0)",
+      "Sustainability Challenge: Weak daily routines and audit processes hinder sustained improvements (2.5/5.0)",
+      "Visual Standards Need: Limited visual management and standardization tools in place (2.8/5.0)"
+    ],
+    "strengthAreas": [
+      {
+        "category": "Safety",
+        "highlights": "Exemplary safety equipment availability, clear emergency protocols, strong PPE compliance",
+        "bestPractices": "Accessible safety equipment, posted emergency contacts, clear exit routes, regular fire extinguisher servicing"
+      },
+      {
+        "category": "Set In Order", 
+        "highlights": "Excellent labeling system, clear item placement, unobstructed workflow areas",
+        "bestPractices": "Everything has a designated place, effective labeling, standard procedures visible, no floor obstructions"
+      },
+      {
+        "category": "Shine",
+        "highlights": "Clean and inviting workspace, well-maintained equipment, effective waste management",
+        "bestPractices": "Regular equipment cleaning, bright work areas, empty trash/recycling bins, excellent facility condition"
+      }
+    ],
+    "improvementOpportunities": [
+      {
+        "category": "Sort",
+        "gaps": "Digital clutter in electronic files and emails, some physical organization issues remain",
+        "recommendations": "Implement digital file retention policies, establish email archival system, create red-tag process for physical items"
+      },
+      {
+        "category": "Sustain",
+        "gaps": "No dedicated 5S time, irregular audits, lack of recognition system",
+        "recommendations": "Schedule daily 5S time blocks, implement weekly audits with posted results, create recognition program for high performers"
+      },
+      {
+        "category": "Standardize",
+        "gaps": "Missing visual standards, outdated evaluation forms, limited cross-training",
+        "recommendations": "Install visual management boards, update 5S evaluation forms, develop cross-training matrix"
+      }
+    ],
+    "learningPoints": [
+      "Safety First Foundation: This production floor demonstrates how prioritizing safety creates a strong foundation for all other 5S practices. When workers feel safe, they're more engaged in improvement efforts.",
+      "Physical vs Digital Balance: The stark contrast between well-organized physical spaces (4.2/5.0) and poorly managed digital assets (2.0/5.0) highlights a common blind spot in modern 5S implementation.",
+      "Sustaining Success: Even with strong initial implementation in Sort, Set In Order, and Shine, without robust sustaining mechanisms, improvements gradually erode over time.",
+      "Visual Management Power: The correlation between areas with visual standards and higher performance scores demonstrates the importance of making standards visible and obvious.",
+      "Culture Building Journey: The gap between having standards (4/5) and following them (3/5) illustrates that 5S is ultimately about culture change, not just procedures."
+    ],
+    "nextSteps": [
+      "Launch Digital 5S Initiative focusing on file organization and email management systems",
+      "Implement Daily 5S Time with 15-minute blocks per shift for sustaining activities",
+      "Install Visual Management Center with audit results, improvement ideas, and recognition board",
+      "Develop 5S Champion Network with representatives from each shift to drive culture change",
+      "Create Monthly 5S Recognition Program tied to audit scores and improvement suggestions"
+    ],
+    "organizationalMaturity": {
+      "level": "Developing (Level 2 of 5)",
+      "characteristics": [
+        "Strong safety foundation established",
+        "Good physical organization practices",
+        "Inconsistent application of standards",
+        "Limited systematic approach to sustainability",
+        "Digital organization significantly lags physical"
+      ],
+      "readinessForAdvancement": "Ready for standardization and sustainability focus to advance to next level"
+    },
+    "benchmarkComparison": {
+      "industryAverage": "3.2/5.0",
+      "topPerformers": "4.5/5.0",
+      "positioning": "Above industry average overall, but sustainability practices lag behind top performers",
+      "competitiveInsights": "Safety scores match top performers, indicating strong foundation for building comprehensive 5S culture"
+    }
+  },
+  "actionItems": [
+    {
+      "id": "5s-ai-1",
+      "title": "Implement Daily 5S Routine Schedule",
+      "description": "Establish a structured daily 5S maintenance routine with 15-minute time blocks allocated for each shift to sustain workplace organization",
+      "duedate": "2024-02-15",
+      "status": 0,
+      "assignees": ["shift-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "5s_schedule_template.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image", 
+          "uploadedBy": "shift-supervisor@example.com",
+          "uploadedAt": "2024-01-15T08:00:00Z",
+          "description": "Daily 5S maintenance schedule template for production floor"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Sustain",
+      "priority": "High"
+    },
+    {
+      "id": "5s-ai-2",
+      "title": "Digital File Organization System",
+      "description": "Create standardized folder structures and file naming conventions for electronic documents, with automatic archival of files older than 6 months",
+      "duedate": "2024-03-01",
+      "status": 1,
+      "assignees": ["it-support@example.com", "admin-assistant@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-5",
+          "name": "file_organization_before.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "admin-assistant@example.com",
+          "uploadedAt": "2024-01-18T13:45:00Z",
+          "description": "Before: Disorganized digital file structure"
+        },
+        {
+          "id": "attachment-6",
+          "name": "file_organization_after.jpg", 
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "it-support@example.com",
+          "uploadedAt": "2024-01-20T16:30:00Z",
+          "description": "After: Clean, organized digital filing system"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Sort",
+      "priority": "Medium"
+    },
+    {
+      "id": "5s-ai-3",
+      "title": "Visual Management Board Setup",
+      "description": "Install visual management boards displaying 5S audit results, improvement ideas, and recognition for high-performing areas",
+      "duedate": "2024-02-28",
+      "status": 0,
+      "assignees": ["facilities-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Standardize",
+      "priority": "Medium"
+    },
+    {
+      "id": "5s-ai-4",
+      "title": "Email Retention Policy Implementation",
+      "description": "Implement automated email retention policy with 90-day retention for general emails and 1-year for important business communications",
+      "duedate": "2024-03-15",
+      "status": 0,
+      "assignees": ["it-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Sort",
+      "priority": "Low"
+    }
+  ]
+}

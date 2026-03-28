@@ -1,0 +1,339 @@
+{
+  "report": {
+    "name": "Inventory Management Process - Kaizen Project",
+    "type": "Kaizen Project Report",
+    "completed": false,
+    "assignedMembers": ["inventory-manager@example.com", "warehouse-supervisor@example.com"]
+  },
+  "categories": [
+    {
+      "name": "(Prepare)",
+      "orderIndex": 0,
+      "assignees": ["inventory-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "inventory_improvement_justification.jpg",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "inventory-manager@example.com",
+          "uploadedAt": "2024-01-08T10:15:00Z",
+          "description": "Initial inventory improvement project justification and basic business case outline"
+        }
+      ],
+      "description": "Preparation phase with mixed readiness for Kaizen implementation",
+      "statements": [
+        {
+          "name": "Share the Business Case and link to Strategic Direction.",
+          "value": 3
+        },
+        {
+          "name": "Provide Lean/Six Sigma training.",
+          "value": 2
+        },
+        {
+          "name": "Identify and eliminate potential barriers.",
+          "value": 3
+        },
+        {
+          "name": "Create evaluation methods.",
+          "value": 3
+        },
+        {
+          "name": "Determine management engagement.",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Planning",
+      "orderIndex": 1,
+      "assignees": ["warehouse-supervisor@example.com", "process-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "basic_team_meeting.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "warehouse-supervisor@example.com",
+          "uploadedAt": "2024-01-10T13:20:00Z",
+          "description": "Basic team meeting for inventory project with limited structured planning approach"
+        },
+        {
+          "id": "attachment-3",
+          "name": "incomplete_process_mapping.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-analyst@example.com",
+          "uploadedAt": "2024-01-12T15:45:00Z",
+          "description": "Partially completed process mapping exercise showing gaps in current state analysis"
+        }
+      ],
+      "description": "Planning phase with moderate structure but missing key analytical components",
+      "statements": [
+        {
+          "name": "Assemble team with the right knowledge and implement a project charter.",
+          "value": 3
+        },
+        {
+          "name": "Create A3 Report problem statement.",
+          "value": 2
+        },
+        {
+          "name": "Create SIPOC Diagram.",
+          "value": 2
+        },
+        {
+          "name": "Create current state value stream map.",
+          "value": 3
+        },
+        {
+          "name": "Determine cycle time for each step in the process.",
+          "value": 2
+        },
+        {
+          "name": "Perform virtual waste walks.",
+          "value": 3
+        },
+        {
+          "name": "Complete stakeholder analysis.",
+          "value": 2
+        },
+        {
+          "name": "Format everything using PDCA format.",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "PDCA - Implementation",
+      "orderIndex": 2,
+      "assignees": ["inventory-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "disorganized_improvement_attempt.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "inventory-coordinator@example.com",
+          "uploadedAt": "2024-01-15T11:30:00Z",
+          "description": "Inventory area showing mixed improvement attempts with inconsistent organization"
+        },
+        {
+          "id": "attachment-5",
+          "name": "partial_documentation.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "inventory-coordinator@example.com",
+          "uploadedAt": "2024-01-18T09:15:00Z",
+          "description": "Incomplete documentation and tracking boards with inconsistent updates"
+        }
+      ],
+      "description": "Implementation phase with moderate execution but lacking systematic approach",
+      "statements": [
+        {
+          "name": "Review team goal prior to Kaizen event.",
+          "value": 3
+        },
+        {
+          "name": "Document and take photos of before state.",
+          "value": 3
+        },
+        {
+          "name": "Determine Takt time requirements.",
+          "value": 2
+        },
+        {
+          "name": "Identify the seven types of waste.",
+          "value": 3
+        },
+        {
+          "name": "Update current state map during the event.",
+          "value": 2
+        },
+        {
+          "name": "Meet with stakeholders and keep them informed.",
+          "value": 2
+        },
+        {
+          "name": "Implement 5S.",
+          "value": 4
+        },
+        {
+          "name": "Complete daily recap and present to management.",
+          "value": 2
+        },
+        {
+          "name": "Create PDCA worksheet and update it regularly.",
+          "value": 3
+        },
+        {
+          "name": "Create a training plan.",
+          "value": 2
+        },
+        {
+          "name": "Implement the process.",
+          "value": 3
+        },
+        {
+          "name": "Correct problems as they occur.",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Follow-Up",
+      "orderIndex": 3,
+      "assignees": ["inventory-manager@example.com"],
+      "attachments": [],
+      "description": "Follow-up phase requiring enhanced sustainment and improvement tracking",
+      "statements": [
+        {
+          "name": "Continue to communicate and stay engaged.",
+          "value": 2
+        },
+        {
+          "name": "Ensure PDCA is complete.",
+          "value": 3
+        },
+        {
+          "name": "Provide ongoing support.",
+          "value": 2
+        },
+        {
+          "name": "Create a Kaizen Event Dashboard.",
+          "value": 2
+        },
+        {
+          "name": "Request feedback on the process.",
+          "value": 3
+        },
+        {
+          "name": "Practice Gemba.",
+          "value": 3
+        },
+        {
+          "name": "Apply Kaizen to Kaizen (improve the improvement process).",
+          "value": 2
+        },
+        {
+          "name": "Provide recognition and rewards to team members.",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "kaizen2-highlight-1",
+      "title": "Project Initiation Challenges",
+      "description": "<p><strong>Business Case Development:</strong> Initial improvement justification lacked clear linkage to organizational objectives. Management support secured but resource allocation discussions ongoing. Need stronger business case documentation.</p><p><strong>Team Formation:</strong> Team charter developed but roles and responsibilities need clarification. Some team members unclear on project scope and success criteria.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1553484771-8966baa92e8b?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["inventory-manager@example.com", "warehouse-supervisor@example.com"]
+    },
+    {
+      "id": "kaizen2-highlight-2", 
+      "title": "Planning Phase Progress",
+      "description": "<p><strong>Current State Analysis:</strong> Basic process mapping completed but detailed analysis still in progress. Team working to understand root causes and establish proper baseline measurements.</p><p><strong>Stakeholder Engagement:</strong> Mixed engagement from stakeholders - some highly supportive while others require additional convincing. Communication strategy needs refinement.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["process-analyst@example.com", "inventory-manager@example.com"]
+    },
+    {
+      "id": "kaizen2-highlight-3",
+      "title": "Implementation Attempts",
+      "description": "<p><strong>Mixed Execution:</strong> Some improvement activities successfully implemented while others face resistance or technical challenges. Team learning through trial and error with varying results.</p><p><strong>Documentation Gaps:</strong> Inconsistent documentation and tracking of improvement activities. Need better systems for capturing lessons learned and progress monitoring.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["warehouse-supervisor@example.com", "process-analyst@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "kaizen2-ai-1",
+      "title": "Enhanced Business Case Development",
+      "description": "Strengthen business case with clear strategic alignment, quantified benefits, and robust management engagement strategy",
+      "duedate": "2024-02-15",
+      "status": 0,
+      "assignees": ["business-analyst@example.com", "inventory-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-6",
+          "name": "business_case_template.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "business-analyst@example.com",
+          "uploadedAt": "2024-01-20T14:30:00Z",
+          "description": "Comprehensive business case template with strategic alignment framework"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "(Prepare)",
+      "priority": "High"
+    },
+    {
+      "id": "kaizen2-ai-2",
+      "title": "Lean Methodology Training Program",
+      "description": "Implement comprehensive lean training for team members covering PDCA, waste identification, value stream mapping, and A3 problem solving",
+      "duedate": "2024-03-01",
+      "status": 1,
+      "assignees": ["lean-trainer@example.com", "warehouse-supervisor@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "(Prepare)",
+      "priority": "High"
+    },
+    {
+      "id": "kaizen2-ai-3",
+      "title": "Structured Planning Workshop",
+      "description": "Conduct intensive planning workshop focusing on A3 development, SIPOC creation, current state mapping, and stakeholder analysis",
+      "duedate": "2024-02-28",
+      "status": 0,
+      "assignees": ["process-analyst@example.com", "kaizen-facilitator@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Planning",
+      "priority": "High"
+    },
+    {
+      "id": "kaizen2-ai-4",
+      "title": "Systematic Implementation Framework",
+      "description": "Establish structured implementation approach with daily reviews, proper documentation protocols, and stakeholder communication plan",
+      "duedate": "2024-03-15",
+      "status": 0,
+      "assignees": ["inventory-coordinator@example.com", "project-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "PDCA - Implementation",
+      "priority": "Medium"
+    },
+    {
+      "id": "kaizen2-ai-5",
+      "title": "Sustainment and Follow-up System",
+      "description": "Create comprehensive follow-up system including communication protocols, dashboard development, feedback mechanisms, and recognition programs",
+      "duedate": "2024-04-01",
+      "status": 0,
+      "assignees": ["continuous-improvement-coordinator@example.com", "inventory-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Follow-Up",
+      "priority": "Medium"
+    },
+    {
+      "id": "kaizen2-ai-6",
+      "title": "Kaizen Mentorship Assignment",
+      "description": "Pair team with experienced Kaizen facilitator for guided improvement and capability building throughout remaining project phases",
+      "duedate": "2024-02-10",
+      "status": 0,
+      "assignees": ["senior-kaizen-facilitator@example.com", "inventory-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 5,
+      "category": "Planning",
+      "priority": "Low"
+    }
+  ]
+}

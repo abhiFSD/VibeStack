@@ -1,0 +1,356 @@
+{
+  "report": {
+    "name": "Corporate Headquarters - Lean Assessment",
+    "type": "Lean Assessment Report",
+    "completed": true,
+    "assignedMembers": ["exec-team@example.com", "ops-manager@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Customer Focus",
+      "orderIndex": 0,
+      "assignees": ["customer-service@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "customer_satisfaction_survey.jpg",
+          "url": "https://images.unsplash.com/photo-1553484771-8966baa92e8b?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "customer-service@example.com",
+          "uploadedAt": "2024-01-08T10:15:00Z",
+          "description": "Customer satisfaction survey results and feedback analysis"
+        }
+      ],
+      "description": "Customer Focus evaluates how well the organization listens to, involves, and prioritizes customers. This category examines customer satisfaction measurement systems, competitive benchmarking practices, responsiveness to changing customer needs, and ethical business practices. High-performing organizations demonstrate proactive customer engagement, use actionable satisfaction data for improvements, and maintain flexibility to adapt to evolving customer expectations. Strong customer focus directly correlates with business sustainability and growth.",
+      "statements": [
+        {
+          "name": "My organization does a good job of listening and involving its customers.",
+          "value": 4
+        },
+        {
+          "name": "Customer satisfaction measurements capture actionable information needed for improvement.",
+          "value": 4
+        },
+        {
+          "name": "My organization obtains and uses customer information relative to competition and/or benchmarks.",
+          "value": 5
+        },
+        {
+          "name": "Customer satisfaction takes top priority at my organization.",
+          "value": 4
+        },
+        {
+          "name": "My organization remains flexible to changing customer needs and expectations.",
+          "value": 4
+        },
+        {
+          "name": "We practice fair and equitable business practices for our customers, suppliers, and employees.",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "orderIndex": 1,
+      "assignees": ["ceo@example.com", "leadership-team@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "leadership_vision_board.jpg",
+          "url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "ceo@example.com",
+          "uploadedAt": "2024-01-10T14:30:00Z",
+          "description": "Strategic vision board and improvement roadmap"
+        }
+      ],
+      "description": "Leadership assesses the commitment and effectiveness of organizational leaders in driving process improvement and operational excellence. This category evaluates vision communication, strategic planning integration, resource allocation for improvement initiatives, goal-setting practices, and accountability structures. Effective leadership creates an environment where continuous improvement thrives, with clear accountability for process owners and balanced goal-setting that challenges teams while remaining achievable. Leadership strength is fundamental to successful lean transformation.",
+      "statements": [
+        {
+          "name": "Leadership has defined and communicated a clear vision and is committed to process improvement.",
+          "value": 5
+        },
+        {
+          "name": "Process improvement is regularly discussed at our strategic planning meetings.",
+          "value": 4
+        },
+        {
+          "name": "Adequate resources are continuously assigned for achieving operational excellence (i.e., process improvements.)",
+          "value": 4
+        },
+        {
+          "name": "We have a good balance of attainable and stretch goals.",
+          "value": 4
+        },
+        {
+          "name": "We have process owners that are held accountable for performance measurements.",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Process Management",
+      "orderIndex": 2,
+      "assignees": ["process-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "process_flow_diagram.jpg",
+          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-manager@example.com",
+          "uploadedAt": "2024-01-12T11:45:00Z",
+          "description": "Key business process flow diagram and metrics"
+        }
+      ],
+      "description": "Process Management evaluates how well the organization identifies, controls, and improves its key business processes. This category examines process identification methodologies, performance measurement systems, process smoothness and efficiency, customer input integration, resource availability, and variation monitoring. Mature organizations have well-defined key processes with established performance metrics, incorporate both internal and external customer feedback into improvement efforts, and actively monitor and reduce process variation. Strong process management is the foundation of operational excellence and sustainable performance improvement.",
+      "statements": [
+        {
+          "name": "My organization identifies its key processes to achieve improved performance.",
+          "value": 4
+        },
+        {
+          "name": "Performance measures are used for the control and improvement of key processes.",
+          "value": 4
+        },
+        {
+          "name": "The processes that we use are smooth and work well.",
+          "value": 3
+        },
+        {
+          "name": "Input from internal and external customers are incorporated into process improvement efforts.",
+          "value": 4
+        },
+        {
+          "name": "All necessary resources and information are available to do the work properly.",
+          "value": 3
+        },
+        {
+          "name": "Process variation is understood and monitored at my organization.",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Staff (Employee) Management",
+      "orderIndex": 3,
+      "assignees": ["hr-director@example.com"],
+      "attachments": [],
+      "description": "Staff Management assesses how effectively the organization manages, develops, and engages its workforce. This category evaluates workplace safety culture, employee development programs, leadership motivation practices, problem-solving empowerment, performance management systems, and overall employee value proposition. High-performing organizations prioritize employee safety, provide continuous learning opportunities, create motivating work environments where employees can reach their potential, and establish performance systems that reward excellence. Engaged and well-managed staff are critical to sustained organizational success and continuous improvement.",
+      "statements": [
+        {
+          "name": "Leaders demonstrate that the safety of employees is of paramount importance.",
+          "value": 5
+        },
+        {
+          "name": "Employees's training and development needs are openly discussed and followed through on.",
+          "value": 4
+        },
+        {
+          "name": "Leadership creates an encouraging and motivating environment and helps employees reach their full potential.",
+          "value": 4
+        },
+        {
+          "name": "Employees can openly identify obstacles/problems and seek help in finding solutions.",
+          "value": 4
+        },
+        {
+          "name": "Our performance management system supports and rewards high performance.",
+          "value": 4
+        },
+        {
+          "name": "Employees are treated as valued employees, where short and long term needs are met.",
+          "value": 4
+        },
+        {
+          "name": "Input from internal and external customers are incorporated into process improvement efforts.",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Information/Analysis",
+      "orderIndex": 4,
+      "assignees": ["data-analyst@example.com"],
+      "attachments": [],
+      "description": "Information and Analysis evaluates the organization's ability to collect, analyze, and use data for effective decision-making and continuous improvement. This category examines data quality and reliability practices, organizational progress monitoring systems, visual management tools, analytical decision-making processes, critical thinking culture, and improvement idea integration mechanisms. Data-driven organizations ensure information accuracy, maintain visible progress tracking systems, use analysis to inform decisions, encourage questioning of the status quo, and have effective processes to incorporate improvement ideas into business plans. Strong information and analysis capabilities enable evidence-based management and sustainable improvement.",
+      "statements": [
+        {
+          "name": "My organization makes every effort to ensure data and information are appropriate, accurate, and reliable.",
+          "value": 4
+        },
+        {
+          "name": "There is a system in place to monitor organizational progress against set objectives or goals.",
+          "value": 4
+        },
+        {
+          "name": "The monitoring system is clear and visible to all of the organization (e.g., scoreboards).",
+          "value": 3
+        },
+        {
+          "name": "It is clear to people how we use organizational level analysis to improve decision-making.",
+          "value": 3
+        },
+        {
+          "name": "People are responsible to question and/or challenge the status quo.",
+          "value": 4
+        },
+        {
+          "name": "There is an effective process to incorporate positive improvement ideas into the business plan.",
+          "value": 4
+        }
+      ]
+    }
+  ],
+  "aiAnalysis": {
+    "overallAssessment": {
+      "maturityLevel": "Advanced",
+      "totalScore": "4.0/5.0",
+      "organizationType": "Corporate Headquarters",
+      "assessmentStatus": "Completed - Strong Performance"
+    },
+    "keyFindings": [
+      "Leadership Excellence: Outstanding vision communication and accountability structures (4.4/5.0 average)",
+      "Strong Customer Orientation: Proactive customer engagement with effective benchmarking practices (4.3/5.0 average)",
+      "Solid Foundation: Well-established processes with room for optimization in resource availability (3.7/5.0 average)",
+      "Employee-Centric Culture: Strong safety culture and development programs with excellent leadership support (4.0/5.0 average)",
+      "Data-Driven Decisions: Good information systems with opportunities for enhanced visual management (3.7/5.0 average)"
+    ],
+    "strengthAreas": [
+      {
+        "category": "Leadership",
+        "highlights": "Clear vision, strategic integration of improvement, strong accountability",
+        "bestPractices": "Regular strategic planning discussions, adequate resource allocation, process owner accountability"
+      },
+      {
+        "category": "Customer Focus", 
+        "highlights": "Proactive customer engagement, competitive benchmarking, ethical practices",
+        "bestPractices": "Actionable satisfaction measurements, flexibility to changing needs, fair business practices"
+      },
+      {
+        "category": "Staff Management",
+        "highlights": "Safety-first culture, comprehensive development programs, motivating environment",
+        "bestPractices": "Open problem-solving culture, performance management alignment, employee value recognition"
+      }
+    ],
+    "improvementOpportunities": [
+      {
+        "category": "Process Management",
+        "gaps": "Process smoothness and resource availability need attention",
+        "recommendations": "Implement process standardization initiatives, conduct resource gap analysis, enhance customer input integration mechanisms"
+      },
+      {
+        "category": "Information/Analysis",
+        "gaps": "Visual management and decision-making transparency could be enhanced",
+        "recommendations": "Develop visual performance dashboards, implement idea management systems, enhance analytical training programs"
+      }
+    ],
+    "learningPoints": [
+      "Leadership Drives Success: This organization demonstrates how strong leadership creates the foundation for excellence across all areas. Clear vision and accountability structures enable high performance.",
+      "Customer-Centric Excellence: The balance of customer listening, satisfaction measurement, and competitive benchmarking shows how mature organizations maintain market relevance.",
+      "Employee Engagement Model: The combination of safety prioritization, development opportunities, and empowerment creates a sustainable culture of excellence.",
+      "Process Maturity Spectrum: Even high-performing organizations have process improvement opportunities, particularly in resource optimization and customer integration.",
+      "Data-Driven Culture: The organization shows good data practices but highlights the continuous journey toward transparent, visual performance management."
+    ],
+    "nextSteps": [
+      "Conduct process optimization workshops focusing on resource allocation and workflow efficiency",
+      "Implement visual management systems (dashboards, scorecards) for enhanced transparency",
+      "Establish formal customer input integration protocols for continuous improvement projects",
+      "Develop cross-functional teams to bridge gaps between high-performing and developing areas",
+      "Create benchmarking studies with other advanced organizations to identify next-level practices"
+    ],
+    "organizationalMaturity": {
+      "level": "Advanced (Level 4 of 5)",
+      "characteristics": [
+        "Consistent high performance across most areas",
+        "Strong leadership and cultural foundation",
+        "Systematic approach to improvement",
+        "Customer and employee focus balance",
+        "Data-driven decision making emerging"
+      ],
+      "readinessForAdvancement": "Ready for optimization and best practice development initiatives"
+    }
+  },
+  "actionItems": [
+    {
+      "id": "ai-1",
+      "title": "Implement Visual Performance Dashboards",
+      "description": "Develop and deploy visual management systems (scorecards, dashboards) across all departments to enhance transparency and real-time performance visibility",
+      "duedate": "2024-03-15",
+      "status": 1,
+      "assignees": ["data-analyst@example.com", "it-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "dashboard_mockup.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "data-analyst@example.com",
+          "uploadedAt": "2024-01-15T09:20:00Z",
+          "description": "Visual performance dashboard mockup and design"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Information/Analysis",
+      "priority": "High"
+    },
+    {
+      "id": "ai-2", 
+      "title": "Process Resource Gap Analysis",
+      "description": "Conduct comprehensive analysis of resource allocation across key processes to identify and address availability gaps that impact process smoothness",
+      "duedate": "2024-02-28",
+      "status": 0,
+      "assignees": ["process-manager@example.com", "ops-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-5",
+          "name": "resource_allocation_chart.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "ops-manager@example.com",
+          "uploadedAt": "2024-01-18T13:10:00Z",
+          "description": "Resource allocation analysis and gap identification chart"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Process Management",
+      "priority": "Medium"
+    },
+    {
+      "id": "ai-3",
+      "title": "Customer Input Integration Protocol",
+      "description": "Establish formal protocols for systematically capturing and integrating customer feedback into continuous improvement projects and process redesign initiatives",
+      "duedate": "2024-04-01",
+      "status": 0,
+      "assignees": ["customer-service@example.com", "process-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Customer Focus",
+      "priority": "Medium"
+    },
+    {
+      "id": "ai-4",
+      "title": "Cross-Functional Excellence Teams",
+      "description": "Form cross-functional teams to bridge performance gaps between high-performing areas (Leadership, Customer Focus) and developing areas (Process Management, Information/Analysis)",
+      "duedate": "2024-03-01",
+      "status": 2,
+      "assignees": ["ceo@example.com", "hr-director@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Leadership",
+      "priority": "High"
+    },
+    {
+      "id": "ai-5",
+      "title": "Best Practice Benchmarking Study",
+      "description": "Conduct benchmarking study with other advanced organizations to identify next-level practices for continuous improvement and operational excellence",
+      "duedate": "2024-05-15",
+      "status": 0,
+      "assignees": ["exec-team@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Leadership",
+      "priority": "Low"
+    }
+  ]
+}

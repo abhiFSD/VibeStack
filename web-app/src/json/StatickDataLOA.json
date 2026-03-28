@@ -1,0 +1,213 @@
+[
+    {
+        "id": "1",
+        "name": "My organization does a good job of listening and involving its customers.",
+        "category_name": "Customer Focus",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "2",
+        "name": "Customer satisfaction measurements capture actionable information needed for improvement.",
+        "category_name": "Customer Focus",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "3",
+        "name": "My organization obtains and uses customer information relative to competition and/or benchmarks.",
+        "category_name": "Customer Focus",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "4",
+        "name": "Customer satisfaction takes top priority at my organization.",
+        "category_name": "Customer Focus",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "5",
+        "name": "My organization remains flexible to changing customer needs and expectations.",
+        "category_name": "Customer Focus",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "6",
+        "name": "We practice fair and equitable business practices for our customers, suppliers, and employees.",
+        "category_name": "Customer Focus",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "7",
+        "name": "Leadership has defined and communicated a clear vision and is committed to process improvement.",
+        "category_name": "Leadership",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "8",
+        "name": "Process improvement is regularly discussed at our strategic planning meetings.",
+        "category_name": "Leadership",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "9",
+        "name": "Adequate resources are continuously assigned for achieving operational excellence (i.e., process improvements.)",
+        "category_name": "Leadership",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "10",
+        "name": "We have a good balance of attainable and stretch goals.",
+        "category_name": "Leadership",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "11",
+        "name": "We have process owners that are held accountable for performance measurements.",
+        "category_name": "Leadership",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "12",
+        "name": "My organization identifies its key processes to achieve improved performance.",
+        "category_name": "Process Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "13",
+        "name": "Performance measures are used for the control and improvement of key processes.",
+        "category_name": "Process Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "14",
+        "name": "The processes that we use are smooth and work well.",
+        "category_name": "Process Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "15",
+        "name": "Input from internal and external customers are incorporated into process improvement efforts.",
+        "category_name": "Process Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "16",
+        "name": "All necessary resources and information are available to do the work properly.",
+        "category_name": "Process Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "17",
+        "name": "Process variation is understood and monitored at my organization.",
+        "category_name": "Process Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "18",
+        "name": "Leaders demonstrate that the safety of employees is of paramount importance.",
+        "category_name": "Staff (Employee) Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "19",
+        "name": "Employees's training and development needs are openly discussed and followed through on.",
+        "category_name": "Staff (Employee) Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "20",
+        "name": "Leadership creates an encouraging and motivating environment and helps employees reach their full potential.",
+        "category_name": "Staff (Employee) Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "21",
+        "name": "Employees can openly identify obstacles/problems and seek help in finding solutions.",
+        "category_name": "Staff (Employee) Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "22",
+        "name": "Our performance management system supports and rewards high performance.",
+        "category_name": "Staff (Employee) Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "23",
+        "name": "Employees are treated as valued employees, where short and long term needs are met.",
+        "category_name": "Staff (Employee) Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "24",
+        "name": "Input from internal and external customers are incorporated into process improvement efforts.",
+        "category_name": "Staff (Employee) Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "25",
+        "name": "My organization makes every effort to ensure data and information are appropriate, accurate, and reliable.",
+        "category_name": "Information/Analysis",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "26",
+        "name": "There is a system in place to monitor organizational progress against set objectives or goals.",
+        "category_name": "Information/Analysis",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "27",
+        "name": "The monitoring system is clear and visible to all of the organization (e.g., scoreboards).",
+        "category_name": "Information/Analysis",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "28",
+        "name": "It is clear to people how we use organizational level analysis to improve decision-making.",
+        "category_name": "Information/Analysis",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "29",
+        "name": "People are responsible to question and/or challenge the status quo.",
+        "category_name": "Information/Analysis",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "30",
+        "name": "There is an effective process to incorporate positive improvement ideas into the business plan.",
+        "category_name": "Information/Analysis",
+        "value": 3,
+        "static": true
+    }
+
+]

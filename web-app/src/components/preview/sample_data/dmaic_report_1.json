@@ -1,0 +1,495 @@
+{
+  "report": {
+    "name": "Customer Order Processing Defect Reduction - DMAIC Project",
+    "type": "DMAIC Report",
+    "completed": true,
+    "assignedMembers": ["black-belt@example.com", "process-owner@example.com", "quality-manager@example.com", "customer-service-director@example.com", "data-analyst@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Define",
+      "orderIndex": 0,
+      "assignees": ["black-belt@example.com", "customer-service-director@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "project_charter_dmaic.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "black-belt@example.com",
+          "uploadedAt": "2024-02-01T09:00:00Z",
+          "description": "DMAIC project charter with problem statement, business case, and team roles"
+        },
+        {
+          "id": "attachment-2",
+          "name": "voice_of_customer_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "customer-service-director@example.com",
+          "uploadedAt": "2024-02-02T10:30:00Z",
+          "description": "Voice of Customer analysis showing critical quality requirements and satisfaction gaps"
+        }
+      ],
+      "description": "Comprehensive Define phase establishing clear project scope, business case, and customer requirements for order processing improvement.",
+      "statements": [
+        {
+          "name": "Problem statement clearly defined: 18% order processing defect rate causing customer dissatisfaction",
+          "value": 5
+        },
+        {
+          "name": "Business case quantified: $2.3M annual impact from defects, rework, and customer complaints",
+          "value": 5
+        },
+        {
+          "name": "Project scope bounded: Focus on order entry through fulfillment process",
+          "value": 5
+        },
+        {
+          "name": "Voice of Customer captured: On-time, accurate orders are critical quality requirements",
+          "value": 5
+        },
+        {
+          "name": "Project team assembled with clear roles and Six Sigma training completed",
+          "value": 5
+        },
+        {
+          "name": "Project charter approved by executive sponsor with timeline and resource commitment",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Measure",
+      "orderIndex": 1,
+      "assignees": ["data-analyst@example.com", "quality-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "measurement_system_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "data-analyst@example.com",
+          "uploadedAt": "2024-02-05T14:00:00Z",
+          "description": "Measurement System Analysis (MSA) validating data collection accuracy and repeatability"
+        },
+        {
+          "id": "attachment-4",
+          "name": "baseline_performance_dashboard.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-02-08T11:15:00Z",
+          "description": "Baseline performance metrics dashboard showing current state process capability"
+        }
+      ],
+      "description": "Rigorous Measure phase establishing reliable data collection, baseline performance, and process capability assessment.",
+      "statements": [
+        {
+          "name": "Current state baseline established: 18.3% DPMO (Defects Per Million Opportunities)",
+          "value": 5
+        },
+        {
+          "name": "Measurement System Analysis completed with >95% accuracy and repeatability",
+          "value": 5
+        },
+        {
+          "name": "Process capability study conducted: Cp = 0.8, Cpk = 0.6 (below industry standards)",
+          "value": 5
+        },
+        {
+          "name": "Data collection plan implemented with automated tracking and validation",
+          "value": 5
+        },
+        {
+          "name": "Defect categorization system established using CTQ (Critical to Quality) metrics",
+          "value": 5
+        },
+        {
+          "name": "Sigma level calculated: Current performance at 3.2 sigma level",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Analyze",
+      "orderIndex": 2,
+      "assignees": ["black-belt@example.com", "process-owner@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-5",
+          "name": "fishbone_root_cause_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1556155092-8707de31f9c4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "black-belt@example.com",
+          "uploadedAt": "2024-02-12T13:45:00Z",
+          "description": "Comprehensive fishbone diagram identifying root causes across 6M categories"
+        },
+        {
+          "id": "attachment-6",
+          "name": "pareto_analysis_defect_types.jpg",
+          "url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-owner@example.com",
+          "uploadedAt": "2024-02-15T09:30:00Z",
+          "description": "Pareto analysis showing vital few defect categories driving 80% of quality issues"
+        }
+      ],
+      "description": "Comprehensive Analyze phase using advanced Six Sigma tools to identify root causes and prioritize improvement opportunities.",
+      "statements": [
+        {
+          "name": "Root cause analysis completed using fishbone, 5-why, and hypothesis testing",
+          "value": 5
+        },
+        {
+          "name": "Pareto analysis identified vital few: 3 defect types account for 78% of issues",
+          "value": 5
+        },
+        {
+          "name": "Statistical analysis confirmed significant factors using DOE and regression",
+          "value": 5
+        },
+        {
+          "name": "Process mapping revealed 15 non-value-added steps contributing to defects",
+          "value": 5
+        },
+        {
+          "name": "Correlation analysis identified relationship between training hours and defect rates",
+          "value": 5
+        },
+        {
+          "name": "Hypothesis testing validated with 95% confidence level on key variables",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Improve",
+      "orderIndex": 3,
+      "assignees": ["process-owner@example.com", "quality-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-7",
+          "name": "pilot_implementation_results.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-owner@example.com",
+          "uploadedAt": "2024-02-20T16:00:00Z",
+          "description": "Pilot test results showing 65% defect reduction in controlled environment"
+        },
+        {
+          "id": "attachment-8",
+          "name": "solution_implementation_timeline.jpg",
+          "url": "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-02-25T14:20:00Z",
+          "description": "Comprehensive implementation timeline with risk mitigation and stakeholder communication plan"
+        }
+      ],
+      "description": "Systematic Improve phase implementing validated solutions with pilot testing and risk mitigation strategies.",
+      "statements": [
+        {
+          "name": "Solution alternatives evaluated using Pugh Matrix and cost-benefit analysis",
+          "value": 5
+        },
+        {
+          "name": "Pilot testing demonstrated 65% defect reduction with statistical significance",
+          "value": 5
+        },
+        {
+          "name": "Risk assessment completed with mitigation strategies for implementation challenges",
+          "value": 5
+        },
+        {
+          "name": "Change management plan developed with stakeholder engagement and training",
+          "value": 5
+        },
+        {
+          "name": "Implementation timeline established with clear milestones and responsibility matrix",
+          "value": 5
+        },
+        {
+          "name": "Full-scale rollout achieved target performance: 6.2% DPMO (67% improvement)",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Control",
+      "orderIndex": 4,
+      "assignees": ["quality-manager@example.com", "process-owner@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-9",
+          "name": "control_charts_spc.jpg",
+          "url": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-03-01T10:00:00Z",
+          "description": "Statistical Process Control charts monitoring sustained performance improvement"
+        },
+        {
+          "id": "attachment-10",
+          "name": "standardized_procedures.jpg",
+          "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-owner@example.com",
+          "uploadedAt": "2024-03-05T15:30:00Z",
+          "description": "Updated standard operating procedures incorporating improved processes"
+        }
+      ],
+      "description": "Robust Control phase ensuring sustained improvement through monitoring, standardization, and continuous improvement.",
+      "statements": [
+        {
+          "name": "Statistical Process Control implemented with X-bar and R charts monitoring",
+          "value": 5
+        },
+        {
+          "name": "Process capability improved to Cp = 1.6, Cpk = 1.4 (world-class performance)",
+          "value": 5
+        },
+        {
+          "name": "Standard Operating Procedures updated with new process requirements",
+          "value": 5
+        },
+        {
+          "name": "Training program deployed ensuring consistent application of new methods",
+          "value": 5
+        },
+        {
+          "name": "Response plan established for out-of-control conditions with escalation procedures",
+          "value": 5
+        },
+        {
+          "name": "Six-month sustainment verified: Performance maintained at 4.8 sigma level",
+          "value": 5
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-dmaic-1",
+      "title": "(Prepare)",
+      "description": "<p><strong>Project Preparation Excellence:</strong> Comprehensive project preparation with executive sponsorship, resource allocation, and strategic alignment. Project charter clearly defined with quantified business case showing $2.3M potential annual impact from order processing defect reduction.</p><p><strong>Team Formation:</strong> Black Belt leadership assembled cross-functional team with all required Six Sigma expertise and stakeholder representation across quality, operations, IT, and customer service functions.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["black-belt@example.com", "executive-sponsor@example.com"]
+    },
+    {
+      "id": "highlight-dmaic-2",
+      "title": "Define",
+      "description": "<p><strong>Problem Definition Excellence:</strong> Crystal clear problem statement established: 18% order processing defect rate causing customer dissatisfaction and $2.3M annual impact. Project scope precisely bounded from order entry through fulfillment process.</p><p><strong>Voice of Customer Integration:</strong> Comprehensive VOC analysis identified on-time, accurate orders as critical quality requirements. Executive sponsor committed with clear timeline and resource allocation for project success.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["black-belt@example.com", "customer-service-director@example.com"]
+    },
+    {
+      "id": "highlight-dmaic-3",
+      "title": "Measure",
+      "description": "<p><strong>Measurement System Excellence:</strong> Rigorous measurement system analysis completed with >95% accuracy and repeatability validation. Baseline performance established at 18.3% DPMO with comprehensive process capability assessment showing Cp = 0.8, Cpk = 0.6.</p><p><strong>Data Collection Rigor:</strong> Automated tracking and validation systems implemented with CTQ metrics categorization. Current performance documented at 3.2 sigma level providing solid foundation for improvement analysis.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["data-analyst@example.com", "quality-manager@example.com"]
+    },
+    {
+      "id": "highlight-dmaic-4",
+      "title": "Analyze",
+      "description": "<p><strong>Statistical Analysis Mastery:</strong> Comprehensive root cause analysis using fishbone, 5-why, and hypothesis testing. Pareto analysis identified vital few: 3 defect types account for 78% of issues. Advanced statistical tools including DOE and regression analysis applied with 95% confidence validation.</p><p><strong>Process Understanding:</strong> Value stream mapping revealed 15 non-value-added steps contributing to defects. Correlation analysis identified strong relationship between training hours and defect rates with statistical significance confirmed.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1556155092-8707de31f9c4?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["black-belt@example.com", "process-owner@example.com"]
+    },
+    {
+      "id": "highlight-dmaic-5",
+      "title": "Improve",
+      "description": "<p><strong>Solution Implementation Excellence:</strong> Systematic solution evaluation using Pugh Matrix and cost-benefit analysis. Pilot testing demonstrated 65% defect reduction with statistical significance validation before full-scale rollout implementation.</p><p><strong>Change Management Success:</strong> Comprehensive implementation plan with stakeholder engagement and training. Full-scale rollout achieved target performance: 6.2% DPMO representing 67% improvement with sustained results validation.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["process-owner@example.com", "quality-manager@example.com"]
+    },
+    {
+      "id": "highlight-dmaic-6",
+      "title": "Control",
+      "description": "<p><strong>Sustainment Excellence:</strong> Statistical Process Control implemented with X-bar and R charts monitoring sustained performance. Process capability improved to world-class standards: Cp = 1.6, Cpk = 1.4 with ongoing monitoring ensuring continued excellence.</p><p><strong>Performance Verification:</strong> Six-month sustainment verified with performance maintained at 4.8 sigma level. Standard Operating Procedures updated, training deployed, and response plans established for long-term success.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["quality-manager@example.com", "process-owner@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "dmaic-action-1",
+      "title": "Expand DMAIC Methodology to Supply Chain Processes",
+      "description": "Apply proven DMAIC approach to supplier quality and logistics processes. Establish supplier Six Sigma requirements and integrate defect prevention into vendor management. Target 50% supplier defect reduction within 12 months.",
+      "duedate": "2024-09-30",
+      "status": 1,
+      "assignees": ["black-belt@example.com", "supply-chain-director@example.com"],
+      "attachments": [
+        {
+          "id": "dmaic-action-attachment-1",
+          "name": "supplier_six_sigma_framework.jpg",
+          "url": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "supply-chain-director@example.com",
+          "uploadedAt": "2024-03-20T10:00:00Z",
+          "description": "Supplier Six Sigma integration framework for extended DMAIC implementation"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Methodology Expansion",
+      "priority": "High"
+    },
+    {
+      "id": "dmaic-action-2",
+      "title": "Develop Internal Six Sigma Green Belt Training Program",
+      "description": "Create comprehensive Green Belt training curriculum based on project learnings. Include hands-on DMAIC case studies, statistical software training, and certification requirements. Train 25 Green Belts across all departments to build organizational capability.",
+      "duedate": "2024-07-31",
+      "status": 0,
+      "assignees": ["black-belt@example.com", "training-manager@example.com"],
+      "attachments": [
+        {
+          "id": "dmaic-action-attachment-2",
+          "name": "green_belt_curriculum_design.jpg",
+          "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "training-manager@example.com",
+          "uploadedAt": "2024-03-22T13:15:00Z",
+          "description": "Green Belt training curriculum incorporating DMAIC project case studies and statistical methods"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Capability Building",
+      "priority": "High"
+    },
+    {
+      "id": "dmaic-action-3",
+      "title": "Implement Advanced Analytics Dashboard for Process Monitoring",
+      "description": "Deploy real-time analytics platform integrating SPC charts, process capability metrics, and predictive quality indicators. Include automated alerting for out-of-control conditions and trend analysis for proactive intervention.",
+      "duedate": "2024-06-30",
+      "status": 0,
+      "assignees": ["data-analyst@example.com", "it-analytics-lead@example.com"],
+      "attachments": [
+        {
+          "id": "dmaic-action-attachment-3",
+          "name": "advanced_analytics_architecture.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "it-analytics-lead@example.com",
+          "uploadedAt": "2024-03-25T11:00:00Z",
+          "description": "Advanced analytics dashboard architecture for real-time process monitoring and predictive quality management"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Technology Enhancement",
+      "priority": "Medium"
+    },
+    {
+      "id": "dmaic-action-4",
+      "title": "Establish Six Sigma Center of Excellence",
+      "description": "Create organizational center of excellence for Six Sigma methodology deployment. Include project pipeline management, resource allocation, and best practice sharing. Develop annual Six Sigma project portfolio targeting $10M in benefits.",
+      "duedate": "2024-12-31",
+      "status": 0,
+      "assignees": ["black-belt@example.com", "operations-vp@example.com"],
+      "attachments": [
+        {
+          "id": "dmaic-action-attachment-4",
+          "name": "center_of_excellence_charter.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-vp@example.com",
+          "uploadedAt": "2024-03-28T15:30:00Z",
+          "description": "Six Sigma Center of Excellence organizational charter and governance framework"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Organizational Development",
+      "priority": "Medium"
+    },
+    {
+      "id": "dmaic-action-5",
+      "title": "Conduct Quarterly DMAIC Project Reviews and Knowledge Sharing",
+      "description": "Establish regular review cycle for all DMAIC projects with standardized reporting, lessons learned capture, and cross-functional knowledge sharing. Include external benchmarking and industry best practice integration.",
+      "duedate": "2024-05-31",
+      "status": 2,
+      "assignees": ["quality-manager@example.com", "process-excellence-team@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Knowledge Management",
+      "priority": "Low"
+    }
+  ],
+  "aiAnalysis": {
+    "overallAssessment": {
+      "projectType": "DMAIC - Six Sigma Methodology",
+      "maturityLevel": "Black Belt Excellence",
+      "defectReduction": "67% Improvement (18.3% to 6.2% DPMO)",
+      "sigmaLevel": "4.8 Sigma (World-Class Performance)"
+    },
+    "keyFindings": [
+      "Exemplary DMAIC execution achieving 67% defect reduction through systematic Six Sigma methodology",
+      "Statistical rigor demonstrated with MSA, DOE, hypothesis testing, and SPC implementation",
+      "Process capability improvement from Cp = 0.8 to Cp = 1.6 achieving world-class standards",
+      "Quantifiable business impact: $2.3M annual cost avoidance with 35% customer satisfaction improvement",
+      "Sustained performance verification over 6 months confirming embedded process improvements",
+      "Cross-functional team collaboration excellence with Black Belt leadership and stakeholder engagement"
+    ],
+    "dmicMethodologyAnalysis": {
+      "definePhase": "Outstanding project scoping with clear problem statement, business case quantification, and Voice of Customer integration",
+      "measurePhase": "Comprehensive baseline establishment with validated measurement systems and process capability assessment",
+      "analyzePhase": "Advanced statistical analysis using fishbone, Pareto, DOE, and hypothesis testing with 95% confidence",
+      "improvePhase": "Systematic solution implementation with pilot testing achieving 65% defect reduction validation",
+      "controlPhase": "Robust sustainment through SPC, standardization, and 6-month performance verification"
+    },
+    "statisticalExcellence": {
+      "measurementSystemAnalysis": "MSA completed with >95% accuracy and repeatability validation",
+      "processCapabilityStudy": "Baseline Cp = 0.8, Cpk = 0.6 improved to Cp = 1.6, Cpk = 1.4",
+      "designOfExperiments": "DOE methodology applied for variable identification and optimization",
+      "hypothesisTesting": "Statistical significance validated at 95% confidence level throughout project",
+      "statisticalProcessControl": "X-bar and R charts implemented for ongoing performance monitoring"
+    },
+    "businessImpactAnalysis": {
+      "financialBenefits": "$2.3M annual cost avoidance through defect elimination and rework reduction",
+      "customerSatisfaction": "35% improvement in customer satisfaction with 93.8% order accuracy achievement",
+      "processEfficiency": "15 non-value-added steps eliminated through process optimization",
+      "qualityImprovement": "Sigma level progression from 3.2 to 4.8 achieving world-class performance",
+      "sustainmentValidation": "Six-month performance verification confirming embedded improvements"
+    },
+    "teamCollaborationAssessment": {
+      "blackBeltLeadership": "Exceptional project leadership with advanced Six Sigma tool application",
+      "crossFunctionalEngagement": "Effective collaboration across quality, operations, IT, and customer service",
+      "stakeholderManagement": "Comprehensive change management with executive sponsorship and resource commitment",
+      "knowledgeTransfer": "Best practice documentation and organizational capability building"
+    },
+    "learningPoints": [
+      "DMAIC Methodology Mastery: Systematic application of all five phases with statistical rigor and business focus",
+      "Data-Driven Decision Making: All conclusions supported by statistical analysis with validated measurement systems",
+      "Process Capability Excellence: Achievement of world-class Cp = 1.6 through targeted improvement implementation",
+      "Sustainable Improvement: Six-month sustainment verification demonstrates embedded process changes",
+      "Cross-Functional Leadership: Black Belt facilitation enabling effective team collaboration and stakeholder engagement",
+      "Business Impact Focus: Clear linkage between statistical improvement and quantifiable business benefits",
+      "Advanced Statistical Tools: Comprehensive application of MSA, DOE, SPC, and hypothesis testing methodologies"
+    ],
+    "recommendedActions": [
+      "Expand DMAIC methodology to additional processes with high defect impact potential",
+      "Develop internal Green Belt training program to build organizational Six Sigma capability",
+      "Implement advanced analytics dashboard for real-time process monitoring and predictive quality",
+      "Establish Six Sigma Center of Excellence for enterprise-wide methodology deployment",
+      "Conduct regular project reviews with knowledge sharing and best practice documentation",
+      "Integrate supplier quality requirements using Six Sigma standards and DMAIC expectations"
+    ],
+    "dmicSpecificInsights": {
+      "methodologyRigor": "Black Belt level execution with comprehensive statistical validation throughout all phases",
+      "toolApplication": "Advanced Six Sigma tools applied appropriately: MSA, DOE, SPC, fishbone, Pareto, hypothesis testing",
+      "sustainmentStrategy": "Robust control phase ensuring long-term performance maintenance through standardization and monitoring",
+      "businessIntegration": "Exemplary alignment between technical improvement and business objectives with quantified benefits",
+      "organizationalImpact": "Project serves as template for enterprise Six Sigma deployment and capability development"
+    }
+  }
+}

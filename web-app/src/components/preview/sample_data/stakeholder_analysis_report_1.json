@@ -1,0 +1,249 @@
+{
+  "report": {
+    "name": "Digital Transformation Program - Comprehensive Stakeholder Analysis Excellence",
+    "type": "Stakeholder Analysis Report",
+    "completed": true,
+    "assignedMembers": ["stakeholder-manager@example.com", "change-management@example.com", "program-director@example.com", "communications@example.com", "executive-sponsor@example.com"]
+  },
+  "chartData": [
+    {
+      "id": "stakeholder-1",
+      "text": "CEO\nHigh champion, strategic vision alignment",
+      "textColor": "#2E8B57",
+      "posX": 750,
+      "posY": 80,
+      "reportID": "stakeholder-report-1"
+    },
+    {
+      "id": "stakeholder-2",
+      "text": "CTO\nTechnical leadership, resource authority",
+      "textColor": "#32CD32",
+      "posX": 700,
+      "posY": 120,
+      "reportID": "stakeholder-report-1"
+    },
+    {
+      "id": "stakeholder-3",
+      "text": "IT Department Head\nImplementation influence, team leadership",
+      "textColor": "#FF6347",
+      "posX": 650,
+      "posY": 90,
+      "reportID": "stakeholder-report-1"
+    },
+    {
+      "id": "stakeholder-4",
+      "text": "Operations Manager\nProcess ownership, change coordination",
+      "textColor": "#FF8C00",
+      "posX": 600,
+      "posY": 140,
+      "reportID": "stakeholder-report-1"
+    },
+    {
+      "id": "stakeholder-5",
+      "text": "HR Director\nChange management, training coordination",
+      "textColor": "#4169E1",
+      "posX": 550,
+      "posY": 110,
+      "reportID": "stakeholder-report-1"
+    },
+    {
+      "id": "stakeholder-6",
+      "text": "Finance Director\nBudget authority, ROI validation",
+      "textColor": "#9932CC",
+      "posX": 720,
+      "posY": 160,
+      "reportID": "stakeholder-report-1"
+    },
+    {
+      "id": "stakeholder-7",
+      "text": "Quality Manager\nCompliance oversight, standard alignment",
+      "textColor": "#20B2AA",
+      "posX": 580,
+      "posY": 180,
+      "reportID": "stakeholder-report-1"
+    },
+    {
+      "id": "stakeholder-8",
+      "text": "Union Representative\nEmployee advocacy, negotiation influence",
+      "textColor": "#DA70D6",
+      "posX": 200,
+      "posY": 350,
+      "reportID": "stakeholder-report-1"
+    },
+    {
+      "id": "stakeholder-9",
+      "text": "Customer Advisory Board\nEnd-user perspective, requirements validation",
+      "textColor": "#8B4513",
+      "posX": 650,
+      "posY": 200,
+      "reportID": "stakeholder-report-1"
+    },
+    {
+      "id": "stakeholder-10",
+      "text": "Vendor Partners\nTechnology delivery, implementation support",
+      "textColor": "#556B2F",
+      "posX": 500,
+      "posY": 380,
+      "reportID": "stakeholder-report-1"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-stakeholder-1",
+      "title": "Executive Leadership Alignment Excellence",
+      "description": "<p><strong>Strong C-Suite Support:</strong> Outstanding executive leadership alignment with CEO, CTO, and Finance Director providing unified strategic direction, resource commitment, and organizational change sponsorship for digital transformation success.</p><p><strong>Clear Authority Structure:</strong> Comprehensive stakeholder mapping reveals clear decision-making authority, budget approval processes, and escalation pathways enabling efficient program governance and rapid issue resolution.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["executive-sponsor@example.com", "program-director@example.com"]
+    },
+    {
+      "id": "highlight-stakeholder-2",
+      "title": "Comprehensive Change Management Strategy",
+      "description": "<p><strong>Multi-Level Engagement:</strong> Systematic stakeholder engagement across all organizational levels from executive sponsors to operational teams, ensuring comprehensive change management and sustained adoption throughout transformation.</p><p><strong>Communication Excellence:</strong> Advanced stakeholder communication framework with tailored messaging, regular touchpoints, and feedback mechanisms addressing diverse stakeholder needs and concerns proactively.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["change-management@example.com", "communications@example.com"]
+    },
+    {
+      "id": "highlight-stakeholder-3",
+      "title": "Strategic Influence Mapping and Management",
+      "description": "<p><strong>Power-Interest Matrix Optimization:</strong> Sophisticated stakeholder analysis using power-interest mapping to identify key influencers, champions, and potential resistance points enabling targeted engagement strategies and relationship management.</p><p><strong>Coalition Building Success:</strong> Successful formation of stakeholder coalitions across departments with shared transformation objectives, creating momentum and organizational alignment for complex change initiatives.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["stakeholder-manager@example.com", "program-director@example.com"]
+    },
+    {
+      "id": "highlight-stakeholder-4",
+      "title": "Customer and External Partner Integration",
+      "description": "<p><strong>Customer-Centric Approach:</strong> Exceptional integration of customer advisory board and end-user feedback into transformation planning, ensuring digital initiatives align with customer value creation and service enhancement objectives.</p><p><strong>Vendor Partnership Excellence:</strong> Strategic vendor and partner engagement ensuring technology delivery alignment, implementation support, and long-term relationship management for sustained transformation success.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["vendor-management@example.com", "customer-experience@example.com"]
+    },
+    {
+      "id": "highlight-stakeholder-5",
+      "title": "Risk Mitigation and Resistance Management",
+      "description": "<p><strong>Proactive Resistance Identification:</strong> Comprehensive identification and management of potential resistance sources including union concerns, departmental conflicts, and change fatigue with systematic mitigation strategies.</p><p><strong>Engagement Strategy Effectiveness:</strong> Advanced stakeholder engagement techniques including one-on-one meetings, focus groups, and collaborative planning sessions resulting in 94% stakeholder satisfaction and change readiness.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["risk-management@example.com", "change-management@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "stakeholder-action-1",
+      "title": "Implement Advanced Stakeholder Engagement Platform",
+      "description": "Deploy comprehensive stakeholder management platform with communication tracking, engagement metrics, sentiment analysis, and automated touchpoint scheduling for enhanced relationship management.",
+      "duedate": "2024-06-15",
+      "status": 1,
+      "assignees": ["stakeholder-manager@example.com", "digital-platform@example.com"],
+      "attachments": [
+        {
+          "id": "stakeholder-action-attachment-1",
+          "name": "stakeholder_engagement_platform.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "stakeholder-manager@example.com",
+          "uploadedAt": "2024-02-22T09:00:00Z",
+          "description": "Advanced stakeholder engagement platform with communication tracking and sentiment analysis"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Platform Implementation",
+      "priority": "High"
+    },
+    {
+      "id": "stakeholder-action-2",
+      "title": "Establish Executive Stakeholder Governance Council",
+      "description": "Create formal governance council with executive stakeholders including regular review sessions, decision protocols, escalation procedures, and strategic alignment validation processes.",
+      "duedate": "2024-07-01",
+      "status": 0,
+      "assignees": ["executive-sponsor@example.com", "governance-officer@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Governance",
+      "priority": "High"
+    },
+    {
+      "id": "stakeholder-action-3",
+      "title": "Deploy Comprehensive Change Champion Network",
+      "description": "Establish change champion network across all departments with training, communication protocols, feedback collection, and local change leadership capabilities for sustainable transformation.",
+      "duedate": "2024-08-15",
+      "status": 0,
+      "assignees": ["change-management@example.com", "training-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "stakeholder-action-attachment-2",
+          "name": "change_champion_network.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "change-management@example.com",
+          "uploadedAt": "2024-02-25T14:30:00Z",
+          "description": "Change champion network structure with training and communication protocols"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Change Management",
+      "priority": "Medium"
+    },
+    {
+      "id": "stakeholder-action-4",
+      "title": "Enhance Customer Advisory Board Integration",
+      "description": "Expand customer advisory board engagement with regular transformation updates, feedback collection, requirement validation, and co-creation opportunities for customer-centric initiatives.",
+      "duedate": "2024-09-30",
+      "status": 0,
+      "assignees": ["customer-experience@example.com", "product-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Customer Integration",
+      "priority": "Medium"
+    },
+    {
+      "id": "stakeholder-action-5",
+      "title": "Implement Continuous Stakeholder Sentiment Monitoring",
+      "description": "Deploy real-time stakeholder sentiment monitoring with pulse surveys, sentiment analysis, early warning systems, and adaptive engagement strategies for proactive relationship management.",
+      "duedate": "2024-10-31",
+      "status": 0,
+      "assignees": ["analytics-team@example.com", "communications@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Monitoring & Analytics",
+      "priority": "Medium"
+    }
+  ],
+  "aiAnalysis": {
+    "overview": "This Stakeholder Analysis Report demonstrates world-class stakeholder management for digital transformation with comprehensive mapping, strategic engagement, and systematic relationship management across all organizational levels.",
+    "keyStrengths": [
+      "<strong>Comprehensive Stakeholder Mapping:</strong> Exceptional stakeholder identification and analysis across executive, operational, customer, and vendor levels with clear power-interest positioning and influence assessment",
+      "<strong>Strategic Engagement Excellence:</strong> Advanced engagement strategies tailored to stakeholder needs, interests, and influence levels with systematic communication and relationship management approaches",
+      "<strong>Executive Alignment Achievement:</strong> Outstanding C-suite alignment and sponsorship providing strategic direction, resource commitment, and organizational change leadership for transformation success",
+      "<strong>Change Management Integration:</strong> Sophisticated integration of stakeholder analysis with change management strategy ensuring comprehensive adoption and sustained transformation outcomes",
+      "<strong>Risk Mitigation Framework:</strong> Proactive identification and management of stakeholder-related risks including resistance points, conflicts, and change fatigue with systematic mitigation strategies"
+    ],
+    "learningPoints": [
+      "<strong>Power-Interest Matrix Mastery:</strong> Demonstrates advanced stakeholder mapping using power-interest analysis to identify key influencers, decision makers, and engagement priorities for strategic relationship management",
+      "<strong>Multi-Level Engagement Strategy:</strong> Shows comprehensive stakeholder engagement across organizational hierarchy from executive sponsors to operational teams ensuring coordinated change management",
+      "<strong>Communication Framework Excellence:</strong> Illustrates tailored communication strategies with stakeholder-specific messaging, feedback mechanisms, and engagement touchpoints for effective relationship building",
+      "<strong>Coalition Building Approach:</strong> Exemplifies strategic coalition formation across departments and stakeholder groups creating momentum and alignment for complex transformation initiatives",
+      "<strong>Customer Integration Model:</strong> Demonstrates customer-centric stakeholder management with advisory board integration, feedback collection, and co-creation opportunities for value-driven transformation",
+      "<strong>Vendor Partnership Management:</strong> Shows strategic external stakeholder management including vendor relationships, partnership alignment, and collaborative delivery approaches"
+    ],
+    "improvementOpportunities": [
+      "<strong>AI-Powered Sentiment Analysis:</strong> Deploy machine learning algorithms for real-time stakeholder sentiment monitoring, predictive relationship risk assessment, and automated engagement optimization",
+      "<strong>Dynamic Stakeholder Mapping:</strong> Implement real-time stakeholder influence and interest tracking with automated updates based on organizational changes and transformation progress",
+      "<strong>Stakeholder Engagement Automation:</strong> Develop automated engagement workflows with personalized communication sequences, milestone updates, and relationship maintenance protocols"
+    ],
+    "nextSteps": [
+      "Implement advanced stakeholder engagement platform with communication tracking and sentiment analysis capabilities",
+      "Establish executive governance council with formal review protocols and decision-making frameworks",
+      "Deploy change champion network across all departments with training and local leadership capabilities",
+      "Enhance customer advisory board integration with regular transformation updates and co-creation opportunities",
+      "Implement continuous stakeholder sentiment monitoring with predictive analytics and adaptive engagement strategies"
+    ]
+  }
+}

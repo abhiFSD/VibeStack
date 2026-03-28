@@ -1,0 +1,141 @@
+{
+  "report": {
+    "name": "IT Help Desk Tickets - Problem Category Analysis",
+    "type": "Pareto Chart Report", 
+    "completed": false,
+    "assignedMembers": [
+      "it-helpdesk-manager@example.com"
+    ]
+  },
+  "chartData": [
+    {
+      "id": "pareto-it-1",
+      "text": "Password Resets",
+      "value": "89",
+      "posX": "100",
+      "posY": "250",
+      "date": "",
+      "Description": "User password reset requests"
+    },
+    {
+      "id": "pareto-it-2",
+      "text": "Software Issues",
+      "value": "67",
+      "posX": "200",
+      "posY": "350",
+      "date": "",
+      "Description": "Various software problems"
+    },
+    {
+      "id": "pareto-it-3",
+      "text": "Hardware Problems",
+      "value": "45",
+      "posX": "300",
+      "posY": "450",
+      "date": "",
+      "Description": "Computer and device issues"
+    },
+    {
+      "id": "pareto-it-4",
+      "text": "Network Access",
+      "value": "34",
+      "posX": "400",
+      "posY": "550",
+      "date": "",
+      "Description": "Connection problems"
+    },
+    {
+      "id": "pareto-it-5",
+      "text": "Other",
+      "value": "156",
+      "posX": "500",
+      "posY": "650",
+      "date": "",
+      "Description": "Miscellaneous requests"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-pareto-it-1",
+      "title": "Poor Category Definition",
+      "content": "The 'Other' category represents 39.9% of all tickets, the single largest category. This indicates a fundamental failure in ticket categorization and prevents meaningful root cause analysis. Without proper categorization, improvement efforts cannot be effectively targeted.",
+      "category": "Data Quality Issue",
+      "attachments": [
+        {
+          "id": "highlight-pareto-it-attachment-1",
+          "name": "ticket_categorization_problem.jpg",
+          "url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "it-helpdesk-manager@example.com",
+          "uploadedAt": "2024-01-25T09:00:00Z",
+          "description": "Example of poor ticket categorization system"
+        }
+      ]
+    },
+    {
+      "id": "highlight-pareto-it-2",
+      "title": "Vague Problem Descriptions",
+      "content": "Categories like 'Software Issues' and 'Hardware Problems' are too broad to enable actionable improvements. Is it Microsoft Office? Custom applications? Laptops? Printers? Without specificity, resources cannot be properly allocated to address root causes.",
+      "category": "Analysis Weakness",
+      "attachments": [
+        {
+          "id": "highlight-pareto-it-attachment-2",
+          "name": "vague_ticket_descriptions.jpg",
+          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "it-helpdesk-manager@example.com",
+          "uploadedAt": "2024-01-25T10:00:00Z",
+          "description": "Examples of unhelpfully vague ticket descriptions"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "pareto-it-action-1",
+      "title": "Redesign Ticket Categorization System",
+      "description": "Create detailed category hierarchy with specific problem types. Analyze 'Other' category tickets to identify proper classifications. Train help desk staff on correct categorization.",
+      "duedate": "2024-02-01",
+      "status": 0,
+      "assignees": ["it-helpdesk-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 0,
+      "category": "Process Improvement",
+      "priority": "High"
+    },
+    {
+      "id": "pareto-it-action-2",
+      "title": "Implement Self-Service Password Reset",
+      "description": "Deploy automated password reset system to reduce help desk load for most common ticket type.",
+      "duedate": "2024-02-15",
+      "status": 0,
+      "assignees": ["it-security-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Automation",
+      "priority": "Medium"
+    },
+    {
+      "id": "pareto-it-action-3",
+      "title": "Conduct Proper Pareto Analysis Training",
+      "description": "Train IT staff on proper data collection and categorization for meaningful Pareto analysis. Include examples of good vs. poor categorization.",
+      "duedate": "2024-01-30",
+      "status": 0,
+      "assignees": ["it-helpdesk-manager@example.com"],
+      "attachments": [
+        {
+          "id": "pareto-it-action-attachment-1",
+          "name": "pareto_training_materials.jpg",
+          "url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "it-helpdesk-manager@example.com",
+          "uploadedAt": "2024-01-25T11:00:00Z",
+          "description": "Pareto analysis training curriculum outline"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Training",
+      "priority": "High"
+    }
+  ]
+}

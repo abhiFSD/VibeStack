@@ -1,0 +1,450 @@
+{
+  "report": {
+    "name": "Quality Control Process Improvement - A3 Analysis",
+    "type": "A3 Project Report",
+    "completed": false,
+    "assignedMembers": ["quality-manager@example.com", "process-engineer@example.com", "team-supervisor@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Problem Statement",
+      "orderIndex": 0,
+      "assignees": ["quality-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "defect_rate_data.jpg",
+          "url": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-02-10T08:30:00Z",
+          "description": "Current defect rate trending above 3.5% threshold with customer complaints increasing"
+        }
+      ],
+      "description": "Quality Control Department defect rate has increased to 3.8% over past 3 months, exceeding acceptable threshold of 2.0% and resulting in customer satisfaction decline.",
+      "statements": [
+        {
+          "name": "Current defect rate: 3.8% (90% above target of 2.0%)",
+          "value": 2
+        },
+        {
+          "name": "Customer complaints increased 45% in last quarter",
+          "value": 2
+        },
+        {
+          "name": "Rework costs estimated at $85,000 annually",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Current State",
+      "orderIndex": 1,
+      "assignees": ["process-engineer@example.com", "team-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "current_inspection_process.jpg",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-engineer@example.com",
+          "uploadedAt": "2024-02-12T10:15:00Z",
+          "description": "Current manual inspection process showing inconsistent application of quality standards"
+        }
+      ],
+      "description": "Current quality control relies on manual visual inspection with inconsistent standards application and limited documentation of defect patterns.",
+      "statements": [
+        {
+          "name": "Manual visual inspection as primary quality method",
+          "value": 2
+        },
+        {
+          "name": "Inconsistent application of quality standards across shifts",
+          "value": 2
+        },
+        {
+          "name": "Limited tracking of defect patterns and root causes",
+          "value": 3
+        },
+        {
+          "name": "No statistical process control implementation",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Improvement Opportunity",
+      "orderIndex": 2,
+      "assignees": ["quality-manager@example.com", "process-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "improvement_target_projection.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-02-14T14:00:00Z",
+          "description": "Target improvement projections showing potential reduction to 1.5% defect rate through standardization"
+        }
+      ],
+      "description": "Implementation of standardized inspection procedures and basic statistical process control can reduce defect rate to 1.5%, achieving 60% improvement.",
+      "statements": [
+        {
+          "name": "Target defect rate: 1.5% (60% improvement from current state)",
+          "value": 4
+        },
+        {
+          "name": "25% improvement buffer below 2.0% company standard",
+          "value": 3
+        },
+        {
+          "name": "Projected annual cost savings: $45,000",
+          "value": 3
+        },
+        {
+          "name": "Estimated customer satisfaction improvement: 30%",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Problem Analysis",
+      "orderIndex": 3,
+      "assignees": ["process-engineer@example.com", "team-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "root_cause_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-engineer@example.com",
+          "uploadedAt": "2024-02-16T11:30:00Z",
+          "description": "Root cause analysis showing primary issues: training gaps, procedure inconsistency, measurement system inadequacy"
+        }
+      ],
+      "description": "Analysis reveals three primary causes: (1) Insufficient inspector training leading to subjective decisions, (2) Lack of standardized procedures across shifts, (3) Inadequate measurement systems for consistent evaluation.",
+      "statements": [
+        {
+          "name": "Inspector training gaps identified in 65% of quality decisions",
+          "value": 2
+        },
+        {
+          "name": "Procedure variations between day and night shifts documented",
+          "value": 2
+        },
+        {
+          "name": "Measurement system shows 40% variation in repeatability",
+          "value": 2
+        },
+        {
+          "name": "No feedback loop for continuous improvement implemented",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Future State",
+      "orderIndex": 4,
+      "assignees": ["quality-manager@example.com", "process-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-5",
+          "name": "future_state_design.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-02-18T13:45:00Z",
+          "description": "Future state design with standardized procedures, enhanced training, and basic SPC implementation"
+        }
+      ],
+      "description": "Future state incorporates standardized inspection procedures, comprehensive inspector training program, and basic statistical process control charts for consistent quality evaluation.",
+      "statements": [
+        {
+          "name": "Standardized inspection procedures across all shifts",
+          "value": 4
+        },
+        {
+          "name": "Comprehensive training program with certification requirements",
+          "value": 3
+        },
+        {
+          "name": "Basic SPC charts implementation for trend monitoring",
+          "value": 3
+        },
+        {
+          "name": "Regular calibration schedule for measurement systems",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Implementation Plan",
+      "orderIndex": 5,
+      "assignees": ["quality-manager@example.com", "process-engineer@example.com", "team-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-6",
+          "name": "implementation_schedule.jpg",
+          "url": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-02-20T15:20:00Z",
+          "description": "8-week implementation plan with phases: procedure development, training, system implementation, validation"
+        }
+      ],
+      "description": "8-week implementation plan focusing on procedure standardization, training delivery, and gradual SPC rollout with minimal disruption to production schedule.",
+      "statements": [
+        {
+          "name": "Phase 1: Procedure standardization (Weeks 1-2)",
+          "value": 3
+        },
+        {
+          "name": "Phase 2: Inspector training program (Weeks 3-4)",
+          "value": 3
+        },
+        {
+          "name": "Phase 3: SPC system implementation (Weeks 5-6)",
+          "value": 3
+        },
+        {
+          "name": "Phase 4: Validation and fine-tuning (Weeks 7-8)",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Verify Results",
+      "orderIndex": 6,
+      "assignees": ["quality-manager@example.com", "process-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-7",
+          "name": "interim_results.jpg",
+          "url": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-03-15T09:00:00Z",
+          "description": "Interim validation showing 2.1% defect rate achievement with ongoing improvement trend"
+        }
+      ],
+      "description": "Interim validation shows 2.1% defect rate achievement (45% improvement) with positive trends, though final 1.5% target requires additional optimization efforts.",
+      "statements": [
+        {
+          "name": "Achieved 2.1% defect rate (45% improvement, still above 1.5% target)",
+          "value": 3
+        },
+        {
+          "name": "Measurement system repeatability improved to 15% variation",
+          "value": 4
+        },
+        {
+          "name": "Customer complaints reduced by 25% during validation period",
+          "value": 4
+        },
+        {
+          "name": "Inspector certification completion: 85% (target was 100%)",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Follow-Up",
+      "orderIndex": 7,
+      "assignees": ["team-supervisor@example.com", "process-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-8",
+          "name": "follow_up_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1553484771-8966baa92e8b?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "team-supervisor@example.com",
+          "uploadedAt": "2024-03-20T11:15:00Z",
+          "description": "Follow-up action plan addressing remaining performance gaps and sustainability measures"
+        }
+      ],
+      "description": "Follow-up plan addresses remaining performance gaps through enhanced training completion and additional process refinements to achieve 1.5% target consistently.",
+      "statements": [
+        {
+          "name": "Complete remaining 15% of inspector certifications",
+          "value": 3
+        },
+        {
+          "name": "Implement advanced SPC techniques for final optimization",
+          "value": 3
+        },
+        {
+          "name": "Establish monthly quality review meetings",
+          "value": 4
+        },
+        {
+          "name": "Develop continuous improvement suggestion system",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "a3-highlight-1",
+      "title": "Problem Statement",
+      "description": "<p><strong>Quality Challenge:</strong> Quality Control Department experiencing 3.8% defect rate over past 3 months, representing 90% increase above acceptable 2.0% threshold with corresponding 45% increase in customer complaints and estimated $85,000 annual rework costs.</p><p><strong>Business Impact:</strong> Current performance trend threatens customer relationships and operational efficiency, requiring systematic problem-solving approach to restore quality standards and competitive position.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["quality-manager@example.com"]
+    },
+    {
+      "id": "a3-highlight-2",
+      "title": "Current State",
+      "description": "<p><strong>Process Assessment:</strong> Current quality control relies primarily on manual visual inspection with documented inconsistencies in standards application across different shifts and limited systematic tracking of defect patterns or root causes.</p><p><strong>System Limitations:</strong> No statistical process control implementation, 40% variation in measurement system repeatability, and insufficient feedback mechanisms for continuous improvement initiatives.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["process-engineer@example.com", "team-supervisor@example.com"]
+    },
+    {
+      "id": "a3-highlight-3",
+      "title": "Improvement Opportunity",
+      "description": "<p><strong>Target Performance:</strong> Implementation of standardized inspection procedures and basic statistical process control can achieve 1.5% defect rate target, representing 60% improvement from current state with 25% buffer below company standard.</p><p><strong>Expected Benefits:</strong> Projected annual cost savings of $45,000 through reduced rework, estimated 30% improvement in customer satisfaction scores, and enhanced quality system reliability.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["quality-manager@example.com", "process-engineer@example.com"]
+    },
+    {
+      "id": "a3-highlight-4",
+      "title": "Problem Analysis",
+      "description": "<p><strong>Root Cause Investigation:</strong> Systematic analysis identified three primary factors: insufficient inspector training leading to subjective quality decisions (65% of cases), documented procedure variations between shifts, and inadequate measurement systems showing 40% repeatability variation.</p><p><strong>Contributing Factors:</strong> Absence of structured feedback loops for continuous improvement and lack of systematic approach to quality decision-making processes across operational teams.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["process-engineer@example.com", "team-supervisor@example.com"]
+    },
+    {
+      "id": "a3-highlight-5",
+      "title": "Future State",
+      "description": "<p><strong>Solution Architecture:</strong> Future state design incorporates standardized inspection procedures across all shifts, comprehensive training program with certification requirements, and basic statistical process control charts for consistent trend monitoring and decision-making.</p><p><strong>System Enhancement:</strong> Regular calibration schedule for measurement systems, improved repeatability targets, and structured approach to quality evaluation ensuring consistency and reliability across operations.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["quality-manager@example.com", "process-engineer@example.com"]
+    },
+    {
+      "id": "a3-highlight-6",
+      "title": "Implementation Plan",
+      "description": "<p><strong>Phased Approach:</strong> 8-week structured implementation minimizing production disruption through systematic rollout: procedure standardization (weeks 1-2), comprehensive training delivery (weeks 3-4), SPC system implementation (weeks 5-6), and validation with fine-tuning (weeks 7-8).</p><p><strong>Change Management:</strong> Gradual transition approach ensuring staff buy-in, minimal operational impact, and systematic validation of improvements at each implementation phase.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["quality-manager@example.com", "process-engineer@example.com", "team-supervisor@example.com"]
+    },
+    {
+      "id": "a3-highlight-7",
+      "title": "Verify Results",
+      "description": "<p><strong>Interim Progress:</strong> Current validation demonstrates 2.1% defect rate achievement representing 45% improvement from baseline, though performance still requires optimization to reach 1.5% target consistently across all operational periods.</p><p><strong>System Improvements:</strong> Measurement system repeatability enhanced to 15% variation, customer complaints reduced by 25%, and inspector certification program achieving 85% completion rate with ongoing progress toward full implementation.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["quality-manager@example.com", "process-engineer@example.com"]
+    },
+    {
+      "id": "a3-highlight-8",
+      "title": "Follow-Up",
+      "description": "<p><strong>Continuous Improvement:</strong> Follow-up action plan addresses remaining performance gaps through completion of inspector certifications, implementation of advanced SPC techniques, and establishment of monthly quality review meetings for sustained improvement momentum.</p><p><strong>Sustainability Framework:</strong> Development of continuous improvement suggestion system and structured approach to ongoing optimization ensuring long-term quality performance and employee engagement in improvement processes.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1553484771-8966baa92e8b?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["team-supervisor@example.com", "process-engineer@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "a3-ai-1",
+      "title": "Complete Inspector Certification Program",
+      "description": "Finish remaining 15% of inspector certifications to achieve 100% completion rate and ensure consistent application of quality standards across all shifts",
+      "duedate": "2024-04-15",
+      "status": 1,
+      "assignees": ["team-supervisor@example.com", "quality-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-9",
+          "name": "certification_training_schedule.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "team-supervisor@example.com",
+          "uploadedAt": "2024-03-25T09:30:00Z",
+          "description": "Accelerated training schedule for completing remaining inspector certifications"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Training",
+      "priority": "High"
+    },
+    {
+      "id": "a3-ai-2",
+      "title": "Advanced SPC Implementation",
+      "description": "Implement advanced statistical process control techniques including control charts and capability studies to achieve final 1.5% defect rate target",
+      "duedate": "2024-05-01",
+      "status": 0,
+      "assignees": ["process-engineer@example.com", "quality-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-10",
+          "name": "spc_implementation_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-engineer@example.com",
+          "uploadedAt": "2024-03-28T14:15:00Z",
+          "description": "Advanced SPC implementation roadmap with control chart specifications and capability analysis procedures"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Process Improvement",
+      "priority": "High"
+    },
+    {
+      "id": "a3-ai-3",
+      "title": "Monthly Quality Review System",
+      "description": "Establish structured monthly quality review meetings with stakeholders to monitor performance trends and identify improvement opportunities",
+      "duedate": "2024-04-30",
+      "status": 1,
+      "assignees": ["quality-manager@example.com", "team-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-11",
+          "name": "quality_review_template.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-03-30T11:45:00Z",
+          "description": "Monthly quality review meeting template with KPI tracking and improvement action planning"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Sustainment",
+      "priority": "Medium"
+    },
+    {
+      "id": "a3-ai-4",
+      "title": "Continuous Improvement Suggestion System",
+      "description": "Develop and implement employee suggestion system for ongoing quality improvements and process optimization ideas from floor-level operators",
+      "duedate": "2024-05-15",
+      "status": 0,
+      "assignees": ["team-supervisor@example.com", "process-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-12",
+          "name": "suggestion_system_design.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "team-supervisor@example.com",
+          "uploadedAt": "2024-04-02T16:20:00Z",
+          "description": "Employee suggestion system design with idea submission, evaluation, and implementation tracking processes"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Employee Engagement",
+      "priority": "Medium"
+    }
+  ]
+}

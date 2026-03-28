@@ -1,0 +1,20 @@
+type Answers @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  learning_id: String
+  answer: String
+  type: String
+  question: String
+  assessmentID: ID! @index(name: "byAssessment")
+}
+
+type Assessment @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  self_statement_completed: Boolean
+  peer_statement_completed: Boolean
+  direct_statement_completed: Boolean
+  boss_statement_completed: Boolean
+  user_id: String
+  Answers: [Answers] @hasMany(indexName: "byAssessment", fields: ["id"])
+  ques_per_module: String
+}
+ 

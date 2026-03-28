@@ -1,0 +1,276 @@
+{
+  "report": {
+    "name": "Assembly Cycle Time Distribution Analysis - Engine Block Line",
+    "type": "Histogram Report",
+    "completed": false,
+    "assignedMembers": [
+      "industrial-engineer@example.com",
+      "line-supervisor@example.com",
+      "process-improvement@example.com"
+    ]
+  },
+  "chartData": [
+    {
+      "id": "hist-cycle-1",
+      "text": "18.0-19.5",
+      "value": "3",
+      "posX": "80",
+      "posY": "75",
+      "date": "",
+      "Description": "Exceptional performance cycles - analyze best practices for replication"
+    },
+    {
+      "id": "hist-cycle-2",
+      "text": "19.5-21.0",
+      "value": "7",
+      "posX": "130",
+      "posY": "175",
+      "date": "",
+      "Description": "Optimal cycle time range - target performance for standardization"
+    },
+    {
+      "id": "hist-cycle-3",
+      "text": "21.0-22.5",
+      "value": "15",
+      "posX": "180",
+      "posY": "375",
+      "date": "",
+      "Description": "Good performance range within takt time requirements"
+    },
+    {
+      "id": "hist-cycle-4",
+      "text": "22.5-24.0",
+      "value": "28",
+      "posX": "230",
+      "posY": "700",
+      "date": "",
+      "Description": "Most frequent cycle time range - process mode performance"
+    },
+    {
+      "id": "hist-cycle-5",
+      "text": "24.0-25.5",
+      "value": "32",
+      "posX": "280",
+      "posY": "800",
+      "date": "",
+      "Description": "Peak frequency bin - average process performance level"
+    },
+    {
+      "id": "hist-cycle-6",
+      "text": "25.5-27.0",
+      "value": "22",
+      "posX": "330",
+      "posY": "550",
+      "date": "",
+      "Description": "Acceptable performance but approaching takt time limit"
+    },
+    {
+      "id": "hist-cycle-7",
+      "text": "27.0-28.5",
+      "value": "12",
+      "posX": "380",
+      "posY": "300",
+      "date": "",
+      "Description": "Slower cycles requiring root cause analysis"
+    },
+    {
+      "id": "hist-cycle-8",
+      "text": "28.5-30.0",
+      "value": "8",
+      "posX": "430",
+      "posY": "200",
+      "date": "",
+      "Description": "Above takt time - production capacity constraint identified"
+    },
+    {
+      "id": "hist-cycle-9",
+      "text": "30.0-31.5",
+      "value": "4",
+      "posX": "480",
+      "posY": "100",
+      "date": "",
+      "Description": "Significant delays - investigate special causes and bottlenecks"
+    },
+    {
+      "id": "hist-cycle-10",
+      "text": "31.5-33.0",
+      "value": "2",
+      "posX": "530",
+      "posY": "50",
+      "date": "",
+      "Description": "Outlier cycles requiring immediate investigation"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-cycle-time-1",
+      "title": "Takt Time Performance Analysis",
+      "content": "With customer demand requiring 28.0 minutes per unit, 23% of cycles exceed takt time, creating production bottlenecks. The histogram reveals opportunity to improve capacity by reducing cycle time variation and eliminating delays above 27 minutes.",
+      "category": "Capacity Analysis",
+      "attachments": [
+        {
+          "id": "highlight-cycle-attachment-1",
+          "name": "takt_time_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "industrial-engineer@example.com",
+          "uploadedAt": "2024-01-22T08:30:00Z",
+          "description": "Comprehensive takt time vs cycle time performance analysis"
+        }
+      ]
+    },
+    {
+      "id": "highlight-cycle-time-2",
+      "title": "Process Variation Reduction Opportunity",
+      "content": "Current cycle time standard deviation of 3.2 minutes represents significant process variation. Industry best practices suggest potential for 40% variation reduction through standardized work implementation and bottleneck elimination.",
+      "category": "Variation Analysis",
+      "attachments": [
+        {
+          "id": "highlight-cycle-attachment-2",
+          "name": "variation_reduction_study.jpg",
+          "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-improvement@example.com",
+          "uploadedAt": "2024-01-22T09:15:00Z",
+          "description": "Process variation analysis and reduction opportunities study"
+        }
+      ]
+    },
+    {
+      "id": "highlight-cycle-time-3",
+      "title": "Best Practice Identification",
+      "content": "The 10 cycles completed in under 21 minutes demonstrate achievable performance levels. Video analysis reveals consistent application of lean techniques including pre-positioning, parallel operations, and smooth material flow.",
+      "category": "Best Practices",
+      "attachments": [
+        {
+          "id": "highlight-cycle-attachment-3",
+          "name": "best_practice_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "industrial-engineer@example.com",
+          "uploadedAt": "2024-01-22T10:00:00Z",
+          "description": "Best practice cycle time analysis and standardization opportunities"
+        }
+      ]
+    },
+    {
+      "id": "highlight-cycle-time-4",
+      "title": "Bottleneck Impact Assessment",
+      "content": "Detailed time study reveals three primary bottlenecks: material handling delays (2.1 min average), equipment setup variations (1.8 min), and quality inspection inconsistencies (1.4 min). Addressing these could reduce mean cycle time by 18%.",
+      "category": "Bottleneck Analysis",
+      "attachments": [
+        {
+          "id": "highlight-cycle-attachment-4",
+          "name": "bottleneck_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "line-supervisor@example.com",
+          "uploadedAt": "2024-01-22T11:30:00Z",
+          "description": "Comprehensive bottleneck identification and impact analysis"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "cycle-time-action-1",
+      "title": "Implement Standardized Work Instructions for Top Performers",
+      "description": "Document and standardize the methods used during the fastest cycle times (18-21 minutes). Create visual work instructions and train all operators on best practice techniques.",
+      "duedate": "2024-02-15",
+      "status": 1,
+      "assignees": ["industrial-engineer@example.com", "training-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "cycle-action-attachment-1",
+          "name": "standardized_work_template.jpg",
+          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "industrial-engineer@example.com",
+          "uploadedAt": "2024-01-22T12:00:00Z",
+          "description": "Standardized work instruction template for engine block assembly"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Standardization",
+      "priority": "High"
+    },
+    {
+      "id": "cycle-time-action-2",
+      "title": "Optimize Material Handling and Presentation",
+      "description": "Redesign material presentation to eliminate walking and searching. Implement point-of-use storage, pre-kitting, and ergonomic workstation layout to reduce material handling time by 2+ minutes per cycle.",
+      "duedate": "2024-03-01",
+      "status": 0,
+      "assignees": ["industrial-engineer@example.com", "facilities-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "cycle-action-attachment-2",
+          "name": "material_flow_redesign.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "facilities-coordinator@example.com",
+          "uploadedAt": "2024-01-22T13:30:00Z",
+          "description": "Material handling optimization and workstation redesign plan"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Material Flow",
+      "priority": "High"
+    },
+    {
+      "id": "cycle-time-action-3",
+      "title": "Deploy Real-Time Cycle Time Monitoring System",
+      "description": "Install digital counters and displays to provide real-time cycle time feedback to operators. Include visual indicators for takt time compliance and performance trending.",
+      "duedate": "2024-02-28",
+      "status": 0,
+      "assignees": ["automation-technician@example.com", "it-support@example.com"],
+      "attachments": [
+        {
+          "id": "cycle-action-attachment-3",
+          "name": "monitoring_system_design.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "automation-technician@example.com",
+          "uploadedAt": "2024-01-22T14:15:00Z",
+          "description": "Real-time cycle time monitoring system architecture"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Digital Systems",
+      "priority": "Medium"
+    },
+    {
+      "id": "cycle-time-action-4",
+      "title": "Conduct Equipment Setup Time Reduction Study",
+      "description": "Implement SMED (Single Minute Exchange of Die) methodology to reduce equipment changeover and setup variations. Target 50% reduction in setup-related cycle time delays.",
+      "duedate": "2024-03-15",
+      "status": 0,
+      "assignees": ["maintenance-engineer@example.com", "production-team-lead@example.com"],
+      "attachments": [
+        {
+          "id": "cycle-action-attachment-4",
+          "name": "smed_implementation_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "maintenance-engineer@example.com",
+          "uploadedAt": "2024-01-22T15:00:00Z",
+          "description": "SMED methodology implementation plan for setup time reduction"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Setup Reduction",
+      "priority": "Medium"
+    },
+    {
+      "id": "cycle-time-action-5",
+      "title": "Establish Cycle Time Performance Recognition Program",
+      "description": "Create team-based recognition system for achieving consistent cycle time targets. Include daily performance tracking, weekly team competitions, and monthly excellence awards.",
+      "duedate": "2024-02-20",
+      "status": 0,
+      "assignees": ["hr-coordinator@example.com", "line-supervisor@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Employee Engagement",
+      "priority": "Low"
+    }
+  ]
+}

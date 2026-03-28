@@ -1,0 +1,131 @@
+{
+  "report": {
+    "name": "Basic Process Improvement Attempt - Initial Impact Assessment",
+    "type": "Impact Map Report",
+    "completed": false,
+    "assignedMembers": ["supervisor@example.com", "admin-assistant@example.com"]
+  },
+  "chartData": [
+    {
+      "id": "impact-1",
+      "text": "Email Organization System\nLimited adoption (ROI: 12%)",
+      "textColor": "#32CD32",
+      "posX": 180,
+      "posY": 380,
+      "reportID": "impact-report-3"
+    },
+    {
+      "id": "impact-2",
+      "text": "Office Filing System\nBasic organization attempt (ROI: 15%)",
+      "textColor": "#FF6347",
+      "posX": 400,
+      "posY": 420,
+      "reportID": "impact-report-3"
+    },
+    {
+      "id": "impact-3",
+      "text": "Meeting Schedule Optimization\nInformal changes (ROI: 8%)",
+      "textColor": "#4169E1",
+      "posX": 650,
+      "posY": 450,
+      "reportID": "impact-report-3"
+    },
+    {
+      "id": "impact-4",
+      "text": "Supply Inventory Tracking\nSimple spreadsheet (ROI: 5%)",
+      "textColor": "#9932CC",
+      "posX": 750,
+      "posY": 400,
+      "reportID": "impact-report-3"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-impact-basic-1",
+      "title": "Limited Impact Measurement Understanding",
+      "description": "<p><strong>Informal Approach:</strong> Basic attempts at process improvement without systematic impact measurement or clear success criteria. Improvements lack quantifiable business value assessment and stakeholder alignment.</p><p><strong>Methodology Training Needed:</strong> Fundamental impact mapping training required to understand value quantification, stakeholder analysis, prioritization frameworks, and systematic measurement approaches.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["supervisor@example.com", "admin-assistant@example.com"]
+    },
+    {
+      "id": "highlight-impact-basic-2",
+      "title": "Unclear Success Criteria and Measurement",
+      "description": "<p><strong>No Baseline Establishment:</strong> Improvement initiatives lacking proper baseline measurement, target setting, and progress tracking. Current efforts show minimal ROI (5-15%) due to informal approach without systematic methodology.</p><p><strong>Measurement Framework Required:</strong> Comprehensive training needed on impact measurement, ROI calculation, stakeholder engagement, and systematic improvement planning to achieve meaningful business value.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["supervisor@example.com", "training-coordinator@example.com"]
+    },
+    {
+      "id": "highlight-impact-basic-3",
+      "title": "Limited Stakeholder Engagement",
+      "description": "<p><strong>Minimal Team Involvement:</strong> Improvement efforts limited to 1-2 individuals without broader stakeholder engagement or organizational support. Initiatives lack strategic alignment and systematic change management approach.</p><p><strong>Organizational Support Needed:</strong> Comprehensive change management and stakeholder engagement training required to expand improvement scope and achieve sustainable organizational impact.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["change-management@example.com", "supervisor@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "impact-basic-action-1",
+      "title": "Provide Impact Mapping Methodology Training",
+      "description": "Deliver fundamental training on impact mapping principles, value quantification, stakeholder analysis, and systematic improvement planning to build organizational capability.",
+      "duedate": "2024-06-30",
+      "status": 0,
+      "assignees": ["training-coordinator@example.com", "improvement-facilitator@example.com"],
+      "attachments": [
+        {
+          "id": "impact-basic-action-attachment-1",
+          "name": "impact_mapping_training_curriculum.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "training-coordinator@example.com",
+          "uploadedAt": "2024-02-20T10:30:00Z",
+          "description": "Impact mapping methodology training curriculum with value quantification and stakeholder analysis techniques"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Capability Building",
+      "priority": "High"
+    },
+    {
+      "id": "impact-basic-action-2",
+      "title": "Establish Basic Measurement Framework",
+      "description": "Create simple measurement framework with baseline establishment, target setting, and progress tracking protocols for systematic improvement approach development.",
+      "duedate": "2024-07-31",
+      "status": 0,
+      "assignees": ["supervisor@example.com", "measurement-specialist@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Framework Development",
+      "priority": "High"
+    },
+    {
+      "id": "impact-basic-action-3",
+      "title": "Develop Stakeholder Engagement Plan",
+      "description": "Create systematic stakeholder identification, engagement, and communication plan to expand improvement initiative scope and organizational support for enhanced impact.",
+      "duedate": "2024-08-31",
+      "status": 0,
+      "assignees": ["change-management@example.com", "communications@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Stakeholder Management",
+      "priority": "Medium"
+    },
+    {
+      "id": "impact-basic-action-4",
+      "title": "Restart Improvement Initiative with Systematic Approach",
+      "description": "Restart improvement efforts using proper impact mapping methodology with stakeholder engagement, value quantification, and systematic measurement for sustainable results.",
+      "duedate": "2024-09-30",
+      "status": 0,
+      "assignees": ["supervisor@example.com", "improvement-facilitator@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Project Restart",
+      "priority": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+Now let's get started with the Waste Walk report. 
+
+The Waste Walk report has a unique interface. At the top, you'll see two tabs - "HIGHLIGHTS REPORT" which is selected by default, and "Departments".
+
+Similar to A3, DMAIC, and PDCA reports, Waste Walk reports use the HIGHLIGHTS REPORT format which is specifically designed for documenting waste identification and elimination opportunities found during your walk.
+
+You can add action items separately for tracking specific waste elimination initiatives.
+
+A Waste Walk is a systematic observation of your workplace to identify the 8 wastes of lean:
+- Defects: Errors requiring rework or scrap
+- Overproduction: Making more than customer demand
+- Waiting: Idle time for people or equipment
+- Non-utilized talent: Not using people's skills fully
+- Transportation: Unnecessary movement of materials
+- Inventory: Excess materials or WIP
+- Motion: Unnecessary movement of people
+- Extra processing: Doing more than customer requires
+
+In the HIGHLIGHTS REPORT view, you can create structured sections for each waste type or area observed. Each highlight can focus on specific waste findings.
+
+To add a new section, click the Add button. You can then:
+- Enter a title for your waste observation
+- Select the waste type from the 8 wastes
+- Add detailed description using the rich text editor
+- Upload photos of the waste observed
+- Assign team members responsible for addressing the waste
+
+The highlights are displayed in a grid layout, making it easy to view all your waste observations on one screen.
+
+Finally, you can export to PDF and get yourself a comprehensive Waste Walk report documenting all observations, photos, and improvement opportunities.
+
+The PDF export provides a professional format perfect for sharing findings with leadership and planning waste elimination kaizen events.
+
+That's it for the Waste Walk report. It's an excellent tool for systematic waste identification and elimination. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

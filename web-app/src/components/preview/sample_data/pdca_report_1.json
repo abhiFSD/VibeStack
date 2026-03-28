@@ -1,0 +1,366 @@
+{
+  "report": {
+    "name": "Equipment Maintenance Process Improvement - PDCA Cycle",
+    "type": "PDCA Report",
+    "completed": true,
+    "assignedMembers": ["maintenance-manager@example.com", "operations-supervisor@example.com", "reliability-engineer@example.com", "technician-lead@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Plan",
+      "orderIndex": 0,
+      "assignees": ["maintenance-manager@example.com", "reliability-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "current_maintenance_data.jpg",
+          "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "reliability-engineer@example.com",
+          "uploadedAt": "2024-01-05T08:30:00Z",
+          "description": "Current equipment failure data showing 15% unplanned downtime baseline"
+        }
+      ],
+      "description": "Comprehensive planning phase identifying equipment maintenance problems and developing systematic improvement approach.",
+      "statements": [
+        {
+          "name": "Problem clearly identified: 15% unplanned downtime due to reactive maintenance",
+          "value": 5
+        },
+        {
+          "name": "Root cause analysis completed using fishbone and 5-why methodology",
+          "value": 5
+        },
+        {
+          "name": "SMART goal established: Reduce unplanned downtime to 8% within 6 months",
+          "value": 5
+        },
+        {
+          "name": "Comprehensive action plan with timeline and responsibilities defined",
+          "value": 4
+        },
+        {
+          "name": "Success metrics and measurement methods clearly established",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Do",
+      "orderIndex": 1,
+      "assignees": ["operations-supervisor@example.com", "technician-lead@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "predictive_maintenance_implementation.jpg",
+          "url": "https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "technician-lead@example.com",
+          "uploadedAt": "2024-01-15T10:45:00Z",
+          "description": "Implementation of predictive maintenance sensors and digital monitoring systems"
+        }
+      ],
+      "description": "Systematic execution of planned improvements including preventive maintenance schedules and predictive technology implementation.",
+      "statements": [
+        {
+          "name": "Preventive maintenance schedules implemented for all critical equipment",
+          "value": 5
+        },
+        {
+          "name": "Predictive maintenance sensors installed on high-risk assets",
+          "value": 4
+        },
+        {
+          "name": "Maintenance staff trained on new procedures and digital tools",
+          "value": 5
+        },
+        {
+          "name": "Digital work order system deployed for tracking and efficiency",
+          "value": 4
+        },
+        {
+          "name": "Daily equipment health monitoring processes established",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Check",
+      "orderIndex": 2,
+      "assignees": ["reliability-engineer@example.com", "maintenance-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "performance_improvement_results.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "reliability-engineer@example.com",
+          "uploadedAt": "2024-04-10T14:20:00Z",
+          "description": "Results analysis showing 60% reduction in unplanned downtime from 15% to 6%"
+        }
+      ],
+      "description": "Comprehensive evaluation of improvement results showing significant performance gains and validation of approach effectiveness.",
+      "statements": [
+        {
+          "name": "Unplanned downtime reduced from 15% to 6% (exceeding 8% target)",
+          "value": 5
+        },
+        {
+          "name": "Equipment availability increased from 85% to 94%",
+          "value": 5
+        },
+        {
+          "name": "Maintenance costs reduced by 25% through predictive approach",
+          "value": 4
+        },
+        {
+          "name": "Mean time between failures (MTBF) improved by 40%",
+          "value": 5
+        },
+        {
+          "name": "Customer satisfaction scores increased due to improved reliability",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Act",
+      "orderIndex": 3,
+      "assignees": ["maintenance-manager@example.com", "operations-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "standardization_rollout_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "maintenance-manager@example.com",
+          "uploadedAt": "2024-04-25T11:15:00Z",
+          "description": "Standardization plan for rolling out successful practices across all production lines"
+        }
+      ],
+      "description": "Standardization and expansion of successful improvements across entire facility with continuous monitoring systems.",
+      "statements": [
+        {
+          "name": "Best practices documented and standardized across all equipment",
+          "value": 5
+        },
+        {
+          "name": "Successful approach expanded to all production lines and areas",
+          "value": 4
+        },
+        {
+          "name": "Continuous monitoring system established for ongoing optimization",
+          "value": 5
+        },
+        {
+          "name": "Training programs updated to include new standard procedures",
+          "value": 4
+        },
+        {
+          "name": "Next PDCA cycle planned for further equipment optimization",
+          "value": 5
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "pdca-highlight-1",
+      "title": "Plan",
+      "description": "<p><strong>Systematic Problem Identification:</strong> Comprehensive analysis identified 15% unplanned downtime as critical issue affecting production efficiency, with root causes traced to reactive maintenance approach and insufficient predictive capabilities.</p><p><strong>Strategic Goal Setting:</strong> Established SMART objective to reduce unplanned downtime to 8% within 6 months through implementation of predictive maintenance technologies and systematic preventive procedures.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["maintenance-manager@example.com", "reliability-engineer@example.com"]
+    },
+    {
+      "id": "pdca-highlight-2",
+      "title": "Do",
+      "description": "<p><strong>Technology Implementation:</strong> Successfully deployed predictive maintenance sensors on high-risk equipment assets and implemented comprehensive digital work order system for enhanced tracking and efficiency management.</p><p><strong>Process Transformation:</strong> Established preventive maintenance schedules for all critical equipment and delivered comprehensive training to maintenance staff on new procedures and digital tools.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["operations-supervisor@example.com", "technician-lead@example.com"]
+    },
+    {
+      "id": "pdca-highlight-3",
+      "title": "Check",
+      "description": "<p><strong>Outstanding Results:</strong> Achieved 60% reduction in unplanned downtime from 15% to 6%, significantly exceeding the 8% target, with corresponding increase in equipment availability from 85% to 94%.</p><p><strong>Financial Impact:</strong> Realized 25% reduction in maintenance costs through predictive approach while achieving 40% improvement in mean time between failures (MTBF) across all monitored equipment.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["reliability-engineer@example.com", "maintenance-manager@example.com"]
+    },
+    {
+      "id": "pdca-highlight-4",
+      "title": "Act",
+      "description": "<p><strong>Standardization Success:</strong> Documented and standardized best practices across all equipment, expanding successful approach to all production lines with comprehensive training program updates for sustained implementation.</p><p><strong>Continuous Improvement:</strong> Established continuous monitoring system for ongoing optimization and planned next PDCA cycle for further equipment performance enhancement and reliability improvement.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["maintenance-manager@example.com", "operations-supervisor@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "pdca-ai-1",
+      "title": "Expand Predictive Maintenance to Secondary Equipment",
+      "description": "Implement predictive maintenance sensors and monitoring on remaining secondary equipment based on successful primary equipment results",
+      "duedate": "2024-06-30",
+      "status": 1,
+      "assignees": ["reliability-engineer@example.com", "technician-lead@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-5",
+          "name": "secondary_equipment_assessment.jpg",
+          "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "reliability-engineer@example.com",
+          "uploadedAt": "2024-05-02T09:15:00Z",
+          "description": "Assessment plan for implementing predictive maintenance on secondary equipment assets"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Technology Expansion",
+      "priority": "High"
+    },
+    {
+      "id": "pdca-ai-2",
+      "title": "Develop Advanced Analytics Dashboard",
+      "description": "Create comprehensive analytics dashboard for real-time equipment performance monitoring and predictive failure alerts",
+      "duedate": "2024-07-15",
+      "status": 0,
+      "assignees": ["reliability-engineer@example.com", "maintenance-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Digital Enhancement",
+      "priority": "Medium"
+    },
+    {
+      "id": "pdca-ai-3",
+      "title": "Establish Cross-Functional Reliability Team",
+      "description": "Create permanent cross-functional team for ongoing equipment reliability optimization and continuous PDCA cycle management",
+      "duedate": "2024-06-15",
+      "status": 1,
+      "assignees": ["maintenance-manager@example.com", "operations-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-7",
+          "name": "team_charter_draft.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-supervisor@example.com",
+          "uploadedAt": "2024-05-08T10:45:00Z",
+          "description": "Draft charter for cross-functional reliability team with roles and responsibilities"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Team Development",
+      "priority": "Medium"
+    },
+    {
+      "id": "pdca-ai-4",
+      "title": "Conduct Next PDCA Cycle - Energy Efficiency",
+      "description": "Launch next PDCA cycle focusing on equipment energy efficiency optimization building on reliability improvements",
+      "duedate": "2024-08-01",
+      "status": 0,
+      "assignees": ["reliability-engineer@example.com", "maintenance-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-8",
+          "name": "energy_baseline_assessment.jpg",
+          "url": "https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "reliability-engineer@example.com",
+          "uploadedAt": "2024-05-10T15:20:00Z",
+          "description": "Baseline energy consumption assessment for next PDCA cycle planning"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Continuous Improvement",
+      "priority": "High"
+    },
+    {
+      "id": "pdca-ai-5",
+      "title": "Document Lessons Learned Knowledge Base",
+      "description": "Create comprehensive knowledge base documenting lessons learned and best practices from successful PDCA implementation",
+      "duedate": "2024-07-01",
+      "status": 0,
+      "assignees": ["technician-lead@example.com", "operations-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-9",
+          "name": "knowledge_base_template.jpg",
+          "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "technician-lead@example.com",
+          "uploadedAt": "2024-05-12T11:55:00Z",
+          "description": "Template structure for equipment maintenance lessons learned knowledge base"
+        }
+      ],
+      "orderIndex": 4,
+      "category": "Knowledge Management",
+      "priority": "Medium"
+    }
+  ],
+  "aiAnalysis": {
+    "overallAssessment": {
+      "maturityLevel": "Advanced",
+      "assessmentStatus": "Exemplary PDCA implementation with outstanding systematic approach and exceptional results exceeding targets",
+      "totalScore": null
+    },
+    "keyFindings": [
+      "Outstanding systematic problem-solving approach with comprehensive root cause analysis and clear goal establishment",
+      "Exceptional execution with successful implementation of both preventive and predictive maintenance technologies",
+      "Results significantly exceeded targets with 60% reduction in unplanned downtime (6% vs 8% target)",
+      "Excellent standardization and knowledge transfer across all production areas for sustained improvement",
+      "Strong commitment to continuous improvement with next PDCA cycle already planned and resourced"
+    ],
+    "learningPoints": [
+      "PDCA Methodology Mastery: Demonstrates textbook implementation of Plan-Do-Check-Act cycle with clear phase transitions and systematic approach to continuous improvement",
+      "Problem Definition Excellence: Shows importance of comprehensive problem identification and root cause analysis before jumping to solutions",
+      "SMART Goal Setting: Exemplifies how specific, measurable goals (8% downtime target) drive focused improvement efforts",
+      "Technology Integration Strategy: Illustrates effective combination of preventive and predictive maintenance technologies for maximum impact",
+      "Change Management Success: Demonstrates proper training and communication strategies for successful technology adoption",
+      "Results Validation Importance: Shows comprehensive measurement and validation of improvement results against established targets",
+      "Standardization Value: Highlights critical importance of documenting and standardizing successful practices for sustainability",
+      "Continuous Improvement Mindset: Exemplifies how successful PDCA cycles naturally lead to additional improvement opportunities"
+    ],
+    "strengthAreas": [
+      {
+        "category": "Plan Phase Excellence",
+        "highlights": "Comprehensive problem analysis with clear root cause identification and SMART goal establishment",
+        "bestPractices": "Systematic use of problem-solving tools (fishbone, 5-why), quantified baseline measurements, and specific target setting"
+      },
+      {
+        "category": "Implementation Success",
+        "highlights": "Successful deployment of advanced predictive maintenance technology with comprehensive staff training",
+        "bestPractices": "Phased technology rollout, comprehensive training programs, and digital work order system integration"
+      },
+      {
+        "category": "Results Achievement",
+        "highlights": "Exceptional performance exceeding targets with 60% downtime reduction and 25% cost savings",
+        "bestPractices": "Rigorous measurement and validation, multiple performance metrics tracking, and financial impact quantification"
+      }
+    ],
+    "improvementOpportunities": [],
+    "nextSteps": [
+      "Continue expansion of predictive maintenance technology to remaining secondary equipment assets",
+      "Develop advanced analytics dashboard for enhanced real-time equipment performance monitoring",
+      "Establish permanent cross-functional reliability team for ongoing continuous improvement coordination",
+      "Launch next PDCA cycle focusing on equipment energy efficiency optimization",
+      "Create comprehensive knowledge base documenting lessons learned and best practices for future reference"
+    ],
+    "organizationalMaturity": {
+      "level": "Advanced",
+      "characteristics": [
+        "Systematic problem-solving methodology consistently applied across organization",
+        "Strong data-driven decision making culture with comprehensive measurement systems",
+        "Effective change management processes supporting technology adoption and process improvement",
+        "Commitment to continuous improvement with structured approach to ongoing optimization",
+        "Cross-functional collaboration and knowledge sharing well-established"
+      ],
+      "readinessForAdvancement": "Organization demonstrates advanced PDCA maturity with excellent readiness for tackling more complex improvement challenges and serving as a model for other departments and facilities."
+    }
+  }
+}

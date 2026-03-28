@@ -1,0 +1,32 @@
+Now let's get started with the Impact Map report.
+
+The Impact Map report helps you visualize and plan the impact of changes, improvements, or projects on various stakeholders and processes.
+
+At the top, you'll see the Action Items section for tracking implementation tasks and milestones.
+
+**Data Entry Interface**
+Below that, you'll find a data table for mapping impact relationships:
+
+Click "Add" to create new impact entries. For each impact, you'll provide:
+- **Label**: The stakeholder, process, or area being impacted
+- **Value**: Impact severity, priority, or magnitude score
+- **Description**: Detailed explanation of the expected impact and its implications
+
+**Impact Analysis**
+The Impact Map helps you systematically evaluate:
+- **Stakeholder Impact**: How changes affect different people or groups
+- **Process Impact**: Effects on workflows, procedures, and operations
+- **System Impact**: Changes to tools, technology, or infrastructure
+- **Performance Impact**: Effects on metrics, KPIs, and outcomes
+
+Export your Impact Map to PDF, including:
+- Complete impact analysis with all stakeholders and processes
+- Priority scores and detailed impact descriptions
+- Risk assessment and mitigation strategies
+- Implementation recommendations and next steps
+
+The PDF provides professional documentation for project planning meetings, change management initiatives, and stakeholder communications.
+
+That's it for the Impact Map report. It's an essential tool for understanding and planning the effects of organizational changes. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

@@ -1,0 +1,25 @@
+{
+  "short_name": "VibeStack Pro",
+  "name": "VibeStack Pro - Lean Tools and Training",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "689x674",
+      "type": "image/png"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "689x674"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "689x674"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#00897b",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,64 @@
+Hello and welcome to LeanFit Pro. Here we'll learn how to create a DMAIC report.
+
+First, login to LeanFit and you'll see a menu. This opens a mega menu for the application. Locate the Reports option here and click on it.
+
+Now you can see the reports page with a Create Report button. Let's click on it.
+
+You can add a report name here and select D-M-A-I-C from the report type dropdown menu. We have 21 report types available.
+
+You can also assign this report to a project and assign it to organization members.
+
+Let's create the DMAIC report now.
+
+Once it's created, you can see the video tutorial from here. Click on Edit to edit the report details, such as the report name. Note that you cannot change the report type once it's created. Everything else remains the same, and you can update the details.
+
+You can also copy a report with all its data.
+
+Additionally, you can mark the report as completed. When you do this, the system will reward you with awards according to your organization's configuration.
+
+Now let's get started with the DMAIC report. Click on Open to open the report.
+
+The DMAIC report has a unique interface. At the top, you'll see two tabs - "HIGHLIGHTS REPORT" which is selected by default, and "Departments".
+
+Similar to A3 reports, DMAIC reports use the HIGHLIGHTS REPORT format which is specifically designed for Six Sigma projects. This structured approach helps you document each phase of your DMAIC journey.
+
+In the HIGHLIGHTS REPORT view, you can create structured sections for each DMAIC phase. The typical DMAIC sections include:
+
+- (Prepare): Optional preparation phase for project setup
+- Define: Problem definition, project scope, and team formation
+- Measure: Baseline data collection and measurement system analysis
+- Analyze: Root cause analysis and statistical analysis
+- Improve: Solution development and implementation
+- Control: Sustainment planning and process control
+
+Each highlight section can include:
+- A title for the DMAIC phase or sub-phase
+- Rich text description with formatting options
+- Multiple images, charts, and statistical analysis outputs
+- Assignees from your team members
+
+To add a new highlight section, click the Add Highlight button. You can then:
+- Enter a title for your DMAIC phase
+- Add detailed description using the rich text editor
+- Upload supporting images, charts, and analysis results
+- Assign team members responsible for that phase
+
+The highlights are displayed in a grid layout, showing 4 sections per row, making it easy to view your entire DMAIC project on one screen.
+
+You can document statistical analysis results, include process maps, fishbone diagrams, control charts, and other Six Sigma tools within each highlight.
+
+Unlike basic reports, DMAIC reports don't have the radar chart visualization since they focus on systematic problem-solving through data analysis.
+
+You can add action items separately for tracking specific tasks and deliverables throughout your DMAIC project.
+
+The system allows you to collaborate with Green Belts, Black Belts, and team members, ensuring everyone stays aligned throughout the project.
+
+You can rearrange the highlights by dragging and dropping them to match your specific DMAIC flow or add additional phases as needed.
+
+Finally, you can export to PDF and get yourself a professional DMAIC report formatted for Six Sigma documentation standards, perfect for project reviews and certification requirements.
+
+The PDF export includes all your highlights with their descriptions, statistical analyses, images, and a clean layout that follows DMAIC best practices.
+
+That's it for the DMAIC report. It's an excellent tool for structured Six Sigma improvement projects. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

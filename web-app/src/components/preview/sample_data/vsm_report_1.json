@@ -1,0 +1,469 @@
+{
+  "report": {
+    "name": "Customer Order Processing - Current State VSM",
+    "type": "Value Stream Mapping Report",
+    "completed": false,
+    "assignedMembers": []
+  },
+  "vsmData": {
+    "process": [
+      {
+        "processID": "1704123456_123",
+        "Name": "Order Receipt",
+        "CycleTime": "8.5",
+        "CycleTimeUnit": "minutes",
+        "CycleEfficiency": "",
+        "Attributes": [
+          {
+            "id": "attr-1",
+            "name": "Customer call intake",
+            "status": "Value Added",
+            "value": "3.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-2", 
+            "name": "Data entry verification",
+            "status": "Value Enabled",
+            "value": "2.5",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-3",
+            "name": "System lag time",
+            "status": "Non-value Added",
+            "value": "2.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-4",
+            "name": "Order confirmation email",
+            "status": "Value Added", 
+            "value": "1.0",
+            "unit": "minutes"
+          }
+        ],
+        "Note": "Manual process with frequent system delays. Customer satisfaction directly tied to response time.",
+        "CycleTimeIsSumOfAttributes": true,
+        "Images": [
+          "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
+          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop"
+        ],
+        "Waste": ["Waiting", "Motion"]
+      },
+      {
+        "processID": "1704123456_124",
+        "Name": "Credit Check",
+        "CycleTime": "12.0",
+        "CycleTimeUnit": "minutes",
+        "CycleEfficiency": "",
+        "Attributes": [
+          {
+            "id": "attr-5",
+            "name": "Credit bureau lookup",
+            "status": "Value Added",
+            "value": "4.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-6",
+            "name": "Manual review process",
+            "status": "Value Enabled",
+            "value": "5.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-7",
+            "name": "Approval waiting time",
+            "status": "Non-value Added",
+            "value": "3.0",
+            "unit": "minutes"
+          }
+        ],
+        "Note": "Automated for orders under $5000, manual review required above threshold.",
+        "CycleTimeIsSumOfAttributes": true,
+        "Images": [
+          "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800&h=600&fit=crop",
+          "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+        ],
+        "Waste": ["Waiting", "Overprocessing"]
+      },
+      {
+        "processID": "1704123456_125",
+        "Name": "Inventory Check",
+        "CycleTime": "6.0",
+        "CycleTimeUnit": "minutes",
+        "CycleEfficiency": "",
+        "Attributes": [
+          {
+            "id": "attr-8",
+            "name": "Stock level verification",
+            "status": "Value Added",
+            "value": "2.5",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-9",
+            "name": "Warehouse coordination",
+            "status": "Value Enabled",
+            "value": "2.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-10",
+            "name": "Multiple system checks",
+            "status": "Non-value Added",
+            "value": "1.5",
+            "unit": "minutes"
+          }
+        ],
+        "Note": "Real-time inventory system recently implemented but still requires manual verification.",
+        "CycleTimeIsSumOfAttributes": true,
+        "Images": [
+          "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=600&fit=crop",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop"
+        ],
+        "Waste": ["Defects", "Overprocessing"]
+      },
+      {
+        "processID": "1704123456_126",
+        "Name": "Order Processing",
+        "CycleTime": "15.0",
+        "CycleTimeUnit": "minutes",
+        "CycleEfficiency": "",
+        "Attributes": [
+          {
+            "id": "attr-11",
+            "name": "Order configuration",
+            "status": "Value Added",
+            "value": "8.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-12",
+            "name": "Documentation preparation",
+            "status": "Value Enabled",
+            "value": "4.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-13",
+            "name": "System updates",
+            "status": "Value Enabled",
+            "value": "2.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-14",
+            "name": "Redundant data entry",
+            "status": "Non-value Added",
+            "value": "1.0",
+            "unit": "minutes"
+          }
+        ],
+        "Note": "Core value-adding step. High skill requirement. Opportunities for automation in routine tasks.",
+        "CycleTimeIsSumOfAttributes": true,
+        "Images": [
+          "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=600&fit=crop",
+          "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop"
+        ],
+        "Waste": ["Overproduction", "Motion"]
+      },
+      {
+        "processID": "1704123456_127",
+        "Name": "Fulfillment",
+        "CycleTime": "25.0",
+        "CycleTimeUnit": "minutes",
+        "CycleEfficiency": "",
+        "Attributes": [
+          {
+            "id": "attr-15",
+            "name": "Pick and pack",
+            "status": "Value Added",
+            "value": "18.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-16",
+            "name": "Quality check",
+            "status": "Value Enabled",
+            "value": "4.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-17",
+            "name": "Shipping label creation",
+            "status": "Value Enabled",
+            "value": "2.0",
+            "unit": "minutes"
+          },
+          {
+            "id": "attr-18",
+            "name": "Handoff delays",
+            "status": "Non-value Added",
+            "value": "1.0",
+            "unit": "minutes"
+          }
+        ],
+        "Note": "Well-optimized physical process. Strong quality controls in place.",
+        "CycleTimeIsSumOfAttributes": true,
+        "Images": [
+          "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=600&fit=crop",
+          "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?w=800&h=600&fit=crop"
+        ],
+        "Waste": ["Motion", "Waiting"]
+      }
+    ],
+    "inventory": [
+      {
+        "WaitTimeOrInventory": "45",
+        "WaitTimeOrInventoryUnit": "minutes",
+        "waste": ["Waiting", "Overprocessing"]
+      },
+      {
+        "WaitTimeOrInventory": "30",
+        "WaitTimeOrInventoryUnit": "minutes", 
+        "waste": ["Waiting"]
+      },
+      {
+        "WaitTimeOrInventory": "15",
+        "WaitTimeOrInventoryUnit": "minutes",
+        "waste": ["Defects"]
+      },
+      {
+        "WaitTimeOrInventory": "60",
+        "WaitTimeOrInventoryUnit": "minutes",
+        "waste": ["Waiting", "Motion"]
+      },
+      {
+        "WaitTimeOrInventory": "120",
+        "WaitTimeOrInventoryUnit": "minutes",
+        "waste": ["Waiting", "Inventory"]
+      }
+    ],
+    "demandData": {
+      "totalDemand": "240",
+      "timeToProduce": "480",
+      "timeToProduceUnit": "minutes"
+    },
+    "informationFlow": "Daily batch processing at 9 AM\n↓\nCustomer orders received via phone, email, web portal\n↓\nOrders queued in CRM system\n↓\nDaily production schedule generated\n↓\nWMS integration for inventory allocation\n↓\nShipping notifications sent automatically\n\nInformation Flow Issues:\n• Manual data entry between systems\n• No real-time inventory visibility\n• Batch processing creates delays\n• Multiple disconnected systems",
+    "kaizenProject": "VSM Improvement Initiative: Customer Order Processing Stream\n\nObjective: Reduce total lead time from 270 minutes to 180 minutes (33% improvement)\n\nKey Improvement Areas:\n1. Implement real-time order processing (eliminate batch delays)\n2. Automate credit checks for orders under $10,000\n3. Integrate inventory system with order processing\n4. Streamline handoffs between departments\n5. Implement digital workflow management\n\nExpected Benefits:\n• 90-minute reduction in total lead time\n• 40% improvement in cycle time efficiency\n• Reduced manual errors\n• Enhanced customer satisfaction\n• Better resource utilization\n\nImplementation Timeline: 6 months\nProject Team: Operations, IT, Customer Service, Warehouse",
+    "summaryData": {
+      "totalLeadTime": {
+        "value": "336.50",
+        "unit": "minutes"
+      },
+      "totalCycleTime": {
+        "value": "66.50",
+        "unit": "minutes"
+      },
+      "cycleTimePercentage": "19.75",
+      "totalWaitTimeOrInventory": {
+        "value": "270.00",
+        "unit": "minutes"
+      },
+      "waitTimeOrInventoryDelayPercentage": "80.25"
+    }
+  },
+  "aiAnalysis": {
+    "overallAssessment": {
+      "maturityLevel": "Developing",
+      "valueStreamHealth": "Mixed Performance",
+      "leadTimeEfficiency": "19.8% (Industry Benchmark: 25-35%)",
+      "improvementPotential": "High - 90+ minute reduction possible"
+    },
+    "keyFindings": [
+      "Excessive Wait Times: 80% of total lead time is non-value-added waiting (270 minutes out of 336.5 total)",
+      "Strong Fulfillment Process: Final step shows excellent efficiency with 96% value-added time",
+      "Information Flow Bottlenecks: Manual data entry and batch processing create significant delays",
+      "Process Capability Gap: Current cycle efficiency of 19.8% significantly below industry standards",
+      "Customer Impact: 5.6-hour lead time affects customer satisfaction and competitive positioning"
+    ],
+    "strengthAreas": [
+      {
+        "process": "Fulfillment",
+        "highlights": "Highly efficient with 96% value-added time, strong quality controls, optimized physical layout",
+        "bestPractices": "Streamlined pick-and-pack process, effective quality checkpoints, minimal handoff delays"
+      },
+      {
+        "process": "Order Processing", 
+        "highlights": "Core value-creation step with 93% efficiency, skilled workforce, good documentation",
+        "bestPractices": "Comprehensive order configuration, thorough preparation, systematic approach"
+      }
+    ],
+    "improvementOpportunities": [
+      {
+        "process": "Order Receipt",
+        "gaps": "System delays account for 24% of cycle time, manual processes create bottlenecks",
+        "recommendations": "Implement automated order capture, upgrade system infrastructure, reduce manual touchpoints"
+      },
+      {
+        "process": "Credit Check",
+        "gaps": "25% waiting time, manual review for routine orders, approval bottlenecks",
+        "recommendations": "Automate standard credit decisions, implement risk-based thresholds, streamline approval workflow"
+      },
+      {
+        "process": "Inventory Check",
+        "gaps": "Multiple system checks create redundancy, manual verification required",
+        "recommendations": "Single source of truth for inventory, real-time system integration, automated stock verification"
+      }
+    ],
+    "wasteAnalysis": {
+      "primaryWastes": [
+        {
+          "type": "Waiting",
+          "impact": "270 minutes (80% of lead time)",
+          "causes": "Batch processing, approval queues, system delays",
+          "solutions": "Real-time processing, automated approvals, system integration"
+        },
+        {
+          "type": "Overprocessing",
+          "impact": "Multiple manual checks and redundant data entry",
+          "causes": "Disconnected systems, lack of automation",
+          "solutions": "System integration, workflow automation, single data entry"
+        },
+        {
+          "type": "Motion",
+          "impact": "Physical and digital handoffs create delays",
+          "causes": "Process handoffs, system switching",
+          "solutions": "Digital workflow, process consolidation, cross-training"
+        }
+      ]
+    },
+    "flowMetrics": {
+      "currentState": {
+        "totalLeadTime": "336.5 minutes (5.6 hours)",
+        "valueAddedTime": "66.5 minutes (19.8%)",
+        "waitTime": "270 minutes (80.2%)",
+        "processCount": "5 steps",
+        "handoffCount": "4 handoffs"
+      },
+      "futureStateTarget": {
+        "totalLeadTime": "180 minutes (3.0 hours)",
+        "valueAddedTime": "66.5 minutes (37%)",
+        "waitTime": "113.5 minutes (63%)",
+        "processCount": "4 steps",
+        "handoffCount": "2 handoffs"
+      }
+    },
+    "learningPoints": [
+      "Value Stream Perspective: This VSM reveals the critical difference between process efficiency (individual steps) and flow efficiency (entire value stream)",
+      "Wait Time Impact: The 80/20 pattern - 80% waiting time, 20% processing time - is common in administrative processes and represents the biggest improvement opportunity",
+      "Information Flow Design: The current batch-based information flow creates artificial delays that don't exist in the physical process",
+      "System Integration Value: Disconnected systems force manual handoffs that multiply lead times beyond what individual process times would suggest",
+      "Customer Value Focus: From a customer perspective, a 5.6-hour order process feels slow regardless of how efficient individual steps might be"
+    ],
+    "nextSteps": [
+      "Implement Real-Time Order Processing to eliminate 45-minute batch delays",
+      "Deploy Automated Credit Checking for orders under $10,000 (85% of volume)",
+      "Integrate Inventory Management System with order processing platform",
+      "Create Digital Workflow to reduce handoff delays by 75%",
+      "Establish Continuous Flow Metrics dashboard for ongoing monitoring"
+    ],
+    "industryBenchmark": {
+      "currentPerformance": "Below Average",
+      "leadTimeComparison": "336 minutes vs industry average of 240 minutes",
+      "efficiencyGap": "19.8% vs industry standard of 25-35%",
+      "improvementPotential": "46% lead time reduction possible with targeted improvements"
+    }
+  },
+  "actionItems": [
+    {
+      "id": "vsm-ai-1",
+      "title": "Implement Real-Time Order Processing System",
+      "description": "Replace batch processing with real-time order flow to eliminate 45-minute delays at order receipt stage",
+      "duedate": "2024-03-15",
+      "status": 1,
+      "assignees": ["it-manager@example.com", "operations-director@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-vsm-1",
+          "name": "realtime_processing_architecture.jpg",
+          "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "it-manager@example.com",
+          "uploadedAt": "2024-01-20T10:15:00Z",
+          "description": "Proposed real-time processing system architecture"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Information Flow",
+      "priority": "High"
+    },
+    {
+      "id": "vsm-ai-2", 
+      "title": "Automate Credit Check Process",
+      "description": "Implement automated credit checking for orders under $10,000 to reduce manual review time from 12 to 4 minutes",
+      "duedate": "2024-02-28",
+      "status": 0,
+      "assignees": ["finance-manager@example.com", "it-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-vsm-2",
+          "name": "credit_automation_workflow.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "finance-manager@example.com", 
+          "uploadedAt": "2024-01-18T14:30:00Z",
+          "description": "Automated credit check workflow design"
+        },
+        {
+          "id": "attachment-vsm-2b",
+          "name": "credit_system_interface.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "it-analyst@example.com",
+          "uploadedAt": "2024-01-19T09:20:00Z",
+          "description": "Credit system integration interface mockup"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Process Automation",
+      "priority": "High"
+    },
+    {
+      "id": "vsm-ai-3",
+      "title": "Integrate Inventory Management Systems",
+      "description": "Connect real-time inventory system with order processing to eliminate manual verification steps",
+      "duedate": "2024-04-01",
+      "status": 0,
+      "assignees": ["warehouse-manager@example.com", "systems-integrator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-vsm-3a",
+          "name": "inventory_integration_diagram.jpg",
+          "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "systems-integrator@example.com",
+          "uploadedAt": "2024-01-21T16:45:00Z",
+          "description": "Inventory system integration architecture diagram"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "System Integration",
+      "priority": "Medium"
+    },
+    {
+      "id": "vsm-ai-4",
+      "title": "Create Digital Workflow Dashboard",
+      "description": "Develop visual workflow management system to track orders and reduce handoff delays between departments",
+      "duedate": "2024-03-30",
+      "status": 0,
+      "assignees": ["process-improvement@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-vsm-3",
+          "name": "workflow_dashboard_mockup.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-improvement@example.com",
+          "uploadedAt": "2024-01-22T09:45:00Z",
+          "description": "Digital workflow dashboard interface mockup"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Digital Transformation",
+      "priority": "Medium"
+    }
+  ]
+}

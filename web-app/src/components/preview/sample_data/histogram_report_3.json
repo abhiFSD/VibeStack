@@ -1,0 +1,142 @@
+{
+  "report": {
+    "name": "Product Weight Variation Analysis - Automotive Components",
+    "type": "Histogram Report", 
+    "completed": true,
+    "assignedMembers": [
+      "quality-engineer@example.com",
+      "production-supervisor@example.com",
+      "metrology-technician@example.com"
+    ]
+  },
+  "chartData": [
+    {
+      "id": "hist-weight-1",
+      "text": "498.0-498.5",
+      "value": "2",
+      "posX": "100",
+      "posY": "40",
+      "date": "",
+      "Description": "Underweight components requiring process adjustment"
+    },
+    {
+      "id": "hist-weight-2",
+      "text": "498.5-499.0",
+      "value": "8",
+      "posX": "150",
+      "posY": "160",
+      "date": "",
+      "Description": "Lower specification range - acceptable but monitor trends"
+    },
+    {
+      "id": "hist-weight-3",
+      "text": "499.0-499.5",
+      "value": "15",
+      "posX": "200",
+      "posY": "300",
+      "date": "",
+      "Description": "Lower nominal range showing good process control"
+    },
+    {
+      "id": "hist-weight-4",
+      "text": "499.5-500.0",
+      "value": "28",
+      "posX": "250",
+      "posY": "560",
+      "date": "",
+      "Description": "Target weight range - optimal manufacturing performance"
+    },
+    {
+      "id": "hist-weight-5",
+      "text": "500.0-500.5",
+      "value": "35",
+      "posX": "300",
+      "posY": "700",
+      "date": "",
+      "Description": "Peak distribution around nominal target weight"
+    },
+    {
+      "id": "hist-weight-6",
+      "text": "500.5-501.0",
+      "value": "32",
+      "posX": "350",
+      "posY": "640",
+      "date": "",
+      "Description": "Upper nominal range within acceptable limits"
+    },
+    {
+      "id": "hist-weight-7",
+      "text": "501.0-501.5",
+      "value": "18",
+      "posX": "400",
+      "posY": "360",
+      "date": "",
+      "Description": "Upper specification range requiring monitoring"
+    },
+    {
+      "id": "hist-weight-8",
+      "text": "501.5-502.0",
+      "value": "9",
+      "posX": "450",
+      "posY": "180",
+      "date": "",
+      "Description": "Near upper limit - check for process drift"
+    },
+    {
+      "id": "hist-weight-9",
+      "text": "502.0-502.5",
+      "value": "4",
+      "posX": "500",
+      "posY": "80",
+      "date": "",
+      "Description": "Above specification requiring process correction"
+    },
+    {
+      "id": "hist-weight-10",
+      "text": "502.5-503.0",
+      "value": "1",
+      "posX": "550",
+      "posY": "20",
+      "date": "",
+      "Description": "Overweight components - investigate root cause"
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "hist-weight-action-1",
+      "title": "Investigate Underweight Components",
+      "description": "Analyze manufacturing process for components in 498.0-498.5g range to identify root cause of underweight production.",
+      "duedate": "2024-04-15",
+      "status": 0,
+      "assignees": ["quality-engineer@example.com", "process-engineer@example.com"],
+      "attachments": [],
+      "orderIndex": 0,
+      "category": "Process Investigation",
+      "priority": "High"
+    },
+    {
+      "id": "hist-weight-action-2",
+      "title": "Implement Statistical Process Control",
+      "description": "Establish control charts and monitoring system for component weight variation to maintain process stability within specification limits.",
+      "duedate": "2024-04-30",
+      "status": 1,
+      "assignees": ["metrology-technician@example.com", "production-supervisor@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Process Control",
+      "priority": "Medium"
+    },
+    {
+      "id": "hist-weight-action-3",
+      "title": "Equipment Calibration Check",
+      "description": "Verify and calibrate all weighing equipment and material handling systems to ensure measurement accuracy and process consistency.",
+      "duedate": "2024-04-10",
+      "status": 0,
+      "assignees": ["metrology-technician@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Equipment Maintenance",
+      "priority": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "report": {
+    "name": "Mid-Level Management Team - Quarterly Assessment",
+    "type": "Leadership Report",
+    "completed": false,
+    "assignedMembers": ["department-manager@example.com", "hr-business-partner@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Communications",
+      "orderIndex": 0,
+      "assignees": ["communications-lead@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "team_meeting_session.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "communications-lead@example.com",
+          "uploadedAt": "2024-01-08T09:15:00Z",
+          "description": "Weekly team meeting showing mixed engagement levels"
+        }
+      ],
+      "description": "Assessment of mid-level management communication effectiveness",
+      "statements": [
+        {
+          "name": "I communicate clearly and effectively with my team members.",
+          "value": 3
+        },
+        {
+          "name": "I actively listen to feedback and concerns from my team.",
+          "value": 4
+        },
+        {
+          "name": "I provide regular updates on organizational goals and progress.",
+          "value": 2
+        },
+        {
+          "name": "I encourage open dialogue and transparent communication.",
+          "value": 3
+        },
+        {
+          "name": "I adapt my communication style to different audiences effectively.",
+          "value": 3
+        },
+        {
+          "name": "I ensure important information cascades appropriately throughout the organization.",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Leadership and Coaching",
+      "orderIndex": 1,
+      "assignees": ["team-lead@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "coaching_attempt.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "team-lead@example.com",
+          "uploadedAt": "2024-01-10T14:30:00Z",
+          "description": "Informal coaching session needing more structure and consistency"
+        }
+      ],
+      "description": "Evaluation of leadership development and coaching capabilities",
+      "statements": [
+        {
+          "name": "I provide clear direction and vision to my team.",
+          "value": 3
+        },
+        {
+          "name": "I coach and develop team members to reach their full potential.",
+          "value": 2
+        },
+        {
+          "name": "I delegate effectively while maintaining appropriate oversight.",
+          "value": 2
+        },
+        {
+          "name": "I inspire and motivate others to achieve excellence.",
+          "value": 3
+        },
+        {
+          "name": "I lead by example and demonstrate the behaviors I expect.",
+          "value": 4
+        },
+        {
+          "name": "I create development opportunities for emerging leaders.",
+          "value": 2
+        },
+        {
+          "name": "I provide constructive feedback that promotes growth.",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Decision Making",
+      "orderIndex": 2,
+      "assignees": ["department-manager@example.com"],
+      "attachments": [],
+      "description": "Assessment of decision-making processes and quality",
+      "statements": [
+        {
+          "name": "I make timely decisions based on available data and analysis.",
+          "value": 3
+        },
+        {
+          "name": "I involve appropriate stakeholders in important decision-making processes.",
+          "value": 4
+        },
+        {
+          "name": "I communicate the rationale behind major decisions clearly.",
+          "value": 2
+        },
+        {
+          "name": "I take responsibility for the outcomes of my decisions.",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Conflict Management",
+      "orderIndex": 3,
+      "assignees": ["hr-business-partner@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "conflict_resolution_meeting.jpg",
+          "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "hr-business-partner@example.com",
+          "uploadedAt": "2024-01-12T11:45:00Z",
+          "description": "Conflict resolution meeting requiring improved mediation skills"
+        }
+      ],
+      "description": "Evaluation of conflict resolution and management capabilities",
+      "statements": [
+        {
+          "name": "I address conflicts promptly and effectively.",
+          "value": 3
+        },
+        {
+          "name": "I remain neutral and objective when mediating disputes.",
+          "value": 3
+        },
+        {
+          "name": "I help team members find mutually beneficial solutions.",
+          "value": 2
+        },
+        {
+          "name": "I create an environment where conflicts can be discussed openly.",
+          "value": 3
+        },
+        {
+          "name": "I follow up to ensure conflicts are truly resolved.",
+          "value": 2
+        },
+        {
+          "name": "I use conflict as an opportunity for team growth and learning.",
+          "value": 2
+        },
+        {
+          "name": "I escalate conflicts appropriately when necessary.",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Performance Management and Goal Setting",
+      "orderIndex": 4,
+      "assignees": ["performance-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "performance_review_session.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "performance-coordinator@example.com",
+          "uploadedAt": "2024-01-15T13:20:00Z",
+          "description": "Performance review session showing inconsistent documentation practices"
+        }
+      ],
+      "description": "Evaluation of goal setting and performance management processes",
+      "statements": [
+        {
+          "name": "I set clear, measurable, and achievable goals for my team.",
+          "value": 3
+        },
+        {
+          "name": "I regularly monitor and review progress toward established goals.",
+          "value": 2
+        },
+        {
+          "name": "I provide ongoing support to help team members achieve their objectives.",
+          "value": 3
+        },
+        {
+          "name": "I adjust goals and expectations when circumstances change appropriately.",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Time Management",
+      "orderIndex": 5,
+      "assignees": ["department-manager@example.com"],
+      "attachments": [],
+      "description": "Assessment of time management and prioritization skills",
+      "statements": [
+        {
+          "name": "I effectively prioritize tasks and responsibilities.",
+          "value": 2
+        },
+        {
+          "name": "I manage my time efficiently and meet deadlines consistently.",
+          "value": 3
+        },
+        {
+          "name": "I help team members manage their time and workload effectively.",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-1",
+      "title": "Accomplishments and significant events",
+      "description": "<p><strong>Department Restructuring:</strong> Successfully completed department reorganization with minimal disruption to operations. Some challenges with communication during transition period, but overall positive outcome achieved.</p><p><strong>Process Improvement Initiative:</strong> Led team through basic 5S implementation in work areas, achieving moderate improvements in organization and efficiency. Still working on sustaining changes.</p><p><strong>Training Program Launch:</strong> Initiated monthly team training sessions covering basic leadership skills and communication techniques. Attendance has been inconsistent but feedback generally positive.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["department-manager@example.com"]
+    },
+    {
+      "id": "highlight-2",
+      "title": "Improvement PDCAs",
+      "description": "<p><strong>Communication Improvement Attempt:</strong> Plan: Weekly team meetings with structured agenda. Do: Implemented for 3 months. Check: Mixed feedback - some appreciate structure, others find meetings too long. Act: Need to refine meeting format and timing.</p><p><strong>Performance Review Process:</strong> Attempted to implement more frequent feedback cycles. Some progress made but consistency remains challenging. Need better tracking system and manager training.</p><p><strong>Conflict Resolution Approach:</strong> Working on developing systematic approach to handle team conflicts. Early stages - some success with minor issues but larger conflicts still challenging.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["hr-business-partner@example.com", "team-lead@example.com"]
+    },
+    {
+      "id": "highlight-3",
+      "title": "Special recognitions",
+      "description": "<p><strong>Department Improvement Award:</strong> Received internal recognition for efforts to improve team collaboration and communication processes, though implementation is still ongoing.</p><p><strong>Training Participation:</strong> Completed basic leadership development course and received certificate. Applying learnings gradually with mixed results.</p><p><strong>Peer Feedback:</strong> Colleagues have noted improvement in listening skills and openness to feedback, indicating positive development trajectory.</p>",
+      "images": [],
+      "assignees": ["department-manager@example.com"]
+    },
+    {
+      "id": "highlight-4",
+      "title": "Upcoming issues and events",
+      "description": "<p><strong>Skills Development Gap:</strong> Significant need for advanced communication and coaching skills training. Planning to enroll in comprehensive management development program next quarter.</p><p><strong>Team Performance Consistency:</strong> Addressing inconsistent team performance and motivation levels. Some team members highly engaged while others appear disengaged. Need systematic approach.</p><p><strong>Process Standardization:</strong> Upcoming challenge to standardize work processes across team. Limited experience with formal process improvement methodologies.</p>",
+      "images": [],
+      "assignees": ["hr-business-partner@example.com", "department-manager@example.com"]
+    },
+    {
+      "id": "highlight-5",
+      "title": "Resource and support needs",
+      "description": "<p><strong>Management Training:</strong> Request for comprehensive management and leadership training program. Current skills adequate for basic supervision but need advancement for strategic leadership role.</p><p><strong>Coaching Support:</strong> Need for experienced mentor or coach to provide guidance on advanced leadership techniques and difficult situation management.</p><p><strong>Team Development Resources:</strong> Request for team building activities and conflict resolution training resources to improve overall team dynamics and performance.</p>",
+      "images": [],
+      "assignees": ["hr-business-partner@example.com"]
+    },
+    {
+      "id": "highlight-6",
+      "title": "Action Items",
+      "description": "<p><strong>Communication Skills Training:</strong> Enroll in structured communication training focusing on information cascading and transparent dialogue (Due: February 28, 2024)</p><p><strong>Leadership Coaching Development:</strong> Establish formal coaching program with mentorship assignments for skill building (Due: March 15, 2024)</p><p><strong>Decision Communication Framework:</strong> Create standardized approach for communicating decisions and involving stakeholders (Due: February 15, 2024)</p><p><strong>Conflict Resolution Training:</strong> Attend comprehensive conflict resolution workshop focusing on mediation techniques (Due: March 1, 2024)</p><p><strong>Performance Monitoring Enhancement:</strong> Implement regular performance monitoring tools and processes (Due: April 1, 2024)</p>",
+      "images": [],
+      "assignees": ["communications-lead@example.com", "hr-business-partner@example.com", "department-manager@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "leader2-ai-1",
+      "title": "Communication Skills Training Program",
+      "description": "Implement structured communication training focusing on information cascading, regular updates, and transparent dialogue facilitation",
+      "duedate": "2024-02-28",
+      "status": 0,
+      "assignees": ["communications-lead@example.com", "training-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-5",
+          "name": "communication_training_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "training-coordinator@example.com",
+          "uploadedAt": "2024-01-18T10:30:00Z",
+          "description": "Communication skills training program curriculum and schedule"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Communications",
+      "priority": "High"
+    },
+    {
+      "id": "leader2-ai-2",
+      "title": "Leadership Coaching Development Initiative",
+      "description": "Establish formal coaching program with mentorship assignments and structured development plans for mid-level managers",
+      "duedate": "2024-03-15",
+      "status": 1,
+      "assignees": ["hr-business-partner@example.com", "senior-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Leadership and Coaching",
+      "priority": "High"
+    },
+    {
+      "id": "leader2-ai-3",
+      "title": "Decision Communication Framework",
+      "description": "Create standardized framework for communicating decision rationale and involving stakeholders in decision-making processes",
+      "duedate": "2024-02-15",
+      "status": 0,
+      "assignees": ["department-manager@example.com", "process-improvement-specialist@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Decision Making",
+      "priority": "Medium"
+    },
+    {
+      "id": "leader2-ai-4",
+      "title": "Conflict Resolution Skills Workshop",
+      "description": "Conduct comprehensive conflict resolution training focusing on mediation techniques, solution finding, and follow-up processes",
+      "duedate": "2024-03-01",
+      "status": 0,
+      "assignees": ["hr-business-partner@example.com", "conflict-mediator@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Conflict Management",
+      "priority": "Medium"
+    },
+    {
+      "id": "leader2-ai-5",
+      "title": "Performance Monitoring System Enhancement",
+      "description": "Implement regular performance monitoring tools and processes to improve goal tracking and support provision",
+      "duedate": "2024-04-01",
+      "status": 0,
+      "assignees": ["performance-coordinator@example.com", "system-administrator@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Performance Management and Goal Setting",
+      "priority": "Medium"
+    },
+    {
+      "id": "leader2-ai-6",
+      "title": "Time Management and Prioritization Training",
+      "description": "Deliver time management training program covering prioritization techniques, delegation strategies, and workload management",
+      "duedate": "2024-02-20",
+      "status": 0,
+      "assignees": ["productivity-coach@example.com", "department-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 5,
+      "category": "Time Management",
+      "priority": "Low"
+    }
+  ]
+}

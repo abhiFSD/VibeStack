@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "paths": {
+    "/learnings": {
+      "name": "/learnings",
+      "lambdaFunction": "fetchDataFromMySQL",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/generatePDFEmail": {
+      "name": "/generatePDFEmail",
+      "lambdaFunction": "generatePDFEmail",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/sendPDFEmail": {
+      "name": "/sendPDFEmail",
+      "lambdaFunction": "generatePDFEmail",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/sendEmail": {
+      "name": "/sendEmail",
+      "lambdaFunction": "emailService",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/quizzes": {
+      "name": "/quizzes",
+      "lambdaFunction": "fetchAllQuizzes",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/emailFeedback": {
+      "name": "/emailFeedback",
+      "lambdaFunction": "emailFeedback",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/invite": {
+      "name": "/invite",
+      "lambdaFunction": "handleOrganizationInvite",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/notification-email": {
+      "name": "/notification-email",
+      "lambdaFunction": "notificationEmail",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/generate-pdf2325": {
+      "name": "/generate-pdf2325",
+      "lambdaFunction": "generatePDF2325",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/createStripeCustomer": {
+      "name": "/createStripeCustomer",
+      "lambdaFunction": "createStripeCustomer",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/handleSubscribe": {
+      "name": "/handleSubscribe",
+      "lambdaFunction": "handleSubscribe",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/handleStripeWebhook": {
+      "name": "/handleStripeWebhook",
+      "lambdaFunction": "handleStripeWebhook",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/handleUserManagement": {
+      "name": "/handleUserManagement",
+      "lambdaFunction": "handleUserManagement",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/awardEmailMutation": {
+      "name": "/awardEmailMutation",
+      "lambdaFunction": "awardEmailMutatuon",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/cancelSub": {
+      "name": "/cancelSub",
+      "lambdaFunction": "cancelSubscription",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

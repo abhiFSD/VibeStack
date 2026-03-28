@@ -1,0 +1,66 @@
+{
+  "description": "GraphQL mutations to create a 5S report with sample data",
+  "instructions": "Execute these mutations in order: 1) Create Report, 2) Create Categories using report ID, 3) Create Statements using category IDs",
+  
+  "step1_createReport": {
+    "mutation": "mutation CreateReport($input: CreateReportInput!) { createReport(input: $input) { id name type user_sub ownerEmail organizationID completed } }",
+    "variables": {
+      "input": {
+        "name": "Main Production Floor - 5S Audit",
+        "type": "5S Report",
+        "user_sub": "YOUR_USER_SUB",
+        "ownerEmail": "YOUR_EMAIL",
+        "organizationID": "YOUR_ORG_ID",
+        "completed": false,
+        "assignedMembers": []
+      }
+    }
+  },
+  
+  "step2_createCategory_example": {
+    "mutation": "mutation CreateCategories($input: CreateCategoriesInput!) { createCategories(input: $input) { id name reportID orderIndex } }",
+    "variables": {
+      "input": {
+        "name": "Sort",
+        "reportID": "REPORT_ID_FROM_STEP_1",
+        "orderIndex": 0,
+        "assignees": ["john.doe@example.com"],
+        "attachments": [],
+        "description": "Assessment of Sort practices in Main Production Floor"
+      }
+    }
+  },
+  
+  "step3_createStatement_example": {
+    "mutation": "mutation CreateStatements($input: CreateStatementsInput!) { createStatements(input: $input) { id name value categoriesID } }",
+    "variables": {
+      "input": {
+        "name": "The area is clear of excess equipment, paperwork, or other types of materials.",
+        "value": 4,
+        "default": false,
+        "categoriesID": "CATEGORY_ID_FROM_STEP_2",
+        "categoryName": "Sort",
+        "reportID": "REPORT_ID_FROM_STEP_1",
+        "owner": "YOUR_USER_SUB"
+      }
+    }
+  },
+  
+  "scoreValues": {
+    "5": "Strongly Agree",
+    "4": "Agree",
+    "3": "Neutral",
+    "2": "Disagree",
+    "1": "Strongly Disagree",
+    "0": "Root cause"
+  },
+  
+  "requiredCategories": [
+    {"name": "Sort", "orderIndex": 0},
+    {"name": "Set In Order", "orderIndex": 1},
+    {"name": "Shine", "orderIndex": 2},
+    {"name": "Standardize", "orderIndex": 3},
+    {"name": "Sustain", "orderIndex": 4},
+    {"name": "Safety", "orderIndex": 5}
+  ]
+}

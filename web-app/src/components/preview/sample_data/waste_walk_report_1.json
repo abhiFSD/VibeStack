@@ -1,0 +1,384 @@
+{
+  "report": {
+    "name": "Manufacturing Excellence Waste Walk - Lean Production Facility",
+    "type": "Waste Walk Report",
+    "completed": true,
+    "assignedMembers": ["lean-coordinator@example.com", "production-manager@example.com", "continuous-improvement@example.com", "operations-analyst@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Production",
+      "orderIndex": 0,
+      "assignees": ["production-manager@example.com", "lean-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "waste_walk_production_findings.jpg",
+          "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "lean-coordinator@example.com",
+          "uploadedAt": "2024-01-20T08:45:00Z",
+          "description": "Waste walk observations documenting minimal waste findings with excellent lean practices throughout production"
+        }
+      ],
+      "description": "Production operations demonstrate exceptional waste elimination with mature lean systems effectively addressing all waste types.",
+      "statements": [
+        {
+          "name": "Visual management systems eliminate waiting waste with real-time status",
+          "value": "Outstanding visual controls with instant visibility of bottlenecks and flow issues"
+        },
+        {
+          "name": "Optimized layout minimizes motion and transport waste",
+          "value": "Cellular manufacturing design with point-of-use storage and minimal travel distances"
+        },
+        {
+          "name": "Pull systems prevent overproduction with clear demand signals",
+          "value": "Sophisticated kanban system maintaining one-piece flow aligned with takt time"
+        },
+        {
+          "name": "Standardized work eliminates overprocessing and defects",
+          "value": "Comprehensive work standards with built-in quality checks preventing errors"
+        }
+      ]
+    },
+    {
+      "name": "Quality",
+      "orderIndex": 1,
+      "assignees": ["continuous-improvement@example.com"],
+      "attachments": [],
+      "description": "Quality systems effectively prevent defect waste through robust error-proofing and systematic problem-solving approaches.",
+      "statements": [
+        {
+          "name": "Error-proofing devices prevent defect waste at source",
+          "value": "Poka-yoke systems on all critical processes with automatic detection and prevention"
+        },
+        {
+          "name": "Quality at the source with immediate feedback loops",
+          "value": "Operators empowered to stop production with andon systems and rapid response"
+        },
+        {
+          "name": "Minimal inventory waste with just-in-time quality verification",
+          "value": "In-process quality checks eliminate need for buffer inventory and rework areas"
+        },
+        {
+          "name": "Skills fully utilized in quality improvement activities",
+          "value": "All employees engaged in quality circles and kaizen events with implemented ideas"
+        }
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "orderIndex": 2,
+      "assignees": ["operations-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "waste_walk_tpm_excellence.jpg",
+          "url": "https://images.unsplash.com/photo-1581091870622-1c0c0b76b1fa?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-analyst@example.com",
+          "uploadedAt": "2024-01-20T10:30:00Z",
+          "description": "Waste walk findings showing TPM excellence preventing equipment-related wastes"
+        }
+      ],
+      "description": "Total Productive Maintenance systems eliminate equipment-related wastes through proactive approaches and operator involvement.",
+      "statements": [
+        {
+          "name": "TPM prevents waiting waste from equipment failures",
+          "value": "OEE above 85% with predictive maintenance preventing unplanned downtime"
+        },
+        {
+          "name": "Autonomous maintenance reduces motion waste for technicians",
+          "value": "Operators perform routine maintenance with tools and supplies at point-of-use"
+        },
+        {
+          "name": "Planned maintenance prevents overburden on equipment",
+          "value": "Equipment capacity known and respected with systematic load balancing"
+        },
+        {
+          "name": "Environmental waste minimized through efficient operations",
+          "value": "Energy-efficient equipment with waste reduction initiatives showing 30% improvement"
+        }
+      ]
+    },
+    {
+      "name": "Administration",
+      "orderIndex": 3,
+      "assignees": ["lean-coordinator@example.com"],
+      "attachments": [],
+      "description": "Administrative processes demonstrate lean thinking with minimal non-value-added activities and efficient information flow.",
+      "statements": [
+        {
+          "name": "Digital systems eliminate paper-based inventory waste",
+          "value": "Paperless operations with cloud-based systems and mobile accessibility"
+        },
+        {
+          "name": "Streamlined processes prevent overprocessing in documentation",
+          "value": "Single-entry systems with automated workflows eliminating duplicate efforts"
+        },
+        {
+          "name": "Effective communication prevents social responsibility waste",
+          "value": "Clear policies on productive technology use with collaboration tools maximized"
+        },
+        {
+          "name": "Cross-functional teams prevent unevenness in workloads",
+          "value": "Flexible staffing model with multi-skilled employees balancing demand variations"
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "waste-highlight-1",
+      "title": "Waiting Waste Elimination",
+      "waste_type": "Waiting Waste",
+      "description": "<p><strong>Visual Management Excellence:</strong> Real-time production boards with automated updates show current status, bottlenecks, and flow issues instantly, enabling immediate response to prevent waiting.</p><p><strong>Pull System Sophistication:</strong> Advanced kanban systems with electronic signals ensure materials arrive exactly when needed, eliminating wait times between processes.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["production-manager@example.com"]
+    },
+    {
+      "id": "waste-highlight-2",
+      "title": "Motion & Transport Optimization",
+      "waste_type": "Motion Waste",
+      "description": "<p><strong>Cellular Manufacturing Design:</strong> Workstations arranged in U-shaped cells with point-of-use storage, reducing operator movement by 75% and eliminating unnecessary reaching or walking.</p><p><strong>Material Flow Excellence:</strong> Gravity-fed racks and automated guided vehicles minimize transport distances with materials delivered directly to workstations.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1553520208-33e0fa3f1ea8?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["lean-coordinator@example.com"]
+    },
+    {
+      "id": "waste-highlight-3",
+      "title": "Transport Waste Minimization",
+      "waste_type": "Transport Waste",
+      "description": "<p><strong>Optimized Layout Design:</strong> Value stream mapping drove facility redesign with sequential process arrangement, reducing material travel distance by 80% and eliminating cross-traffic.</p><p><strong>Milk Run Implementation:</strong> Standardized material delivery routes with predetermined schedules ensure efficient transport patterns without excess movement.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["operations-analyst@example.com"]
+    },
+    {
+      "id": "waste-highlight-4",
+      "title": "Overprocessing Prevention",
+      "waste_type": "Overprocessing Waste",
+      "description": "<p><strong>Standard Work Precision:</strong> Detailed work instructions specify exact customer requirements, preventing any activities beyond value-added operations with regular reviews ensuring adherence.</p><p><strong>Technology Integration:</strong> Automated systems prevent redundant data entry with single-source information flowing through integrated ERP systems.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["continuous-improvement@example.com"]
+    },
+    {
+      "id": "waste-highlight-5",
+      "title": "Inventory Waste Control",
+      "waste_type": "Inventory Waste",
+      "description": "<p><strong>Just-In-Time Excellence:</strong> Sophisticated pull systems maintain minimal inventory with 2-hour replenishment cycles, reducing carrying costs by 65% while ensuring availability.</p><p><strong>Supermarket Systems:</strong> Strategic inventory points with visual min/max indicators and automatic reordering prevent both stockouts and excess inventory.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["production-manager@example.com"]
+    },
+    {
+      "id": "waste-highlight-6",
+      "title": "Defect Waste Prevention",
+      "waste_type": "Defect Waste",
+      "description": "<p><strong>Error-Proofing Systems:</strong> Comprehensive poka-yoke devices on all critical operations with mechanical, electrical, and visual mistake-proofing preventing defects at source.</p><p><strong>Quality Culture:</strong> First-pass yield exceeds 99.5% with immediate feedback loops and root cause analysis for any defects, driving continuous improvement.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["continuous-improvement@example.com"]
+    },
+    {
+      "id": "waste-highlight-7",
+      "title": "Skills Optimization",
+      "waste_type": "Skills (People) Waste",
+      "description": "<p><strong>Employee Engagement:</strong> Suggestion system generates 12 implemented ideas per employee annually with skill matrices ensuring optimal talent utilization across all areas.</p><p><strong>Development Programs:</strong> Comprehensive cross-training with 85% of employees certified in multiple positions, enabling flexible response to demand changes.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["lean-coordinator@example.com"]
+    },
+    {
+      "id": "waste-highlight-8",
+      "title": "Overproduction Elimination",
+      "waste_type": "Overproduction Waste",
+      "description": "<p><strong>Takt Time Alignment:</strong> Production perfectly synchronized with customer demand through visual takt time displays and paced production lines preventing any overproduction.</p><p><strong>One-Piece Flow:</strong> Batch sizes reduced to one with continuous flow cells, eliminating WIP accumulation and ensuring immediate quality feedback.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["production-manager@example.com", "operations-analyst@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "waste-ai-1",
+      "title": "Expand Waste Elimination to Supplier Network",
+      "description": "Extend successful waste elimination practices to key suppliers through collaborative workshops and joint improvement projects",
+      "duedate": "2024-04-30",
+      "status": 1,
+      "assignees": ["lean-coordinator@example.com", "continuous-improvement@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "waste_walk_supplier_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "lean-coordinator@example.com",
+          "uploadedAt": "2024-01-22T13:15:00Z",
+          "description": "Supplier development plan based on internal waste walk successes"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Supply Chain Excellence",
+      "priority": "High"
+    },
+    {
+      "id": "waste-ai-2",
+      "title": "Document Best Practices for Corporate Rollout",
+      "description": "Create comprehensive documentation of waste elimination practices for deployment across all company facilities",
+      "duedate": "2024-03-15",
+      "status": 2,
+      "assignees": ["operations-analyst@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Knowledge Management",
+      "priority": "High"
+    },
+    {
+      "id": "waste-ai-3",
+      "title": "Implement Advanced Analytics for Waste Tracking",
+      "description": "Deploy IoT sensors and analytics dashboard to provide real-time waste metrics and predictive insights",
+      "duedate": "2024-05-31",
+      "status": 0,
+      "assignees": ["continuous-improvement@example.com", "operations-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "waste_analytics_dashboard.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-analyst@example.com",
+          "uploadedAt": "2024-01-25T09:30:00Z",
+          "description": "Proposed analytics dashboard for real-time waste monitoring"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Digital Transformation",
+      "priority": "Medium"
+    },
+    {
+      "id": "waste-ai-4",
+      "title": "Establish Waste Walk Certification Program",
+      "description": "Develop internal certification program to train all employees in waste identification and elimination techniques",
+      "duedate": "2024-06-30",
+      "status": 0,
+      "assignees": ["lean-coordinator@example.com", "production-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Training & Development",
+      "priority": "Medium"
+    }
+  ],
+  "aiAnalysis": {
+    "overallAssessment": {
+      "maturityLevel": "World-Class",
+      "assessmentStatus": "Exemplary waste walk demonstrating world-class lean implementation with systematic elimination of all waste types through mature systems and engaged workforce",
+      "totalScore": null
+    },
+    "keyFindings": [
+      "Outstanding visual management systems providing real-time visibility and enabling immediate response to prevent waiting waste",
+      "Exceptional facility layout with cellular manufacturing and point-of-use storage minimizing motion and transport waste",
+      "Sophisticated pull systems and one-piece flow preventing overproduction while maintaining perfect synchronization with customer demand",
+      "Comprehensive error-proofing systems achieving 99.5% first-pass yield with systematic defect prevention",
+      "Advanced TPM implementation with 85% OEE preventing equipment-related wastes and unplanned downtime",
+      "Highly engaged workforce with 12 implemented suggestions per employee annually and 85% cross-training coverage"
+    ],
+    "learningPoints": [
+      "Waste Walk Excellence: Demonstrates systematic approach to identifying and eliminating all forms of waste through structured observation",
+      "Visual Management Impact: Shows how real-time visual systems enable immediate waste identification and rapid response",
+      "Pull System Sophistication: Illustrates advanced kanban implementation preventing overproduction while ensuring flow",
+      "Error-Proofing Integration: Demonstrates comprehensive poka-yoke systems preventing defects at source",
+      "Layout Optimization: Shows cellular manufacturing benefits in minimizing motion and transport waste",
+      "TPM Excellence: Illustrates how proactive maintenance prevents multiple waste types simultaneously",
+      "Employee Engagement: Demonstrates connection between suggestion systems and continuous waste elimination",
+      "Digital Integration: Shows how technology eliminates administrative wastes while improving accuracy"
+    ],
+    "wasteAnalysis": {
+      "waitingWaste": {
+        "status": "Eliminated",
+        "findings": "Visual management and pull systems provide instant visibility with materials arriving exactly when needed",
+        "impact": "Zero waiting time between processes with immediate response to any flow disruptions"
+      },
+      "motionWaste": {
+        "status": "Minimized",
+        "findings": "Cellular layouts with point-of-use storage reduce operator movement by 75%",
+        "impact": "Ergonomic workstations with everything within arm's reach maximizing value-added time"
+      },
+      "transportWaste": {
+        "status": "Optimized",
+        "findings": "Sequential process arrangement with milk runs reduces travel distance by 80%",
+        "impact": "Materials flow directly between processes without cross-traffic or backtracking"
+      },
+      "overprocessingWaste": {
+        "status": "Prevented",
+        "findings": "Standard work specifies exact customer requirements with single-entry systems",
+        "impact": "Zero non-value-added activities with automated workflows preventing duplication"
+      },
+      "inventoryWaste": {
+        "status": "Controlled",
+        "findings": "JIT systems with 2-hour replenishment cycles maintain minimal inventory",
+        "impact": "65% reduction in carrying costs while ensuring 100% availability"
+      },
+      "defectWaste": {
+        "status": "Prevented",
+        "findings": "Comprehensive poka-yoke systems achieve 99.5% first-pass yield",
+        "impact": "Defects prevented at source with immediate feedback and root cause analysis"
+      },
+      "skillsWaste": {
+        "status": "Optimized",
+        "findings": "85% cross-training coverage with 12 implemented ideas per employee annually",
+        "impact": "Full utilization of employee capabilities with high engagement in improvements"
+      },
+      "overproductionWaste": {
+        "status": "Eliminated",
+        "findings": "Production synchronized with takt time using one-piece flow",
+        "impact": "Perfect alignment with customer demand preventing any excess production"
+      }
+    },
+    "strengthAreas": [
+      {
+        "category": "Visual Management Systems",
+        "highlights": "Real-time production boards with automated updates enabling immediate response to issues",
+        "bestPractices": "Electronic displays, andon systems, visual controls at every workstation with clear ownership"
+      },
+      {
+        "category": "Flow Optimization",
+        "highlights": "Cellular manufacturing with one-piece flow achieving perfect synchronization with demand",
+        "bestPractices": "U-shaped cells, point-of-use storage, gravity-fed racks, standardized work patterns"
+      },
+      {
+        "category": "Quality Systems",
+        "highlights": "99.5% first-pass yield through comprehensive error-proofing and employee engagement",
+        "bestPractices": "Poka-yoke devices, quality at source, immediate feedback loops, systematic problem-solving"
+      }
+    ],
+    "improvementOpportunities": [],
+    "nextSteps": [
+      "Expand successful waste elimination practices to supplier network through collaborative workshops",
+      "Document best practices for deployment across all company facilities as corporate standard",
+      "Implement advanced analytics with IoT sensors for real-time waste tracking and predictive insights",
+      "Establish internal certification program to develop waste elimination expertise throughout organization"
+    ],
+    "organizationalMaturity": {
+      "level": "World-Class",
+      "characteristics": [
+        "Systematic elimination of all waste types through mature lean systems and practices",
+        "Highly engaged workforce actively participating in continuous improvement with measurable results",
+        "Advanced visual management and pull systems preventing waste generation at source",
+        "Integrated approach connecting layout, flow, quality, and maintenance for comprehensive waste elimination",
+        "Data-driven decision making with real-time metrics and rapid response capabilities"
+      ],
+      "readinessForAdvancement": "Organization demonstrates world-class waste elimination capabilities ready for expansion to supply chain partners and serving as benchmark for industry excellence."
+    }
+  }
+}

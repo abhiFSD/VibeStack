@@ -1,0 +1,374 @@
+{
+  "report": {
+    "name": "Emerging Leaders Program - Initial Assessment",
+    "type": "Leadership Report",
+    "completed": false,
+    "assignedMembers": ["team-supervisor@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Communications",
+      "orderIndex": 0,
+      "assignees": ["team-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "unclear_meeting_communication.jpg",
+          "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "team-supervisor@example.com",
+          "uploadedAt": "2024-01-05T08:45:00Z",
+          "description": "Team meeting showing communication challenges and unclear messaging"
+        }
+      ],
+      "description": "Assessment of basic communication skills for emerging leaders",
+      "statements": [
+        {
+          "name": "I communicate clearly and effectively with my team members.",
+          "value": 2
+        },
+        {
+          "name": "I actively listen to feedback and concerns from my team.",
+          "value": 2
+        },
+        {
+          "name": "I provide regular updates on organizational goals and progress.",
+          "value": 1
+        },
+        {
+          "name": "I encourage open dialogue and transparent communication.",
+          "value": 2
+        },
+        {
+          "name": "I adapt my communication style to different audiences effectively.",
+          "value": 1
+        },
+        {
+          "name": "I ensure important information cascades appropriately throughout the organization.",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Leadership and Coaching",
+      "orderIndex": 1,
+      "assignees": ["team-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "struggling_team_dynamics.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "team-supervisor@example.com",
+          "uploadedAt": "2024-01-08T12:15:00Z",
+          "description": "Team showing signs of unclear direction and limited coaching support"
+        }
+      ],
+      "description": "Initial evaluation of leadership potential and coaching readiness",
+      "statements": [
+        {
+          "name": "I provide clear direction and vision to my team.",
+          "value": 2
+        },
+        {
+          "name": "I coach and develop team members to reach their full potential.",
+          "value": 1
+        },
+        {
+          "name": "I delegate effectively while maintaining appropriate oversight.",
+          "value": 1
+        },
+        {
+          "name": "I inspire and motivate others to achieve excellence.",
+          "value": 2
+        },
+        {
+          "name": "I lead by example and demonstrate the behaviors I expect.",
+          "value": 2
+        },
+        {
+          "name": "I create development opportunities for emerging leaders.",
+          "value": 1
+        },
+        {
+          "name": "I provide constructive feedback that promotes growth.",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Decision Making",
+      "orderIndex": 2,
+      "assignees": ["team-supervisor@example.com"],
+      "attachments": [],
+      "description": "Assessment of decision-making capabilities and processes",
+      "statements": [
+        {
+          "name": "I make timely decisions based on available data and analysis.",
+          "value": 2
+        },
+        {
+          "name": "I involve appropriate stakeholders in important decision-making processes.",
+          "value": 1
+        },
+        {
+          "name": "I communicate the rationale behind major decisions clearly.",
+          "value": 1
+        },
+        {
+          "name": "I take responsibility for the outcomes of my decisions.",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Stress Management",
+      "orderIndex": 3,
+      "assignees": ["wellness-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "stressed_work_environment.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "wellness-coordinator@example.com",
+          "uploadedAt": "2024-01-10T15:30:00Z",
+          "description": "Work environment showing signs of stress and pressure management challenges"
+        }
+      ],
+      "description": "Evaluation of stress management and pressure handling capabilities",
+      "statements": [
+        {
+          "name": "I manage my own stress effectively and maintain composure under pressure.",
+          "value": 2
+        },
+        {
+          "name": "I help team members manage their stress and workload.",
+          "value": 1
+        },
+        {
+          "name": "I recognize signs of stress in others and take appropriate action.",
+          "value": 2
+        },
+        {
+          "name": "I maintain work-life balance and encourage others to do the same.",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Problem Solving",
+      "orderIndex": 4,
+      "assignees": ["problem-solving-facilitator@example.com"],
+      "attachments": [],
+      "description": "Assessment of analytical and problem-solving capabilities",
+      "statements": [
+        {
+          "name": "I analyze problems systematically to identify root causes.",
+          "value": 2
+        },
+        {
+          "name": "I involve team members in problem-solving processes appropriately.",
+          "value": 2
+        },
+        {
+          "name": "I implement solutions effectively and monitor their success.",
+          "value": 1
+        },
+        {
+          "name": "I learn from past problems to prevent similar issues.",
+          "value": 2
+        },
+        {
+          "name": "I remain calm and focused when dealing with complex problems.",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Team Selection and Building",
+      "orderIndex": 5,
+      "assignees": ["hr-generalist@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "team_building_attempt.jpg",
+          "url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "hr-generalist@example.com",
+          "uploadedAt": "2024-01-12T14:00:00Z",
+          "description": "Team building session showing need for improved group dynamics and collaboration"
+        }
+      ],
+      "description": "Evaluation of team building and member selection capabilities",
+      "statements": [
+        {
+          "name": "I select team members based on appropriate skills and cultural fit.",
+          "value": 2
+        },
+        {
+          "name": "I build cohesive teams that work well together.",
+          "value": 1
+        },
+        {
+          "name": "I foster collaboration and teamwork among team members.",
+          "value": 2
+        },
+        {
+          "name": "I address team dynamics issues promptly and effectively.",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-1",
+      "title": "Accomplishments and significant events",
+      "description": "<p><strong>First Leadership Role Assignment:</strong> Recently promoted to team supervisor position with responsibility for 8 team members. Learning to balance individual contributor tasks with supervisory responsibilities.</p><p><strong>Basic Training Completion:</strong> Completed mandatory supervisor orientation program covering company policies and basic management principles. Still applying concepts with varying success.</p><p><strong>Team Formation Attempt:</strong> Working on building team cohesion and establishing clear roles. Some progress made but team dynamics remain challenging.</p>",
+      "images": [],
+      "assignees": ["team-supervisor@example.com"]
+    },
+    {
+      "id": "highlight-2",
+      "title": "Improvement PDCAs",
+      "description": "<p><strong>Communication Improvement Effort:</strong> Plan: Hold weekly team meetings. Do: Started meetings but agenda often unclear. Check: Team feedback indicates confusion about meeting purpose. Act: Need structure and meeting facilitation training.</p><p><strong>Problem-Solving Attempts:</strong> Trying to address team performance issues systematically. Plan: Identify problems. Do: Listed issues. Check: Root causes unclear. Act: Need training in problem-solving methodologies.</p><p><strong>Time Management Trial:</strong> Attempting to better manage own workload and team priorities. Mixed results - some days organized, others chaotic. Need systematic approach.</p>",
+      "images": [],
+      "assignees": ["team-supervisor@example.com"]
+    },
+    {
+      "id": "highlight-3",
+      "title": "Special recognitions",
+      "description": "<p><strong>Promotion Recognition:</strong> Selected for leadership role based on strong individual performance and potential for growth. Management sees development potential despite current skill gaps.</p><p><strong>Peer Support:</strong> Colleagues have offered assistance and encouragement during transition to leadership role. Positive team attitude toward development efforts.</p><p><strong>Learning Attitude:</strong> Recognized by manager for willingness to learn and openness to feedback, even when facing significant challenges.</p>",
+      "images": [],
+      "assignees": ["team-supervisor@example.com"]
+    },
+    {
+      "id": "highlight-4",
+      "title": "Upcoming issues and events",
+      "description": "<p><strong>Major Skill Gaps:</strong> Significant deficiencies in fundamental leadership competencies including communication, decision-making, and team management. Comprehensive training needed.</p><p><strong>Team Performance Concerns:</strong> Team productivity and morale showing decline since leadership transition. Urgent need for intervention and support.</p><p><strong>Stress Management:</strong> Personal stress levels increasing due to new responsibilities and limited preparation. Need for stress management and work-life balance support.</p>",
+      "images": [],
+      "assignees": ["hr-generalist@example.com", "team-supervisor@example.com"]
+    },
+    {
+      "id": "highlight-5",
+      "title": "Resource and support needs",
+      "description": "<p><strong>Fundamental Leadership Training:</strong> Urgent need for comprehensive leadership foundations program covering basic management principles, communication skills, and team leadership.</p><p><strong>Mentorship Assignment:</strong> Request for experienced mentor to provide hands-on guidance and support during leadership transition period.</p><p><strong>Team Development Support:</strong> Need for external facilitator to help improve team dynamics and establish effective working relationships.</p><p><strong>Time Management Training:</strong> Request for training on prioritization, delegation, and workload management to handle supervisory responsibilities effectively.</p>",
+      "images": [],
+      "assignees": ["hr-generalist@example.com", "leadership-development-manager@example.com"]
+    },
+    {
+      "id": "highlight-6",
+      "title": "Action Items",
+      "description": "<p><strong>Fundamental Leadership Training:</strong> Enroll in comprehensive leadership foundations program covering communication, decision-making, and team management (Due: March 1, 2024)</p><p><strong>Communication Skills Bootcamp:</strong> Attend intensive communication training focusing on clarity, active listening, and information sharing (Due: February 15, 2024)</p><p><strong>Mentorship Assignment:</strong> Pair with experienced leader for structured mentorship and guidance (Due: February 1, 2024)</p><p><strong>Stress Management Training:</strong> Complete program including personal coping strategies and work-life balance techniques (Due: March 15, 2024)</p><p><strong>Problem-Solving Methodology Workshop:</strong> Attend training covering systematic problem-solving and root cause analysis (Due: April 1, 2024)</p><p><strong>Team Building Training:</strong> Participate in team dynamics and collaboration facilitation program (Due: April 15, 2024)</p>",
+      "images": [],
+      "assignees": ["leadership-development-manager@example.com", "team-supervisor@example.com", "hr-generalist@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "leader3-ai-1",
+      "title": "Fundamental Leadership Training Program",
+      "description": "Enroll in comprehensive leadership foundations program covering basic communication, decision-making, and team management skills",
+      "duedate": "2024-03-01",
+      "status": 0,
+      "assignees": ["leadership-development-manager@example.com", "team-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-5",
+          "name": "leadership_training_curriculum.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "leadership-development-manager@example.com",
+          "uploadedAt": "2024-01-15T09:30:00Z",
+          "description": "Comprehensive leadership foundations training curriculum and timeline"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Leadership and Coaching",
+      "priority": "High"
+    },
+    {
+      "id": "leader3-ai-2",
+      "title": "Communication Skills Bootcamp",
+      "description": "Intensive communication skills training focusing on clarity, active listening, information sharing, and audience adaptation",
+      "duedate": "2024-02-15",
+      "status": 1,
+      "assignees": ["communication-trainer@example.com", "team-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-6",
+          "name": "communication_bootcamp_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "communication-trainer@example.com",
+          "uploadedAt": "2024-01-18T11:45:00Z",
+          "description": "Intensive communication skills bootcamp training plan and exercises"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Communications",
+      "priority": "High"
+    },
+    {
+      "id": "leader3-ai-3",
+      "title": "Mentorship Assignment Program",
+      "description": "Pair with experienced leader for structured mentorship focusing on decision-making, stakeholder engagement, and leadership development",
+      "duedate": "2024-02-01",
+      "status": 0,
+      "assignees": ["hr-generalist@example.com", "senior-leader-mentor@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Decision Making",
+      "priority": "High"
+    },
+    {
+      "id": "leader3-ai-4",
+      "title": "Stress Management and Resilience Training",
+      "description": "Complete stress management program including personal coping strategies, team stress recognition, and work-life balance techniques",
+      "duedate": "2024-03-15",
+      "status": 0,
+      "assignees": ["wellness-coordinator@example.com", "team-supervisor@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Stress Management",
+      "priority": "Medium"
+    },
+    {
+      "id": "leader3-ai-5",
+      "title": "Problem-Solving Methodology Workshop",
+      "description": "Attend systematic problem-solving training covering root cause analysis, solution implementation, and continuous improvement processes",
+      "duedate": "2024-04-01",
+      "status": 0,
+      "assignees": ["problem-solving-facilitator@example.com", "continuous-improvement-specialist@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Problem Solving",
+      "priority": "Medium"
+    },
+    {
+      "id": "leader3-ai-6",
+      "title": "Team Building and Dynamics Training",
+      "description": "Participate in team building fundamentals program focusing on member selection, collaboration facilitation, and conflict resolution",
+      "duedate": "2024-04-15",
+      "status": 0,
+      "assignees": ["team-dynamics-specialist@example.com", "hr-generalist@example.com"],
+      "attachments": [],
+      "orderIndex": 5,
+      "category": "Team Selection and Building",
+      "priority": "Medium"
+    },
+    {
+      "id": "leader3-ai-7",
+      "title": "Leadership Development Plan Creation",
+      "description": "Create comprehensive 12-month leadership development plan with milestones, assessments, and skill-building objectives",
+      "duedate": "2024-02-10",
+      "status": 0,
+      "assignees": ["leadership-development-manager@example.com", "team-supervisor@example.com"],
+      "attachments": [],
+      "orderIndex": 6,
+      "category": "Leadership and Coaching",
+      "priority": "Low"
+    }
+  ]
+}

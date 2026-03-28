@@ -1,0 +1,545 @@
+{
+  "report": {
+    "name": "Customer Complaint Resolution - Product Quality Defects",
+    "type": "5 Whys Report",
+    "completed": true,
+    "assignedMembers": [
+      "quality-manager@example.com",
+      "production-supervisor@example.com", 
+      "engineering-lead@example.com"
+    ]
+  },
+  "categories": [
+    {
+      "id": "5whys-category-problem",
+      "name": "Problem & Root Cause Analysis",
+      "orderIndex": 0,
+      "assignees": ["quality-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-problem-1",
+          "name": "customer_complaint_log.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-01-15T09:30:00Z",
+          "description": "Customer complaint documentation and frequency analysis"
+        },
+        {
+          "id": "attachment-problem-2", 
+          "name": "defect_rate_chart.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-01-15T10:15:00Z",
+          "description": "Quality metrics showing increasing defect rates over past 3 months"
+        },
+        {
+          "id": "attachment-inspection-1",
+          "name": "inspection_process_review.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-01-15T11:00:00Z",
+          "description": "Current inspection process documentation and checklist review"
+        }
+      ],
+      "description": "Customer complaint root cause investigation using 5 Whys methodology",
+      "statements": [
+        {
+          "id": "statement-problem",
+          "name": "Customer complaints about product quality defects have increased by 25% over the past quarter. Specific issues include surface scratches, dimensional variations, and functional failures affecting customer satisfaction and requiring costly rework.",
+          "value": 5,
+          "default": false,
+          "owner": "quality-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why1",
+          "name": "Why are customers receiving defective products?",
+          "value": 4,
+          "default": false,
+          "owner": "quality-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why1-answer",
+          "name": "Because products are passing final inspection despite having quality issues. Investigation revealed that our current inspection process is missing certain types of defects, particularly those related to surface finish and dimensional accuracy.",
+          "value": 4,
+          "default": false,
+          "owner": "quality-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why2",
+          "name": "Why is the inspection process missing these defects?",
+          "value": 3,
+          "default": false,
+          "owner": "quality-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why2-answer",
+          "name": "Because the inspection criteria are not comprehensive enough and some measurement tools lack sufficient precision. The inspection checklist hasn't been updated to reflect new quality requirements and customer specifications.",
+          "value": 3,
+          "default": false,
+          "owner": "quality-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why3",
+          "name": "Why haven't inspection criteria been updated?",
+          "value": 2,
+          "default": false,
+          "owner": "quality-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why3-answer",
+          "name": "Because there is no systematic process for reviewing and updating inspection procedures when customer requirements change. The quality management system lacks a formal change control process for inspection criteria.",
+          "value": 2,
+          "default": false,
+          "owner": "quality-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why4",
+          "name": "Why is there no systematic review process?",
+          "value": 1,
+          "default": false,
+          "owner": "quality-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why4-answer",
+          "name": "Because quality procedures were established years ago without built-in review mechanisms, and management focus has been on production volume rather than continuous improvement of quality systems. No one was assigned ownership for maintaining procedure currency.",
+          "value": 1,
+          "default": false,
+          "owner": "quality-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why5",
+          "name": "Why was continuous improvement not prioritized?",
+          "value": 0,
+          "default": false,
+          "owner": "quality-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why5-answer",
+          "name": "Because the organization's performance metrics and incentive systems have historically emphasized short-term production targets over long-term quality excellence. Leadership development in quality management has been insufficient, leading to reactive rather than proactive quality culture.",
+          "value": 0,
+          "default": false,
+          "owner": "quality-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        }
+      ]
+    },
+    {
+      "id": "5whys-category-problem-2",
+      "name": "Problem & Root Cause Analysis",
+      "orderIndex": 1,
+      "assignees": ["production-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-problem2-1",
+          "name": "delivery_delay_tracking.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "production-manager@example.com",
+          "uploadedAt": "2024-01-16T09:30:00Z",
+          "description": "Delivery schedule tracking showing increasing delays"
+        },
+        {
+          "id": "attachment-problem2-2",
+          "name": "customer_escalations.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "customer-service@example.com",
+          "uploadedAt": "2024-01-16T11:15:00Z",
+          "description": "Customer escalation reports due to delivery delays"
+        }
+      ],
+      "description": "Late delivery investigation using 5 Whys methodology",
+      "statements": [
+        {
+          "id": "statement-problem-2",
+          "name": "Customer delivery commitments are being missed by an average of 3.2 days, resulting in 15% of orders delivered late in Q4 2023. This has led to customer complaints, contract penalties totaling $25,000, and potential loss of 2 major accounts.",
+          "value": 5,
+          "default": false,
+          "owner": "production-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why1-2",
+          "name": "Why are deliveries consistently late?",
+          "value": 4,
+          "default": false,
+          "owner": "production-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why1-answer-2",
+          "name": "Because production schedules are not meeting planned completion dates, causing a cascading delay in the entire fulfillment process from manufacturing through shipping.",
+          "value": 4,
+          "default": false,
+          "owner": "production-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why2-2",
+          "name": "Why are production schedules not being met?",
+          "value": 3,
+          "default": false,
+          "owner": "production-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why2-answer-2",
+          "name": "Because raw material shortages and quality issues are causing frequent production line stoppages, requiring schedule adjustments and rush orders from suppliers.",
+          "value": 3,
+          "default": false,
+          "owner": "procurement-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why3-2",
+          "name": "Why are we experiencing raw material shortages and quality issues?",
+          "value": 2,
+          "default": false,
+          "owner": "production-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why3-answer-2",
+          "name": "Because supplier qualification and monitoring processes are inadequate, allowing unreliable suppliers into our supply chain without proper vetting of their quality systems and delivery capabilities.",
+          "value": 2,
+          "default": false,
+          "owner": "procurement-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why4-2",
+          "name": "Why are supplier qualification processes inadequate?",
+          "value": 1,
+          "default": false,
+          "owner": "production-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why4-answer-2",
+          "name": "Because procurement decisions are primarily based on cost reduction targets rather than total value, leading to selection of lowest-cost suppliers without adequate consideration of quality and reliability factors.",
+          "value": 1,
+          "default": false,
+          "owner": "procurement-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why5-2",
+          "name": "Why are procurement decisions focused only on cost reduction?",
+          "value": 0,
+          "default": false,
+          "owner": "production-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why5-answer-2",
+          "name": "Because the organization's KPI system and procurement incentives reward cost savings but do not account for downstream impacts of poor supplier performance on production, quality, and customer satisfaction.",
+          "value": 0,
+          "default": false,
+          "owner": "procurement-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        }
+      ]
+    },
+    {
+      "id": "5whys-category-problem-3",
+      "name": "Problem & Root Cause Analysis",
+      "orderIndex": 2,
+      "assignees": ["hr-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-problem3-1",
+          "name": "employee_turnover_data.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "hr-manager@example.com",
+          "uploadedAt": "2024-01-17T10:00:00Z",
+          "description": "Employee turnover statistics showing 28% annual rate"
+        },
+        {
+          "id": "attachment-problem3-2",
+          "name": "exit_interview_summary.jpg",
+          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "hr-manager@example.com",
+          "uploadedAt": "2024-01-17T14:30:00Z",
+          "description": "Exit interview summary highlighting common departure reasons"
+        }
+      ],
+      "description": "High employee turnover investigation using 5 Whys methodology",
+      "statements": [
+        {
+          "id": "statement-problem-3",
+          "name": "Employee turnover has reached 28% annually, significantly above industry average of 15%. This is costing $180,000 in recruiting and training expenses, disrupting team continuity, and impacting product quality due to inexperienced workforce.",
+          "value": 5,
+          "default": false,
+          "owner": "hr-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why1-3",
+          "name": "Why are employees leaving at such a high rate?",
+          "value": 4,
+          "default": false,
+          "owner": "hr-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why1-answer-3",
+          "name": "Because exit interviews consistently cite lack of career advancement opportunities, limited skill development, and feeling undervalued as primary reasons for departure.",
+          "value": 4,
+          "default": false,
+          "owner": "hr-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why2-3",
+          "name": "Why do employees feel they lack career advancement and development opportunities?",
+          "value": 3,
+          "default": false,
+          "owner": "hr-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why2-answer-3",
+          "name": "Because the company has no formal career development program, minimal training budget allocation, and managers are not trained or incentivized to develop their team members' skills and career paths.",
+          "value": 3,
+          "default": false,
+          "owner": "hr-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why3-3",
+          "name": "Why hasn't the company invested in career development programs?",
+          "value": 2,
+          "default": false,
+          "owner": "hr-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why3-answer-3",
+          "name": "Because leadership views training and development as an expense rather than an investment, and there's concern that developing employees will make them more likely to leave for competitors.",
+          "value": 2,
+          "default": false,
+          "owner": "hr-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why4-3",
+          "name": "Why does leadership view employee development as an expense rather than investment?",
+          "value": 1,
+          "default": false,
+          "owner": "hr-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why4-answer-3",
+          "name": "Because the organization lacks metrics to demonstrate ROI of employee development, and financial reporting systems don't capture the hidden costs of turnover, knowledge loss, and reduced productivity from inexperienced staff.",
+          "value": 1,
+          "default": false,
+          "owner": "hr-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why5-3",
+          "name": "Why don't we measure the ROI of employee development and true costs of turnover?",
+          "value": 0,
+          "default": false,
+          "owner": "hr-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-why5-answer-3",
+          "name": "Because the organization's financial management culture focuses on easily quantifiable direct costs rather than developing comprehensive metrics for human capital investment, leading to short-term cost optimization at the expense of long-term organizational capability.",
+          "value": 0,
+          "default": false,
+          "owner": "hr-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "5whys-exemplary-action-1",
+      "title": "Implement Comprehensive Quality Management System Review",
+      "description": "Establish formal change control process for inspection criteria, including systematic review triggers when customer requirements change, and assign dedicated quality system ownership",
+      "duedate": "2024-03-30",
+      "status": 2,
+      "assignees": ["quality-manager@example.com", "engineering-lead@example.com"],
+      "attachments": [
+        {
+          "id": "exemplary-action-attachment-1",
+          "name": "qms_review_framework.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-01-15T18:00:00Z",
+          "description": "Quality management system review and change control framework"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Quality System",
+      "priority": "High"
+    },
+    {
+      "id": "5whys-exemplary-action-2",
+      "title": "Upgrade Measurement System Capability",
+      "description": "Conduct measurement system analysis on all critical inspection equipment, upgrade precision tools where needed, and implement automated measurement systems for dimensional accuracy",
+      "duedate": "2024-04-15",
+      "status": 1,
+      "assignees": ["engineering-lead@example.com", "metrology-specialist@example.com"],
+      "attachments": [
+        {
+          "id": "exemplary-action-attachment-2",
+          "name": "measurement_upgrade_plan.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "engineering-lead@example.com",
+          "uploadedAt": "2024-01-15T18:15:00Z",
+          "description": "Measurement system capability upgrade and automation plan"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Measurement System",
+      "priority": "High"
+    },
+    {
+      "id": "5whys-exemplary-action-3",
+      "title": "Establish Quality-Focused Performance Metrics",
+      "description": "Redesign organizational performance metrics to balance production targets with quality excellence, including customer satisfaction and first-pass yield in leadership scorecards",
+      "duedate": "2024-05-30",
+      "status": 1,
+      "assignees": ["quality-manager@example.com", "operations-director@example.com"],
+      "attachments": [
+        {
+          "id": "exemplary-action-attachment-3",
+          "name": "balanced_scorecard_design.jpg",
+          "url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-director@example.com",
+          "uploadedAt": "2024-01-15T18:30:00Z",
+          "description": "Balanced scorecard design incorporating quality excellence metrics"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Performance Management",
+      "priority": "Medium"
+    },
+    {
+      "id": "5whys-exemplary-action-4",
+      "title": "Implement Advanced Inspector Training and Certification",
+      "description": "Develop comprehensive training program for quality inspectors including advanced defect detection techniques, measurement uncertainty, and customer specification interpretation",
+      "duedate": "2024-04-30",
+      "status": 0,
+      "assignees": ["training-coordinator@example.com", "quality-manager@example.com"],
+      "attachments": [
+        {
+          "id": "exemplary-action-attachment-4",
+          "name": "inspector_certification_program.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "training-coordinator@example.com",
+          "uploadedAt": "2024-01-15T18:45:00Z",
+          "description": "Advanced inspector training and certification program development"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Human Capital",
+      "priority": "High"
+    },
+    {
+      "id": "5whys-exemplary-action-5",
+      "title": "Deploy Real-Time Quality Monitoring System",
+      "description": "Install integrated quality monitoring system with real-time SPC charting, automated alerts for process deviations, and predictive quality analytics",
+      "duedate": "2024-06-30",
+      "status": 0,
+      "assignees": ["engineering-lead@example.com", "it-systems-manager@example.com"],
+      "attachments": [
+        {
+          "id": "exemplary-action-attachment-5",
+          "name": "quality_monitoring_system.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "it-systems-manager@example.com",
+          "uploadedAt": "2024-01-15T19:00:00Z",
+          "description": "Real-time quality monitoring and analytics system architecture"
+        }
+      ],
+      "orderIndex": 4,
+      "category": "Technology",
+      "priority": "Medium"
+    }
+  ],
+  "aiAnalysis": {
+    "overallAssessment": {
+      "maturityLevel": "World-Class Excellence",
+      "methodologyAdherence": "Exemplary 5 Whys Implementation",
+      "rootCauseQuality": "Outstanding Systematic Investigation",
+      "actionabilityLevel": "Superior - Strategic Implementation Ready"
+    },
+    "keyFindings": [
+      "Systematic Root Cause Development: Outstanding progression from surface symptoms to fundamental organizational root causes",
+      "Evidence-Based Analysis: Exceptional integration of data, documentation, and measurement to support each questioning level",
+      "Organizational Depth: Superior investigation reaching true systemic issues rather than stopping at operational symptoms", 
+      "Comprehensive Action Planning: World-class corrective and preventive actions addressing both immediate and long-term solutions",
+      "Cross-Functional Excellence: Exemplary collaboration involving quality, engineering, and operations leadership"
+    ],
+    "strengthAreas": [
+      {
+        "category": "Methodology Excellence",
+        "highlights": "Perfect application of 5 Whys structure with logical progression and evidence-based reasoning",
+        "bestPractices": "Systematic questioning approach, evidence collection at each level, and comprehensive root cause validation"
+      },
+      {
+        "category": "Problem Definition",
+        "highlights": "Outstanding problem statement with specific metrics, scope, and quantified business impact",
+        "bestPractices": "Clear problem boundaries, measurable consequences, and customer impact quantification"
+      },
+      {
+        "category": "Evidence Integration",
+        "highlights": "Exceptional use of data, measurement system analysis, and documentation to validate causes",
+        "bestPractices": "Complaint logs, defect data, inspection analysis, and performance metrics integration"
+      }
+    ],
+    "improvementOpportunities": [],
+    "methodologyInsights": {
+      "questioningQuality": "Outstanding - each 'Why' builds logically on previous answer with evidence-based reasoning",
+      "evidenceIntegration": "Superior - comprehensive data collection and validation supporting all analysis levels",
+      "rootCauseDepth": "World-Class - reaches true organizational and systemic root causes",
+      "actionabilityLevel": "Exemplary - enables immediate development of strategic corrective actions"
+    },
+    "learningPoints": [
+      "Systematic Progression: World-class 5 Whys requires logical progression from symptoms to organizational root causes",
+      "Evidence Foundation: Superior analysis integrates multiple forms of evidence rather than relying on assumptions",
+      "Organizational Focus: Most effective root cause analysis identifies systemic organizational issues enabling problems",
+      "Comprehensive Actions: Outstanding 5 Whys analysis enables both immediate fixes and long-term preventive measures",
+      "Cross-Functional Perspective: Complex quality problems require diverse expertise and collaborative investigation"
+    ],
+    "nextSteps": [
+      "Implement comprehensive corrective action plan with clear ownership and timeline management",
+      "Establish measurement system to track effectiveness of implemented solutions and prevent recurrence",
+      "Document lessons learned and best practices for future 5 Whys analysis applications across organization",
+      "Develop training materials based on this exemplary analysis for broader organizational capability building",
+      "Monitor long-term effectiveness and adjust strategies based on performance data and customer feedback"
+    ],
+    "industryBenchmark": {
+      "currentPerformance": "World-Class - Exemplary application of 5 Whys methodology",
+      "methodologyComparison": "Superior execution compared to industry best practices for root cause analysis",
+      "evidenceQuality": "Outstanding - comprehensive integration of data and measurement exceeds standard practices",
+      "organizationalImpact": "High - analysis provides clear foundation for strategic quality improvement initiatives"
+    }
+  }
+}

@@ -1,0 +1,261 @@
+[
+    {
+       "id":"783734hd33",
+       "name":"Review visual boards.",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"wrw22322rd",
+       "name":"Discuss current improvement project.",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"d93j26k0f3",
+       "name":"Review 5S progress.",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"f3j2ghd9s21",
+       "name":"Discuss new layout.",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"g49sfdd0f4",
+       "name":"Discuss audit score.",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"9dkghkd92",
+       "name":"Are there any quality issues?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"s1as8d2h9",
+       "name":"What are some of your improvement ideas?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"dfdg9h5j1k",
+       "name":"Are there bottlenecks?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"42ghkj5j1k8d",
+       "name":"Are outcomes expected and known?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"kfj3934d2h9d",
+       "name":"Do you follow standard work rules?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"d9d3jfg4k82",
+       "name":"Are workloads balanced?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"sdfj56fg9d2h",
+       "name":"Is there unevenness of work?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"d93juiyu67fd1",
+       "name":"Are metrics current and available?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"df4j38d2ed",
+       "name":"Do you have daily metrics?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"3h9k52en8g92",
+       "name":"How is your training going?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"9j9d3wfwr3fd",
+       "name":"What can make your work easier?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"39jf9brfg322h",
+       "name":"Do we (management) communicate enough re: changes?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"4g9h5j1ksfs3f",
+       "name":"Are work stations manned?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"d93j29f4wer3r",
+       "name":"Are people following standards?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"df49g5j1dsf3f",
+       "name":"Are there any abnormal conditions?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"d3j2k0f3444qf3q",
+       "name":"What is creating waste?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"d9dk30fawf3r4",
+       "name":"How clear is the standard to those doing the work?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"d93j2k0dfgdfg4",
+       "name":"What can we do to improve the current conditions?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"3j2k0fd4sfrr",
+       "name":"What have we done to determine the root cause of the problems?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"9dk30fkdvsff",
+       "name":"What do we intend to improve today?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"sdfj39d22323",
+       "name":"What is the priority today?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"d93j29d6h2s44",
+       "name":"What is the next step for improving your process?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"s1f65gggdd334",
+       "name":"What happens during the process when problems arise?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"d93j2kcx32feq2",
+       "name":"Do you notice any backtracking, rework, etc. during the process?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"3j9d0fsdfsf3f",
+       "name":"What happens to the process when problems arise?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"df4g9h54y5egs",
+       "name":"What is working well?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"d3j2k042sdfs",
+       "name":"Are you getting the training you need?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"d9d2565gdhdh",
+       "name":"Are you getting the information when you need it?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"s1f3g24afsg343",
+       "name":"Are you getting cooperation from other departments?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"d93j29q34afs3",
+       "name":"How do you contribute your ideas for improvement?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"3j9d0f34qdf3r",
+       "name":"Is the work you are doing value-added?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"df4g9sdgsr3g8",
+       "name":"Do you know your expectations?",
+       "category_name":"Human Resources",
+       "value":3,
+       "static":true
+    }
+ ]

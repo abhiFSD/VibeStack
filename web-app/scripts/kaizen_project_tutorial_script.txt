@@ -1,0 +1,100 @@
+Hello and welcome to LeanFit Pro. Here we'll learn how to create a Kaizen Project report.
+
+First, login to LeanFit and you'll see a menu. This opens a mega menu for the application. Locate the Reports option here and click on it.
+
+Now you can see the reports page with a Create Report button. Let's click on it.
+
+You can add a report name here and select Kaizen Project from the report type dropdown menu. We have 21 report types available.
+
+You can also assign this report to a project and assign it to organization members.
+
+Let's create the Kaizen Project report now.
+
+Once it's created, you can see the video tutorial from here. Click on Edit to edit the report details, such as the report name. Note that you cannot change the report type once it's created. Everything else remains the same, and you can update the details.
+
+You can also copy a report with all its data.
+
+Additionally, you can mark the report as completed. When you do this, the system will reward you with awards according to your organization's configuration.
+
+Now let's get started with the Kaizen Project report. Click on Open to open the report.
+
+Now, this is the Action Item section where you can create action items for this report. Click here and the action item creation modal will appear. You can add a title, description, and set a due date for the action item. The report is already selected. You can add members if the report has assignees - they will show here.
+
+You can add images to your action item, then create it. You've successfully created an action item.
+
+The Kaizen Project report uses a phase-based system to organize your continuous improvement project. Notice that instead of "Categories", the system uses "Phases" for Kaizen projects.
+
+The system provides default phases for a structured Kaizen approach:
+
+- (Prepare): Pre-project preparation and foundation building
+- Planning: Detailed analysis and team formation
+- PDCA - Implementation: Systematic implementation using Plan-Do-Check-Act
+- Follow-Up: Sustainment and continuous monitoring
+
+You can use these preset default phases or add your own custom phases based on your specific Kaizen project needs.
+
+To add a phase, click the plus button. You can select from the default phases or create a custom phase name for specific stages of your project.
+
+Each phase can include:
+- Kaizen-specific statements with scoring from 1 to 5
+- Additional details with descriptions and tags
+- Attachments like photos, charts, and documents
+- Assignees responsible for that phase
+
+To add statements to a phase, click on the phase card. The system provides pre-defined Kaizen statements based on best practices. For example:
+
+In the (Prepare) phase, you might have statements like:
+- Share the Business Case and link to Strategic Direction
+- Provide Lean/Six Sigma training
+- Identify and eliminate potential barriers
+- Create evaluation methods
+- Determine management engagement
+
+Each statement is scored from 1 to 5, where:
+- 1 = Not started or very poor
+- 2 = Below expectations
+- 3 = Meets expectations
+- 4 = Above expectations
+- 5 = Excellent/Complete
+
+In the Planning phase, typical statements include:
+- Assemble team with the right knowledge and implement a project charter
+- Create A3 Report problem statement
+- Create SIPOC Diagram
+- Create current state value stream map
+- Complete stakeholder analysis
+
+For PDCA - Implementation phase:
+- Review team goal prior to Kaizen event
+- Document and take photos of before state
+- Execute improvement activities
+- Check results against targets
+- Act to standardize successful changes
+
+The Follow-Up phase includes:
+- Monitor sustaining results
+- Document lessons learned
+- Share success stories
+- Plan next improvement cycle
+
+You can add custom statements specific to your Kaizen project or modify existing ones.
+
+In the Additional Details section for each phase, you can:
+- Add detailed descriptions of activities completed
+- Upload before and after photos
+- Document metrics and measurements
+- Tag relevant team members
+
+You can rearrange phases using the rearrange button to match your project timeline.
+
+The Kaizen Project report doesn't display a radar chart since it focuses on phase progression rather than category scoring.
+
+You can switch between vertical and horizontal layouts for better viewing of your phases and progress.
+
+Finally, you can export to PDF and get yourself a comprehensive Kaizen Project report documenting your entire continuous improvement journey with all phases, statements, scores, and supporting documentation.
+
+The PDF export provides a professional format perfect for sharing Kaizen results with leadership and celebrating team achievements.
+
+That's it for the Kaizen Project report. It's an excellent tool for structured continuous improvement projects following the Kaizen methodology. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

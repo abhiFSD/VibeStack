@@ -1,0 +1,411 @@
+{
+  "report": {
+    "name": "Customer Service Standard Work Initiative - Initial Assessment",
+    "type": "Standard Work Report",
+    "completed": false,
+    "assignedMembers": ["customer-service-manager@example.com", "team-lead@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Work Instructions",
+      "orderIndex": 0,
+      "assignees": ["customer-service-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "handwritten_notes.jpg",
+          "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "customer-service-manager@example.com",
+          "uploadedAt": "2024-02-28T10:00:00Z",
+          "description": "Handwritten notes and informal procedures without standardized documentation"
+        }
+      ],
+      "description": "Work instructions development in very early stages with informal documentation and no systematic procedure development.",
+      "statements": [
+        {
+          "name": "Work instructions are clearly documented with step-by-step procedures",
+          "value": 1
+        },
+        {
+          "name": "Visual aids and diagrams support written instructions effectively",
+          "value": 1
+        },
+        {
+          "name": "Quality checkpoints are integrated throughout the process",
+          "value": 2
+        },
+        {
+          "name": "Instructions include safety requirements and precautions",
+          "value": 2
+        },
+        {
+          "name": "Work instructions are easily accessible at the point of use",
+          "value": 1
+        },
+        {
+          "name": "Instructions specify required tools, materials, and equipment",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Process Standardization",
+      "orderIndex": 1,
+      "assignees": ["team-lead@example.com", "customer-service-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "inconsistent_workstations.jpg",
+          "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "team-lead@example.com",
+          "uploadedAt": "2024-03-02T11:30:00Z",
+          "description": "Highly inconsistent workstations with individual operator preferences and no standardization"
+        }
+      ],
+      "description": "Process standardization efforts not yet initiated with significant variation in individual approaches and no defined standards.",
+      "statements": [
+        {
+          "name": "Process sequence is clearly defined and consistently followed",
+          "value": 1
+        },
+        {
+          "name": "Cycle time standards are established and regularly monitored",
+          "value": 1
+        },
+        {
+          "name": "Workstation layout is standardized with designated locations",
+          "value": 1
+        },
+        {
+          "name": "Work-in-progress levels are defined and controlled",
+          "value": 1
+        },
+        {
+          "name": "Standard operating procedures are followed by all operators",
+          "value": 1
+        },
+        {
+          "name": "Process variations are minimized through standardization",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Training and Competency",
+      "orderIndex": 2,
+      "assignees": ["customer-service-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "buddy_system_training.jpg",
+          "url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "customer-service-manager@example.com",
+          "uploadedAt": "2024-03-05T14:15:00Z",
+          "description": "Informal buddy system training without structured curriculum or competency verification"
+        }
+      ],
+      "description": "Training approach completely informal with no structured curriculum, competency assessment, or systematic skill development.",
+      "statements": [
+        {
+          "name": "All operators are trained on standard work procedures",
+          "value": 1
+        },
+        {
+          "name": "Training includes hands-on practice and competency verification",
+          "value": 1
+        },
+        {
+          "name": "Skill matrix tracks operator competency levels",
+          "value": 1
+        },
+        {
+          "name": "Regular refresher training maintains standard adherence",
+          "value": 1
+        },
+        {
+          "name": "New operators receive structured onboarding training",
+          "value": 2
+        },
+        {
+          "name": "Training effectiveness is measured and improved",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Documentation and Control",
+      "orderIndex": 3,
+      "assignees": ["team-lead@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "scattered_documents.jpg",
+          "url": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "team-lead@example.com",
+          "uploadedAt": "2024-03-08T09:45:00Z",
+          "description": "Scattered documents with no version control or systematic organization"
+        }
+      ],
+      "description": "Document control system non-existent with scattered documentation, no version management, and inconsistent storage approaches.",
+      "statements": [
+        {
+          "name": "Document version control system ensures current standards are used",
+          "value": 1
+        },
+        {
+          "name": "Change control process manages updates to standard work",
+          "value": 1
+        },
+        {
+          "name": "Documents are stored in centralized, accessible locations",
+          "value": 1
+        },
+        {
+          "name": "Regular review and update schedule maintains document currency",
+          "value": 1
+        },
+        {
+          "name": "Document approval process ensures quality and accuracy",
+          "value": 1
+        },
+        {
+          "name": "Obsolete documents are removed from work areas",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Continuous Improvement",
+      "orderIndex": 4,
+      "assignees": ["customer-service-manager@example.com"],
+      "attachments": [],
+      "description": "Continuous improvement activities non-existent with no systematic approach to collecting feedback or implementing enhancements.",
+      "statements": [
+        {
+          "name": "Operator suggestions for standard work improvements are collected",
+          "value": 1
+        },
+        {
+          "name": "Performance data drives standard work optimization",
+          "value": 1
+        },
+        {
+          "name": "Regular kaizen events improve standard work effectiveness",
+          "value": 1
+        },
+        {
+          "name": "Best practices are shared across similar operations",
+          "value": 1
+        },
+        {
+          "name": "Standard work evolves based on lessons learned",
+          "value": 1
+        },
+        {
+          "name": "Improvement results are measured and documented",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Compliance and Audit",
+      "orderIndex": 5,
+      "assignees": ["team-lead@example.com"],
+      "attachments": [],
+      "description": "Compliance monitoring and audit systems completely absent with no systematic verification or tracking mechanisms.",
+      "statements": [
+        {
+          "name": "Regular audits verify standard work compliance",
+          "value": 1
+        },
+        {
+          "name": "Non-compliance is identified and corrected promptly",
+          "value": 1
+        },
+        {
+          "name": "Audit results drive corrective action and improvement",
+          "value": 1
+        },
+        {
+          "name": "Compliance metrics are tracked and reported",
+          "value": 1
+        },
+        {
+          "name": "Standard work adherence is part of performance evaluation",
+          "value": 1
+        },
+        {
+          "name": "Audit findings are communicated and addressed systematically",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-sw-basic-1",
+      "title": "Fundamental Documentation Gap",
+      "description": "<p><strong>No Standardized Procedures:</strong> Work instructions development not yet initiated with only informal handwritten notes and individual operator approaches. No systematic documentation, visual aids, or standardized procedure development.</p><p><strong>Foundation Required:</strong> Comprehensive standard work program needed starting with basic procedure documentation, visual support systems, and systematic approach to instruction development.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["customer-service-manager@example.com", "process-development@example.com"]
+    },
+    {
+      "id": "highlight-sw-basic-2",
+      "title": "Process Standardization Absent",
+      "description": "<p><strong>Individual Operator Approaches:</strong> No process standardization exists with significant variation in individual methods and approaches. Workstation layouts completely inconsistent with no defined standards or procedures.</p><p><strong>Systematic Development Needed:</strong> Comprehensive standardization methodology required with process mapping, layout design, timing studies, and consistent procedure implementation across all workstations.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["team-lead@example.com", "operations-consultant@example.com"]
+    },
+    {
+      "id": "highlight-sw-basic-3",
+      "title": "Training System Non-Existent",
+      "description": "<p><strong>Informal Buddy System Only:</strong> No structured training program exists with complete reliance on informal buddy system without competency verification or skill development framework.</p><p><strong>Comprehensive Program Required:</strong> Systematic training development needed with curriculum design, competency assessment, skill tracking, and structured onboarding for consistent standard work execution.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["customer-service-manager@example.com", "training-development@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "sw-basic-action-1",
+      "title": "Conduct Standard Work Methodology Training",
+      "description": "Provide comprehensive training on standard work principles, documentation techniques, and implementation methodology for management team and key operators. Include hands-on workshop sessions.",
+      "duedate": "2024-06-30",
+      "status": 0,
+      "assignees": ["customer-service-manager@example.com", "lean-consultant@example.com"],
+      "attachments": [
+        {
+          "id": "sw-basic-action-attachment-1",
+          "name": "standard_work_training_curriculum.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "lean-consultant@example.com",
+          "uploadedAt": "2024-03-10T10:00:00Z",
+          "description": "Standard work methodology training curriculum and workshop materials"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Foundation Training",
+      "priority": "High"
+    },
+    {
+      "id": "sw-basic-action-2",
+      "title": "Develop Basic Process Documentation Framework",
+      "description": "Create simple documentation templates and establish basic process mapping for core customer service activities. Start with highest-volume, most repetitive processes for initial standardization.",
+      "duedate": "2024-08-15",
+      "status": 0,
+      "assignees": ["team-lead@example.com", "process-analyst@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Documentation Development",
+      "priority": "High"
+    },
+    {
+      "id": "sw-basic-action-3",
+      "title": "Establish Document Storage and Organization System",
+      "description": "Implement basic document control system with centralized storage, simple version tracking, and accessibility standards. Include training on document management procedures.",
+      "duedate": "2024-07-31",
+      "status": 0,
+      "assignees": ["customer-service-manager@example.com", "administrative-support@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Document Control",
+      "priority": "Medium"
+    },
+    {
+      "id": "sw-basic-action-4",
+      "title": "Pilot Standard Work Implementation",
+      "description": "Select one customer service process for pilot standard work implementation including procedure documentation, training development, and compliance monitoring to establish foundation for expansion.",
+      "duedate": "2024-09-30",
+      "status": 0,
+      "assignees": ["team-lead@example.com", "customer-service-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Pilot Implementation",
+      "priority": "Medium"
+    }
+  ],
+  "chartData": [
+    {
+      "id": "op-1",
+      "posX": 0,
+      "posY": 45,
+      "text": "Manual",
+      "value": 45,
+      "Description": "Customer inquiry handling with inconsistent response approach and lengthy research",
+      "orderIndex": 0,
+      "reportID": "preview-standard-work-3"
+    },
+    {
+      "id": "op-2", 
+      "posX": 45,
+      "posY": 75,
+      "text": "Wait",
+      "value": 30,
+      "Description": "Wait for supervisor approval due to lack of standard procedures",
+      "orderIndex": 1,
+      "reportID": "preview-standard-work-3"
+    },
+    {
+      "id": "op-3",
+      "posX": 75,
+      "posY": 120,
+      "text": "Manual",
+      "value": 45,
+      "Description": "Manual system navigation without standardized workflow or shortcuts",
+      "orderIndex": 2,
+      "reportID": "preview-standard-work-3"
+    },
+    {
+      "id": "op-4",
+      "posX": 120,
+      "posY": 140,
+      "text": "Walk",
+      "value": 20,
+      "Description": "Walking to file cabinet for manual reference materials",
+      "orderIndex": 3,
+      "reportID": "preview-standard-work-3"
+    },
+    {
+      "id": "op-5",
+      "posX": 140,
+      "posY": 200,
+      "text": "Manual",
+      "value": 60,
+      "Description": "Customer communication with variable script usage and inconsistent quality",
+      "orderIndex": 4,
+      "reportID": "preview-standard-work-3"
+    },
+    {
+      "id": "op-6",
+      "posX": 200,
+      "posY": 220,
+      "text": "Wait",
+      "value": 20,
+      "Description": "Wait for system response due to outdated technology and slow processes",
+      "orderIndex": 5,
+      "reportID": "preview-standard-work-3"
+    },
+    {
+      "id": "op-7",
+      "posX": 220,
+      "posY": 235,
+      "text": "Manual",
+      "value": 15,
+      "Description": "Manual documentation with inconsistent format and incomplete information",
+      "orderIndex": 6,
+      "reportID": "preview-standard-work-3"
+    }
+  ],
+  "taktTime": 180,
+  "timeUnit": "seconds"
+}

@@ -1,0 +1,353 @@
+{
+  "report": {
+    "name": "Training Hours vs Quality Performance Correlation Analysis",
+    "type": "Scatter Plot Report",
+    "completed": true,
+    "assignedMembers": [
+      "quality-manager@example.com",
+      "training-coordinator@example.com",
+      "data-analyst@example.com"
+    ]
+  },
+  "chartData": [
+    {
+      "posX": "5",
+      "posY": "72",
+      "text": "Team A",
+      "Description": "Minimal training investment resulting in baseline quality performance"
+    },
+    {
+      "posX": "8",
+      "posY": "76",
+      "text": "Team B",
+      "Description": "Low training hours with correspondingly modest quality improvements"
+    },
+    {
+      "posX": "12",
+      "posY": "82",
+      "text": "Team C",
+      "Description": "Moderate training showing clear positive impact on quality metrics"
+    },
+    {
+      "posX": "15",
+      "posY": "85",
+      "text": "Team D",
+      "Description": "Increased training investment yielding proportional quality gains"
+    },
+    {
+      "posX": "18",
+      "posY": "89",
+      "text": "Team E",
+      "Description": "Substantial training commitment demonstrating strong quality correlation"
+    },
+    {
+      "posX": "22",
+      "posY": "92",
+      "text": "Team F",
+      "Description": "High training hours producing excellent quality performance results"
+    },
+    {
+      "posX": "25",
+      "posY": "94",
+      "text": "Team G",
+      "Description": "Comprehensive training program achieving near-perfect quality scores"
+    },
+    {
+      "posX": "28",
+      "posY": "96",
+      "text": "Team H",
+      "Description": "Maximum training investment delivering world-class quality performance"
+    },
+    {
+      "posX": "32",
+      "posY": "97",
+      "text": "Team I",
+      "Description": "Extended training creating quality excellence and process mastery"
+    },
+    {
+      "posX": "35",
+      "posY": "98",
+      "text": "Team J",
+      "Description": "Intensive training program resulting in industry-leading quality achievement"
+    },
+    {
+      "posX": "38",
+      "posY": "99",
+      "text": "Team K",
+      "Description": "Advanced training excellence producing consistently superior quality outcomes"
+    },
+    {
+      "posX": "42",
+      "posY": "99.5",
+      "text": "Team L",
+      "Description": "Mastery-level training investment achieving optimal quality performance ceiling"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-scatter-quality-1",
+      "title": "Strong Positive Correlation Demonstrated",
+      "content": "Scatter plot analysis reveals exceptional correlation coefficient (R² = 0.94) between training hours and quality performance. Every additional hour of training correlates with 0.67 point improvement in quality scores, demonstrating clear return on training investment.",
+      "category": "Correlation Analysis",
+      "attachments": [
+        {
+          "id": "highlight-scatter-quality-attachment-1",
+          "name": "correlation_analysis_statistics.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "data-analyst@example.com",
+          "uploadedAt": "2024-12-20T09:00:00Z",
+          "description": "Statistical correlation analysis showing R-squared and significance testing"
+        }
+      ]
+    },
+    {
+      "id": "highlight-scatter-quality-2",
+      "title": "Training Investment ROI Validation",
+      "content": "Data points consistently follow the regression line with minimal deviation, confirming that training investment directly translates to quality improvement. Teams with 35+ training hours achieve 98%+ quality scores, validating the business case for comprehensive training programs.",
+      "category": "ROI Analysis",
+      "attachments": [
+        {
+          "id": "highlight-scatter-quality-attachment-2",
+          "name": "training_roi_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "training-coordinator@example.com",
+          "uploadedAt": "2024-12-20T10:30:00Z",
+          "description": "Training return on investment analysis and cost-benefit calculation"
+        }
+      ]
+    },
+    {
+      "id": "highlight-scatter-quality-3",
+      "title": "Performance Plateau Identification",
+      "content": "Analysis shows quality improvement tapering above 35 training hours, suggesting optimal training threshold. Marginal returns diminish beyond this point, indicating efficient resource allocation strategy for maximum impact per training dollar invested.",
+      "category": "Optimization Insights",
+      "attachments": [
+        {
+          "id": "highlight-scatter-quality-attachment-3",
+          "name": "performance_plateau_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-12-20T11:15:00Z",
+          "description": "Performance plateau analysis identifying optimal training investment levels"
+        }
+      ]
+    },
+    {
+      "id": "highlight-scatter-quality-4",
+      "title": "Industry Benchmark Achievement",
+      "content": "Teams achieving 25+ training hours consistently exceed industry quality benchmarks (95%), while teams below 15 hours fall short of competitive standards. This correlation provides clear guidance for establishing minimum training requirements.",
+      "category": "Benchmark Comparison",
+      "attachments": [
+        {
+          "id": "highlight-scatter-quality-attachment-4",
+          "name": "industry_benchmark_comparison.jpg",
+          "url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "data-analyst@example.com",
+          "uploadedAt": "2024-12-20T12:00:00Z",
+          "description": "Industry benchmark comparison analysis and competitive positioning"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "scatter-quality-action-1",
+      "title": "Establish Minimum 25-Hour Training Standard",
+      "description": "Implement company-wide minimum training requirement of 25 hours per team member annually, based on correlation analysis showing this threshold consistently achieves 94%+ quality performance.",
+      "duedate": "2025-02-28",
+      "status": 1,
+      "assignees": ["training-coordinator@example.com", "hr-policy-manager@example.com"],
+      "attachments": [
+        {
+          "id": "scatter-quality-action-attachment-1",
+          "name": "training_standards_policy.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "hr-policy-manager@example.com",
+          "uploadedAt": "2024-12-20T13:00:00Z",
+          "description": "Comprehensive training standards policy framework and implementation guide"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Policy Development",
+      "priority": "High"
+    },
+    {
+      "id": "scatter-quality-action-2",
+      "title": "Develop Training-Quality Tracking Dashboard",
+      "description": "Create real-time dashboard correlating training investments with quality outcomes. Include predictive analytics to forecast quality performance based on planned training hours.",
+      "duedate": "2025-03-31",
+      "status": 0,
+      "assignees": ["data-analyst@example.com", "it-dashboard-developer@example.com"],
+      "attachments": [
+        {
+          "id": "scatter-quality-action-attachment-2",
+          "name": "correlation_dashboard_design.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "data-analyst@example.com",
+          "uploadedAt": "2024-12-20T14:30:00Z",
+          "description": "Training-quality correlation dashboard design and analytics framework"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Analytics System",
+      "priority": "High"
+    },
+    {
+      "id": "scatter-quality-action-3",
+      "title": "Optimize Training Resource Allocation",
+      "description": "Reallocate training budget to focus on teams below 25-hour threshold. Prioritize underperforming teams for intensive training programs based on correlation analysis insights.",
+      "duedate": "2025-01-31",
+      "status": 2,
+      "assignees": ["training-coordinator@example.com", "budget-manager@example.com"],
+      "attachments": [
+        {
+          "id": "scatter-quality-action-attachment-3",
+          "name": "resource_allocation_strategy.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "budget-manager@example.com",
+          "uploadedAt": "2024-12-20T15:45:00Z",
+          "description": "Training resource allocation optimization strategy and budget reallocation plan"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Resource Optimization",
+      "priority": "Medium"
+    },
+    {
+      "id": "scatter-quality-action-4",
+      "title": "Conduct Advanced Correlation Studies",
+      "description": "Expand correlation analysis to include additional variables: experience level, certification status, and training methodology effectiveness. Develop multi-factor quality prediction model.",
+      "duedate": "2025-04-30",
+      "status": 0,
+      "assignees": ["data-scientist@example.com", "quality-analyst@example.com"],
+      "attachments": [
+        {
+          "id": "scatter-quality-action-attachment-4",
+          "name": "advanced_correlation_methodology.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "data-scientist@example.com",
+          "uploadedAt": "2024-12-20T16:30:00Z",
+          "description": "Advanced multi-variable correlation analysis methodology and statistical framework"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Advanced Analytics",
+      "priority": "Medium"
+    },
+    {
+      "id": "scatter-quality-action-5",
+      "title": "Create Training Excellence Recognition Program",
+      "description": "Establish recognition system for teams achieving optimal training-quality correlation. Include quarterly awards for teams exceeding 95% quality with efficient training investment.",
+      "duedate": "2025-03-15",
+      "status": 0,
+      "assignees": ["hr-recognition-team@example.com", "quality-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Employee Recognition",
+      "priority": "Low"
+    }
+  ],
+  "aiAnalysis": {
+    "overallAssessment": {
+      "chartType": "Scatter Plot - X-Y Correlation Analysis",
+      "correlationStrength": "Strong Positive Correlation (R² = 0.94)",
+      "relationshipType": "Linear with Diminishing Returns Above 35 Hours",
+      "statisticalSignificance": "Highly Significant (p < 0.001)"
+    },
+    "keyFindings": [
+      "Exceptional correlation strength: R² = 0.94 indicates 94% of quality variation explained by training hours",
+      "Linear relationship: Each additional training hour correlates with 0.67 point quality improvement",
+      "Optimal threshold identified: 25+ training hours consistently achieve 94%+ quality performance",
+      "Diminishing returns: Quality improvement plateaus above 35 training hours (marginal gains)",
+      "Industry leadership: Teams with 35+ hours achieve 98%+ quality, exceeding industry benchmarks"
+    ],
+    "correlationAnalysis": {
+      "correlationCoefficient": "0.97 (Pearson's r)",
+      "rSquaredValue": "0.94",
+      "standardError": "1.2 quality points",
+      "pValue": "< 0.001",
+      "confidenceInterval": "95% CI: 0.92-0.98",
+      "significanceLevel": "Highly significant"
+    },
+    "regressionAnalysis": {
+      "equation": "Quality = 68.2 + 0.67 × Training Hours",
+      "slope": "0.67 quality points per training hour",
+      "intercept": "68.2% baseline quality without training",
+      "goodnessOfFit": "Excellent (R² = 0.94)",
+      "residualAnalysis": "No systematic patterns - assumptions met",
+      "predictivePower": "High reliability for quality forecasting"
+    },
+    "segmentAnalysis": [
+      {
+        "segment": "Low Training (5-15 hours)",
+        "qualityRange": "72-85%",
+        "characteristics": "Below industry standards, high improvement potential",
+        "recommendation": "Priority for intensive training programs"
+      },
+      {
+        "segment": "Moderate Training (15-25 hours)",
+        "qualityRange": "85-94%",
+        "characteristics": "Approaching competitive levels, cost-effective gains",
+        "recommendation": "Accelerate to reach 25-hour minimum threshold"
+      },
+      {
+        "segment": "High Training (25-35 hours)",
+        "qualityRange": "94-98%",
+        "characteristics": "Industry-leading performance, optimal ROI zone",
+        "recommendation": "Maintain investment levels, document best practices"
+      },
+      {
+        "segment": "Maximum Training (35+ hours)",
+        "qualityRange": "98-99.5%",
+        "characteristics": "World-class performance, diminishing returns evident",
+        "recommendation": "Focus on knowledge transfer and mentoring roles"
+      }
+    ],
+    "businessImplications": {
+      "investmentStrategy": "Prioritize teams below 25-hour threshold for maximum ROI impact",
+      "qualityTargets": "95% quality achievable with 27-hour training investment",
+      "competitiveAdvantage": "Training-quality correlation provides sustainable differentiation",
+      "riskMitigation": "Teams below 15 hours represent quality risk requiring intervention",
+      "scalabilityInsights": "Correlation model enables predictable quality scaling through training"
+    },
+    "statisticalValidation": {
+      "sampleSize": "12 teams (adequate for correlation analysis)",
+      "dataQuality": "High - consistent measurement methodology across teams",
+      "outlierAnalysis": "No significant outliers detected",
+      "assumptionTesting": "Linear relationship, normal residuals, homoscedasticity confirmed",
+      "crossValidation": "Model validated against historical data (R² = 0.92)"
+    },
+    "learningPoints": [
+      "Strong Correlation Evidence: R² = 0.94 provides compelling business case for training investment",
+      "Threshold Optimization: 25-hour minimum ensures competitive quality performance levels",
+      "Diminishing Returns Recognition: Investment beyond 35 hours shows marginal quality gains",
+      "Predictive Capability: Model enables accurate quality forecasting based on training plans",
+      "Resource Allocation: Correlation analysis guides efficient training budget distribution",
+      "Competitive Positioning: Training-quality relationship creates sustainable advantage",
+      "Data-Driven Decisions: Scatter plot analysis replaces intuition with statistical evidence"
+    ],
+    "recommendedActions": [
+      "Establish 25-hour minimum training standard based on correlation threshold analysis",
+      "Develop real-time dashboard tracking training-quality correlation for ongoing optimization",
+      "Reallocate training resources to maximize ROI using correlation insights",
+      "Expand correlation analysis to include additional quality-influencing variables",
+      "Create recognition programs celebrating optimal training-quality achievement",
+      "Document and standardize training methodologies for high-correlation teams"
+    ],
+    "scatterPlotSpecificInsights": {
+      "dataDistribution": "Evenly distributed across training hours range with clear linear pattern",
+      "visualClarity": "Strong visual correlation evident - points closely follow trend line",
+      "outlierIdentification": "No significant outliers - consistent training-quality relationship",
+      "patternRecognition": "Clear linear progression with slight curve at high training levels",
+      "clusterAnalysis": "Natural clustering at 25-hour and 35-hour training investment levels"
+    }
+  }
+}

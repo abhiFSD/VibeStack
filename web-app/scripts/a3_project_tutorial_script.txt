@@ -1,0 +1,60 @@
+Hello and welcome to LeanFit Pro. Here we'll learn how to create an A3 Project report.
+
+First, login to LeanFit and you'll see a menu. This opens a mega menu for the application. Locate the Reports option here and click on it.
+
+Now you can see the reports page with a Create Report button. Let's click on it.
+
+You can add a report name here and select A3 Project from the report type dropdown menu. We have 21 report types available.
+
+You can also assign this report to a project and assign it to organization members.
+
+Let's create the A3 Project report now.
+
+Once it's created, you can see the video tutorial from here. Click on Edit to edit the report details, such as the report name. Note that you cannot change the report type once it's created. Everything else remains the same, and you can update the details.
+
+You can also copy a report with all its data.
+
+Additionally, you can mark the report as completed. When you do this, the system will reward you with awards according to your organization's configuration.
+
+Now let's get started with the A3 Project report. Click on Open to open the report.
+
+The A3 Project report has a unique interface. At the top, you'll see two tabs - "HIGHLIGHTS REPORT" which is selected by default, and "Departments".
+
+The A3 Project report uses the HIGHLIGHTS REPORT format which is specifically designed for structured problem-solving. Unlike other reports that use categories and statements, A3 reports use a highlights-based approach.
+
+In the HIGHLIGHTS REPORT view, you can create structured sections for your A3 analysis. The typical A3 sections include:
+
+- Problem Statement: Define the problem or opportunity you're addressing
+- Current State: Document the current situation with data and observations
+- Improvement Opportunity: Identify the potential for improvement
+- Problem Analysis: Conduct root cause analysis
+- Future State: Design your target condition
+- Implementation Plan: Create your action plan
+- Verify Results: Track and measure outcomes
+- Follow-Up: Plan for sustainability
+
+Each highlight section can include:
+- A title for the section
+- Rich text description with formatting options
+- Multiple images to support your analysis
+- Assignees from your team members
+
+To add a new highlight section, click the Add Highlight button. You can then:
+- Enter a title for your A3 section
+- Add detailed description using the rich text editor
+- Upload supporting images and charts
+- Assign team members responsible for that section
+
+The highlights are displayed in a grid layout, showing 4 sections per row, making it easy to view your entire A3 analysis on one screen.
+
+Unlike other report types, A3 reports don't have the radar chart visualization since they focus on qualitative problem-solving rather than quantitative scoring.
+
+You can rearrange the highlights by dragging and dropping them to match the A3 flow you prefer.
+
+Finally, you can export to PDF and get yourself a professional A3 report formatted in the traditional A3 layout, perfect for presentations and sharing with stakeholders.
+
+The PDF export includes all your highlights with their descriptions, images, and a clean layout that follows A3 best practices.
+
+That's it for the A3 Project report. It's a powerful tool for structured problem-solving following the lean A3 methodology. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

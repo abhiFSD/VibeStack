@@ -1,0 +1,466 @@
+{
+  "report": {
+    "name": "Call Center Response Time Performance Issues",
+    "type": "5 Whys Report",
+    "completed": false,
+    "assignedMembers": [
+      "call-center-supervisor@example.com",
+      "training-coordinator@example.com"
+    ]
+  },
+  "categories": [
+    {
+      "id": "5whys-basic-category-problem",
+      "name": "Problem & Root Cause Analysis",
+      "orderIndex": 0,
+      "assignees": ["call-center-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-basic-dashboard-1",
+          "name": "call_center_dashboard_metrics.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "call-center-supervisor@example.com",
+          "uploadedAt": "2024-01-25T14:00:00Z",
+          "description": "Call center performance dashboard showing average response time of 4.2 minutes vs 2.0 minute target"
+        },
+        {
+          "id": "attachment-basic-complaints-1",
+          "name": "customer_complaint_summary.jpg",
+          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "call-center-supervisor@example.com",
+          "uploadedAt": "2024-01-25T15:30:00Z",
+          "description": "Customer complaint tracking showing 35% increase in response time complaints over past month"
+        },
+        {
+          "id": "attachment-basic-observation-1",
+          "name": "floor_observation_notes.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "call-center-supervisor@example.com",
+          "uploadedAt": "2024-01-25T16:45:00Z",
+          "description": "Floor observation notes documenting agent behaviors and common call handling patterns"
+        }
+      ],
+      "description": "Call center response time investigation using 5 Whys methodology - learning opportunity for systematic problem solving",
+      "statements": [
+        {
+          "id": "statement-basic-problem",
+          "name": "Call center average response time has increased to 4.2 minutes compared to our 2.0 minute target. Customer complaints about long wait times have increased by 35% in January 2024, and we're receiving feedback that customers are hanging up or escalating to management due to delays.",
+          "value": 4,
+          "default": false,
+          "owner": "call-center-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why1",
+          "name": "Why are call response times exceeding our target?",
+          "value": 3,
+          "default": false,
+          "owner": "call-center-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why1-answer",
+          "name": "Because agents are taking an average of 4.2 minutes per call when our standard time should be 2.0 minutes. Observation shows agents frequently placing customers on hold and transferring calls between departments.",
+          "value": 3,
+          "default": false,
+          "owner": "call-center-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why2",
+          "name": "Why are agents taking longer and transferring calls frequently?",
+          "value": 2,
+          "default": false,
+          "owner": "call-center-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why2-answer",
+          "name": "Because agents are uncertain about handling different types of customer requests and spend time looking up information or asking for supervisor assistance. They often lack confidence in resolving issues independently.",
+          "value": 2,
+          "default": false,
+          "owner": "call-center-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why3",
+          "name": "Why are agents uncertain about handling customer requests?",
+          "value": 1,
+          "default": false,
+          "owner": "call-center-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why3-answer",
+          "name": "Because the current training covers only basic call handling but doesn't include practice with complex scenarios or product-specific issues that customers frequently ask about.",
+          "value": 1,
+          "default": false,
+          "owner": "training-coordinator@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why4",
+          "name": "Why doesn't training include complex scenarios and product-specific issues?",
+          "value": 1,
+          "default": false,
+          "owner": "call-center-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why4-answer",
+          "name": "Because the training program was designed 2 years ago when we had fewer products and simpler customer issues. It hasn't been updated to reflect the current complexity of our product line and customer needs.",
+          "value": 1,
+          "default": false,
+          "owner": "training-coordinator@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why5",
+          "name": "Why hasn't the training program been updated as products and customer needs changed?",
+          "value": 0,
+          "default": false,
+          "owner": "call-center-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why5-answer",
+          "name": "Because there is no systematic process for reviewing and updating training content when business changes occur. Training updates are only considered reactive when problems arise, rather than proactively as part of business growth planning.",
+          "value": 0,
+          "default": false,
+          "owner": "training-coordinator@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        }
+      ]
+    },
+    {
+      "id": "5whys-basic-category-problem-2",
+      "name": "Problem & Root Cause Analysis",
+      "orderIndex": 1,
+      "assignees": ["it-support@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-basic-system-1",
+          "name": "system_downtime_log.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "it-support@example.com",
+          "uploadedAt": "2024-01-26T09:00:00Z",
+          "description": "System downtime tracking showing 45 minutes of outages last week"
+        },
+        {
+          "id": "attachment-basic-tickets-1",
+          "name": "support_ticket_backlog.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "it-support@example.com",
+          "uploadedAt": "2024-01-26T11:00:00Z",
+          "description": "Support ticket backlog showing 28 unresolved issues"
+        }
+      ],
+      "description": "Computer system reliability issues affecting call center operations",
+      "statements": [
+        {
+          "id": "statement-basic-problem-2",
+          "name": "Call center computer systems experienced 45 minutes of downtime last week, disrupting operations and forcing agents to use manual processes. We also have 28 unresolved IT support tickets affecting agent productivity.",
+          "value": 4,
+          "default": false,
+          "owner": "it-support@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why1-2",
+          "name": "Why are computer systems experiencing frequent downtime?",
+          "value": 3,
+          "default": false,
+          "owner": "it-support@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why1-answer-2",
+          "name": "Because the servers are running older software that occasionally crashes, and we don't have backup systems in place.",
+          "value": 3,
+          "default": false,
+          "owner": "it-support@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why2-2",
+          "name": "Why are we using older software without backups?",
+          "value": 2,
+          "default": false,
+          "owner": "it-support@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why2-answer-2",
+          "name": "Because system upgrades and redundancy weren't included in this year's budget planning.",
+          "value": 2,
+          "default": false,
+          "owner": "it-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why3-2",
+          "name": "Why weren't IT infrastructure needs included in budget planning?",
+          "value": 2,
+          "default": false,
+          "owner": "it-support@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why3-answer-2",
+          "name": "Because IT requirements are usually requested after other department budgets are approved, leaving limited funds for technology improvements.",
+          "value": 2,
+          "default": false,
+          "owner": "it-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why4-2",
+          "name": "Why are IT needs considered after other departments?",
+          "value": 1,
+          "default": false,
+          "owner": "it-support@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why4-answer-2",
+          "name": "Because the budget process doesn't recognize IT as a strategic enabler, treating it as a support function rather than integral to business operations.",
+          "value": 1,
+          "default": false,
+          "owner": "finance-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why5-2",
+          "name": "Why isn't IT viewed as strategic to business operations?",
+          "value": 0,
+          "default": false,
+          "owner": "it-support@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why5-answer-2",
+          "name": "Because leadership lacks understanding of how technology downtime impacts customer service and revenue, focusing budget discussions on visible operational costs rather than infrastructure reliability.",
+          "value": 0,
+          "default": false,
+          "owner": "finance-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        }
+      ]
+    },
+    {
+      "id": "5whys-basic-category-problem-3",
+      "name": "Problem & Root Cause Analysis",
+      "orderIndex": 2,
+      "assignees": ["office-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-basic-supplies-1",
+          "name": "supply_shortage_report.jpg",
+          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "office-manager@example.com",
+          "uploadedAt": "2024-01-27T10:30:00Z",
+          "description": "Office supply inventory showing shortages in basic materials"
+        }
+      ],
+      "description": "Office supply shortages affecting daily operations",
+      "statements": [
+        {
+          "id": "statement-basic-problem-3",
+          "name": "The office frequently runs out of basic supplies like paper, pens, and toner cartridges. This week agents couldn't print customer information and had to improvise solutions during calls.",
+          "value": 4,
+          "default": false,
+          "owner": "office-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why1-3",
+          "name": "Why do we run out of office supplies?",
+          "value": 4,
+          "default": false,
+          "owner": "office-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why1-answer-3",
+          "name": "Because we order supplies only when we notice we're running low, rather than having a regular ordering schedule.",
+          "value": 4,
+          "default": false,
+          "owner": "office-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why2-3",
+          "name": "Why don't we have a regular ordering schedule?",
+          "value": 3,
+          "default": false,
+          "owner": "office-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why2-answer-3",
+          "name": "Because no one has been assigned responsibility for tracking inventory levels and managing supply ordering.",
+          "value": 3,
+          "default": false,
+          "owner": "office-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why3-3",
+          "name": "Why hasn't anyone been assigned this responsibility?",
+          "value": 2,
+          "default": false,
+          "owner": "office-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why3-answer-3",
+          "name": "Because management assumes supply ordering will happen automatically without formal process or ownership.",
+          "value": 2,
+          "default": false,
+          "owner": "office-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why4-3",
+          "name": "Why does management assume automatic ordering without process?",
+          "value": 1,
+          "default": false,
+          "owner": "office-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why4-answer-3",
+          "name": "Because office supplies are viewed as minor expenses that don't require formal management attention or systematic processes.",
+          "value": 1,
+          "default": false,
+          "owner": "call-center-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why5-3",
+          "name": "Why are supply management processes viewed as unimportant?",
+          "value": 0,
+          "default": false,
+          "owner": "office-manager@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        },
+        {
+          "id": "statement-basic-why5-answer-3",
+          "name": "Because the organization lacks understanding of how small operational disruptions accumulate to impact customer service quality and employee productivity.",
+          "value": 0,
+          "default": false,
+          "owner": "call-center-supervisor@example.com",
+          "categoryName": "Problem & Root Cause Analysis"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "5whys-basic-action-1",
+      "title": "Establish Training Content Review Process",
+      "description": "Create systematic process for quarterly review and update of call center training materials to align with current product offerings and customer needs",
+      "duedate": "2024-03-15",
+      "status": 0,
+      "assignees": ["training-coordinator@example.com", "call-center-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "basic-action-attachment-1",
+          "name": "training_review_process_framework.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "training-coordinator@example.com",
+          "uploadedAt": "2024-01-25T16:45:00Z",
+          "description": "Framework for systematic training content review and update process"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Process Development",
+      "priority": "High"
+    },
+    {
+      "id": "5whys-basic-action-2",
+      "title": "Update Agent Training for Current Products",
+      "description": "Revise training program to include scenarios for current product line complexity, common customer issues, and decision-making guidelines for independent problem resolution",
+      "duedate": "2024-04-30",
+      "status": 0,
+      "assignees": ["training-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "basic-action-attachment-2",
+          "name": "updated_training_curriculum.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "training-coordinator@example.com",
+          "uploadedAt": "2024-01-26T10:00:00Z",
+          "description": "Draft updated training curriculum covering current product complexity and scenarios"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Training Enhancement",
+      "priority": "High"
+    },
+    {
+      "id": "5whys-basic-action-3",
+      "title": "Implement Daily Response Time Monitoring",
+      "description": "Establish daily tracking of individual agent response times with coaching support for agents exceeding target times",
+      "duedate": "2024-02-29",
+      "status": 1,
+      "assignees": ["call-center-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "basic-action-attachment-3",
+          "name": "daily_monitoring_dashboard.jpg",
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "call-center-supervisor@example.com",
+          "uploadedAt": "2024-01-26T14:30:00Z",
+          "description": "Daily response time monitoring dashboard design for agent performance tracking"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Performance Management",
+      "priority": "Medium"
+    },
+    {
+      "id": "5whys-basic-action-4",
+      "title": "Improve 5 Whys Analysis Skills",
+      "description": "Study advanced 5 Whys methodology to develop more systematic questioning, evidence collection, and deeper root cause investigation techniques",
+      "duedate": "2024-03-01",
+      "status": 0,
+      "assignees": ["call-center-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "basic-action-attachment-4",
+          "name": "5whys_methodology_resources.jpg",
+          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "call-center-supervisor@example.com",
+          "uploadedAt": "2024-01-26T16:00:00Z",
+          "description": "Advanced 5 Whys methodology training resources and best practices documentation"
+        }
+      ],
+      "orderIndex": 3,
+      "category": "Skills Development",
+      "priority": "Medium"
+    },
+    {
+      "id": "5whys-basic-action-5",
+      "title": "Create Agent Quick Reference Guides",
+      "description": "Develop quick reference cards for agents covering common customer issues and standard resolution procedures to reduce lookup time during calls",
+      "duedate": "2024-03-31",
+      "status": 0,
+      "assignees": ["training-coordinator@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Tools Development",
+      "priority": "Low"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+Hello and welcome to LeanFit Pro. Here we'll learn how to create a Standard Work report.
+
+First, login to LeanFit and you'll see a menu. This opens a mega menu for the application. Locate the Reports option here and click on it.
+
+Now you can see the reports page with a Create Report button. Let's click on it.
+
+You can add a report name here and select Standard Work from the report type dropdown menu. We have 21 report types available.
+
+You can also assign this report to a project and assign it to organization members.
+
+Let's create the Standard Work report now.
+
+Once it's created, you can see the video tutorial from here. Click on Edit to edit the report details, such as the report name. Note that you cannot change the report type once it's created. Everything else remains the same, and you can update the details.
+
+You can also copy a report with all its data.
+
+Additionally, you can mark the report as completed. When you do this, the system will reward you with awards according to your organization's configuration.
+
+Now let's get started with the Standard Work report. Click on Open to open the report.
+
+The Standard Work report has a specialized interface designed for documenting and timing work elements. This is different from other reports as it focuses on detailed work sequence and timing.
+
+At the top, you'll see the Action Items section where you can create action items for tracking improvements and tasks related to standardizing work.
+
+Below that, you'll find the main Standard Work interface with three key components:
+
+**1. Work Elements Table**
+This is where you'll document each work element in your process. Click the "Add" button to add a new work element.
+
+For each work element, you'll enter:
+- **Text**: The description of the work element (e.g., "Pick up part", "Insert bolt", "Tighten with torque wrench")
+- **Value**: The time in seconds for this element
+- **Type**: Select from four types:
+  - Auto: Machine/automated time
+  - Manual: Operator work time
+  - Wait: Waiting time
+  - Walk: Walking/movement time
+- **Description**: Additional details or notes about the element
+
+The table displays all your work elements with their sequence, time values, and types. You can:
+- Edit any element by clicking the edit icon
+- Delete elements using the trash icon
+- Drag and drop rows to reorder the sequence
+
+**2. Standard Work Chart**
+The system automatically generates a Standard Work Chart (SwChart) that visualizes:
+- Work element sequence on the X-axis
+- Time values on the Y-axis
+- Different colors for different work types (Auto, Manual, Wait, Walk)
+- Cumulative cycle time line
+- Time goal reference line (if set)
+
+**3. Cycle Time Summary**
+The system automatically calculates:
+- Total cycle time (sum of all work elements)
+- Time by type (manual time, auto time, wait time, walk time)
+- Comparison to time goal/takt time
+
+**Setting Time Goals**
+You can set a time goal (takt time) to compare against your total cycle time. This helps identify if your standard work meets customer demand requirements.
+
+**Time Units**
+Select your preferred time unit (seconds, minutes, hours) for consistency across all measurements.
+
+**Video Documentation**
+You can upload training videos for each work element to provide visual guidance for operators. This helps ensure consistent execution of standard work.
+
+**Work Element Organization**
+Use the drag-and-drop feature to reorder work elements and optimize the sequence. The system automatically updates the order numbers and chart visualization.
+
+**Data Analysis**
+The chart helps identify:
+- Non-value-added time (wait and walk)
+- Opportunities for balancing work
+- Bottlenecks in the process
+- Areas for improvement
+
+**Exporting and Sharing**
+You can export your Standard Work documentation to PDF, which includes:
+- Complete work element sequence
+- Timing data and charts
+- Work instructions
+- Visual aids for training
+
+The Standard Work report is essential for creating repeatable, efficient processes with consistent quality and timing.
+
+That's it for the Standard Work report. It's a powerful tool for documenting and optimizing work sequences. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

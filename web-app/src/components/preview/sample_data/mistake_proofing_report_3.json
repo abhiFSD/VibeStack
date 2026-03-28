@@ -1,0 +1,226 @@
+{
+  "report": {
+    "name": "Receiving Dock Area - Mistake Proofing Assessment", 
+    "type": "Mistake Proofing Report",
+    "completed": false,
+    "assignedMembers": ["receiving-supervisor@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Incorrect Material Acceptance",
+      "orderIndex": 0,
+      "assignees": ["receiving-clerk@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "manual_inspection_process.jpg",
+          "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "receiving-clerk@example.com",
+          "uploadedAt": "2024-01-05T09:15:00Z",
+          "description": "Current manual material inspection process lacking systematic controls"
+        }
+      ],
+      "description": "Accepting materials that don't meet specifications or purchase orders",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 5
+        },
+        {
+          "name": "Consequences Score",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Storage Location Errors",
+      "orderIndex": 1,
+      "assignees": ["warehouse-operator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "unlabeled_storage_areas.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "warehouse-operator@example.com",
+          "uploadedAt": "2024-01-08T13:20:00Z",
+          "description": "Storage areas with inadequate labeling and organization"
+        }
+      ],
+      "description": "Materials stored in wrong locations causing delays and mix-ups",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 5
+        },
+        {
+          "name": "Consequences Score",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Inventory Count Discrepancies",
+      "orderIndex": 2,
+      "assignees": ["inventory-clerk@example.com"],
+      "attachments": [],
+      "description": "Manual counting errors leading to incorrect inventory records",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 4
+        },
+        {
+          "name": "Consequences Score",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Damage During Handling",
+      "orderIndex": 3,
+      "assignees": ["forklift-operator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "damaged_materials_example.jpg",
+          "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "forklift-operator@example.com",
+          "uploadedAt": "2024-01-10T11:45:00Z",
+          "description": "Example of material damage from improper handling procedures"
+        }
+      ],
+      "description": "Materials damaged during unloading or movement processes",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 4
+        },
+        {
+          "name": "Consequences Score",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Documentation Incomplete",
+      "orderIndex": 4,
+      "assignees": ["receiving-clerk@example.com"],
+      "attachments": [],
+      "description": "Missing or incorrect receiving documentation affecting traceability",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 5
+        },
+        {
+          "name": "Consequences Score",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Temperature Control Failure",
+      "orderIndex": 5,
+      "assignees": ["cold-storage-tech@example.com"],
+      "attachments": [],
+      "description": "Temperature-sensitive materials not properly handled or stored",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 3
+        },
+        {
+          "name": "Consequences Score",
+          "value": 5
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "mp3-ai-1",
+      "title": "Material Inspection Protocol Implementation",
+      "description": "Develop systematic material inspection checklists and training program to reduce acceptance of non-conforming materials",
+      "duedate": "2024-02-15",
+      "status": 0,
+      "assignees": ["quality-manager@example.com", "receiving-clerk@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "inspection_checklist_template.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "quality-manager@example.com",
+          "uploadedAt": "2024-01-12T10:30:00Z",
+          "description": "Proposed systematic inspection checklist for material receiving"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Incorrect Material Acceptance",
+      "priority": "High"
+    },
+    {
+      "id": "mp3-ai-2",
+      "title": "Storage Area Organization Project",
+      "description": "Implement comprehensive labeling system and storage location mapping to eliminate storage errors",
+      "duedate": "2024-03-01",
+      "status": 0,
+      "assignees": ["warehouse-manager@example.com", "warehouse-operator@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Storage Location Errors",
+      "priority": "High"
+    },
+    {
+      "id": "mp3-ai-3",
+      "title": "Digital Inventory System Upgrade",
+      "description": "Replace manual counting with barcode scanning system for accurate inventory tracking and automated updates",
+      "duedate": "2024-04-30",
+      "status": 0,
+      "assignees": ["it-manager@example.com", "inventory-clerk@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Inventory Count Discrepancies",
+      "priority": "Medium"
+    },
+    {
+      "id": "mp3-ai-4",
+      "title": "Material Handling Training Program",
+      "description": "Conduct comprehensive training on proper material handling techniques and equipment operation to prevent damage",
+      "duedate": "2024-02-28",
+      "status": 1,
+      "assignees": ["safety-coordinator@example.com", "forklift-operator@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Damage During Handling",
+      "priority": "High"
+    },
+    {
+      "id": "mp3-ai-5",
+      "title": "Documentation Standardization",
+      "description": "Create standardized receiving documentation templates and implement mandatory completion verification",
+      "duedate": "2024-03-15",
+      "status": 0,
+      "assignees": ["documentation-manager@example.com", "receiving-supervisor@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Documentation Incomplete",
+      "priority": "Medium"
+    },
+    {
+      "id": "mp3-ai-6",
+      "title": "Temperature Monitoring System Installation",
+      "description": "Install automated temperature monitoring with alerts for cold storage areas and temperature-sensitive material handling",
+      "duedate": "2024-05-01",
+      "status": 0,
+      "assignees": ["facilities-manager@example.com", "cold-storage-tech@example.com"],
+      "attachments": [],
+      "orderIndex": 5,
+      "category": "Temperature Control Failure",
+      "priority": "High"
+    }
+  ]
+}

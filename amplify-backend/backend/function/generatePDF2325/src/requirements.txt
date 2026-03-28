@@ -1,0 +1,4 @@
+--only-binary=:all:
+reportlab==4.0.4
+Pillow==10.0.0
+boto3==1.26.137

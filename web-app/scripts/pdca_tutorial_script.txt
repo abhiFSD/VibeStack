@@ -1,0 +1,88 @@
+Hello and welcome to LeanFit Pro. Here we'll learn how to create a PDCA report.
+
+First, login to LeanFit and you'll see a menu. This opens a mega menu for the application. Locate the Reports option here and click on it.
+
+Now you can see the reports page with a Create Report button. Let's click on it.
+
+You can add a report name here and select PDCA from the report type dropdown menu. We have 21 report types available.
+
+You can also assign this report to a project and assign it to organization members.
+
+Let's create the PDCA report now.
+
+Once it's created, you can see the video tutorial from here. Click on Edit to edit the report details, such as the report name. Note that you cannot change the report type once it's created. Everything else remains the same, and you can update the details.
+
+You can also copy a report with all its data.
+
+Additionally, you can mark the report as completed. When you do this, the system will reward you with awards according to your organization's configuration.
+
+Now let's get started with the PDCA report. Click on Open to open the report.
+
+The PDCA report has a unique interface. At the top, you'll see two tabs - "HIGHLIGHTS REPORT" which is selected by default, and "Departments".
+
+Similar to A3 and DMAIC reports, PDCA reports use the HIGHLIGHTS REPORT format which is specifically designed for documenting continuous improvement cycles. This structured approach helps you document each phase of your PDCA journey.
+
+In the HIGHLIGHTS REPORT view, you can create structured sections for each PDCA phase. The standard PDCA sections include:
+
+- Plan: Define the problem and develop your improvement plan
+- Do: Implement the plan on a pilot scale
+- Check: Evaluate results and compare to expectations
+- Act: Standardize successful changes or restart the cycle
+
+Each highlight section can include:
+- A title for the PDCA phase
+- Rich text description with formatting options
+- Multiple images, charts, and data
+- Assignees from your team members
+
+To add a new highlight section, click the Add Highlight button. You can then:
+- Enter a title for your PDCA phase
+- Add detailed description using the rich text editor
+- Upload supporting images, charts, and data analysis
+- Assign team members responsible for that phase
+
+The highlights are displayed in a grid layout, showing 4 sections per row, making it easy to view your entire PDCA cycle on one screen.
+
+In the Plan phase, you might document:
+- Problem clearly identified with baseline data
+- Root cause analysis using fishbone and 5-why methodology
+- SMART goals established with measurable targets
+- Comprehensive action plan with timeline and responsibilities
+- Success metrics and measurement methods defined
+
+For the Do phase, include:
+- Implementation steps taken
+- Pilot testing results
+- Training provided to team members
+- Process changes made
+- Data collection during implementation
+
+In the Check phase, document:
+- Results analysis and comparison to targets
+- Performance improvements achieved
+- Unexpected outcomes or challenges
+- Lessons learned during implementation
+- Validation of improvement effectiveness
+
+For the Act phase, capture:
+- Standardization of successful improvements
+- Rollout plan for wider implementation
+- Documentation updates and training materials
+- Continuous monitoring systems established
+- Next PDCA cycle planning if needed
+
+Unlike basic reports, PDCA reports don't have the radar chart visualization since they focus on cyclical improvement through structured phases.
+
+You can add action items separately for tracking specific tasks and deliverables throughout your PDCA cycle.
+
+The system allows you to document multiple PDCA cycles for iterative improvements, building on lessons learned from previous cycles.
+
+You can rearrange the highlights by dragging and dropping them to match your specific PDCA flow or add additional phases as needed.
+
+Finally, you can export to PDF and get yourself a professional PDCA report formatted to show the complete improvement cycle, perfect for management reviews and process documentation.
+
+The PDF export includes all your highlights with their descriptions, data, images, and a clean layout that follows PDCA best practices.
+
+That's it for the PDCA report. It's a fundamental tool for systematic continuous improvement. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

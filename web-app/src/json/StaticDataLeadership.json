@@ -1,0 +1,842 @@
+[
+    {
+        "id": "236",
+        "name": "(Communications) I have an important or emotionally charged letter or email to write.",
+        "category_name": "Communications",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "237",
+        "name": "(Communications) I have critical information to discuss with a group or individual.",
+        "category_name": "Communications",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "238",
+        "name": "(Communications) I am preparing to conduct an interview.",
+        "category_name": "Communications",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "239",
+        "name": "(Communications) I want to improve my relationship with an individual, team, or work group.",
+        "category_name": "Communications",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "240",
+        "name": "(Communications) I want to improve either my, or my teams` effectiveness.",
+        "category_name": "Communications",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "241",
+        "name": "(Communications) I want to improve teamwork.",
+        "category_name": "Communications",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "242",
+        "name": "(Conflict Management) Me or my team are in conflict with another person or work group.",
+        "category_name": "Conflict Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "243",
+        "name": "(Conflict Management) I am preparing to negotiate.",
+        "category_name": "Conflict Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "244",
+        "name": "(Conflict Management) I am preparing to make a purchase.",
+        "category_name": "Conflict Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "245",
+        "name": "(Conflict Management) There has been a fight or argument amongst employees.",
+        "category_name": "Conflict Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "246",
+        "name": "(Conflict Management) There are two or more strong opposing views on a team or a work group I am overseeing.",
+        "category_name": "Conflict Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "247",
+        "name": "(Conflict Management) I need to discover new options to resolve a dilemma or impasse.",
+        "category_name": "Conflict Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "248",
+        "name": "(Conflict Management) A new process-focused method is needed to resolve an issue, or select a direction.",
+        "category_name": "Conflict Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "249",
+        "name": "(Decision Making) There is an important decision to make.",
+        "category_name": "Decision Making",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "250",
+        "name": "(Decision Making) There are multiple good options or solutions available.",
+        "category_name": "Decision Making",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "251",
+        "name": "(Decision Making) A key decision has to be made.",
+        "category_name": "Decision Making",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "252",
+        "name": "(Decision Making) A process focused method is needed to select a direction or option.",
+        "category_name": "Decision Making",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "253",
+        "name": "(Discipline) A team or individual performance has fallen below acceptable levels.",
+        "category_name": "Discipline",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "254",
+        "name": "(Discipline) Coaching has failed to work, and performance or behavior needs to improve.",
+        "category_name": "Discipline",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "255",
+        "name": "(Discipline) Other methods of behavior or performance improvement have proven not to work.",
+        "category_name": "Discipline",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "256",
+        "name": "(Discipline) An employee has broken an organization policy or rules.",
+        "category_name": "Discipline",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "257",
+        "name": "(Discipline) A person needs to take responsibility for performance gaps or problems.",
+        "category_name": "Discipline",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "258",
+        "name": "(Innovation and Creativity) New ideas are needed to improve or solve a problem.",
+        "category_name": "Innovation and Creativity",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "259",
+        "name": "(Innovation and Creativity) It seems all ideas have been exhausted.",
+        "category_name": "Innovation and Creativity",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "260",
+        "name": "(Innovation and Creativity) New and creative ways are needed to stimulate improvements.",
+        "category_name": "Innovation and Creativity",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "261",
+        "name": "(Innovation and Creativity) Out-of-the-box thinking is needed by an individual or a team.",
+        "category_name": "Innovation and Creativity",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "262",
+        "name": "(Interviewing and Hiring) A new team member needs to be selected or added to a team.",
+        "category_name": "Interviewing and Hiring",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "263",
+        "name": "(Interviewing and Hiring) I am preparing for an interview.",
+        "category_name": "Interviewing and Hiring",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "264",
+        "name": "(Interviewing and Hiring) I am preparing to be interviewed.",
+        "category_name": "Interviewing and Hiring",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "265",
+        "name": "(Layered Process Audits) A new process has been established and needs to be reinforced.",
+        "category_name": "Layered Process Audits",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "266",
+        "name": "(Layered Process Audits) Critical processes need to be mistake or error-proofed.",
+        "category_name": "Layered Process Audits",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "267",
+        "name": "(Layered Process Audits) Standard work for leaders is being implemented.",
+        "category_name": "Layered Process Audits",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "268",
+        "name": "(Layered Process Audits) Corrective actions have been implemented, and follow-up is needed to ensure compliance.",
+        "category_name": "Layered Process Audits",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "269",
+        "name": "(Layered Process Audits) It is desired to connect leaders with critical process parameters and outcomes.",
+        "category_name": "Layered Process Audits",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "270",
+        "name": "(Leadership and Coaching) A leader or supervisor is new to an area or assignment.",
+        "category_name": "Leadership and Coaching",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "271",
+        "name": "(Leadership and Coaching) An individual or team wants to become a high performing team or individual.",
+        "category_name": "Leadership and Coaching",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "272",
+        "name": "(Leadership and Coaching) An individual or team wants to improve their effectiveness.",
+        "category_name": "Leadership and Coaching",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "273",
+        "name": "(Leadership and Coaching) An individual or team wants to learn more about themselves or each other.",
+        "category_name": "Leadership and Coaching",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "274",
+        "name": "(Leadership and Coaching) I wish to better understand an individual or teams strengths and weaknesses.",
+        "category_name": "Leadership and Coaching",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "275",
+        "name": "(Leadership and Coaching) I am striving for improvements.",
+        "category_name": "Leadership and Coaching",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "276",
+        "name": "(Leadership and Coaching) I am trying to build trust and mutual support in this organization.",
+        "category_name": "Leadership and Coaching",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "277",
+        "name": "(Managing Change) Change is occurring in an organization or team.",
+        "category_name": "Managing Change",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "278",
+        "name": "(Managing Change) Resistance to change is prevalent in an organization or team.",
+        "category_name": "Managing Change",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "279",
+        "name": "(Managing Change) Change and improvement is desired for an individual or team.",
+        "category_name": "Managing Change",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "280",
+        "name": "(Meeting Leading) I am preparing to lead a meeting.",
+        "category_name": "Meeting Leading",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "281",
+        "name": "(Meeting Leading) A meeting has ended, and the next steps are needed.",
+        "category_name": "Meeting Leading",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "282",
+        "name": "(Motivation) I am designing and working to implement a reward system.",
+        "category_name": "Motivation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "283",
+        "name": "(Motivation) I wish to better understand why people do what they do.",
+        "category_name": "Motivation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "284",
+        "name": "(Motivation) I wish to improve individual or team morale.",
+        "category_name": "Motivation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "285",
+        "name": "(Motivation) I want to help people to motivate themselves to higher achievement.",
+        "category_name": "Motivation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "286",
+        "name": "(Performance Management and Goal Setting) Goals and objectives are being established for teams and/or individuals.",
+        "category_name": "Performance Management and Goal Setting",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "287",
+        "name": "(Performance Management and Goal Setting) A group or individual is not performing up to expectations.",
+        "category_name": "Performance Management and Goal Setting",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "288",
+        "name": "(Performance Management and Goal Setting) People working on team goals claim that they do not know what to do or what needs improvement.",
+        "category_name": "Performance Management and Goal Setting",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "289",
+        "name": "(Performance Management and Goal Setting) I would like to improve overall productivity, quality, and timeliness.",
+        "category_name": "Performance Management and Goal Setting",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "290",
+        "name": "(Performance Reviews) Feedback needs to be communicated to a team, team member, or leader.",
+        "category_name": "Performance Reviews",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "291",
+        "name": "(Performance Reviews) I am preparing to document an employee`s performance record.",
+        "category_name": "Performance Reviews",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "292",
+        "name": "(Performance Reviews) A new leader has been given a leadership assignment.",
+        "category_name": "Performance Reviews",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "293",
+        "name": "(Performance Reviews) I am designing a performance management system.",
+        "category_name": "Performance Reviews",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "294",
+        "name": "(Policy Deployment) Goals and measures are being developed for an organization or team.",
+        "category_name": "Policy Deployment",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "295",
+        "name": "(Policy Deployment) The overall values, mission, and vision need to be established and communicated.",
+        "category_name": "Policy Deployment",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "296",
+        "name": "(Policy Deployment) There are random and/or too few improvements being implemented.",
+        "category_name": "Policy Deployment",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "297",
+        "name": "(Policy Deployment) Focus and alignment is needed so people can motivate themselves to improve.",
+        "category_name": "Policy Deployment",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "298",
+        "name": "(Policy Deployment) Improvement is needed.",
+        "category_name": "Policy Deployment",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "299",
+        "name": "(Problem Solving) Technical problems need to be contained and resolved.",
+        "category_name": "Problem Solving",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "300",
+        "name": "(Problem Solving) Performance has declined in an area, and the cause is unknown.",
+        "category_name": "Problem Solving",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "301",
+        "name": "(Problem Solving) Mistake or error-proofing is needed.",
+        "category_name": "Problem Solving",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "302",
+        "name": "(Problem Solving) A consisten process-focused method is needed to help resolve a problem.",
+        "category_name": "Problem Solving",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "303",
+        "name": "(Problem Solving) The root cause(s) of an observed condition needs to be discovered.",
+        "category_name": "Problem Solving",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "304",
+        "name": "(Process Improvement) Improvement in cost, quality, productivity, delivery, or performance is needed.",
+        "category_name": "Process Improvement",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "305",
+        "name": "(Process Improvement) Teams are not sure how to make improvements.",
+        "category_name": "Process Improvement",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "306",
+        "name": "(Process Improvement) Internal or external competition has become more successful than you or your team.",
+        "category_name": "Process Improvement",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "307",
+        "name": "(Process Improvement) Waste needs to be eliminated from a process.",
+        "category_name": "Process Improvement",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "308",
+        "name": "(Process Improvement) A consistent process-focused method is needed to help improve performance.",
+        "category_name": "Process Improvement",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "309",
+        "name": "(Process Improvement) A project is initiated with an individual or group.",
+        "category_name": "Project Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "310",
+        "name": "(Project Management) Multiple projects are running concurrently.",
+        "category_name": "Project Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "311",
+        "name": "(Project Management) A systematic approach to implementing a plan or iniative is needed.",
+        "category_name": "Project Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "312",
+        "name": "(Project Management) A new large assignment with multiple tasks has been assigned to an individual or team.",
+        "category_name": "Project Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "313",
+        "name": "(Project Management) Steps to complete a task or initiative need to be organized and prioritized.",
+        "category_name": "Project Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "314",
+        "name": "(Remote Supervising) Be careful not to micro-manage the employee just because they are not physically present.",
+        "category_name": "Remote Supervising",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "315",
+        "name": "(Remote Supervising) Hold employees accountable to their goals and have them report their success, or lack of, to you each week.",
+        "category_name": "Remote Supervising",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "316",
+        "name": "(Remote Supervising) Keep all promises and respond to employees in a timely manner just as if they were in the building or in close proximity.",
+        "category_name": "Remote Supervising",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "317",
+        "name": "(Remote Supervising) Show that you value and acknowledge remote employees by asking for their feedback - people do not care how much you know until they know how much you care.",
+        "category_name": "Remote Supervising",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "318",
+        "name": "(Reward and Recognition) Individuals or teams need to be congratulate or reprimanded.",
+        "category_name": "Reward and Recognition",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "319",
+        "name": "(Reward and Recognition) Good performance or behavior needs to be recognized or rewarded.",
+        "category_name": "Reward and Recognition",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "320",
+        "name": "(Reward and Recognition) Poor or unacceptable behavior or performance needs to be corrected.",
+        "category_name": "Reward and Recognition",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "321",
+        "name": "(Reward and Recognition) I am designing a reward system.",
+        "category_name": "Reward and Recognition",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "322",
+        "name": "(Reward and Recognition) I need to correct first time or small behavior and/or performance issues.",
+        "category_name": "Reward and Recognition",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "323",
+        "name": "(Stakeholder Analysis) I am currently initiating a new project.",
+        "category_name": "Stakeholder Analysis",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "324",
+        "name": "(Stakeholder Analysis) There has been resistance to change and improvements.",
+        "category_name": "Stakeholder Analysis",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "325",
+        "name": "(Stakeholder Analysis) A solution or solutions to a problem are currently being implemented.",
+        "category_name": "Stakeholder Analysis",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "326",
+        "name": "(Stakeholder Analysis) I need to resolve interpresonal or interteam conflicts or disagreements.",
+        "category_name": "Stakeholder Analysis",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "327",
+        "name": "(Standard Work for Leaders) I would like to improve leader efficiency and effectiveness.",
+        "category_name": "Standard Work for Leaders",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "328",
+        "name": "(Standard Work for Leaders) I am implementing continuous improvements in an organization or area.",
+        "category_name": "Standard Work for Leaders",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "329",
+        "name": "(Standard Work for Leaders) Leaders would like to get serious about improving their performance.",
+        "category_name": "Standard Work for Leaders",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "330",
+        "name": "(Stress Management) Stress prevention and recognition are needed for an individual or group.",
+        "category_name": "Stress Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "331",
+        "name": "(Stress Management) An organization or individual has been under a great deal of stress.",
+        "category_name": "Stress Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "332",
+        "name": "(Stress Management) Emotions amongst a group, or that of an individual, are running high.",
+        "category_name": "Stress Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "333",
+        "name": "(Stress Management) Interpersonal or interteam conflicts are observed and/or being resolved.",
+        "category_name": "Stress Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "334",
+        "name": "(Team Selection and Building) A new team is being established and selected.",
+        "category_name": "Team Selection and Building",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "335",
+        "name": "(Team Selection and Building) An existing team needs some new energy.",
+        "category_name": "Team Selection and Building",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "336",
+        "name": "(Team Selection and Building) A team has had failure or is performing poorly.",
+        "category_name": "Team Selection and Building",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "337",
+        "name": "(Team Selection and Building) Significant performance improvement is needed from a team.",
+        "category_name": "Team Selection and Building",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "338",
+        "name": "(Terminations) An employee has not corrected behavior or performance deficiencies or problems.",
+        "category_name": "Terminations",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "339",
+        "name": "(Terminations) All other coaching and disciplinary efforts have failed to improve an employee`s behavior or performance.",
+        "category_name": "Terminations",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "340",
+        "name": "(Terminations) An individual will not be a good long term fit for this organization or team.",
+        "category_name": "Terminations",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "341",
+        "name": "(Time Management) An individual or team has been complaining about not having enough time.",
+        "category_name": "Time Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "342",
+        "name": "(Time Management) I would like to improve an individual or teams` productivity or throughput.",
+        "category_name": "Time Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "343",
+        "name": "(Time Management) There never seems to be enough time to get things done.",
+        "category_name": "Time Management",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "344",
+        "name": "(Trust Building) Individuals or teams are in conflict.",
+        "category_name": "Trust Building",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "345",
+        "name": "(Trust Building) I would like to improve morale, commitment, and loyalty.",
+        "category_name": "Trust Building",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "346",
+        "name": "(Trust Building) I would like to create a motivating environment, where individuals and teams can motivate themselves to high levels of success and achievement.",
+        "category_name": "Trust Building",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "347",
+        "name": "(Trust Building) Communications have broken down between individuals or teams.",
+        "category_name": "Trust Building",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "348",
+        "name": "(Trust Building) Feelings have been hurt in some way.",
+        "category_name": "Trust Building",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "349",
+        "name": "(Valuing Diversity) A new team is being established and selected.",
+        "category_name": "Valuing Diversity",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "350",
+        "name": "(Valuing Diversity) An existing team needs some new energy.",
+        "category_name": "Valuing Diversity",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "351",
+        "name": "(Valuing Diversity) A team has had failure or is performing poorly.",
+        "category_name": "Valuing Diversity",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "352",
+        "name": "(Valuing Diversity) A new member is being selected for a team.",
+        "category_name": "Valuing Diversity",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "353",
+        "name": "(Valuing Diversity) Significant performance improvement is needed from a team.",
+        "category_name": "Valuing Diversity",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "354",
+        "name": "(Valuing Diversity) A team thinks they are better without certain new team members.",
+        "category_name": "Valuing Diversity",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "355",
+        "name": "(Valuing Diversity) An individual thinks they can do things better by themselves.",
+        "category_name": "Valuing Diversity",
+        "value": 3,
+        "static": true
+    }
+]

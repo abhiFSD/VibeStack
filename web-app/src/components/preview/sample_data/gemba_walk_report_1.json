@@ -1,0 +1,301 @@
+{
+  "report": {
+    "name": "Manufacturing Excellence Gemba Walk - Production Floor",
+    "type": "Gemba Walk Report",
+    "completed": true,
+    "assignedMembers": ["operations-manager@example.com", "production-supervisor@example.com", "quality-engineer@example.com", "maintenance-lead@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Production",
+      "orderIndex": 0,
+      "assignees": ["production-supervisor@example.com", "operations-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "gemba_observation_notes_production.jpg",
+          "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "production-supervisor@example.com",
+          "uploadedAt": "2024-01-10T08:30:00Z",
+          "description": "Gemba observation notes documenting excellent visual management and 5S practices observed during walk"
+        }
+      ],
+      "description": "Comprehensive observation of production operations focusing on lean practices, safety, and continuous improvement activities.",
+      "statements": [
+        {
+          "name": "Production boards clearly display current status, targets, and performance metrics",
+          "value": "Excellent visual management with real-time updates and clear ownership"
+        },
+        {
+          "name": "5S implementation evident with organized workstations and labeled tools",
+          "value": "Outstanding 5S practices with everything in designated places and clean work areas"
+        },
+        {
+          "name": "Standard work procedures posted and being followed consistently",
+          "value": "All operators following documented procedures with consistent cycle times observed"
+        },
+        {
+          "name": "Safety protocols actively demonstrated and PPE properly used",
+          "value": "100% PPE compliance observed with proper safety procedures being followed"
+        },
+        {
+          "name": "Quality checks performed at designated points with documentation",
+          "value": "Systematic quality verification with completed check sheets and immediate corrective actions"
+        }
+      ]
+    },
+    {
+      "name": "Quality",
+      "orderIndex": 1,
+      "assignees": ["quality-engineer@example.com"],
+      "attachments": [],
+      "description": "Quality management observations including inspection processes, defect tracking, and continuous improvement initiatives.",
+      "statements": [
+        {
+          "name": "Quality metrics displayed and updated regularly on department boards",
+          "value": "Current quality performance clearly visible with trend analysis and improvement targets"
+        },
+        {
+          "name": "Inspection procedures being followed with proper documentation",
+          "value": "Thorough inspection process with detailed records and traceability maintained"
+        },
+        {
+          "name": "Defect tracking system in use with root cause analysis visible",
+          "value": "Systematic defect analysis with fishbone diagrams and corrective action tracking"
+        },
+        {
+          "name": "Quality improvement ideas actively collected and reviewed",
+          "value": "Employee suggestion system with regular review meetings and implementation tracking"
+        }
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "orderIndex": 2,
+      "assignees": ["maintenance-lead@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "gemba_maintenance_observations.jpg",
+          "url": "https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "maintenance-lead@example.com",
+          "uploadedAt": "2024-01-10T10:15:00Z",
+          "description": "Gemba observations of preventive maintenance systems and tool organization practices"
+        }
+      ],
+      "description": "Maintenance operations assessment focusing on preventive maintenance practices and equipment reliability initiatives.",
+      "statements": [
+        {
+          "name": "Preventive maintenance schedules clearly posted and up to date",
+          "value": "Comprehensive PM schedule with color-coded status and responsible technician assignments"
+        },
+        {
+          "name": "Equipment condition monitoring systems in place and functional",
+          "value": "Active monitoring with vibration analysis and temperature tracking systems operational"
+        },
+        {
+          "name": "Maintenance tools organized and readily accessible",
+          "value": "Well-organized tool areas with shadow boards and inventory management systems"
+        },
+        {
+          "name": "Maintenance staff demonstrating proper procedures and safety practices",
+          "value": "Skilled technicians following lockout/tagout procedures and using proper tools"
+        }
+      ]
+    },
+    {
+      "name": "Human Resources",
+      "orderIndex": 3,
+      "assignees": ["operations-manager@example.com"],
+      "attachments": [],
+      "description": "Workforce engagement and development observations including training, communication, and improvement culture.",
+      "statements": [
+        {
+          "name": "Training records current and skill matrices displayed",
+          "value": "Updated training matrices showing certified skills and planned development activities"
+        },
+        {
+          "name": "Communication boards provide relevant and timely information",
+          "value": "Daily huddle boards with safety, quality, and production updates effectively communicated"
+        },
+        {
+          "name": "Employee engagement evident through participation in improvement activities",
+          "value": "Active participation in kaizen events with multiple improvement suggestions implemented"
+        },
+        {
+          "name": "Recognition programs visible and actively promoting good performance",
+          "value": "Employee of the month displays and improvement idea recognition boards prominently posted"
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "gemba-highlight-1",
+      "title": "Production Excellence",
+      "description": "<p><strong>Outstanding Visual Management:</strong> Production floor demonstrates exemplary visual management with real-time performance displays, clear ownership assignments, and immediate visibility of current status against targets across all production lines.</p><p><strong>5S Implementation Success:</strong> Exceptional 5S practices evident throughout with organized workstations, labeled tools in designated locations, clean work areas, and sustained organizational systems supporting efficient operations.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["production-supervisor@example.com", "operations-manager@example.com"]
+    },
+    {
+      "id": "gemba-highlight-2",
+      "title": "Quality System Effectiveness",
+      "description": "<p><strong>Systematic Quality Approach:</strong> Quality management demonstrates comprehensive systematic approach with current metrics displayed, thorough inspection procedures documented and followed, and effective defect tracking with root cause analysis.</p><p><strong>Continuous Improvement Culture:</strong> Active quality improvement culture with employee suggestion systems, regular review meetings, implementation tracking, and visible fishbone diagrams for problem-solving initiatives.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["quality-engineer@example.com"]
+    },
+    {
+      "id": "gemba-highlight-3",
+      "title": "Maintenance Excellence",
+      "description": "<p><strong>Proactive Maintenance Strategy:</strong> Maintenance operations showcase proactive approach with comprehensive preventive maintenance schedules, color-coded status tracking, equipment condition monitoring systems, and skilled technician assignments.</p><p><strong>Organization and Safety:</strong> Well-organized maintenance areas with shadow boards, inventory management systems, proper tool accessibility, and consistent demonstration of lockout/tagout safety procedures by maintenance staff.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1567789884554-0b844b597180?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["maintenance-lead@example.com"]
+    },
+    {
+      "id": "gemba-highlight-4",
+      "title": "Workforce Engagement",
+      "description": "<p><strong>Development and Communication:</strong> Human resources systems demonstrate effective workforce development with current training records, displayed skill matrices, daily huddle communication boards, and timely information sharing across all shifts.</p><p><strong>Recognition and Improvement Culture:</strong> Strong engagement culture with active participation in kaizen events, multiple improvement suggestions implemented, visible recognition programs, and employee achievement displays promoting continued excellence.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["operations-manager@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "gemba-ai-1",
+      "title": "Expand Visual Management to Secondary Areas",
+      "description": "Implement the successful visual management practices observed in main production areas to secondary support areas including material handling and shipping",
+      "duedate": "2024-03-15",
+      "status": 1,
+      "assignees": ["operations-manager@example.com", "production-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "gemba_follow_up_checklist.jpg",
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-manager@example.com",
+          "uploadedAt": "2024-01-12T09:15:00Z",
+          "description": "Follow-up checklist based on gemba observations for expanding successful practices"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Process Improvement",
+      "priority": "Medium"
+    },
+    {
+      "id": "gemba-ai-2",
+      "title": "Document Best Practices for Replication",
+      "description": "Create comprehensive documentation of observed best practices for replication at other facility locations and new employee training",
+      "duedate": "2024-02-28",
+      "status": 1,
+      "assignees": ["quality-engineer@example.com", "production-supervisor@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Knowledge Management", 
+      "priority": "High"
+    },
+    {
+      "id": "gemba-ai-3",
+      "title": "Schedule Regular Gemba Walk Program",
+      "description": "Establish systematic gemba walk schedule with leadership team to maintain observation discipline and continuous improvement culture",
+      "duedate": "2024-02-15",
+      "status": 2,
+      "assignees": ["operations-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "gemba_walk_calendar.jpg",
+          "url": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-manager@example.com",
+          "uploadedAt": "2024-01-15T14:30:00Z",
+          "description": "Gemba walk calendar showing systematic leadership observation schedule based on walk findings"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Leadership Development",
+      "priority": "High"
+    },
+    {
+      "id": "gemba-ai-4",
+      "title": "Cross-Training Program Enhancement",
+      "description": "Enhance cross-training program based on observed skill matrices and training needs to improve operational flexibility",
+      "duedate": "2024-04-30",
+      "status": 0,
+      "assignees": ["maintenance-lead@example.com", "production-supervisor@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Training",
+      "priority": "Medium"
+    }
+  ],
+  "aiAnalysis": {
+    "overallAssessment": {
+      "maturityLevel": "Advanced",
+      "assessmentStatus": "Exemplary gemba walk demonstrating mature lean culture with outstanding visual management, systematic approaches, and strong employee engagement across all observed areas",
+      "totalScore": null
+    },
+    "keyFindings": [
+      "Outstanding visual management implementation with real-time performance displays and clear ownership across all production areas",
+      "Exceptional 5S practices with sustained organizational systems supporting efficient operations and clean work environments",
+      "Systematic quality approach with comprehensive defect tracking, root cause analysis, and active employee suggestion systems",
+      "Proactive maintenance strategy with preventive scheduling, condition monitoring, and proper safety procedure implementation",
+      "Strong workforce engagement culture with active kaizen participation, effective communication systems, and visible recognition programs"
+    ],
+    "learningPoints": [
+      "Gemba Walk Methodology: Demonstrates proper gemba observation focusing on actual workplace conditions, processes, and employee behaviors rather than office-based assumptions",
+      "Visual Management Excellence: Shows how effective visual systems provide immediate status visibility, promote ownership, and enable rapid problem identification",
+      "5S Sustainability: Illustrates how sustained 5S implementation supports operational efficiency through organized workstations and standardized tool placement",
+      "Quality System Integration: Demonstrates integration of quality processes into daily operations with systematic defect tracking and employee engagement",
+      "Preventive Maintenance Value: Shows proactive maintenance approach preventing downtime through systematic scheduling and condition monitoring",
+      "Employee Engagement Impact: Demonstrates how recognition programs and improvement participation create positive culture supporting continuous improvement",
+      "Leadership Presence: Illustrates importance of leadership gemba walks for maintaining connection with actual work and supporting frontline teams",
+      "Cross-Functional Observation: Shows value of multi-departmental observation approach for comprehensive operational understanding"
+    ],
+    "strengthAreas": [
+      {
+        "category": "Visual Management",
+        "highlights": "Real-time performance displays with clear ownership and immediate status visibility across production areas",
+        "bestPractices": "Current metrics posted, trend analysis visible, improvement targets clearly defined, and accountability systems established"
+      },
+      {
+        "category": "Operational Excellence",
+        "highlights": "Outstanding 5S implementation with organized workstations, proper tool management, and sustained organizational systems",
+        "bestPractices": "Everything in designated places, clean work areas, labeled tools, shadow boards, and systematic maintenance of standards"
+      },
+      {
+        "category": "Quality Systems",
+        "highlights": "Comprehensive quality management with systematic defect tracking, root cause analysis, and employee suggestion systems",
+        "bestPractices": "Regular inspection procedures, documented processes, fishbone analysis, improvement tracking, and employee engagement"
+      }
+    ],
+    "improvementOpportunities": [],
+    "nextSteps": [
+      "Expand successful visual management practices to secondary support areas including material handling and shipping departments",
+      "Document observed best practices for replication at other facility locations and integration into new employee training programs",
+      "Establish systematic gemba walk schedule with leadership team to maintain observation discipline and continuous improvement culture",
+      "Enhance cross-training program based on observed skill matrices to improve operational flexibility and knowledge sharing"
+    ],
+    "organizationalMaturity": {
+      "level": "Advanced",
+      "characteristics": [
+        "Mature lean culture with embedded visual management and 5S practices throughout operations",
+        "Systematic approach to quality management with proactive defect prevention and employee engagement",
+        "Strong employee engagement with active participation in continuous improvement initiatives",
+        "Effective leadership presence and support for frontline operations and improvement activities",
+        "Comprehensive training and development systems supporting operational excellence and skill development"
+      ],
+      "readinessForAdvancement": "Organization demonstrates advanced operational maturity with excellent readiness for expanding lean practices to other facilities and serving as a benchmark for operational excellence development."
+    }
+  }
+}

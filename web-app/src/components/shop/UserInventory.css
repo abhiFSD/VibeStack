@@ -1,0 +1,26 @@
+.inventory-item-card {
+  transition: transform 0.2s;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inventory-item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.inventory-item-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: calc(0.375rem - 1px);
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+
+.inventory-item-card .badge {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+}
+
+.inventory-item-card .text-muted {
+  font-size: 0.9rem;
+} 

@@ -1,0 +1,661 @@
+/* Modern Redesign - Base Styles */
+:root {
+  --primary-color: #00897b;
+  --primary-light: #4ebaaa;
+  --primary-dark: #005b4f;
+  --secondary-color: #00695c;
+  --accent-color: #ff9f1c;
+  --success-color: #2ecc71;
+  --warning-color: #ffbe0b;
+  --danger-color: #e74c3c;
+  --info-color: #00b4d8;
+  --text-primary: #2c3e50;
+  --text-secondary: #596575;
+  --text-light: #8395a7;
+  --bg-light: #f8f9fa;
+  --bg-white: #ffffff;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+}
+
+body {
+  background-color: #f5f7fa;
+  color: var(--text-primary);
+}
+
+/* Container styles */
+.container {
+  max-width: 1400px;
+}
+
+/* Section styles */
+.section-title {
+  color: var(--text-primary);
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.section-title i, .section-title .fas {
+  color: var(--primary-color);
+  margin-right: 0.75rem;
+  font-size: 1.5rem;
+}
+
+.section-description {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  line-height: 1.6;
+}
+
+/* Glass card effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-normal);
+}
+
+.glass-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-5px);
+}
+
+/* Modern cards */
+.card {
+  border: none;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-normal);
+  overflow: hidden;
+  background: var(--bg-white);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+}
+
+.card-body {
+  padding: 1.75rem;
+}
+
+.card-header {
+  background: transparent;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  padding: 1.25rem 1.75rem;
+}
+
+/* Modern gradient headers */
+.gradient-header {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  border: none;
+  padding: 1.5rem;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+
+/* Add theme-header as the new consistent header style */
+.theme-header {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  border: none;
+  padding: 1.25rem 1.75rem;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.theme-header h6, .theme-header h5 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.theme-header button {
+  font-size: 0.85rem;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: var(--primary-color);
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.theme-header button:hover {
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+/* Keep these for backward compatibility but mark as deprecated */
+.accent-gradient-header {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+}
+
+.info-gradient-header {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+}
+
+.success-gradient-header {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+}
+
+/* Calendar redesign */
+.react-calendar {
+  width: 100%;
+  max-width: 100%;
+  background: var(--bg-white);
+  border: none;
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  line-height: 1.125em;
+  box-shadow: var(--shadow-sm);
+  padding: 1rem;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  margin-bottom: 1em;
+  height: 44px;
+}
+
+.react-calendar__navigation button {
+  min-width: 44px;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  border: none;
+  border-radius: var(--radius-sm);
+  margin: 0 2px;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: rgba(0, 137, 123, 0.08);
+}
+
+.react-calendar__navigation button[disabled] {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: var(--text-light);
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8em;
+  padding: 8px 0;
+  color: var(--text-secondary);
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5em;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none;
+}
+
+.react-calendar__tile {
+  max-width: 100%;
+  padding: 14px 8px;
+  background: none;
+  text-align: center;
+  line-height: 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: var(--radius-sm);
+  transition: var(--transition-fast);
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: rgba(0, 137, 123, 0.08);
+  color: var(--primary-dark);
+}
+
+.react-calendar__tile--now {
+  background: rgba(0, 137, 123, 0.15);
+  color: var(--primary-dark);
+  font-weight: bold;
+}
+
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: rgba(0, 137, 123, 0.25);
+}
+
+.react-calendar__tile--active {
+  background: var(--primary-color);
+  color: white;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: var(--primary-dark);
+}
+
+.action-item-date {
+  position: relative;
+  background-color: rgba(255, 159, 28, 0.1) !important;
+  overflow: visible;
+}
+
+.action-item-date-ontime {
+  position: relative;
+  background-color: rgba(46, 204, 113, 0.1) !important;
+  overflow: visible;
+}
+
+.action-item-date-overdue {
+  position: relative;
+  background-color: rgba(231, 76, 60, 0.1) !important;
+  overflow: visible;
+}
+
+.action-item-date::after {
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(255, 159, 28, 0.2);
+}
+
+.action-item-date-ontime::after {
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: var(--success-color);
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(46, 204, 113, 0.2);
+}
+
+.action-item-date-overdue::after {
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: var(--danger-color);
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.2);
+}
+
+/* Highlight date with action item when hovered */
+.action-item-date:hover {
+  background-color: rgba(255, 159, 28, 0.2) !important;
+}
+
+.action-item-date-ontime:hover {
+  background-color: rgba(46, 204, 113, 0.2) !important;
+}
+
+.action-item-date-overdue:hover {
+  background-color: rgba(231, 76, 60, 0.2) !important;
+}
+
+/* Make the action item date more pronounced when it's the active date */
+.react-calendar__tile--active.action-item-date {
+  background: linear-gradient(to bottom, var(--primary-color), var(--primary-dark)) !important;
+}
+
+.react-calendar__tile--active.action-item-date::after {
+  background-color: white;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.react-calendar__tile--active.action-item-date-ontime {
+  background: linear-gradient(to bottom, var(--success-color), #27ae60) !important;
+}
+
+.react-calendar__tile--active.action-item-date-ontime::after {
+  background-color: white;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.react-calendar__tile--active.action-item-date-overdue {
+  background: linear-gradient(to bottom, var(--danger-color), #c0392b) !important;
+}
+
+.react-calendar__tile--active.action-item-date-overdue::after {
+  background-color: white;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+/* Action items list */
+.action-items-list .list-group-item {
+  border: none;
+  border-radius: var(--radius-sm);
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  transition: var(--transition-fast);
+  background-color: var(--bg-light);
+}
+
+.action-items-list .list-group-item:hover {
+  background-color: rgba(0, 137, 123, 0.05);
+  transform: translateX(4px);
+}
+
+/* Badge styles */
+.badge {
+  padding: 0.5em 0.8em;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  border-radius: 30px;
+}
+
+/* Empty state */
+.empty-state {
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-light);
+}
+
+.empty-state p {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.empty-state .btn-primary {
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  border-radius: 30px;
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.empty-state .btn-primary:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+/* Metric cards */
+.metric-card {
+  background: var(--bg-white);
+  border-radius: var(--radius-md);
+  padding: 1.75rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-left: 4px solid var(--primary-color);
+}
+
+.metric-value {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.metric-label {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+/* Analytics card */
+.analytics-card {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(165deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.95) 100%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: var(--transition-normal);
+}
+
+.analytics-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.analytics-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at top left, rgba(0, 137, 123, 0.05), transparent 300px),
+    radial-gradient(circle at bottom right, rgba(0, 105, 92, 0.05), transparent 300px);
+  z-index: 0;
+}
+
+/* Tools section */
+.tools-section .card {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.tools-section .card-header {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  border: none;
+  padding: 1.5rem;
+}
+
+/* Customize section */
+.customize-section .card {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.customize-section .card-header {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  border: none;
+  padding: 1.5rem;
+}
+
+.customize-section .card-body {
+  background: rgba(0, 137, 123, 0.1);
+}
+
+/* Button styles */
+.btn {
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 0.5rem 1.25rem;
+  transition: var(--transition-fast);
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+/* Alert styles */
+.alert {
+  border-radius: var(--radius-sm);
+  border: none;
+  box-shadow: var(--shadow-sm);
+}
+
+.alert-secondary {
+  background-color: var(--bg-light);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Chart container */
+.chart-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .section-description {
+    font-size: 0.9rem;
+  }
+  
+  .card-body {
+    padding: 1.25rem;
+  }
+  
+  .metric-value {
+    font-size: 1.75rem;
+  }
+  
+  /* Improved calendar mobile styles */
+  .react-calendar {
+    font-size: 13px;
+    padding: 0.5rem;
+  }
+  
+  .react-calendar__tile {
+    padding: 8px 4px;
+    height: 40px;
+  }
+  
+  .react-calendar__navigation {
+    height: 38px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .react-calendar__navigation button {
+    font-size: 14px;
+  }
+  
+  .react-calendar__month-view__weekdays__weekday {
+    font-size: 0.7rem;
+    padding: 0.3em;
+  }
+  
+  .calendar-wrapper {
+    padding: 0.25rem;
+  }
+}
+
+/* Add this for background pattern with teal theme */
+.page-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: 
+    radial-gradient(circle at 15% 15%, rgba(0, 137, 123, 0.03), transparent 25%),
+    radial-gradient(circle at 85% 85%, rgba(0, 105, 92, 0.03), transparent 25%);
+}
+
+/* Calendar wrapper */
+.calendar-wrapper {
+  padding: 0.5rem;
+}
+
+.calendar {
+  width: 100%;
+  border: none;
+}
+
+/* Better navigation icons */
+.react-calendar__navigation button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-calendar__navigation__label {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 1rem;
+}
+
+/* Ensure weekday labels are visible and properly styled */
+.react-calendar__month-view__weekdays__weekday {
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+/* Adjust month view */
+.react-calendar__month-view {
+  padding-top: 0.5rem;
+}
+
+/* Add some space between navigation and month view */
+.react-calendar__navigation {
+  margin-bottom: 0.75rem;
+  padding: 0 0.5rem;
+}
+
+/* Hover effects */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Table styling for analytics */
+.table {
+  --bs-table-hover-bg: rgba(0, 137, 123, 0.05);
+}
+
+.table thead th {
+  background-color: var(--bg-light);
+  border-bottom: none;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.table td {
+  border-color: rgba(0, 0, 0, 0.05);
+  padding: 0.75rem 1rem;
+}
+
+.progress {
+  overflow: hidden;
+  background-color: var(--bg-light);
+} 

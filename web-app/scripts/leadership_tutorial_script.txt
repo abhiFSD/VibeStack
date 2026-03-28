@@ -1,0 +1,95 @@
+Hello and welcome to LeanFit Pro. Here we'll learn how to create a Leadership report.
+
+First, login to LeanFit and you'll see a menu. This opens a mega menu for the application. Locate the Reports option here and click on it.
+
+Now you can see the reports page with a Create Report button. Let's click on it.
+
+You can add a report name here and select Leadership from the report type dropdown menu. We have 21 report types available.
+
+You can also assign this report to a project and assign it to organization members.
+
+Let's create the Leadership report now.
+
+Once it's created, you can see the video tutorial from here. Click on Edit to edit the report details, such as the report name. Note that you cannot change the report type once it's created. Everything else remains the same, and you can update the details.
+
+You can also copy a report with all its data.
+
+Additionally, you can mark the report as completed. When you do this, the system will reward you with awards according to your organization's configuration.
+
+Now let's get started with the Leadership report. Click on Open to open the report.
+
+Note that Leadership reports don't have an Action Items section at the top, as they focus on leadership assessment rather than task tracking.
+
+The Leadership report uses a department-based system to assess leadership effectiveness across different organizational areas. Notice that the system uses "Departments" instead of "Categories" for Leadership reports.
+
+The system provides default departments for comprehensive leadership assessment:
+
+- Continuous Improvement Project
+- Employee/Staff Meetings
+- Front Office area
+- Quality Department
+- Sales Department
+- Technical Services
+- Human Resources Department
+- Accounting/Finance Department
+
+You can use these preset default departments or add your own custom departments based on the specific areas you want to assess.
+
+To add a department, click the plus button. You can select from the default departments or create a custom department name for specific organizational areas.
+
+Each department can include:
+- Leadership assessment statements with scoring from 1 to 5
+- Additional details with descriptions and observations
+- Attachments like photos, documents, and assessment reports
+- Assignees responsible for that department
+
+To add statements to a department, click on the department card. The system provides pre-defined leadership assessment statements based on best practices. For example:
+
+For Communications:
+- I communicate clearly and effectively with my team members
+- I actively listen to feedback and concerns from my team
+- I provide regular updates on organizational goals and progress
+- I encourage open dialogue and transparent communication
+
+For Leadership and Coaching:
+- I provide clear direction and vision to my team
+- I coach and develop team members to reach their full potential
+- I delegate effectively while maintaining appropriate oversight
+- I inspire and motivate others to achieve excellence
+
+For Decision Making:
+- I make timely decisions based on available data and analysis
+- I involve appropriate stakeholders in important decision-making processes
+- I communicate the rationale behind major decisions clearly
+- I take responsibility for the outcomes of my decisions
+
+Each statement is scored from 1 to 5, where:
+- 1 = Needs significant improvement
+- 2 = Below expectations
+- 3 = Meets expectations
+- 4 = Above expectations
+- 5 = Excellent/Role model
+
+You can add custom statements specific to your organization's leadership competencies or modify existing ones.
+
+In the Additional Details section for each department, you can:
+- Add detailed observations about leadership performance
+- Upload supporting documents and evidence
+- Document specific examples of leadership behaviors
+- Tag relevant team members or stakeholders
+
+You can rearrange departments using the rearrange button to organize them based on priority or assessment sequence.
+
+The Leadership report doesn't display a radar chart since it focuses on departmental leadership assessment rather than overall category scoring.
+
+You can switch between vertical and horizontal layouts for better viewing of your departments and assessments.
+
+The system supports both highlights and departments tabs, allowing you to organize information in the way that best suits your leadership assessment process.
+
+Finally, you can export to PDF and get yourself a comprehensive Leadership report documenting all assessments, scores, observations, and supporting documentation.
+
+The PDF export provides a professional format perfect for performance reviews, development planning, and sharing with executive leadership.
+
+That's it for the Leadership report. It's an excellent tool for systematic leadership assessment and development planning. Hope you like this, and if you see any issues or face any difficulties, please contact us using this information, and we'll get in touch with you in no time.
+
+Thanks for watching. See you in the next one.

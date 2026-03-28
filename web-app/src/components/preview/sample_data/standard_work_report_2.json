@@ -1,0 +1,462 @@
+{
+  "report": {
+    "name": "Packaging Department Standard Work Development - Mixed Performance Assessment",
+    "type": "Standard Work Report",
+    "completed": false,
+    "assignedMembers": ["packaging-supervisor@example.com", "process-engineer@example.com", "shift-lead@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Work Instructions",
+      "orderIndex": 0,
+      "assignees": ["process-engineer@example.com", "shift-lead@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "basic_work_instructions.jpg",
+          "url": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-engineer@example.com",
+          "uploadedAt": "2024-02-01T09:15:00Z",
+          "description": "Basic work instructions with incomplete procedural details and limited visual aids"
+        }
+      ],
+      "description": "Work instructions development in progress with basic documentation but lacking comprehensive detail and visual support systems.",
+      "statements": [
+        {
+          "name": "Work instructions are clearly documented with step-by-step procedures",
+          "value": 3
+        },
+        {
+          "name": "Visual aids and diagrams support written instructions effectively",
+          "value": 2
+        },
+        {
+          "name": "Quality checkpoints are integrated throughout the process",
+          "value": 3
+        },
+        {
+          "name": "Instructions include safety requirements and precautions",
+          "value": 4
+        },
+        {
+          "name": "Work instructions are easily accessible at the point of use",
+          "value": 3
+        },
+        {
+          "name": "Instructions specify required tools, materials, and equipment",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Process Standardization",
+      "orderIndex": 1,
+      "assignees": ["packaging-supervisor@example.com", "shift-lead@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "partial_standardization.jpg",
+          "url": "https://images.unsplash.com/photo-1553520208-33e0fa3f1ea8?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "packaging-supervisor@example.com",
+          "uploadedAt": "2024-02-05T11:30:00Z",
+          "description": "Partially standardized workstations with inconsistent layouts and varying procedures"
+        }
+      ],
+      "description": "Process standardization efforts underway but showing inconsistent implementation across workstations with timing variations.",
+      "statements": [
+        {
+          "name": "Process sequence is clearly defined and consistently followed",
+          "value": 3
+        },
+        {
+          "name": "Cycle time standards are established and regularly monitored",
+          "value": 2
+        },
+        {
+          "name": "Workstation layout is standardized with designated locations",
+          "value": 2
+        },
+        {
+          "name": "Work-in-progress levels are defined and controlled",
+          "value": 3
+        },
+        {
+          "name": "Standard operating procedures are followed by all operators",
+          "value": 2
+        },
+        {
+          "name": "Process variations are minimized through standardization",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Training and Competency",
+      "orderIndex": 2,
+      "assignees": ["shift-lead@example.com", "packaging-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "informal_training_session.jpg",
+          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "shift-lead@example.com",
+          "uploadedAt": "2024-02-08T14:00:00Z",
+          "description": "Informal training sessions lacking structured curriculum and competency verification"
+        }
+      ],
+      "description": "Training program development in early stages with informal approach lacking structured competency assessment and verification.",
+      "statements": [
+        {
+          "name": "All operators are trained on standard work procedures",
+          "value": 3
+        },
+        {
+          "name": "Training includes hands-on practice and competency verification",
+          "value": 2
+        },
+        {
+          "name": "Skill matrix tracks operator competency levels",
+          "value": 2
+        },
+        {
+          "name": "Regular refresher training maintains standard adherence",
+          "value": 2
+        },
+        {
+          "name": "New operators receive structured onboarding training",
+          "value": 3
+        },
+        {
+          "name": "Training effectiveness is measured and improved",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Documentation and Control",
+      "orderIndex": 3,
+      "assignees": ["process-engineer@example.com", "packaging-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "basic_document_storage.jpg",
+          "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-engineer@example.com",
+          "uploadedAt": "2024-02-12T10:45:00Z",
+          "description": "Basic document storage without systematic version control or change management"
+        }
+      ],
+      "description": "Document control system in development with basic storage but lacking comprehensive version management and change procedures.",
+      "statements": [
+        {
+          "name": "Document version control system ensures current standards are used",
+          "value": 2
+        },
+        {
+          "name": "Change control process manages updates to standard work",
+          "value": 2
+        },
+        {
+          "name": "Documents are stored in centralized, accessible locations",
+          "value": 3
+        },
+        {
+          "name": "Regular review and update schedule maintains document currency",
+          "value": 2
+        },
+        {
+          "name": "Document approval process ensures quality and accuracy",
+          "value": 3
+        },
+        {
+          "name": "Obsolete documents are removed from work areas",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Continuous Improvement",
+      "orderIndex": 4,
+      "assignees": ["shift-lead@example.com", "packaging-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-5",
+          "name": "suggestion_box_system.jpg",
+          "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "shift-lead@example.com",
+          "uploadedAt": "2024-02-15T13:20:00Z",
+          "description": "Basic suggestion box system without systematic review and implementation process"
+        }
+      ],
+      "description": "Continuous improvement efforts initiated but lacking systematic approach to collecting and implementing standard work enhancements.",
+      "statements": [
+        {
+          "name": "Operator suggestions for standard work improvements are collected",
+          "value": 3
+        },
+        {
+          "name": "Performance data drives standard work optimization",
+          "value": 2
+        },
+        {
+          "name": "Regular kaizen events improve standard work effectiveness",
+          "value": 2
+        },
+        {
+          "name": "Best practices are shared across similar operations",
+          "value": 2
+        },
+        {
+          "name": "Standard work evolves based on lessons learned",
+          "value": 3
+        },
+        {
+          "name": "Improvement results are measured and documented",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Compliance and Audit",
+      "orderIndex": 5,
+      "assignees": ["packaging-supervisor@example.com", "process-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-6",
+          "name": "informal_audit_checklist.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "packaging-supervisor@example.com",
+          "uploadedAt": "2024-02-18T15:00:00Z",
+          "description": "Informal audit checklist without systematic compliance monitoring or corrective action tracking"
+        }
+      ],
+      "description": "Compliance monitoring system in early development with informal audit approach lacking systematic verification and tracking.",
+      "statements": [
+        {
+          "name": "Regular audits verify standard work compliance",
+          "value": 2
+        },
+        {
+          "name": "Non-compliance is identified and corrected promptly",
+          "value": 3
+        },
+        {
+          "name": "Audit results drive corrective action and improvement",
+          "value": 2
+        },
+        {
+          "name": "Compliance metrics are tracked and reported",
+          "value": 2
+        },
+        {
+          "name": "Standard work adherence is part of performance evaluation",
+          "value": 2
+        },
+        {
+          "name": "Audit findings are communicated and addressed systematically",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-sw-mixed-1",
+      "title": "Documentation Development Progress",
+      "description": "<p><strong>Basic Foundation Established:</strong> Work instructions development showing good progress with basic procedural documentation and safety requirement inclusion. Point-of-use accessibility improving but requires enhanced visual aids and comprehensive tool specifications.</p><p><strong>Enhancement Opportunities:</strong> Systematic approach needed for visual support integration and detailed step-by-step procedure development to achieve consistency across all workstations.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["process-engineer@example.com", "shift-lead@example.com"]
+    },
+    {
+      "id": "highlight-sw-mixed-2",
+      "title": "Standardization Implementation Gaps",
+      "description": "<p><strong>Inconsistent Implementation:</strong> Process standardization efforts underway but showing significant variation across workstations. Cycle time standards not established and workstation layouts lacking consistency limiting operational predictability.</p><p><strong>Systematic Approach Required:</strong> Comprehensive standardization methodology needed with defined timing standards, layout specifications, and consistent procedure enforcement across all operations.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1553520208-33e0fa3f1ea8?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["packaging-supervisor@example.com", "shift-lead@example.com"]
+    },
+    {
+      "id": "highlight-sw-mixed-3",
+      "title": "Training System Development Needs",
+      "description": "<p><strong>Informal Training Approach:</strong> Training efforts initiated but lacking structured curriculum and competency verification system. Basic operator training exists but skill matrix development and refresher training systems require establishment.</p><p><strong>Structured Program Required:</strong> Comprehensive training framework needed with hands-on practice, competency assessment, and systematic skill development to ensure consistent standard work execution.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["shift-lead@example.com", "packaging-supervisor@example.com"]
+    },
+    {
+      "id": "highlight-sw-mixed-4",
+      "title": "Document Control System Gaps",
+      "description": "<p><strong>Basic Storage System:</strong> Document storage system established with centralized accessibility but lacking comprehensive version control and systematic change management procedures. Document approval process needs formalization.</p><p><strong>Control Enhancement Required:</strong> Systematic document control framework needed with version management, change procedures, and regular review schedules to ensure current standard adherence.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["process-engineer@example.com", "packaging-supervisor@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "sw-mixed-action-1",
+      "title": "Develop Comprehensive Work Instruction Templates",
+      "description": "Create standardized work instruction templates with visual aid requirements, quality checkpoints, and tool specifications. Include step-by-step procedure format and safety requirement integration.",
+      "duedate": "2024-05-15",
+      "status": 0,
+      "assignees": ["process-engineer@example.com", "industrial-design@example.com"],
+      "attachments": [
+        {
+          "id": "sw-mixed-action-attachment-1",
+          "name": "work_instruction_template.jpg",
+          "url": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "process-engineer@example.com",
+          "uploadedAt": "2024-02-20T11:00:00Z",
+          "description": "Standardized work instruction template with visual aids and quality checkpoints"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Documentation Enhancement",
+      "priority": "High"
+    },
+    {
+      "id": "sw-mixed-action-2",
+      "title": "Implement Workstation Layout Standardization",
+      "description": "Establish standardized workstation layouts with designated tool locations, material placement, and work-in-progress controls. Include cycle time standard development and monitoring system.",
+      "duedate": "2024-06-30",
+      "status": 1,
+      "assignees": ["packaging-supervisor@example.com", "facility-engineer@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Process Standardization",
+      "priority": "High"
+    },
+    {
+      "id": "sw-mixed-action-3",
+      "title": "Establish Structured Training Program",
+      "description": "Develop formal training curriculum with competency verification, skill matrix tracking, and regular assessment protocols. Include hands-on practice and onboarding procedures for new operators.",
+      "duedate": "2024-07-31",
+      "status": 0,
+      "assignees": ["shift-lead@example.com", "training-specialist@example.com"],
+      "attachments": [
+        {
+          "id": "sw-mixed-action-attachment-2",
+          "name": "training_curriculum_outline.jpg",
+          "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "training-specialist@example.com",
+          "uploadedAt": "2024-02-22T13:30:00Z",
+          "description": "Structured training curriculum outline with competency verification framework"
+        }
+      ],
+      "orderIndex": 2,
+      "category": "Training Development",
+      "priority": "High"
+    },
+    {
+      "id": "sw-mixed-action-4",
+      "title": "Deploy Document Version Control System",
+      "description": "Implement systematic document control with version management, change procedures, and regular review schedules. Include approval workflows and obsolete document removal protocols.",
+      "duedate": "2024-08-15",
+      "status": 0,
+      "assignees": ["process-engineer@example.com", "quality-coordinator@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Document Control",
+      "priority": "Medium"
+    },
+    {
+      "id": "sw-mixed-action-5",
+      "title": "Establish Performance Monitoring Dashboard",
+      "description": "Create visual dashboard tracking standard work compliance, cycle time performance, and quality metrics. Include operator self-monitoring capabilities and trend analysis.",
+      "duedate": "2024-09-30",
+      "status": 0,
+      "assignees": ["data-analyst@example.com", "packaging-supervisor@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Performance Monitoring",
+      "priority": "Medium"
+    }
+  ],
+  "chartData": [
+    {
+      "id": "op-1",
+      "posX": 0,
+      "posY": 25,
+      "text": "Manual",
+      "value": 25,
+      "Description": "Manual product labeling with inconsistent placement and timing",
+      "orderIndex": 0,
+      "reportID": "preview-standard-work-2"
+    },
+    {
+      "id": "op-2", 
+      "posX": 25,
+      "posY": 45,
+      "text": "Manual",
+      "value": 20,
+      "Description": "Manual box folding with variable technique and speed",
+      "orderIndex": 1,
+      "reportID": "preview-standard-work-2"
+    },
+    {
+      "id": "op-3",
+      "posX": 45,
+      "posY": 65,
+      "text": "Wait",
+      "value": 20,
+      "Description": "Wait for supervisor quality check due to process variations",
+      "orderIndex": 2,
+      "reportID": "preview-standard-work-2"
+    },
+    {
+      "id": "op-4",
+      "posX": 65,
+      "posY": 90,
+      "text": "Manual",
+      "value": 25,
+      "Description": "Manual product insertion with inconsistent positioning",
+      "orderIndex": 3,
+      "reportID": "preview-standard-work-2"
+    },
+    {
+      "id": "op-5",
+      "posX": 90,
+      "posY": 105,
+      "text": "Walk",
+      "value": 15,
+      "Description": "Excessive walking to retrieve materials from distant storage",
+      "orderIndex": 4,
+      "reportID": "preview-standard-work-2"
+    },
+    {
+      "id": "op-6",
+      "posX": 105,
+      "posY": 125,
+      "text": "Manual",
+      "value": 20,
+      "Description": "Manual sealing with inconsistent pressure and timing",
+      "orderIndex": 5,
+      "reportID": "preview-standard-work-2"
+    },
+    {
+      "id": "op-7",
+      "posX": 125,
+      "posY": 135,
+      "text": "Wait",
+      "value": 10,
+      "Description": "Wait for conveyor availability due to upstream delays",
+      "orderIndex": 6,
+      "reportID": "preview-standard-work-2"
+    }
+  ],
+  "taktTime": 100,
+  "timeUnit": "seconds"
+}

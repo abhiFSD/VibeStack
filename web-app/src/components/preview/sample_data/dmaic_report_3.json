@@ -1,0 +1,309 @@
+{
+  "report": {
+    "name": "Office Paper Usage Reduction - DMAIC Attempt",
+    "type": "DMAIC Report",
+    "completed": false,
+    "assignedMembers": ["office-coordinator@example.com", "admin-assistant@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Define",
+      "orderIndex": 0,
+      "assignees": ["office-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "paper_usage_observation.jpg",
+          "url": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "office-coordinator@example.com",
+          "uploadedAt": "2024-03-01T09:00:00Z",
+          "description": "Basic observation of paper waste without systematic problem definition"
+        }
+      ],
+      "description": "Informal problem identification without proper DMAIC project structure, business case, or systematic approach.",
+      "statements": [
+        {
+          "name": "Problem loosely identified as 'too much paper being used in the office'",
+          "value": 2
+        },
+        {
+          "name": "No business case developed - cost impact unknown and unquantified",
+          "value": 1
+        },
+        {
+          "name": "Project scope undefined - no clear boundaries or deliverables established",
+          "value": 1
+        },
+        {
+          "name": "Customer requirements not identified or considered in problem definition",
+          "value": 1
+        },
+        {
+          "name": "No formal project team - individual effort without Six Sigma expertise",
+          "value": 1
+        },
+        {
+          "name": "No project charter, timeline, or management support obtained",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Measure",
+      "orderIndex": 1,
+      "assignees": ["admin-assistant@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "manual_paper_counting.jpg",
+          "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "admin-assistant@example.com",
+          "uploadedAt": "2024-03-05T11:30:00Z",
+          "description": "Manual paper counting without systematic measurement approach"
+        }
+      ],
+      "description": "Informal data collection without measurement system validation, baseline establishment, or statistical methodology.",
+      "statements": [
+        {
+          "name": "Basic paper counting performed inconsistently over 1 week period",
+          "value": 2
+        },
+        {
+          "name": "No measurement system analysis - data accuracy and reliability unknown",
+          "value": 1
+        },
+        {
+          "name": "No baseline establishment or trend analysis performed",
+          "value": 1
+        },
+        {
+          "name": "Data collection plan informal and inconsistent across departments",
+          "value": 1
+        },
+        {
+          "name": "No defect definition or quality metrics established",
+          "value": 1
+        },
+        {
+          "name": "No statistical analysis or capability assessment attempted",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Analyze",
+      "orderIndex": 2,
+      "assignees": ["office-coordinator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "simple_observation_notes.jpg",
+          "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "office-coordinator@example.com",
+          "uploadedAt": "2024-03-08T14:00:00Z",
+          "description": "Handwritten notes from casual observation without analytical rigor"
+        }
+      ],
+      "description": "Superficial analysis based on assumptions rather than data-driven investigation or statistical validation.",
+      "statements": [
+        {
+          "name": "Analysis based on casual observation rather than systematic investigation",
+          "value": 2
+        },
+        {
+          "name": "No root cause analysis performed - causes assumed rather than validated",
+          "value": 1
+        },
+        {
+          "name": "No statistical tools used - no Pareto, fishbone, or correlation analysis",
+          "value": 1
+        },
+        {
+          "name": "Process mapping not performed - workflow and waste sources unknown",
+          "value": 1
+        },
+        {
+          "name": "No hypothesis development or testing methodology applied",
+          "value": 1
+        },
+        {
+          "name": "Conclusions reached without statistical validation or confidence assessment",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Improve",
+      "orderIndex": 3,
+      "assignees": ["office-coordinator@example.com", "admin-assistant@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "simple_reminder_signs.jpg",
+          "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "office-coordinator@example.com",
+          "uploadedAt": "2024-03-12T10:15:00Z",
+          "description": "Basic reminder signs posted without systematic solution development"
+        }
+      ],
+      "description": "Ad-hoc solutions implemented without systematic evaluation, pilot testing, or effectiveness validation.",
+      "statements": [
+        {
+          "name": "Solutions based on common sense rather than analytical findings",
+          "value": 2
+        },
+        {
+          "name": "No pilot testing or solution validation performed before implementation",
+          "value": 1
+        },
+        {
+          "name": "No risk assessment or mitigation planning conducted",
+          "value": 1
+        },
+        {
+          "name": "Implementation plan informal without timeline or responsibility assignment",
+          "value": 1
+        },
+        {
+          "name": "No change management or stakeholder communication performed",
+          "value": 1
+        },
+        {
+          "name": "Results unmeasured - effectiveness unknown and unvalidated",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Control",
+      "orderIndex": 4,
+      "assignees": ["admin-assistant@example.com"],
+      "attachments": [],
+      "description": "No control phase implementation - no monitoring, standardization, or sustainment planning established.",
+      "statements": [
+        {
+          "name": "No monitoring system established to track ongoing performance",
+          "value": 1
+        },
+        {
+          "name": "No process capability assessment or improvement validation performed",
+          "value": 1
+        },
+        {
+          "name": "No procedures documented or standardized for sustaining improvements",
+          "value": 1
+        },
+        {
+          "name": "No training provided to ensure consistent application of new methods",
+          "value": 1
+        },
+        {
+          "name": "No response plan for performance degradation or problem recurrence",
+          "value": 1
+        },
+        {
+          "name": "No sustainment verification - project abandoned without follow-through",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-dmaic-basic-1",
+      "title": "(Prepare)",
+      "description": "<p><strong>No Project Preparation:</strong> No formal project preparation attempted. Lack of project charter, executive sponsorship, or resource commitment. Team formation inadequate with no Six Sigma expertise or systematic project management approach.</p><p><strong>Training Need:</strong> Fundamental Six Sigma methodology training required before attempting any structured improvement project. Yellow Belt certification recommended as foundational step.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["office-coordinator@example.com", "six-sigma-trainer@example.com"]
+    },
+    {
+      "id": "highlight-dmaic-basic-2",
+      "title": "Define",
+      "description": "<p><strong>Poor Problem Definition:</strong> Problem loosely identified as 'too much paper being used in the office' without systematic problem definition. No business case developed with cost impact unknown and unquantified.</p><p><strong>Scope Undefined:</strong> Project scope undefined with no clear boundaries or deliverables established. Customer requirements not identified or considered in problem definition approach.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["office-coordinator@example.com"]
+    },
+    {
+      "id": "highlight-dmaic-basic-3",
+      "title": "Measure",
+      "description": "<p><strong>Inadequate Measurement:</strong> Basic paper counting performed inconsistently over 1 week period without systematic measurement approach. No measurement system analysis with data accuracy and reliability unknown.</p><p><strong>No Baseline:</strong> No baseline establishment or trend analysis performed. Data collection plan informal and inconsistent across departments with no statistical methodology applied.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["admin-assistant@example.com"]
+    },
+    {
+      "id": "highlight-dmaic-basic-4",
+      "title": "Analyze",
+      "description": "<p><strong>No Analysis Performed:</strong> Analysis based on casual observation rather than systematic investigation. No root cause analysis performed with causes assumed rather than validated through data analysis.</p><p><strong>No Statistical Tools:</strong> No statistical tools used including Pareto, fishbone, or correlation analysis. Process mapping not performed leaving workflow and waste sources unknown.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["office-coordinator@example.com"]
+    },
+    {
+      "id": "highlight-dmaic-basic-5",
+      "title": "Improve",
+      "description": "<p><strong>Ad-Hoc Solutions:</strong> Solutions based on common sense rather than analytical findings. No pilot testing or solution validation performed before implementation with no risk assessment conducted.</p><p><strong>Unmeasured Results:</strong> Implementation plan informal without timeline or responsibility assignment. Results unmeasured with effectiveness unknown and unvalidated.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["office-coordinator@example.com", "admin-assistant@example.com"]
+    },
+    {
+      "id": "highlight-dmaic-basic-6",
+      "title": "Control",
+      "description": "<p><strong>No Control Phase:</strong> No monitoring system established to track ongoing performance. No process capability assessment or improvement validation performed leaving sustainment completely unaddressed.</p><p><strong>Project Abandoned:</strong> No procedures documented or standardized for sustaining improvements. Project abandoned without follow-through or any systematic approach to performance maintenance.</p>",
+      "images": [
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop"
+      ],
+      "assignees": ["admin-assistant@example.com"]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "dmaic-basic-action-1",
+      "title": "Enroll Team in Six Sigma Yellow Belt Training",
+      "description": "Provide fundamental Six Sigma methodology training including DMAIC framework, basic statistical tools, and project management principles. Include hands-on exercises and mentorship support for skill development.",
+      "duedate": "2024-06-30",
+      "status": 0,
+      "assignees": ["office-coordinator@example.com", "admin-assistant@example.com"],
+      "attachments": [],
+      "orderIndex": 0,
+      "category": "Skill Development",
+      "priority": "High"
+    },
+    {
+      "id": "dmaic-basic-action-2",
+      "title": "Restart Project with Proper DMAIC Structure",
+      "description": "Begin new project using proper Six Sigma methodology. Develop formal project charter, conduct stakeholder analysis, and establish clear problem statement with quantified business case. Engage experienced mentor for guidance.",
+      "duedate": "2024-08-31",
+      "status": 0,
+      "assignees": ["office-coordinator@example.com", "six-sigma-mentor@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Project Restart",
+      "priority": "Medium"
+    },
+    {
+      "id": "dmaic-basic-action-3",
+      "title": "Establish Basic Measurement and Data Collection System",
+      "description": "Implement systematic data collection with defined metrics, measurement procedures, and baseline establishment. Include basic statistical analysis training and data validation methodology.",
+      "duedate": "2024-07-31",
+      "status": 0,
+      "assignees": ["admin-assistant@example.com", "data-collection-trainer@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Data System",
+      "priority": "Medium"
+    }
+  ]
+}

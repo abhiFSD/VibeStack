@@ -1,0 +1,199 @@
+{
+  "report": {
+    "name": "Warehouse Inefficiency Analysis - Time Loss Categories",
+    "type": "Pareto Chart Report",
+    "completed": false,
+    "assignedMembers": [
+      "warehouse-manager@example.com",
+      "operations-analyst@example.com"
+    ]
+  },
+  "chartData": [
+    {
+      "id": "pareto-wh-1",
+      "text": "Searching for Items",
+      "value": "156",
+      "posX": "100",
+      "posY": "200",
+      "date": "",
+      "Description": "Time lost due to poor organization and lack of location system - needs warehouse layout optimization"
+    },
+    {
+      "id": "pareto-wh-2",
+      "text": "Walking Distance",
+      "value": "142",
+      "posX": "200",
+      "posY": "300",
+      "date": "",
+      "Description": "Excessive travel between pick locations - requires pick path optimization and zone reorganization"
+    },
+    {
+      "id": "pareto-wh-3",
+      "text": "System Downtime",
+      "value": "89",
+      "posX": "300",
+      "posY": "400",
+      "date": "",
+      "Description": "WMS system crashes and slow performance - IT infrastructure upgrade needed"
+    },
+    {
+      "id": "pareto-wh-4",
+      "text": "Equipment Waiting",
+      "value": "67",
+      "posX": "400",
+      "posY": "500",
+      "date": "",
+      "Description": "Forklift and scanner availability issues - equipment utilization review required"
+    },
+    {
+      "id": "pareto-wh-5",
+      "text": "Documentation Errors",
+      "value": "45",
+      "posX": "500",
+      "posY": "600",
+      "date": "",
+      "Description": "Incorrect pick lists and inventory records - data accuracy improvement needed"
+    },
+    {
+      "id": "pareto-wh-6",
+      "text": "Break Time Overruns",
+      "value": "38",
+      "posX": "600",
+      "posY": "700",
+      "date": "",
+      "Description": "Extended breaks affecting productivity - time management training required"
+    },
+    {
+      "id": "pareto-wh-7",
+      "text": "Training New Staff",
+      "value": "32",
+      "posX": "700",
+      "posY": "800",
+      "date": "",
+      "Description": "High turnover causing repeated training cycles - retention strategy needed"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-pareto-wh-1",
+      "title": "Incomplete Analysis Coverage",
+      "content": "Current Pareto analysis only captures 569 hours of documented time loss. Estimates suggest an additional 200-300 hours of undocumented inefficiencies exist, indicating need for comprehensive time study to capture complete picture.",
+      "category": "Data Quality",
+      "attachments": [
+        {
+          "id": "highlight-pareto-wh-attachment-1",
+          "name": "incomplete_data_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-analyst@example.com",
+          "uploadedAt": "2024-01-25T09:30:00Z",
+          "description": "Data collection gaps and improvement areas"
+        }
+      ]
+    },
+    {
+      "id": "highlight-pareto-wh-2",
+      "title": "Layout Inefficiency Dominance",
+      "content": "Top two categories (Searching and Walking) represent 52.4% of time loss, both directly related to warehouse layout and organization. This suggests fundamental redesign opportunity rather than incremental improvements.",
+      "category": "Root Cause",
+      "attachments": [
+        {
+          "id": "highlight-pareto-wh-attachment-2",
+          "name": "warehouse_layout_issues.jpg",
+          "url": "https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "warehouse-manager@example.com",
+          "uploadedAt": "2024-01-25T10:30:00Z",
+          "description": "Current warehouse layout inefficiencies"
+        }
+      ]
+    },
+    {
+      "id": "highlight-pareto-wh-3",
+      "title": "Technology Gap Impact",
+      "content": "System downtime (15.6% of losses) combined with documentation errors (7.9%) reveals technology infrastructure inadequacy. Current WMS is 8 years old and lacks modern optimization features.",
+      "category": "Technology Assessment",
+      "attachments": [
+        {
+          "id": "highlight-pareto-wh-attachment-3",
+          "name": "outdated_wms_system.jpg",
+          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "operations-analyst@example.com",
+          "uploadedAt": "2024-01-25T11:30:00Z",
+          "description": "Legacy WMS system limitations"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "pareto-wh-action-1",
+      "title": "Conduct Comprehensive Time and Motion Study",
+      "description": "Perform detailed analysis of all warehouse activities over 2-week period to capture complete inefficiency picture. Include hidden wastes like double handling and rework.",
+      "duedate": "2024-02-10",
+      "status": 1,
+      "assignees": ["operations-analyst@example.com", "industrial-engineer@example.com"],
+      "attachments": [
+        {
+          "id": "pareto-wh-action-attachment-1",
+          "name": "time_study_methodology.jpg",
+          "url": "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "industrial-engineer@example.com",
+          "uploadedAt": "2024-01-25T13:00:00Z",
+          "description": "Time and motion study methodology plan"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Data Collection",
+      "priority": "High"
+    },
+    {
+      "id": "pareto-wh-action-2",
+      "title": "Implement ABC Location Strategy",
+      "description": "Reorganize warehouse using ABC analysis to place high-velocity items in golden zones. Expected to reduce search time by 60% and walking distance by 40%.",
+      "duedate": "2024-03-15",
+      "status": 0,
+      "assignees": ["warehouse-manager@example.com", "warehouse-supervisor@example.com"],
+      "attachments": [
+        {
+          "id": "pareto-wh-action-attachment-2",
+          "name": "abc_layout_design.jpg",
+          "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "warehouse-manager@example.com",
+          "uploadedAt": "2024-01-25T14:00:00Z",
+          "description": "Proposed ABC location strategy layout"
+        }
+      ],
+      "orderIndex": 1,
+      "category": "Layout Optimization",
+      "priority": "High"
+    },
+    {
+      "id": "pareto-wh-action-3",
+      "title": "Pilot Modern WMS Module",
+      "description": "Test cloud-based WMS module with real-time optimization features in one warehouse zone. Include pick path optimization and mobile device integration.",
+      "duedate": "2024-02-28",
+      "status": 0,
+      "assignees": ["it-manager@example.com", "warehouse-lead@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Technology Upgrade",
+      "priority": "Medium"
+    },
+    {
+      "id": "pareto-wh-action-4",
+      "title": "Develop Visual Management System",
+      "description": "Create color-coded zones, aisle markers, and location labels to reduce search time. Include QR codes for instant location verification.",
+      "duedate": "2024-02-15",
+      "status": 0,
+      "assignees": ["warehouse-supervisor@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Visual Management",
+      "priority": "Medium"
+    }
+  ]
+}

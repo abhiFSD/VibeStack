@@ -1,0 +1,834 @@
+type Vsm @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  process: AWSJSON
+  informationFlow: String
+  kaizenProject: String
+  demandData: AWSJSON
+  summaryData: AWSJSON
+  reportID: ID! @index(name: "byReport")
+  inventory: AWSJSON
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type ChartData @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  text: String
+  textColor: String
+  posX: String
+  posY: String
+  reportID: ID! @index(name: "byReport")
+  value: String
+  Description: String
+  date: String
+  orderIndex: Int
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Highlights @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  title: String
+  description: String
+  images: [String]
+  assignees: [String]
+  reportID: ID! @index(name: "byReport", sortKeyFields: ["createdAt"])
+  waste_type: String
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime
+}
+
+enum AwardType {
+  QUIZ_PERFECT
+  QUIZ_MASTERY
+  REPORT_COMPLETE
+  PROJECT_COMPLETE
+  ACTION_ITEM_COMPLETE
+  HIGHLIGHT_ADDED
+  VSM_COMPLETE
+  CATEGORY_COMPLETE
+  STATEMENT_COMPLETE
+  FEEDBACK_PROVIDED
+  TEAM_COLLABORATION
+  FIRST_LOGIN
+  PROFILE_COMPLETE
+  WEEKLY_GOALS_MET
+  MONTHLY_GOALS_MET
+  CUSTOM_ACHIEVEMENT
+  KPI_GOAL_ACHIEVED
+  LEARNING_TIME_MILESTONE
+}
+
+enum EmailTemplateType {
+  REPORT_CREATED
+  REPORT_COMPLETED
+  REPORT_MEMBER_ADDED
+  REPORT_MEMBER_REMOVED
+  ACTION_ITEM_CREATED
+  ACTION_ITEM_ASSIGNED
+  ACTION_ITEM_COMPLETED
+  ACTION_ITEM_STATUS_CHANGED
+  PROJECT_CREATED
+  PROJECT_COMPLETED
+  PROJECT_MEMBER_ADDED
+  PROJECT_MEMBER_REMOVED
+  AWARD_EARNED
+  CUSTOM_NOTIFICATION
+}
+
+type EmailTemplate @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  type: EmailTemplateType!
+  subject: String!
+  htmlTemplate: String!
+  organizationID: ID! @index(name: "byOrganization")
+  organization: Organization @belongsTo(fields: ["organizationID"])
+  isEnabled: Boolean!
+  customType: String
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type AwardDefinition @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  type: AwardType!
+  coins: Int!
+  title: String!
+  description: String!
+  organizationID: ID! @index(name: "byOrganization")
+  organization: Organization @belongsTo(fields: ["organizationID"])
+  isEnabled: Boolean!
+  customType: String
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Awards @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  title: String
+  date: String
+  description: String
+  user_sub: String
+  tool_id: String
+  type: AwardType
+  coins: Int
+  organizationID: ID! @index(name: "byOrganization")
+  customType: String
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type UserCoins @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  user_sub: String!
+  total_coins: Int!
+  organizationID: ID! @index(name: "byOrganization")
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Feedback @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  content: String
+  user_sub: String
+  ratting: String
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type QuizzesResult @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  Correct: String
+  Incorrect: String
+  percentage: String
+  user_sub: String
+  tool_id: String
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type ActionItems @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  note: Boolean
+  description: String
+  title: String
+  duedate: String
+  status: Int
+  assignor: String
+  assignees: [String]
+  attachments: [String]
+  reportID: ID @index(name: "byReport")
+  user_sub: String
+  projectID: ID @index(name: "byProject")
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Statements @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  name: String
+  value: Int
+  default: Boolean
+  owner: String
+  categoriesID: ID! @index(name: "byCategories")
+  categoryName: String
+  reportID: String
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Categories @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  name: String
+  reportID: ID! @index(name: "byReport")
+  Statements: [Statements] @hasMany(indexName: "byCategories", fields: ["id"])
+  orderIndex: Int
+  assignees: [String]
+  attachments: [String]
+  description: String
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Report @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  name: String
+  type: String
+  user_sub: String
+  ownerEmail: String
+  ai_id: String
+  Categories: [Categories] @hasMany(indexName: "byReport", fields: ["id"])
+  ActionItems: [ActionItems] @hasMany(indexName: "byReport", fields: ["id"])
+  completed: Boolean
+  Highlights: [Highlights] @hasMany(indexName: "byReport", fields: ["id"])
+  ChartData: [ChartData] @hasMany(indexName: "byReport", fields: ["id"])
+  bones: Int
+  trend: Boolean
+  target: String
+  media: String
+  Vsm: Vsm @hasOne
+  xaxis: String
+  yaxis: String
+  organizationID: ID @index(name: "byOrganization")
+  projectID: ID @index(name: "byProject")
+  assignedMembers: [String] # Array of userSub values for assigned members
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Organization @model @auth(rules: [
+  {allow: public}
+]) {
+  id: ID!
+  name: String!
+  owner: String!
+  additionalOwners: [String]
+  contactEmail: String
+  contactPhone: String
+  location: String
+  coordinates: String
+  logo: String
+  isActive: Boolean
+  leaderboardEnabled: Boolean
+  members: [OrganizationMember] @hasMany(indexName: "byOrganization", fields: ["id"])
+  departments: [Department] @hasMany(indexName: "byOrganization", fields: ["id"])
+  Reports: [Report] @hasMany(indexName: "byOrganization", fields: ["id"])
+  Projects: [Project] @hasMany(indexName: "byOrganization", fields: ["id"])
+  awards: [AwardDefinition] @hasMany(indexName: "byOrganization", fields: ["id"])
+  emailTemplates: [EmailTemplate] @hasMany(indexName: "byOrganization", fields: ["id"])
+  invoices: [SubscriptionInvoice] @hasMany(indexName: "byOrganization", fields: ["id"])
+  shopItems: [ShopItem] @hasMany(indexName: "byOrganization", fields: ["id"])
+  userPurchases: [UserPurchase] @hasMany(indexName: "byOrganization", fields: ["id"])
+  stripeCustomerId: String
+  stripeSubscriptionId: String
+  stripeSubscriptionItemId: String
+  subscriptionStatus: String     # "NONE" | "ACTIVE" | "PAST_DUE" | "CANCELED"
+  subscriptionPeriodEnd: AWSDateTime
+  billingPeriod: String         # "MONTHLY" | "YEARLY"
+  activeUserCount: Int
+  purchasedLicenses: Int
+  aiDisabledUsers: [String]     # Array of userSub values who cannot access AI chat
+  learningCoinsPerInterval: Int # Default: 5 coins per interval
+  learningCoinInterval: Int     # Default: 300 seconds (5 minutes)
+  learningMaxCoinsPerSession: Int # Default: 20 coins max per session
+  learningCoinsEnabled: Boolean # Default: true
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+  learnings: [Learning] @hasMany(indexName: "byOrganization", fields: ["id"])
+  learningImages: [LearningImage] @hasMany(indexName: "byOrganization", fields: ["id"])
+}
+
+type Department @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  name: String!
+  description: String
+  organizationID: ID! @index(name: "byOrganization")
+  organization: Organization @belongsTo(fields: ["organizationID"])
+  members: [OrganizationMember] @hasMany(indexName: "byDepartment", fields: ["id"])
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type OrganizationMember @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  organizationID: ID! @index(name: "byOrganization")
+  departmentID: ID @index(name: "byDepartment")
+  department: Department @belongsTo(fields: ["departmentID"])
+  userSub: String!
+  email: String!
+  status: String! # "PENDING" | "ACTIVE"
+  role: String! # "ADMIN" | "MEMBER"
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Project @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  name: String!
+  description: String
+  startDate: AWSDateTime!
+  endDate: AWSDateTime
+  status: String! # "ACTIVE" | "COMPLETED" | "ON_HOLD"
+  organizationID: ID! @index(name: "byOrganization")
+  organization: Organization @belongsTo(fields: ["organizationID"])
+  members: [ProjectMember] @hasMany(indexName: "byProject", fields: ["id"])
+  reports: [Report] @hasMany(indexName: "byProject", fields: ["id"])
+  actionItems: [ActionItems] @hasMany(indexName: "byProject", fields: ["id"])
+  kpis: [KPI] @hasMany(indexName: "byProject", fields: ["id"])
+  tangibles: [Tangible] @hasMany(indexName: "byProject", fields: ["id"])
+  intangibles: [Intangible] @hasMany(indexName: "byProject", fields: ["id"])
+  owner: String
+  ownerEmail: String
+  attachments: [String]
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type ProjectMember @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  projectID: ID! @index(name: "byProject")
+  userSub: String!
+  role: String! # "LEAD" | "MEMBER"
+  email: String!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type KPI @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  title: String!
+  xAxisLabel: String!
+  yAxisLabel: String!
+  trend: Boolean!  # true for positive, false for negative
+  target: Float
+  startDate: AWSDateTime!
+  endDate: AWSDateTime!
+  projectID: ID! @index(name: "byProject")
+  project: Project @belongsTo(fields: ["projectID"])
+  kpiData: [KPIData] @hasMany(indexName: "byKPI", fields: ["id"])
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type KPIData @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  kpiID: ID! @index(name: "byKPI")
+  xAxisValue: String
+  yAxisvalue: Float
+  date: AWSDateTime!
+  description: String
+  orderIndex: Int
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Quiz @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  title: String!
+  description: String
+  questions: [Question] @hasMany(indexName: "byQuiz", fields: ["id"])
+  learningId: ID! @index(name: "byLearning")
+  learning: Learning @belongsTo(fields: ["learningId"])
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Question @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  content: String!
+  options: [String]!
+  correctOption: Int!
+  explanation: String
+  orderIndex: Int
+  quizId: ID! @index(name: "byQuiz")
+  quiz: Quiz @belongsTo(fields: ["quizId"])
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Post @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  content: String!
+  organizationId: ID @index(name: "byOrganization")
+  isDefault: Boolean
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Learning @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  orderIndex: Int
+  title: String!
+  description: String
+  chapters: [Chapter] @hasMany(indexName: "byLearning", fields: ["id"])
+  quizzes: [Quiz] @hasMany(indexName: "byLearning", fields: ["id"])
+  learningProgress: [LearningProgress] @hasMany(indexName: "byLearning", fields: ["id"])
+  images: [LearningImage] @hasMany(indexName: "byLearning", fields: ["id"])
+  quizScore: Float
+  quizStatementsCount: Int
+  hasQuizTaken: Boolean
+  isDefault: Boolean
+  readTime: String
+  organizationID: ID @index(name: "byOrganization")
+  organization: Organization @belongsTo(fields: ["organizationID"])
+  clonedFromID: ID  # ID of the original learning this was cloned from
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type LearningImage @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  filename: String!
+  originalFilename: String!
+  s3Key: String!
+  imageUrl: String!
+  fileSize: Int
+  mimeType: String
+  width: Int
+  height: Int
+  compressedSize: Int
+  compressionRatio: Float
+  learningID: ID! @index(name: "byLearning", sortKeyFields: ["createdAt"])
+  learning: Learning @belongsTo(fields: ["learningID"])
+  organizationID: ID! @index(name: "byOrganization", sortKeyFields: ["createdAt"])
+  organization: Organization @belongsTo(fields: ["organizationID"])
+  uploadedBy: String!  # User ID who uploaded the image
+  uploadedByEmail: String  # User email for easy reference
+  isActive: Boolean! # To soft delete images without removing from S3
+  usageCount: Int # Track how many times image is used
+  tags: [String] # Optional tags for better organization
+  description: String # Optional description for the image
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Chapter @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  title: String!
+  slug: String
+  position: Int
+  postId: ID
+  post: Post @hasOne(fields: ["postId"])
+  learningId: ID! @index(name: "byLearning", sortKeyFields: ["position"])
+  learning: Learning @belongsTo(fields: ["learningId"])
+  sections: [Section] @hasMany(indexName: "byChapter", fields: ["id"])
+  organizationId: ID @index(name: "byOrganization")
+  isDefault: Boolean
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Section @model @auth(rules: [
+  { allow: public, operations: [create, update, delete, read] }
+]) {
+  id: ID!
+  title: String!
+  slug: String
+  position: Int
+  chapterId: ID! @index(name: "byChapter", sortKeyFields: ["position"])
+  chapter: Chapter @belongsTo(fields: ["chapterId"])
+  subSections: [SubSection] @hasMany(indexName: "bySection", fields: ["id"])
+  organizationId: ID @index(name: "byOrganization")
+  postId: ID
+  post: Post @hasOne(fields: ["postId"])
+  isDefault: Boolean
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type SubSection @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  title: String!
+  slug: String
+  position: Int
+  sectionId: ID! @index(name: "bySection", sortKeyFields: ["position"])
+  section: Section @belongsTo(fields: ["sectionId"])
+  postId: ID
+  post: Post @hasOne(fields: ["postId"])
+  organizationId: ID @index(name: "byOrganization")
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Tangible @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  label: String!
+  value: Float!
+  date: AWSDateTime!
+  projectID: ID! @index(name: "byProject")
+  project: Project @belongsTo(fields: ["projectID"])
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Intangible @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  text: String!
+  projectID: ID! @index(name: "byProject")
+  project: Project @belongsTo(fields: ["projectID"])
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type SubscriptionInvoice @model @auth(rules: [
+  { allow: owner },
+  { allow: public }
+]) {
+  id: ID!
+  organizationId: ID! @index(name: "byOrganization")
+  organization: Organization @belongsTo(fields: ["organizationId"])
+  stripeInvoiceId: String!
+  amount: Float!
+  status: String!     # "PAID" | "UNPAID" | "FAILED"
+  billingPeriodStart: AWSDateTime!
+  billingPeriodEnd: AWSDateTime!
+  userCount: Int!
+  pricePerUser: Float!
+  billingPeriod: String!  # "MONTHLY" | "YEARLY"
+  hostedInvoiceUrl: String
+  invoicePdfUrl: String
+  isProrated: Boolean!
+  proratedAmount: Float
+  basePrice: Float!
+  prorationDate: AWSDateTime
+  licenseChange: Int # +ve for added, -ve for removed
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type ShopItem @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  name: String!
+  description: String
+  price: Int!
+  image: String
+  isEnabled: Boolean!
+  organizationID: ID! @index(name: "byOrganization")
+  organization: Organization @belongsTo(fields: ["organizationID"])
+  type: String  # e.g., "BADGE", "AVATAR", "THEME"
+  purchases: [UserPurchase] @hasMany(indexName: "byShopItem", fields: ["id"])
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type UserPurchase @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  shopItemID: ID! @index(name: "byShopItem")
+  shopItem: ShopItem @belongsTo(fields: ["shopItemID"])
+  user_sub: String!
+  purchaseDate: AWSDateTime!
+  organizationID: ID! @index(name: "byOrganization")
+  organization: Organization @belongsTo(fields: ["organizationID"])
+  status: String! # "PENDING" | "APPROVED" | "REJECTED" | "DELIVERED"
+  approvedBy: String # userSub of the admin who approved/rejected
+  approvedDate: AWSDateTime
+  rejectionReason: String
+  deliveryNotes: String
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type Mutation {
+  createStripeCustomer(organization: ID!): StripeCustomerResponse @function(name: "createStripeCustomer-${env}")
+  updateSubscription(
+    organizationId: ID!, 
+    billingPeriod: String!
+  ): SubscriptionUpdateResponse @function(name: "handleSubscribe-${env}")
+  updateSubscriptionQuantity(
+    organizationId: ID!,
+    newQuantity: Int!
+  ): SubscriptionUpdateResponse @function(name: "handleSubscribe-${env}")
+  purchaseLicenses(
+    organizationId: ID!,
+    quantity: Int!,
+    billingPeriod: String!
+  ): LicensePurchaseResponse @function(name: "handleSubscribe-${env}")
+  sendEmail(input: SendEmailInput!): EmailResponse @function(name: "notificationEmail-${env}")
+  syncPaymentStatus(organizationId: ID!): PaymentSyncResponse @function(name: "handleSubscribe-${env}")
+}
+
+type StripeCustomerResponse {
+  success: Boolean!
+  customerId: String
+  error: String
+}
+
+type SubscriptionUpdateResponse {
+  success: Boolean!
+  subscriptionId: String
+  clientSecret: String
+  proratedAmount: Float
+  additionalLicenses: Int
+  error: String
+}
+
+input SendEmailInput {
+  to: String!
+  subject: String!
+  html: String!
+  organizationID: ID!
+}
+
+type EmailResponse {
+  success: Boolean!
+  message: String
+}
+
+type PaymentSyncResponse {
+  success: Boolean!
+  organizationId: String
+  message: String
+  error: String
+}
+type LicensePurchaseResponse {
+  success: Boolean!
+  clientSecret: String
+  licensesPurchased: Int
+  totalAmount: Float
+  paymentProcessed: Boolean
+  error: String
+}
+
+type User @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  cognitoID: String! @index
+  email: String!
+  firstName: String
+  lastName: String
+  profileImageKey: String
+  profileImagePath: String
+  profileImageUrl: String
+  lastLogin: AWSDateTime
+  source: String # For tracking registration source (registration, invitation, login)
+  termsAccepted: Boolean
+  termsAcceptedDate: AWSDateTime
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+enum IssueStatus {
+  OPEN
+  IN_PROGRESS
+  RESOLVED
+  CLOSED
+}
+
+enum IssuePriority {
+  LOW
+  MEDIUM
+  HIGH
+  CRITICAL
+}
+
+enum IssueCategory {
+  BUG
+  FEATURE_REQUEST
+  TECHNICAL_SUPPORT
+  GENERAL_INQUIRY
+  FEEDBACK
+  OTHER
+}
+
+type Issue @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  title: String!
+  description: String!
+  category: IssueCategory!
+  priority: IssuePriority!
+  status: IssueStatus!
+  attachments: [String] # S3 keys for uploaded images/files
+  reporterEmail: String!
+  reporterName: String!
+  reporterID: String! # User cognitoID
+  organizationID: ID! @index(name: "byOrganization", sortKeyFields: ["createdAt"])
+  assignedToEmail: String
+  assignedToName: String
+  responses: [IssueResponse] @hasMany(indexName: "byIssue", fields: ["id"])
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+type IssueResponse @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  message: String!
+  isAdminResponse: Boolean!
+  responderEmail: String!
+  responderName: String!
+  responderID: String! # User cognitoID
+  attachments: [String] # S3 keys for uploaded images/files
+  issueID: ID! @index(name: "byIssue", sortKeyFields: ["createdAt"])
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+# Learning Analytics Models
+
+# Track individual learning sessions
+type LearningSession @model 
+  @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  userSub: String! @index(name: "byUser", sortKeyFields: ["startTime"])
+  organizationID: ID! @index(name: "byOrganization", sortKeyFields: ["startTime"])
+  learningID: ID! @index(name: "byLearning", sortKeyFields: ["startTime"])
+  startTime: AWSDateTime!
+  endTime: AWSDateTime
+  duration: Int  # seconds
+  sectionsViewed: [String]  # Array of section IDs viewed in this session
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+# Track overall learning progress per user
+type LearningProgress @model 
+  @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  userSub: String! @index(name: "byUser")
+  organizationID: ID! @index(name: "byOrganization")
+  learningID: ID! @index(name: "byLearning")
+  learning: Learning @belongsTo(fields: ["learningID"])
+  
+  # Progress tracking
+  chaptersCompleted: [String]  # Array of completed chapter IDs
+  sectionsViewed: [String]     # Array of all viewed section IDs
+  totalTimeSpent: Int          # Total seconds spent
+  lastAccessedAt: AWSDateTime
+  completionPercentage: Float
+  
+  # Additional metadata
+  firstAccessedAt: AWSDateTime
+  totalSessions: Int
+  averageSessionDuration: Int
+  
+  # Reading position tracking (NEW - optional fields)
+  lastViewedSection: String    # ID of the last section user was reading
+  lastScrollPosition: Int      # Scroll position in pixels where user left off
+  readingSessionData: AWSJSON  # JSON object with detailed reading session info
+  
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}
+
+# Track detailed section interactions
+type SectionInteraction @model 
+  @auth(rules: [{allow: owner}, {allow: groups, groups: ["admin"]}]) {
+  id: ID!
+  userSub: String! @index(name: "byUser")
+  organizationID: ID! @index(name: "byOrganization")
+  learningID: ID! @index(name: "byLearning")
+  chapterID: String!
+  sectionID: String! @index(name: "bySection")
+  
+  # Interaction metrics
+  timeSpent: Int        # Total seconds on this section
+  viewCount: Int        # Number of times viewed
+  lastViewedAt: AWSDateTime!
+  firstViewedAt: AWSDateTime!
+  completed: Boolean    # Mark as completed when user spends enough time
+  
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp
+}

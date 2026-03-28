@@ -1,0 +1,257 @@
+{
+  "report": {
+    "name": "Regional Office Branch - Lean Readiness Assessment",
+    "type": "Lean Assessment Report",
+    "completed": false,
+    "assignedMembers": []
+  },
+  "categories": [
+    {
+      "name": "Customer Focus",
+      "orderIndex": 0,
+      "assignees": [],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "customer_survey_placeholder.jpg",
+          "url": "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "regional-manager@example.com",
+          "uploadedAt": "2024-01-20T12:00:00Z",
+          "description": "Planned customer satisfaction survey template for implementation"
+        }
+      ],
+      "description": "Initial assessment of customer focus practices in regional office",
+      "statements": [
+        {
+          "name": "My organization does a good job of listening and involving its customers.",
+          "value": 2
+        },
+        {
+          "name": "Customer satisfaction measurements capture actionable information needed for improvement.",
+          "value": 1
+        },
+        {
+          "name": "My organization obtains and uses customer information relative to competition and/or benchmarks.",
+          "value": 2
+        },
+        {
+          "name": "Customer satisfaction takes top priority at my organization.",
+          "value": 2
+        },
+        {
+          "name": "My organization remains flexible to changing customer needs and expectations.",
+          "value": 2
+        },
+        {
+          "name": "We practice fair and equitable business practices for our customers, suppliers, and employees.",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "orderIndex": 1,
+      "assignees": ["regional-manager@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "regional_office_meeting.jpg",
+          "url": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "regional-manager@example.com",
+          "uploadedAt": "2024-01-22T09:30:00Z",
+          "description": "Regional office team meeting to discuss lean transformation goals"
+        }
+      ],
+      "description": "Assessment of leadership commitment to lean transformation in regional office",
+      "statements": [
+        {
+          "name": "Leadership has defined and communicated a clear vision and is committed to process improvement.",
+          "value": 2
+        },
+        {
+          "name": "Process improvement is regularly discussed at our strategic planning meetings.",
+          "value": 1
+        },
+        {
+          "name": "Adequate resources are continuously assigned for achieving operational excellence (i.e., process improvements.)",
+          "value": 1
+        },
+        {
+          "name": "We have a good balance of attainable and stretch goals.",
+          "value": 2
+        },
+        {
+          "name": "We have process owners that are held accountable for performance measurements.",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Process Management",
+      "orderIndex": 2,
+      "assignees": [],
+      "attachments": [],
+      "description": "Review of current process management capabilities and gaps",
+      "statements": [
+        {
+          "name": "My organization identifies its key processes to achieve improved performance.",
+          "value": 2
+        },
+        {
+          "name": "Performance measures are used for the control and improvement of key processes.",
+          "value": 2
+        },
+        {
+          "name": "The processes that we use are smooth and work well.",
+          "value": 1
+        },
+        {
+          "name": "Input from internal and external customers are incorporated into process improvement efforts.",
+          "value": 1
+        },
+        {
+          "name": "All necessary resources and information are available to do the work properly.",
+          "value": 2
+        },
+        {
+          "name": "Process variation is understood and monitored at my organization.",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Staff (Employee) Management",
+      "orderIndex": 3,
+      "assignees": [],
+      "attachments": [],
+      "description": "Evaluation of employee management practices and development opportunities",
+      "statements": [
+        {
+          "name": "Leaders demonstrate that the safety of employees is of paramount importance.",
+          "value": 3
+        },
+        {
+          "name": "Employees's training and development needs are openly discussed and followed through on.",
+          "value": 2
+        },
+        {
+          "name": "Leadership creates an encouraging and motivating environment and helps employees reach their full potential.",
+          "value": 2
+        },
+        {
+          "name": "Employees can openly identify obstacles/problems and seek help in finding solutions.",
+          "value": 2
+        },
+        {
+          "name": "Our performance management system supports and rewards high performance.",
+          "value": 1
+        },
+        {
+          "name": "Employees are treated as valued employees, where short and long term needs are met.",
+          "value": 2
+        },
+        {
+          "name": "Input from internal and external customers are incorporated into process improvement efforts.",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Information/Analysis",
+      "orderIndex": 4,
+      "assignees": [],
+      "attachments": [],
+      "description": "Assessment of data management and analytical decision-making capabilities",
+      "statements": [
+        {
+          "name": "My organization makes every effort to ensure data and information are appropriate, accurate, and reliable.",
+          "value": 2
+        },
+        {
+          "name": "There is a system in place to monitor organizational progress against set objectives or goals.",
+          "value": 1
+        },
+        {
+          "name": "The monitoring system is clear and visible to all of the organization (e.g., scoreboards).",
+          "value": 1
+        },
+        {
+          "name": "It is clear to people how we use organizational level analysis to improve decision-making.",
+          "value": 1
+        },
+        {
+          "name": "People are responsible to question and/or challenge the status quo.",
+          "value": 2
+        },
+        {
+          "name": "There is an effective process to incorporate positive improvement ideas into the business plan.",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "lean-regional-ai-1",
+      "title": "Lean Transformation Roadmap Development",
+      "description": "Create comprehensive 12-month lean transformation roadmap with clear milestones, training schedules, and resource requirements for regional office",
+      "duedate": "2024-02-15",
+      "status": 0,
+      "assignees": ["regional-manager@example.com", "consultant@leanexperts.com"],
+      "attachments": [],
+      "orderIndex": 0,
+      "category": "Leadership",
+      "priority": "High"
+    },
+    {
+      "id": "lean-regional-ai-2",
+      "title": "Customer Voice Integration Program",
+      "description": "Implement systematic customer feedback collection and analysis process, including monthly customer surveys and feedback integration meetings",
+      "duedate": "2024-03-01",
+      "status": 0,
+      "assignees": ["customer-service-lead@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Customer Focus",
+      "priority": "High"
+    },
+    {
+      "id": "lean-regional-ai-3",
+      "title": "Process Mapping and Standardization Initiative",
+      "description": "Map all key business processes, identify improvement opportunities, and create standardized work instructions for consistent execution",
+      "duedate": "2024-04-30",
+      "status": 0,
+      "assignees": ["operations-analyst@example.com", "process-improvement-team@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Process Management",
+      "priority": "Medium"
+    },
+    {
+      "id": "lean-regional-ai-4",
+      "title": "Performance Management System Redesign",
+      "description": "Redesign performance management system to include lean principles, continuous improvement goals, and employee development pathways",
+      "duedate": "2024-05-15",
+      "status": 0,
+      "assignees": ["hr-business-partner@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Staff (Employee) Management",
+      "priority": "Medium"
+    },
+    {
+      "id": "lean-regional-ai-5",
+      "title": "Data-Driven Decision Making Framework",
+      "description": "Establish data collection standards, analytical tools, and decision-making frameworks to support evidence-based improvements",
+      "duedate": "2024-06-01",
+      "status": 0,
+      "assignees": ["data-analyst@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Information/Analysis",
+      "priority": "Low"
+    }
+  ]
+}

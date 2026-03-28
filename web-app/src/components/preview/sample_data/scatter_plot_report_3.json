@@ -1,0 +1,158 @@
+{
+  "report": {
+    "name": "Marketing Spend vs Sales Revenue Correlation Analysis",
+    "type": "Scatter Plot Report",
+    "completed": false,
+    "assignedMembers": [
+      "marketing-director@example.com"
+    ]
+  },
+  "chartData": [
+    {
+      "posX": "15",
+      "posY": "180",
+      "text": "Q1",
+      "Description": "Low marketing spend with surprisingly strong sales performance"
+    },
+    {
+      "posX": "25",
+      "posY": "95",
+      "text": "Q2",
+      "Description": "Moderate marketing investment yielding below-expected sales results"
+    },
+    {
+      "posX": "35",
+      "posY": "220",
+      "text": "Q3",
+      "Description": "Higher marketing spend producing good sales, but inconsistent with pattern"
+    },
+    {
+      "posX": "18",
+      "posY": "120",
+      "text": "Q4",
+      "Description": "Low spend with moderate sales - no clear relationship evident"
+    },
+    {
+      "posX": "42",
+      "posY": "150",
+      "text": "Q5",
+      "Description": "High marketing investment with disappointing sales return"
+    },
+    {
+      "posX": "28",
+      "posY": "200",
+      "text": "Q6",
+      "Description": "Mid-range spend achieving unexpectedly high sales performance"
+    },
+    {
+      "posX": "50",
+      "posY": "140",
+      "text": "Q7",
+      "Description": "Maximum marketing spend failing to generate proportional sales"
+    },
+    {
+      "posX": "22",
+      "posY": "170",
+      "text": "Q8",
+      "Description": "Modest investment with solid sales results showing no clear pattern"
+    },
+    {
+      "posX": "38",
+      "posY": "110",
+      "text": "Q9",
+      "Description": "Significant spend producing below-average sales outcomes"
+    },
+    {
+      "posX": "12",
+      "posY": "190",
+      "text": "Q10",
+      "Description": "Minimal marketing budget achieving strong sales through other factors"
+    },
+    {
+      "posX": "45",
+      "posY": "165",
+      "text": "Q11",
+      "Description": "High spend with moderate sales - correlation questionable"
+    },
+    {
+      "posX": "30",
+      "posY": "85",
+      "text": "Q12",
+      "Description": "Average marketing investment with poor sales performance"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-scatter-marketing-1",
+      "title": "Weak Correlation Indicates Process Failure",
+      "content": "Marketing spend shows virtually no correlation with sales revenue (R² = 0.12), indicating fundamental issues with marketing strategy, targeting, or execution. Current marketing investments appear to be ineffective and require comprehensive strategy overhaul.",
+      "category": "Process Failure",
+      "attachments": [
+        {
+          "id": "highlight-scatter-marketing-attachment-1",
+          "name": "weak_correlation_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "marketing-director@example.com",
+          "uploadedAt": "2024-12-20T09:00:00Z",
+          "description": "Analysis showing weak correlation and scattered data points"
+        }
+      ]
+    },
+    {
+      "id": "highlight-scatter-marketing-2",
+      "title": "Random Distribution Suggests Missing Factors",
+      "content": "Data points show random distribution rather than correlation pattern, suggesting marketing effectiveness depends on unmeasured variables like timing, targeting accuracy, competitive activity, or external market conditions not captured in current analysis.",
+      "category": "Data Quality Issue",
+      "attachments": [
+        {
+          "id": "highlight-scatter-marketing-attachment-2",
+          "name": "missing_variables_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "marketing-director@example.com",
+          "uploadedAt": "2024-12-20T10:00:00Z",
+          "description": "Analysis identifying potential missing variables affecting marketing effectiveness"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "scatter-marketing-action-1",
+      "title": "Conduct Comprehensive Marketing Effectiveness Audit",
+      "description": "Perform detailed analysis of marketing campaigns, targeting accuracy, timing, and competitive factors. Identify why marketing spend fails to correlate with sales performance.",
+      "duedate": "2025-02-28",
+      "status": 0,
+      "assignees": ["marketing-director@example.com"],
+      "attachments": [],
+      "orderIndex": 0,
+      "category": "Strategy Review",
+      "priority": "High"
+    },
+    {
+      "id": "scatter-marketing-action-2",
+      "title": "Implement Marketing Attribution Tracking",
+      "description": "Deploy comprehensive tracking system to measure marketing campaign effectiveness. Include lead source tracking, conversion attribution, and customer journey analysis.",
+      "duedate": "2025-03-31",
+      "status": 0,
+      "assignees": ["marketing-director@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Measurement System",
+      "priority": "High"
+    },
+    {
+      "id": "scatter-marketing-action-3",
+      "title": "Establish Marketing Performance Framework",
+      "description": "Create systematic approach to evaluate marketing ROI with clear metrics, attribution models, and performance thresholds. Implement monthly correlation analysis.",
+      "duedate": "2025-01-31",
+      "status": 0,
+      "assignees": ["marketing-director@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Performance Framework",
+      "priority": "Medium"
+    }
+  ]
+}

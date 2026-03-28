@@ -1,0 +1,723 @@
+[
+    {
+       "id":"1",
+       "name":"Share the Business Case and link to Strategic Direction or Operational metric.",
+       "category_name":"(Prepare)",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"2",
+       "name":"Provide training for managers, supervisors, employees on the basics of Lean and/or Six Sigma.",
+       "category_name":"(Prepare)",
+       "value":3,
+       "static":true
+    },
+    {
+       "id":"3",
+       "name":"Identify and eliminate potential barriers.",
+       "category_name":"(Prepare)",
+       "value":3,
+       "static":true
+    },
+    {
+        "id":"4",
+        "name":"Create an evaluation method.",
+        "category_name":"(Prepare)",
+        "value":3,
+        "static":true
+     },
+     {
+        "id":"5",
+        "name":"Determine how management will be engaged.",
+        "category_name":"(Prepare)",
+        "value":3,
+        "static":true
+     },
+     {
+        "id": "6",
+        "name": "Assemble the team and conduct first meeting.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "7",
+        "name": "Complete an Section 1 - Problem Statement of an A3 Report.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "8",
+        "name": "Create a SIPOC Diagram.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "9",
+        "name": "Create detailed current state value stream or process map.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "10",
+        "name": "Create a Cycle Time Table.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "11",
+        "name": "Conduct initial web-based online meeting.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "12",
+        "name": "Conduct a virtual Waste Walk.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "13",
+        "name": "Update current state value stream map.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "14",
+        "name": "Conduct stakeholder analysis.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "15",
+        "name": "Continue with specific Lean tool training.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "16",
+        "name": "Determine specific improvement activities and use the PDCA format.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "17",
+        "name": "Create a future state value stream or process map.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "18",
+        "name": "Create Reporting and Communication forms.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "19",
+        "name": "Create Kaizen Event Phase schedule.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "20",
+        "name": "Communicate to executive sponsor and other managers the schedule.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "21",
+        "name": "Conduct a Waste Walk.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "22",
+        "name": "Complete Section 2 - Current State and Section 3 - improvement Opportunity of an A3 Report.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "23",
+        "name": "Conduct specific Lean tool training.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "24",
+        "name": "Determine specific improvement activities and use the Plan, Do, Check, Act (PDCA) format.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "25",
+        "name": "Complete Section 4 - Problem Analysis, Section 5 - Future State, Section 6 - Implementation Plan of the A3 Report.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "26",
+        "name": "Prepare for full day meeting.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "27",
+        "name": "Create implementation plans.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "28",
+        "name": "Select Solutions.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "29",
+        "name": "Assess specific solutions.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "30",
+        "name": "Determine potential solutions.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "31",
+        "name": "List issues and barriers.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "32",
+        "name": "Review the problem.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "33",
+        "name": "Create second and third level Pareto Analysis.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "34",
+        "name": "Review team goals.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "35",
+        "name": "Review before documentation.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "36",
+        "name": "Determine takt time or performance goal.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "37",
+        "name": "Conduct or review Waste Walk.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "38",
+        "name": "Take before photos.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "39",
+        "name": "Identify wastes.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "40",
+        "name": "Review maps and update.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "41",
+        "name": "Meet with stakeholders.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "42",
+        "name": "Plan 5S activities for Day 2.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "43",
+        "name": "Complete Daily Recap and Kick Off documents.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "44",
+        "name": "Review documents with management.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "45",
+        "name": "Review/adjust Day 2 schedule.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "46",
+        "name": "Review/Discuss information from previous day.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "47",
+        "name": "Create/review PDCS Kaizen Worksheet.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "48",
+        "name": "Create/review plan for new process or work area.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "49",
+        "name": "Meet with stakeholders.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "50",
+        "name": "Notify/confirm ancillary groups for support.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "51",
+        "name": "Draft standard work of new process.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "52",
+        "name": "Review PDCAs.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "53",
+        "name": "Develop training plan.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "54",
+        "name": "Communicate training plan to stakeholders.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "55",
+        "name": "Update Daily Recap document; present to management.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "56",
+        "name": "Initiate 5S inprocess area.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "57",
+        "name": "Review/adjust schedule for tomorrow.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "58",
+        "name": "Create/review PDCA Kaizen Worksheet.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "59",
+        "name": "Conduct training with stakeholders.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "60",
+        "name": "Implement PDCA improvements.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "61",
+        "name": "Correct problems as needed.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "62",
+        "name": "Create or enhance visual controls.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "63",
+        "name": "Work on 5S or safety issues.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "64",
+        "name": "Collect data on new process.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "65",
+        "name": "Continue PDCA activities and training stakeholders on new work layout and/or process.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "66",
+        "name": "Fix any/all problems from the previous day.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "67",
+        "name": "Continue support and data collection.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "68",
+        "name": "Listen to stakeholders and adjust as necessary.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "69",
+        "name": "Update with standard work.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "70",
+        "name": "Take after photos of new process.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "71",
+        "name": "Conduct debriefing with stakeholders.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "72",
+        "name": "Create visual management plan.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "73",
+        "name": "Ensure all stakeholders are trained on the new process.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "74",
+        "name": "Determine support role going forward.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "75",
+        "name": "Create enterprise-wide roll-out if appropriate.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "76",
+        "name": "Prepare and present final presentation to management.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "77",
+        "name": "Complete To-Do List document.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "78",
+        "name": "Team Leader consolidates Participant Evaluation and appropriately share.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "79",
+        "name": "Share all documents.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "80",
+        "name": "Reward and recognize team members.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "81",
+        "name": "Update PDCA schedule.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "82",
+        "name": "Evaluate sub-teams' implementation with appropriate metrics.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "83",
+        "name": "Create action items.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "84",
+        "name": "Update timeline for sub-teams' implementation of PDCAs.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "85",
+        "name": "Evaluate sub-teams' Implementation with appropriate metrics.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "86",
+        "name": "Continue communications.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "87",
+        "name": "Perform PDCAs.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "88",
+        "name": "Provide support after the PDCA.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "89",
+        "name": "Update Project Dashboard or Scorecard.",
+        "category_name": "PDCA - Implementation",
+        "value": 3,
+        "static": true
+    },
+    {
+        "id": "90",
+        "name": "Continue communications.",
+        "category_name": "Follow-Up",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "91",
+        "name": "Complete all PDCA activities.",
+        "category_name": "Follow-Up",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "92",
+        "name": "Provide support after the PDCA Phase.",
+        "category_name": "Follow-Up",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "93",
+        "name": "Create and distribute the Kaizen Event Dashboard.",
+        "category_name": "Follow-Up",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "94",
+        "name": "Establish avenue for primary stakeholders to provide feedback.",
+        "category_name": "Follow-Up",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "95",
+        "name": "Practice Gemba.",
+        "category_name": "Follow-Up",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "96",
+        "name": "Apply Kaizen to the Kaizen.",
+        "category_name": "Follow-Up",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "97",
+        "name": "Reward and Recognize the Event.",
+        "category_name": "Follow-Up",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "98",
+        "name": "Discuss outstanding issues.",
+        "category_name": "Follow-Up",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "99",
+        "name": "Determine the project scope.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "100",
+        "name": "Gather initial data set.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "101",
+        "name": "Create a high level value stream or process map.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "102",
+        "name": "Determine initial team members.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      },
+      {
+        "id": "103",
+        "name": "Create the initial team charter.",
+        "category_name": "Planning",
+        "value": 3,
+        "static": true
+      }
+]

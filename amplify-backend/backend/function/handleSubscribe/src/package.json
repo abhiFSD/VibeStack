@@ -1,0 +1,14 @@
+{
+  "name": "handlesubscribe",
+  "version": "2.0.0",
+  "description": "Lambda function to handle subscription updates",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-sdk": "^2.1510.0",
+    "stripe": "^14.5.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.92"
+  }
+}

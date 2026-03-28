@@ -1,0 +1,162 @@
+{
+  "report": {
+    "name": "Employee Turnover Rate - Monthly Tracking Analysis",
+    "type": "Run Chart Report",
+    "completed": false,
+    "target": 10,
+    "xaxis": "Month",
+    "yaxis": "Turnover Rate %",
+    "trend": false,
+    "assignedMembers": [
+      "hr-manager@example.com"
+    ]
+  },
+  "chartData": [
+    {
+      "date": "2024-01-31",
+      "value": 12,
+      "text": "Jan",
+      "Description": "Post-holiday turnover spike - seasonal pattern expected"
+    },
+    {
+      "date": "2024-02-29",
+      "value": 8,
+      "text": "Feb",
+      "Description": "Temporary improvement but still above target"
+    },
+    {
+      "date": "2024-03-31",
+      "value": 15,
+      "text": "Mar",
+      "Description": "Sharp increase due to management changes"
+    },
+    {
+      "date": "2024-04-30",
+      "value": 18,
+      "text": "Apr",
+      "Description": "Critical level - multiple department exits"
+    },
+    {
+      "date": "2024-05-31",
+      "value": 22,
+      "text": "May",
+      "Description": "Crisis level requiring immediate intervention"
+    },
+    {
+      "date": "2024-06-30",
+      "value": 14,
+      "text": "Jun",
+      "Description": "Slight improvement with retention initiatives"
+    },
+    {
+      "date": "2024-07-31",
+      "value": 19,
+      "text": "Jul",
+      "Description": "Worsening again - underlying issues unresolved"
+    },
+    {
+      "date": "2024-08-31",
+      "value": 16,
+      "text": "Aug",
+      "Description": "Marginal improvement but pattern unstable"
+    },
+    {
+      "date": "2024-09-30",
+      "value": 20,
+      "text": "Sep",
+      "Description": "Deteriorating trend continuation"
+    },
+    {
+      "date": "2024-10-31",
+      "value": 13,
+      "text": "Oct",
+      "Description": "Temporary drop but no sustained improvement"
+    },
+    {
+      "date": "2024-11-30",
+      "value": 17,
+      "text": "Nov",
+      "Description": "Rising again - lack of systematic solution"
+    },
+    {
+      "date": "2024-12-31",
+      "value": 21,
+      "text": "Dec",
+      "Description": "Year-end high - cultural and leadership issues evident"
+    }
+  ],
+  "highlightsData": [
+    {
+      "id": "highlight-run-turnover-1",
+      "title": "Critical Turnover Trend Analysis",
+      "content": "Employee turnover shows alarming upward trend from 12% to 21% annually, with average of 16.25% far exceeding industry benchmark of 8-10%. Pattern shows no improvement direction and multiple peaks indicating systemic organizational issues requiring comprehensive intervention.",
+      "category": "Crisis Analysis",
+      "attachments": [
+        {
+          "id": "highlight-run-turnover-attachment-1",
+          "name": "turnover_crisis_analysis.jpg",
+          "url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "hr-manager@example.com",
+          "uploadedAt": "2024-12-15T09:00:00Z",
+          "description": "Critical turnover trend analysis and organizational impact assessment"
+        }
+      ]
+    },
+    {
+      "id": "highlight-run-turnover-2",
+      "title": "Process Instability and Unpredictability",
+      "content": "Run chart reveals highly unstable process with extreme variation (8-22% range). No predictable pattern makes workforce planning impossible. Multiple special causes evident but underlying system problems create chronic instability requiring fundamental change.",
+      "category": "Process Failure",
+      "attachments": [
+        {
+          "id": "highlight-run-turnover-attachment-2",
+          "name": "process_instability_documentation.jpg",
+          "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "hr-manager@example.com",
+          "uploadedAt": "2024-12-15T10:00:00Z",
+          "description": "Process instability analysis and special cause documentation"
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "run-turnover-action-1",
+      "title": "Conduct Comprehensive Organizational Culture Assessment",
+      "description": "Engage external consultant to assess organizational culture, leadership effectiveness, and employee engagement. Include anonymous surveys, focus groups, and exit interview analysis to identify root causes.",
+      "duedate": "2025-02-28",
+      "status": 0,
+      "assignees": ["hr-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 0,
+      "category": "Cultural Assessment",
+      "priority": "High"
+    },
+    {
+      "id": "run-turnover-action-2",
+      "title": "Implement Emergency Retention Program",
+      "description": "Deploy immediate retention measures for high-value employees. Include stay interviews, competitive compensation review, and rapid resolution of workplace issues to stop critical talent loss.",
+      "duedate": "2025-01-31",
+      "status": 0,
+      "assignees": ["hr-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Crisis Management",
+      "priority": "High"
+    },
+    {
+      "id": "run-turnover-action-3",
+      "title": "Establish Monthly Turnover Monitoring System",
+      "description": "Create real-time turnover tracking with early warning indicators. Include department-level analysis, predictive analytics, and immediate escalation protocols for abnormal patterns.",
+      "duedate": "2025-01-15",
+      "status": 0,
+      "assignees": ["hr-manager@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Monitoring System",
+      "priority": "Medium"
+    }
+  ]
+}

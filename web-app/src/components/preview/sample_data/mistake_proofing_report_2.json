@@ -1,0 +1,197 @@
+{
+  "report": {
+    "name": "Packaging Department - Mistake Proofing Assessment",
+    "type": "Mistake Proofing Report",
+    "completed": false,
+    "assignedMembers": ["packaging-supervisor@example.com", "quality-coordinator@example.com"]
+  },
+  "categories": [
+    {
+      "name": "Wrong Product Labeling",
+      "orderIndex": 0,
+      "assignees": ["labeling-operator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-1",
+          "name": "label_verification_station.jpg",
+          "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "labeling-operator@example.com",
+          "uploadedAt": "2024-01-08T10:15:00Z",
+          "description": "Manual label verification station requiring improvement"
+        }
+      ],
+      "description": "Risk of applying incorrect product labels leading to shipping errors",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 3
+        },
+        {
+          "name": "Consequences Score",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Package Weight Discrepancy",
+      "orderIndex": 1,
+      "assignees": ["packing-tech@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-2",
+          "name": "weighing_scale_station.jpg",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "packing-tech@example.com",
+          "uploadedAt": "2024-01-10T14:30:00Z",
+          "description": "Package weighing station with manual recording process"
+        }
+      ],
+      "description": "Packages shipped with incorrect item count or missing components",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 4
+        },
+        {
+          "name": "Consequences Score",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Sealing Quality Issues",
+      "orderIndex": 2,
+      "assignees": ["sealing-operator@example.com"],
+      "attachments": [],
+      "description": "Inadequate package sealing leading to product damage during transport",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 2
+        },
+        {
+          "name": "Consequences Score",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Shipping Address Error",
+      "orderIndex": 3,
+      "assignees": ["shipping-clerk@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-3",
+          "name": "address_verification_screen.jpg",
+          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "shipping-clerk@example.com",
+          "uploadedAt": "2024-01-12T09:45:00Z",
+          "description": "Current address verification system requiring manual input"
+        }
+      ],
+      "description": "Incorrect shipping addresses causing delivery failures and returns",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 3
+        },
+        {
+          "name": "Consequences Score",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Batch Code Documentation",
+      "orderIndex": 4,
+      "assignees": ["quality-coordinator@example.com"],
+      "attachments": [],
+      "description": "Missing or incorrect batch codes affecting product traceability",
+      "statements": [
+        {
+          "name": "Potential Score",
+          "value": 4
+        },
+        {
+          "name": "Consequences Score",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "mp2-ai-1",
+      "title": "Automated Label Verification System",
+      "description": "Install barcode scanning system to verify correct product labels before application, eliminating manual verification errors",
+      "duedate": "2024-03-01",
+      "status": 0,
+      "assignees": ["it-coordinator@example.com", "labeling-operator@example.com"],
+      "attachments": [
+        {
+          "id": "attachment-4",
+          "name": "barcode_scanner_proposal.jpg",
+          "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=600&fit=crop",
+          "type": "image",
+          "uploadedBy": "it-coordinator@example.com",
+          "uploadedAt": "2024-01-15T11:20:00Z",
+          "description": "Proposed automated barcode scanning system for label verification"
+        }
+      ],
+      "orderIndex": 0,
+      "category": "Wrong Product Labeling",
+      "priority": "High"
+    },
+    {
+      "id": "mp2-ai-2",
+      "title": "Smart Weighing Scale Integration",
+      "description": "Implement smart scales with automatic weight verification and alerts for packages outside acceptable weight ranges",
+      "duedate": "2024-02-28",
+      "status": 1,
+      "assignees": ["packing-tech@example.com", "quality-coordinator@example.com"],
+      "attachments": [],
+      "orderIndex": 1,
+      "category": "Package Weight Discrepancy",
+      "priority": "High"
+    },
+    {
+      "id": "mp2-ai-3",
+      "title": "Seal Quality Monitoring System",
+      "description": "Install automated seal integrity testing equipment to verify package sealing before shipping",
+      "duedate": "2024-04-15",
+      "status": 0,
+      "assignees": ["sealing-operator@example.com", "maintenance-tech@example.com"],
+      "attachments": [],
+      "orderIndex": 2,
+      "category": "Sealing Quality Issues",
+      "priority": "Medium"
+    },
+    {
+      "id": "mp2-ai-4",
+      "title": "Address Verification Enhancement",
+      "description": "Upgrade shipping system with automated address validation and duplicate detection to reduce shipping errors",
+      "duedate": "2024-03-15",
+      "status": 0,
+      "assignees": ["shipping-clerk@example.com", "it-coordinator@example.com"],
+      "attachments": [],
+      "orderIndex": 3,
+      "category": "Shipping Address Error",
+      "priority": "Medium"
+    },
+    {
+      "id": "mp2-ai-5",
+      "title": "Batch Code Automation Project",
+      "description": "Implement automated batch code printing and verification system to eliminate manual documentation errors",
+      "duedate": "2024-04-01",
+      "status": 0,
+      "assignees": ["quality-coordinator@example.com", "documentation-specialist@example.com"],
+      "attachments": [],
+      "orderIndex": 4,
+      "category": "Batch Code Documentation",
+      "priority": "Low"
+    }
+  ]
+}
